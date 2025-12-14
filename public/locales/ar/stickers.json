@@ -1,0 +1,98 @@
+{
+    "title": "الملصقات",
+    "list": "حزم الملصقات",
+    "details": "تفاصيل حزمة الملصقات",
+    "fields": {
+        "id": "معرف الحزمة",
+        "name": "الاسم",
+        "author": "المؤلف",
+        "type": "النوع",
+        "thumbnail": "الصورة المصغرة",
+        "version": "الإصدار",
+        "stickersCount": "الملصقات",
+        "createdAt": "تاريخ الإنشاء",
+        "updatedAt": "تاريخ التحديث"
+    },
+    "types": {
+        "animated": "متحرك",
+        "static": "ثابت"
+    },
+    "stats": {
+        "totalPacks": "إجمالي الحزم",
+        "animatedPacks": "الحزم المتحركة",
+        "staticPacks": "الحزم الثابتة",
+        "totalStickers": "إجمالي الملصقات"
+    },
+    "filters": {
+        "searchPlaceholder": "البحث بالاسم أو المؤلف...",
+        "search": "بحث",
+        "filters": "الفلاتر",
+        "packType": "نوع الحزمة",
+        "createdFromTo": "تاريخ الإنشاء من/إلى",
+        "apply": "تطبيق",
+        "clear": "مسح"
+    },
+    "actions": {
+        "title": "الإجراءات",
+        "refresh": "تحديث",
+        "createPack": "إنشاء حزمة",
+        "editPack": "تعديل الحزمة",
+        "deletePack": "حذف الحزمة",
+        "addSticker": "إضافة ملصق",
+        "removeSticker": "إزالة الملصق",
+        "view": "عرض",
+        "edit": "تعديل",
+        "delete": "حذف"
+    },
+    "show": {
+        "packInformation": "معلومات الحزمة",
+        "packNotFound": "الحزمة غير موجودة",
+        "stickersTitle": "الملصقات",
+        "noStickers": "لا توجد ملصقات في هذه الحزمة"
+    },
+    "modal": {
+        "createTitle": "إنشاء حزمة ملصقات",
+        "editTitle": "تعديل حزمة الملصقات",
+        "addStickersTitle": "إضافة ملصقات",
+        "cancel": "إلغاء",
+        "create": "إنشاء",
+        "update": "تحديث",
+        "upload": "رفع الملصقات",
+        "packName": "اسم الحزمة",
+        "packNamePlaceholder": "أدخل اسم الحزمة",
+        "thumbnailUrl": "رابط الصورة المصغرة",
+        "thumbnailUrlPlaceholder": "أدخل رابط الصورة المصغرة",
+        "authorLabel": "المؤلف",
+        "authorPlaceholder": "أدخل اسم المؤلف",
+        "animatedPack": "حزمة متحركة",
+        "selectImages": "اختر الصور (حتى 50)",
+        "uploadHint": "انقر أو اسحب الصور للرفع",
+        "emojis": "الرموز التعبيرية (مفصولة بفواصل)",
+        "emojisPlaceholder": "أدخل الرموز التعبيرية مفصولة بفواصل"
+    },
+    "confirmations": {
+        "deletePack": "حذف هذه الحزمة؟",
+        "removeSticker": "إزالة هذا الملصق؟"
+    },
+    "notifications": {
+        "packCreated": "تم إنشاء الحزمة بنجاح",
+        "packUpdated": "تم تحديث الحزمة بنجاح",
+        "packDeleted": "تم حذف الحزمة بنجاح",
+        "stickersAdded": "تمت إضافة الملصقات بنجاح",
+        "stickerRemoved": "تمت إزالة الملصق بنجاح",
+        "createFailed": "فشل إنشاء الحزمة",
+        "updateFailed": "فشل تحديث الحزمة",
+        "deleteFailed": "فشل حذف الحزمة",
+        "uploadFailed": "فشل رفع الملصقات"
+    },
+    "validation": {
+        "nameRequired": "اسم الحزمة مطلوب",
+        "thumbnailRequired": "رابط الصورة المصغرة مطلوب",
+        "authorRequired": "المؤلف مطلوب",
+        "selectFiles": "الرجاء اختيار صورة واحدة على الأقل",
+        "onlyImages": "يمكنك رفع ملفات الصور فقط!",
+        "maxFileSize": "يجب أن يكون حجم الصورة أقل من 10 ميجابايت!",
+        "maxImagesAllowed": "الحد الأقصى 50 صورة",
+        "uploadHint": "يدعم PNG، JPG، WebP، GIF. الحد الأقصى 50 صورة، 10 ميجابايت لكل منها."
+    }
+}

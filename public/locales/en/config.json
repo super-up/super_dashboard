@@ -1,0 +1,87 @@
+{
+    "title": "App Configuration",
+    "subtitle": "Manage application settings and feature flags",
+    "sections": {
+        "general": "General Settings",
+        "features": "Feature Toggles",
+        "limits": "Limits & Constraints",
+        "urls": "External URLs",
+        "icons": "Default Icons"
+    },
+    "subsections": {
+        "platformLogin": "Platform Login",
+        "chatFeatures": "Chat Features",
+        "appStoreLinks": "App Store Links",
+        "roomEmojis": "Room Emojis",
+        "defaultImages": "Default Images (filenames)"
+    },
+    "fields": {
+        "appName": "App Name",
+        "feedbackEmail": "Feedback Email",
+        "userRegisterStatus": "User Registration Policy",
+        "userRegisterStatusTooltip": "Controls how new user registrations are handled",
+        "emailCodeExpiry": "Email Code Expiry (minutes)",
+        "emailCodeExpiryTooltip": "How long password reset codes remain valid",
+        "enableAds": "Enable Advertisements",
+        "mobileLogin": "Mobile Login",
+        "webLogin": "Web Login",
+        "desktopLogin": "Desktop Login",
+        "messaging": "Messaging",
+        "sendMedia": "Send Media",
+        "voiceVideoCalls": "Voice/Video Calls",
+        "createGroups": "Create Groups",
+        "createBroadcasts": "Create Broadcasts",
+        "maxGroupMembers": "Max Group Members",
+        "maxGroupMembersTooltip": "Maximum number of members allowed in a group",
+        "maxBroadcastRecipients": "Max Broadcast Recipients",
+        "maxBroadcastRecipientsTooltip": "Maximum recipients for broadcast messages",
+        "maxForwards": "Max Forwards",
+        "maxForwardsTooltip": "Maximum number of times a message can be forwarded",
+        "maxMediaSize": "Max Media Size (MB)",
+        "maxMediaSizeTooltip": "Maximum file size for media uploads",
+        "callTimeout": "Call Timeout (seconds)",
+        "callTimeoutTooltip": "How long to ring before the call times out",
+        "privacyUrl": "Privacy Policy URL",
+        "webChatUrl": "Web Chat URL",
+        "appleStoreUrl": "Apple App Store URL",
+        "googlePlayUrl": "Google Play Store URL",
+        "macStoreUrl": "Mac App Store URL",
+        "windowsStoreUrl": "Windows Store URL",
+        "groupIcon": "Group Icon",
+        "broadcastIcon": "Broadcast Icon",
+        "orderIcon": "Order Icon",
+        "defaultUserImage": "Default User Image",
+        "defaultGroupImage": "Default Group Image",
+        "defaultBroadcastImage": "Default Broadcast Image",
+        "defaultSupportImage": "Default Support Image"
+    },
+    "actions": {
+        "refresh": "Refresh",
+        "resetToDefaults": "Reset to Defaults",
+        "discardChanges": "Discard Changes",
+        "saveConfiguration": "Save Configuration"
+    },
+    "confirmations": {
+        "resetTitle": "Reset Configuration",
+        "resetDescription": "Are you sure you want to reset all settings to defaults? This cannot be undone.",
+        "reset": "Reset"
+    },
+    "messages": {
+        "configUpdated": "Configuration Updated",
+        "configUpdatedDesc": "App configuration has been saved successfully.",
+        "updateFailed": "Update Failed",
+        "updateFailedDesc": "Failed to save configuration. Please try again.",
+        "configReset": "Configuration Reset",
+        "configResetDesc": "App configuration has been reset to defaults.",
+        "resetFailed": "Reset Failed",
+        "resetFailedDesc": "Failed to reset configuration. Please try again.",
+        "backendVersion": "Backend Version"
+    },
+    "validation": {
+        "appNameRequired": "App name is required",
+        "emailRequired": "Email is required",
+        "invalidEmail": "Invalid email format",
+        "invalidUrl": "Invalid URL format"
+    },
+    "current": "Current"
+}

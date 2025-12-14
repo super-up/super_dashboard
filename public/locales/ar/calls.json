@@ -1,0 +1,22 @@
+{
+    "title": "المكالمات",
+    "stats": {
+        "totalFinishedCalls": "إجمالي المكالمات المكتملة",
+        "averageDuration": "متوسط المدة",
+        "longestCall": "أطول مكالمة",
+        "shortestCall": "أقصر مكالمة"
+    },
+    "types": {
+        "video": "فيديو",
+        "voice": "صوت"
+    },
+    "status": {
+        "ended": "منتهية",
+        "completed": "مكتملة",
+        "missed": "فائتة",
+        "rejected": "مرفوضة",
+        "cancelled": "ملغاة",
+        "ongoing": "جارية",
+        "ringing": "يرن"
+    }
+}

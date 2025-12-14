@@ -1,0 +1,49 @@
+{
+    "title": "تصدير البيانات",
+    "subtitle": "تصدير بيانات التطبيق بتنسيق JSON أو CSV",
+    "fields": {
+        "dateRange": "نطاق التاريخ (اختياري)",
+        "format": "التنسيق",
+        "limit": "الحد الأقصى",
+        "maxLimit": "الحد الأقصى: {{max}}"
+    },
+    "actions": {
+        "export": "تصدير {{label}}"
+    },
+    "types": {
+        "users": {
+            "label": "المستخدمين",
+            "description": "تصدير ملفات المستخدمين وبيانات الحسابات"
+        },
+        "messages": {
+            "label": "الرسائل",
+            "description": "تصدير رسائل المحادثات والمحتوى"
+        },
+        "reports": {
+            "label": "البلاغات",
+            "description": "تصدير بلاغات وشكاوى المستخدمين"
+        },
+        "audit-logs": {
+            "label": "سجلات التدقيق",
+            "description": "تصدير سجلات نشاط المشرفين"
+        },
+        "stories": {
+            "label": "القصص",
+            "description": "تصدير بيانات قصص المستخدمين"
+        },
+        "calls": {
+            "label": "المكالمات",
+            "description": "تصدير سجل المكالمات وبياناتها"
+        },
+        "analytics": {
+            "label": "التحليلات",
+            "description": "تصدير تقرير التحليلات المجمعة"
+        }
+    },
+    "messages": {
+        "exportSuccess": "تم التصدير بنجاح",
+        "exportSuccessDesc": "تم تصدير بيانات {{label}} بتنسيق {{format}}.",
+        "exportFailed": "فشل التصدير",
+        "exportFailedDesc": "فشل تصدير بيانات {{label}}. يرجى المحاولة مرة أخرى."
+    }
+}

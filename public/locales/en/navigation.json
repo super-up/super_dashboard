@@ -1,0 +1,18 @@
+{
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "messages": "Messages",
+    "rooms": "Rooms",
+    "reports": "Reports",
+    "calls": "Calls",
+    "stories": "Stories",
+    "auditLogs": "Audit Logs",
+    "realtimeLogs": "Real-time Logs",
+    "notifications": "Notifications",
+    "devices": "Devices",
+    "countries": "Countries",
+    "stickers": "Stickers",
+    "appConfig": "App Config",
+    "dataExport": "Data Export",
+    "appVersions": "App Versions"
+}

@@ -1,0 +1,44 @@
+{
+    "title": "Notifications",
+    "list": {
+        "sendToAll": "Send to All Users",
+        "columns": {
+            "title": "Title",
+            "content": "Content",
+            "image": "Image",
+            "created": "Created",
+            "actions": "Actions"
+        },
+        "hasImage": {
+            "yes": "Yes",
+            "no": "No"
+        },
+        "modal": {
+            "title": "Send Notification to All Users",
+            "form": {
+                "title": "Title",
+                "titlePlaceholder": "Notification title",
+                "content": "Content",
+                "contentPlaceholder": "Notification message",
+                "imageUrl": "Image URL (optional)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "Notification sent to all users"
+        }
+    },
+    "show": {
+        "adminNotification": "Admin Notification",
+        "created": "Created",
+        "notificationImage": "Notification Image",
+        "notificationContent": "Notification Content",
+        "notificationDetails": "Notification Details",
+        "notificationId": "Notification ID",
+        "updated": "Updated",
+        "imageUrl": "Image URL",
+        "deliveryInfo": "Delivery Information",
+        "sentAt": "Sent At",
+        "timeAgo": "Time Ago"
+    }
+}

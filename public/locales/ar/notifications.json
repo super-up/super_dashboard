@@ -1,0 +1,44 @@
+{
+    "title": "الإشعارات",
+    "list": {
+        "sendToAll": "إرسال لجميع المستخدمين",
+        "columns": {
+            "title": "العنوان",
+            "content": "المحتوى",
+            "image": "الصورة",
+            "created": "تاريخ الإنشاء",
+            "actions": "الإجراءات"
+        },
+        "hasImage": {
+            "yes": "نعم",
+            "no": "لا"
+        },
+        "modal": {
+            "title": "إرسال إشعار لجميع المستخدمين",
+            "form": {
+                "title": "العنوان",
+                "titlePlaceholder": "عنوان الإشعار",
+                "content": "المحتوى",
+                "contentPlaceholder": "نص الإشعار",
+                "imageUrl": "رابط الصورة (اختياري)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "تم إرسال الإشعار لجميع المستخدمين"
+        }
+    },
+    "show": {
+        "adminNotification": "إشعار إداري",
+        "created": "تاريخ الإنشاء",
+        "notificationImage": "صورة الإشعار",
+        "notificationContent": "محتوى الإشعار",
+        "notificationDetails": "تفاصيل الإشعار",
+        "notificationId": "معرف الإشعار",
+        "updated": "تاريخ التحديث",
+        "imageUrl": "رابط الصورة",
+        "deliveryInfo": "معلومات التسليم",
+        "sentAt": "وقت الإرسال",
+        "timeAgo": "منذ"
+    }
+}

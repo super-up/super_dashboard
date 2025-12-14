@@ -1,0 +1,55 @@
+{
+    "title": "Real-time Logs",
+    "logsCount": "{{count}} logs",
+    "logsCountFiltered": "{{filtered}} of {{total}} logs",
+    "actions": {
+        "resume": "Resume",
+        "pause": "Pause",
+        "clear": "Clear",
+        "reconnect": "Reconnect"
+    },
+    "status": {
+        "connected": "Connected",
+        "connecting": "Connecting...",
+        "disconnected": "Disconnected",
+        "error": "Error"
+    },
+    "empty": {
+        "paused": "Log streaming paused",
+        "waiting": "Waiting for logs...",
+        "noMatch": "No logs match the current filters",
+        "notConnected": "Connect to start receiving logs"
+    },
+    "severity": {
+        "all": "All",
+        "info": "Info",
+        "warning": "Warning",
+        "error": "Error",
+        "critical": "Critical"
+    },
+    "categories": {
+        "all": "All",
+        "auth": "Auth",
+        "presence": "Presence",
+        "message": "Message",
+        "group": "Group",
+        "broadcast": "Broadcast",
+        "channel": "Channel",
+        "story": "Story",
+        "call": "Call",
+        "profile": "Profile"
+    },
+    "actorTypes": {
+        "user": "User",
+        "admin": "Admin",
+        "system": "System"
+    },
+    "labels": {
+        "unknown": "Unknown"
+    },
+    "time": {
+        "secondsAgo": "{{count}}s ago",
+        "minutesAgo": "{{count}}m ago",
+        "hoursAgo": "{{count}}h ago"
+    }
+}

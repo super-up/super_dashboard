@@ -1,0 +1,100 @@
+{
+    "title": "الرسائل",
+    "list": "قائمة الرسائل",
+    "details": "تفاصيل الرسالة",
+    "fields": {
+        "id": "معرف الرسالة",
+        "content": "المحتوى",
+        "type": "النوع",
+        "sender": "المرسل",
+        "room": "الغرفة",
+        "roomId": "معرف الغرفة",
+        "status": "الحالة",
+        "platform": "المنصة",
+        "createdAt": "وقت الإرسال",
+        "created": "تاريخ الإنشاء",
+        "updated": "تاريخ التحديث",
+        "seenAt": "وقت المشاهدة",
+        "deletedAt": "تاريخ الحذف",
+        "attachments": "المرفقات",
+        "encryption": "التشفير",
+        "fileName": "اسم الملف",
+        "mimeType": "نوع الملف",
+        "fileSize": "حجم الملف",
+        "dimensions": "الأبعاد",
+        "duration": "المدة",
+        "url": "الرابط"
+    },
+    "types": {
+        "text": "نص",
+        "image": "صورة",
+        "video": "فيديو",
+        "audio": "صوت",
+        "voice": "رسالة صوتية",
+        "file": "ملف",
+        "location": "موقع",
+        "contact": "جهة اتصال",
+        "sticker": "ملصق",
+        "gif": "صورة متحركة",
+        "call": "مكالمة",
+        "reaction": "تفاعل",
+        "info": "معلومات"
+    },
+    "filters": {
+        "all": "جميع الرسائل",
+        "text": "نصية فقط",
+        "media": "وسائط فقط",
+        "today": "اليوم",
+        "thisWeek": "هذا الأسبوع"
+    },
+    "actions": {
+        "delete": "حذف",
+        "restore": "استعادة",
+        "viewRoom": "عرض الغرفة",
+        "viewSender": "عرض المرسل",
+        "viewProfile": "عرض الملف الشخصي",
+        "viewOriginal": "عرض الأصلية",
+        "download": "تحميل",
+        "downloadAudio": "تحميل الصوت",
+        "downloadFile": "تحميل الملف",
+        "playVideo": "تشغيل الفيديو",
+        "hidePlayer": "إخفاء المشغل"
+    },
+    "show": {
+        "messageContent": "محتوى الرسالة",
+        "messageDetails": "تفاصيل الرسالة",
+        "attachmentDetails": "تفاصيل المرفق",
+        "voiceMessage": "رسالة صوتية",
+        "videoMessage": "رسالة فيديو",
+        "locationShared": "تم مشاركة الموقع",
+        "systemMessage": "رسالة نظام",
+        "noContent": "لا يوجد محتوى",
+        "noVideoUrl": "رابط الفيديو غير متاح",
+        "noAudioUrl": "رابط الصوت غير متاح",
+        "messageDeleted": "تم حذف هذه الرسالة",
+        "replyInfo": "هذه الرسالة رد على رسالة أخرى",
+        "forwardedFrom": "محولة من",
+        "replyTo": "رد على",
+        "reactions": "التفاعلات",
+        "unknown": "غير معروف",
+        "size": "الحجم",
+        "type": "النوع"
+    },
+    "tags": {
+        "deleted": "محذوفة",
+        "active": "نشطة",
+        "hasMedia": "تحتوي وسائط",
+        "forwarded": "محولة",
+        "reply": "رد",
+        "encrypted": "مشفرة"
+    },
+    "confirmations": {
+        "deleteMessage": "حذف هذه الرسالة؟",
+        "restoreMessage": "استعادة هذه الرسالة؟"
+    },
+    "notifications": {
+        "deleted": "تم حذف الرسالة",
+        "restored": "تم استعادة الرسالة",
+        "updateFailed": "فشل تحديث الرسالة"
+    }
+}

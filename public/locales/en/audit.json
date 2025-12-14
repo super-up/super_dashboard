@@ -1,0 +1,12 @@
+{
+    "title": "Audit Logs",
+    "columns": {
+        "id": "ID",
+        "action": "Action",
+        "targetType": "Target Type",
+        "targetId": "Target ID",
+        "admin": "Admin",
+        "ipAddress": "IP Address",
+        "timestamp": "Timestamp"
+    }
+}

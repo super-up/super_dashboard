@@ -1,0 +1,13 @@
+{
+    "title": "لوحة تحكم سوبر أب",
+    "subtitle": "تسجيل الدخول للوصول إلى لوحة التحكم",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "emailPlaceholder": "admin@example.com",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "signingIn": "جاري تسجيل الدخول...",
+    "emailRequired": "الرجاء إدخال البريد الإلكتروني",
+    "emailInvalid": "الرجاء إدخال بريد إلكتروني صحيح",
+    "passwordRequired": "الرجاء إدخال كلمة المرور"
+}

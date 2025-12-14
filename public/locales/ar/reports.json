@@ -1,0 +1,15 @@
+{
+    "title": "البلاغات",
+    "types": {
+        "user": "مستخدم",
+        "chat": "محادثة",
+        "message": "رسالة"
+    },
+    "reasons": {
+        "spam": "رسائل مزعجة",
+        "harassment": "تحرش",
+        "inappropriateContent": "محتوى غير لائق",
+        "hateSpeech": "خطاب كراهية",
+        "violence": "عنف"
+    }
+}

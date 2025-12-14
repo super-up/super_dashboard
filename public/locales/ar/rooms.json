@@ -1,0 +1,35 @@
+{
+    "title": "الغرف",
+    "list": "قائمة الغرف",
+    "details": "تفاصيل الغرفة",
+    "fields": {
+        "id": "معرف الغرفة",
+        "name": "اسم الغرفة",
+        "type": "النوع",
+        "memberCount": "الأعضاء",
+        "messageCount": "الرسائل",
+        "createdBy": "أنشئت بواسطة",
+        "createdAt": "تاريخ الإنشاء",
+        "lastMessage": "آخر رسالة",
+        "image": "صورة الغرفة",
+        "description": "الوصف"
+    },
+    "types": {
+        "single": "فردي",
+        "group": "مجموعة",
+        "broadcast": "قائمة بث",
+        "channel": "قناة"
+    },
+    "filters": {
+        "all": "جميع الغرف",
+        "single": "المحادثات الفردية",
+        "group": "المجموعات",
+        "broadcast": "قوائم البث",
+        "channel": "القنوات"
+    },
+    "actions": {
+        "delete": "حذف الغرفة",
+        "viewMembers": "عرض الأعضاء",
+        "viewMessages": "عرض الرسائل"
+    }
+}

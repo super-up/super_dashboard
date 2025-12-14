@@ -1,0 +1,55 @@
+{
+    "title": "السجلات المباشرة",
+    "logsCount": "{{count}} سجل",
+    "logsCountFiltered": "{{filtered}} من {{total}} سجل",
+    "actions": {
+        "resume": "استئناف",
+        "pause": "إيقاف مؤقت",
+        "clear": "مسح",
+        "reconnect": "إعادة الاتصال"
+    },
+    "status": {
+        "connected": "متصل",
+        "connecting": "جاري الاتصال...",
+        "disconnected": "غير متصل",
+        "error": "خطأ"
+    },
+    "empty": {
+        "paused": "تم إيقاف بث السجلات مؤقتاً",
+        "waiting": "في انتظار السجلات...",
+        "noMatch": "لا توجد سجلات تطابق الفلاتر الحالية",
+        "notConnected": "اتصل لبدء استلام السجلات"
+    },
+    "severity": {
+        "all": "الكل",
+        "info": "معلومات",
+        "warning": "تحذير",
+        "error": "خطأ",
+        "critical": "حرج"
+    },
+    "categories": {
+        "all": "الكل",
+        "auth": "المصادقة",
+        "presence": "الحضور",
+        "message": "الرسائل",
+        "group": "المجموعات",
+        "broadcast": "البث",
+        "channel": "القنوات",
+        "story": "القصص",
+        "call": "المكالمات",
+        "profile": "الملف الشخصي"
+    },
+    "actorTypes": {
+        "user": "مستخدم",
+        "admin": "مشرف",
+        "system": "النظام"
+    },
+    "labels": {
+        "unknown": "غير معروف"
+    },
+    "time": {
+        "secondsAgo": "منذ {{count}} ثانية",
+        "minutesAgo": "منذ {{count}} دقيقة",
+        "hoursAgo": "منذ {{count}} ساعة"
+    }
+}

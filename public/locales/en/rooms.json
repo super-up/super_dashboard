@@ -1,0 +1,35 @@
+{
+    "title": "Rooms",
+    "list": "Room List",
+    "details": "Room Details",
+    "fields": {
+        "id": "Room ID",
+        "name": "Room Name",
+        "type": "Type",
+        "memberCount": "Members",
+        "messageCount": "Messages",
+        "createdBy": "Created By",
+        "createdAt": "Created At",
+        "lastMessage": "Last Message",
+        "image": "Room Image",
+        "description": "Description"
+    },
+    "types": {
+        "single": "Single",
+        "group": "Group",
+        "broadcast": "Broadcast",
+        "channel": "Channel"
+    },
+    "filters": {
+        "all": "All Rooms",
+        "single": "Single Chats",
+        "group": "Groups",
+        "broadcast": "Broadcasts",
+        "channel": "Channels"
+    },
+    "actions": {
+        "delete": "Delete Room",
+        "viewMembers": "View Members",
+        "viewMessages": "View Messages"
+    }
+}

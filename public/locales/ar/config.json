@@ -1,0 +1,87 @@
+{
+    "title": "إعدادات التطبيق",
+    "subtitle": "إدارة إعدادات التطبيق وميزات التحكم",
+    "sections": {
+        "general": "الإعدادات العامة",
+        "features": "تبديل الميزات",
+        "limits": "الحدود والقيود",
+        "urls": "الروابط الخارجية",
+        "icons": "الأيقونات الافتراضية"
+    },
+    "subsections": {
+        "platformLogin": "تسجيل الدخول للمنصات",
+        "chatFeatures": "ميزات المحادثة",
+        "appStoreLinks": "روابط متاجر التطبيقات",
+        "roomEmojis": "رموز الغرف",
+        "defaultImages": "الصور الافتراضية (أسماء الملفات)"
+    },
+    "fields": {
+        "appName": "اسم التطبيق",
+        "feedbackEmail": "بريد التعليقات",
+        "userRegisterStatus": "سياسة تسجيل المستخدمين",
+        "userRegisterStatusTooltip": "يتحكم في كيفية معالجة تسجيلات المستخدمين الجدد",
+        "emailCodeExpiry": "صلاحية رمز البريد (دقائق)",
+        "emailCodeExpiryTooltip": "مدة صلاحية رموز إعادة تعيين كلمة المرور",
+        "enableAds": "تفعيل الإعلانات",
+        "mobileLogin": "تسجيل دخول الجوال",
+        "webLogin": "تسجيل دخول الويب",
+        "desktopLogin": "تسجيل دخول سطح المكتب",
+        "messaging": "المراسلة",
+        "sendMedia": "إرسال الوسائط",
+        "voiceVideoCalls": "مكالمات الصوت/الفيديو",
+        "createGroups": "إنشاء المجموعات",
+        "createBroadcasts": "إنشاء البث",
+        "maxGroupMembers": "الحد الأقصى لأعضاء المجموعة",
+        "maxGroupMembersTooltip": "الحد الأقصى لعدد الأعضاء المسموح بهم في المجموعة",
+        "maxBroadcastRecipients": "الحد الأقصى لمستلمي البث",
+        "maxBroadcastRecipientsTooltip": "الحد الأقصى لمستلمي رسائل البث",
+        "maxForwards": "الحد الأقصى للتحويل",
+        "maxForwardsTooltip": "الحد الأقصى لعدد مرات تحويل الرسالة",
+        "maxMediaSize": "الحد الأقصى لحجم الوسائط (ميجابايت)",
+        "maxMediaSizeTooltip": "الحد الأقصى لحجم ملفات الوسائط",
+        "callTimeout": "مهلة المكالمة (ثواني)",
+        "callTimeoutTooltip": "مدة الرنين قبل انتهاء مهلة المكالمة",
+        "privacyUrl": "رابط سياسة الخصوصية",
+        "webChatUrl": "رابط محادثة الويب",
+        "appleStoreUrl": "رابط متجر آبل",
+        "googlePlayUrl": "رابط متجر جوجل بلاي",
+        "macStoreUrl": "رابط متجر ماك",
+        "windowsStoreUrl": "رابط متجر ويندوز",
+        "groupIcon": "أيقونة المجموعة",
+        "broadcastIcon": "أيقونة البث",
+        "orderIcon": "أيقونة الطلب",
+        "defaultUserImage": "صورة المستخدم الافتراضية",
+        "defaultGroupImage": "صورة المجموعة الافتراضية",
+        "defaultBroadcastImage": "صورة البث الافتراضية",
+        "defaultSupportImage": "صورة الدعم الافتراضية"
+    },
+    "actions": {
+        "refresh": "تحديث",
+        "resetToDefaults": "إعادة للافتراضي",
+        "discardChanges": "تجاهل التغييرات",
+        "saveConfiguration": "حفظ الإعدادات"
+    },
+    "confirmations": {
+        "resetTitle": "إعادة تعيين الإعدادات",
+        "resetDescription": "هل أنت متأكد من إعادة جميع الإعدادات إلى الافتراضي؟ لا يمكن التراجع عن هذا.",
+        "reset": "إعادة تعيين"
+    },
+    "messages": {
+        "configUpdated": "تم تحديث الإعدادات",
+        "configUpdatedDesc": "تم حفظ إعدادات التطبيق بنجاح.",
+        "updateFailed": "فشل التحديث",
+        "updateFailedDesc": "فشل حفظ الإعدادات. يرجى المحاولة مرة أخرى.",
+        "configReset": "تم إعادة تعيين الإعدادات",
+        "configResetDesc": "تم إعادة إعدادات التطبيق إلى الافتراضي.",
+        "resetFailed": "فشل إعادة التعيين",
+        "resetFailedDesc": "فشل إعادة تعيين الإعدادات. يرجى المحاولة مرة أخرى.",
+        "backendVersion": "إصدار الخادم"
+    },
+    "validation": {
+        "appNameRequired": "اسم التطبيق مطلوب",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "invalidEmail": "صيغة البريد غير صحيحة",
+        "invalidUrl": "صيغة الرابط غير صحيحة"
+    },
+    "current": "الحالي"
+}

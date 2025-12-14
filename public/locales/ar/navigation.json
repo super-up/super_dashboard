@@ -1,0 +1,18 @@
+{
+    "dashboard": "لوحة التحكم",
+    "users": "المستخدمين",
+    "messages": "الرسائل",
+    "rooms": "الغرف",
+    "reports": "البلاغات",
+    "calls": "المكالمات",
+    "stories": "القصص",
+    "auditLogs": "سجلات المراجعة",
+    "realtimeLogs": "السجلات المباشرة",
+    "notifications": "الإشعارات",
+    "devices": "الأجهزة",
+    "countries": "الدول",
+    "stickers": "الملصقات",
+    "appConfig": "إعدادات التطبيق",
+    "dataExport": "تصدير البيانات",
+    "appVersions": "إصدارات التطبيق"
+}

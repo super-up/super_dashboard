@@ -1,0 +1,100 @@
+{
+    "title": "Messages",
+    "list": "Message List",
+    "details": "Message Details",
+    "fields": {
+        "id": "Message ID",
+        "content": "Content",
+        "type": "Type",
+        "sender": "Sender",
+        "room": "Room",
+        "roomId": "Room ID",
+        "status": "Status",
+        "platform": "Platform",
+        "createdAt": "Sent At",
+        "created": "Created",
+        "updated": "Updated",
+        "seenAt": "Seen At",
+        "deletedAt": "Deleted At",
+        "attachments": "Attachments",
+        "encryption": "Encryption",
+        "fileName": "File Name",
+        "mimeType": "MIME Type",
+        "fileSize": "File Size",
+        "dimensions": "Dimensions",
+        "duration": "Duration",
+        "url": "URL"
+    },
+    "types": {
+        "text": "Text",
+        "image": "Image",
+        "video": "Video",
+        "audio": "Audio",
+        "voice": "Voice",
+        "file": "File",
+        "location": "Location",
+        "contact": "Contact",
+        "sticker": "Sticker",
+        "gif": "GIF",
+        "call": "Call",
+        "reaction": "Reaction",
+        "info": "Info"
+    },
+    "filters": {
+        "all": "All Messages",
+        "text": "Text Only",
+        "media": "Media Only",
+        "today": "Today",
+        "thisWeek": "This Week"
+    },
+    "actions": {
+        "delete": "Delete",
+        "restore": "Restore",
+        "viewRoom": "View Room",
+        "viewSender": "View Sender",
+        "viewProfile": "View Profile",
+        "viewOriginal": "View Original",
+        "download": "Download",
+        "downloadAudio": "Download Audio",
+        "downloadFile": "Download File",
+        "playVideo": "Play Video",
+        "hidePlayer": "Hide Player"
+    },
+    "show": {
+        "messageContent": "Message Content",
+        "messageDetails": "Message Details",
+        "attachmentDetails": "Attachment Details",
+        "voiceMessage": "Voice Message",
+        "videoMessage": "Video Message",
+        "locationShared": "Location Shared",
+        "systemMessage": "System message",
+        "noContent": "No content",
+        "noVideoUrl": "No video URL available",
+        "noAudioUrl": "No audio URL available",
+        "messageDeleted": "This message was deleted",
+        "replyInfo": "This message is a reply to another message",
+        "forwardedFrom": "Forwarded From",
+        "replyTo": "Reply To",
+        "reactions": "Reactions",
+        "unknown": "Unknown",
+        "size": "Size",
+        "type": "Type"
+    },
+    "tags": {
+        "deleted": "Deleted",
+        "active": "Active",
+        "hasMedia": "Has Media",
+        "forwarded": "Forwarded",
+        "reply": "Reply",
+        "encrypted": "Encrypted"
+    },
+    "confirmations": {
+        "deleteMessage": "Delete this message?",
+        "restoreMessage": "Restore this message?"
+    },
+    "notifications": {
+        "deleted": "Message deleted",
+        "restored": "Message restored",
+        "updateFailed": "Failed to update message"
+    }
+}

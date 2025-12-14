@@ -1,0 +1,15 @@
+{
+    "title": "Reports",
+    "types": {
+        "user": "User",
+        "chat": "Chat",
+        "message": "Message"
+    },
+    "reasons": {
+        "spam": "Spam",
+        "harassment": "Harassment",
+        "inappropriateContent": "Inappropriate Content",
+        "hateSpeech": "Hate Speech",
+        "violence": "Violence"
+    }
+}

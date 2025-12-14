@@ -1,0 +1,49 @@
+{
+    "title": "Data Export",
+    "subtitle": "Export application data in JSON or CSV format",
+    "fields": {
+        "dateRange": "Date Range (optional)",
+        "format": "Format",
+        "limit": "Limit",
+        "maxLimit": "Max: {{max}}"
+    },
+    "actions": {
+        "export": "Export {{label}}"
+    },
+    "types": {
+        "users": {
+            "label": "Users",
+            "description": "Export user profiles and account data"
+        },
+        "messages": {
+            "label": "Messages",
+            "description": "Export chat messages and content"
+        },
+        "reports": {
+            "label": "Reports",
+            "description": "Export user reports and complaints"
+        },
+        "audit-logs": {
+            "label": "Audit Logs",
+            "description": "Export admin activity logs"
+        },
+        "stories": {
+            "label": "Stories",
+            "description": "Export user stories metadata"
+        },
+        "calls": {
+            "label": "Calls",
+            "description": "Export call history and metadata"
+        },
+        "analytics": {
+            "label": "Analytics",
+            "description": "Export aggregated analytics report"
+        }
+    },
+    "messages": {
+        "exportSuccess": "Export Successful",
+        "exportSuccessDesc": "{{label}} data has been exported as {{format}}.",
+        "exportFailed": "Export Failed",
+        "exportFailedDesc": "Failed to export {{label}} data. Please try again."
+    }
+}

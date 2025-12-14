@@ -1,0 +1,12 @@
+{
+    "title": "سجلات المراجعة",
+    "columns": {
+        "id": "المعرف",
+        "action": "الإجراء",
+        "targetType": "نوع الهدف",
+        "targetId": "معرف الهدف",
+        "admin": "المسؤول",
+        "ipAddress": "عنوان IP",
+        "timestamp": "الوقت"
+    }
+}

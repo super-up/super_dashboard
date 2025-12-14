@@ -1,0 +1,140 @@
+{
+    "title": "Users",
+    "list": "User List",
+    "details": "User Details",
+    "fields": {
+        "id": "User ID",
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "avatar": "Avatar",
+        "status": "Status",
+        "bio": "Bio",
+        "country": "Country",
+        "lastSeen": "Last Seen",
+        "createdAt": "Joined At",
+        "isVerified": "Verified",
+        "isPremium": "Premium",
+        "isOnline": "Online Status",
+        "deviceCount": "Devices",
+        "roomCount": "Rooms",
+        "messageCount": "Messages",
+        "platform": "Platform",
+        "registrationStatus": "Registration Status",
+        "verification": "Verification",
+        "registered": "Registered",
+        "banExpires": "Ban Expires",
+        "deletedAt": "Deleted At"
+    },
+    "filters": {
+        "all": "All Users",
+        "active": "Active",
+        "blocked": "Blocked",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "premium": "Premium",
+        "online": "Online"
+    },
+    "actions": {
+        "block": "Block User",
+        "unblock": "Unblock User",
+        "verify": "Verify User",
+        "unverify": "Unverify",
+        "delete": "Delete User",
+        "restore": "Restore User",
+        "sendNotification": "Send Notification",
+        "viewDevices": "View Devices",
+        "viewRooms": "View Rooms",
+        "edit": "Edit",
+        "ban": "Ban",
+        "unban": "Unban",
+        "logoutAll": "Logout All Devices",
+        "viewGroup": "View Group",
+        "viewDetails": "View Details",
+        "view": "View"
+    },
+    "show": {
+        "userInformation": "User Information",
+        "verifiedUser": "Verified User",
+        "notVerified": "Not Verified",
+        "online": "Online",
+        "offline": "Offline",
+        "active": "Active",
+        "deleted": "Deleted",
+        "bannedUntil": "Banned until {{date}}",
+        "unknown": "Unknown",
+        "untitled": "Untitled"
+    },
+    "tabs": {
+        "overview": "Overview",
+        "rooms": "Rooms",
+        "stories": "Stories",
+        "calls": "Calls"
+    },
+    "devices": {
+        "title": "Devices",
+        "platform": "Platform",
+        "version": "Version",
+        "lastActive": "Last Active",
+        "push": "Push",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "actions": "Actions"
+    },
+    "rooms": {
+        "title": "Room",
+        "type": "Type",
+        "status": "Status",
+        "actions": "Actions",
+        "admin": "Admin",
+        "moderator": "Moderator",
+        "noRooms": "No rooms found"
+    },
+    "stories": {
+        "media": "Media",
+        "type": "Type",
+        "caption": "Caption",
+        "views": "Views",
+        "expiry": "Expiry",
+        "expired": "Expired",
+        "created": "Created",
+        "noStories": "No stories found"
+    },
+    "calls": {
+        "type": "Type",
+        "direction": "Direction",
+        "status": "Status",
+        "duration": "Duration",
+        "date": "Date",
+        "video": "Video",
+        "voice": "Voice",
+        "outgoing": "Outgoing",
+        "incoming": "Incoming",
+        "noCalls": "No calls found"
+    },
+    "confirmations": {
+        "banUser": "Ban this user for 1 year?",
+        "unbanUser": "Unban this user?",
+        "verifyUser": "Add verification badge?",
+        "unverifyUser": "Remove verification badge?",
+        "deleteUser": "Delete this user?",
+        "restoreUser": "Restore this user?",
+        "logoutAll": "Logout from all devices?"
+    },
+    "notifications": {
+        "banned": "User banned",
+        "unbanned": "User unbanned",
+        "verified": "User verified",
+        "badgeRemoved": "Badge removed",
+        "deleted": "User deleted",
+        "restored": "User restored",
+        "loggedOut": "All devices logged out",
+        "updateFailed": "Failed to update user",
+        "logoutFailed": "Failed to logout devices"
+    },
+    "stats": {
+        "devices": "Devices",
+        "rooms": "Rooms",
+        "stories": "Stories"
+    }
+}

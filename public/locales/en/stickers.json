@@ -1,0 +1,98 @@
+{
+    "title": "Stickers",
+    "list": "Sticker Packs",
+    "details": "Sticker Pack Details",
+    "fields": {
+        "id": "Pack ID",
+        "name": "Name",
+        "author": "Author",
+        "type": "Type",
+        "thumbnail": "Thumbnail",
+        "version": "Version",
+        "stickersCount": "Stickers",
+        "createdAt": "Created",
+        "updatedAt": "Updated"
+    },
+    "types": {
+        "animated": "Animated",
+        "static": "Static"
+    },
+    "stats": {
+        "totalPacks": "Total Packs",
+        "animatedPacks": "Animated Packs",
+        "staticPacks": "Static Packs",
+        "totalStickers": "Total Stickers"
+    },
+    "filters": {
+        "searchPlaceholder": "Search by name or author...",
+        "search": "Search",
+        "filters": "Filters",
+        "packType": "Pack Type",
+        "createdFromTo": "Created From/To",
+        "apply": "Apply",
+        "clear": "Clear"
+    },
+    "actions": {
+        "title": "Actions",
+        "refresh": "Refresh",
+        "createPack": "Create Pack",
+        "editPack": "Edit Pack",
+        "deletePack": "Delete Pack",
+        "addSticker": "Add Sticker",
+        "removeSticker": "Remove Sticker",
+        "view": "View",
+        "edit": "Edit",
+        "delete": "Delete"
+    },
+    "show": {
+        "packInformation": "Pack Information",
+        "packNotFound": "Pack not found",
+        "stickersTitle": "Stickers",
+        "noStickers": "No stickers in this pack"
+    },
+    "modal": {
+        "createTitle": "Create Sticker Pack",
+        "editTitle": "Edit Sticker Pack",
+        "addStickersTitle": "Add Stickers",
+        "cancel": "Cancel",
+        "create": "Create",
+        "update": "Update",
+        "upload": "Upload Stickers",
+        "packName": "Pack Name",
+        "packNamePlaceholder": "Enter pack name",
+        "thumbnailUrl": "Thumbnail URL",
+        "thumbnailUrlPlaceholder": "Enter thumbnail URL",
+        "authorLabel": "Author",
+        "authorPlaceholder": "Enter author name",
+        "animatedPack": "Animated Pack",
+        "selectImages": "Select Images (up to 50)",
+        "uploadHint": "Click or drag images to upload",
+        "emojis": "Emojis (comma-separated)",
+        "emojisPlaceholder": "Enter emojis separated by commas"
+    },
+    "confirmations": {
+        "deletePack": "Delete this pack?",
+        "removeSticker": "Remove this sticker?"
+    },
+    "notifications": {
+        "packCreated": "Pack created successfully",
+        "packUpdated": "Pack updated successfully",
+        "packDeleted": "Pack deleted successfully",
+        "stickersAdded": "Stickers added successfully",
+        "stickerRemoved": "Sticker removed successfully",
+        "createFailed": "Failed to create pack",
+        "updateFailed": "Failed to update pack",
+        "deleteFailed": "Failed to delete pack",
+        "uploadFailed": "Failed to upload stickers"
+    },
+    "validation": {
+        "nameRequired": "Pack name is required",
+        "thumbnailRequired": "Thumbnail URL is required",
+        "authorRequired": "Author is required",
+        "selectFiles": "Please select at least one image",
+        "onlyImages": "You can only upload image files!",
+        "maxFileSize": "Image must be smaller than 10MB!",
+        "maxImagesAllowed": "Maximum 50 images allowed",
+        "uploadHint": "Support PNG, JPG, WebP, GIF. Max 50 images, 10MB each."
+    }
+}

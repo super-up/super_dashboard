@@ -1,0 +1,10 @@
+{
+    "title": "Stories",
+    "types": {
+        "image": "Image",
+        "video": "Video",
+        "voice": "Voice",
+        "text": "Text",
+        "file": "File"
+    }
+}
