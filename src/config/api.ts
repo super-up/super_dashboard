@@ -1,11 +1,7 @@
 export const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3000/api/v1";
-
-const isDev = import.meta.env.DEV;
-export const MEDIA_BASE_URL = import.meta.env.VITE_MEDIA_URL ||
-    (isDev ? "http://192.168.1.119:3000" : "https://superupdev.online");
-
-export const WS_URL = import.meta.env.VITE_WS_URL ||
-    (isDev ? "http://localhost:3000" : "https://superupdev.online");
+export const DEMO_MODE = import.meta.env.VITE_DEMO_MODE === "true";
+export const MEDIA_BASE_URL = import.meta.env.VITE_MEDIA_URL || "http://localhost:3000";
+export const WS_URL = import.meta.env.VITE_WS_URL || "http://localhost:3000";
 
 export const TOKEN_KEY = "admin_token";
 

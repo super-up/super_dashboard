@@ -1,6 +1,23 @@
 import type { DataProvider, Pagination } from "@refinedev/core";
 import axios from "axios";
-import { API_URL, TOKEN_KEY } from "../config/api";
+import { notification } from "antd";
+import { API_URL, TOKEN_KEY, DEMO_MODE } from "../config/api";
+import i18n from "../i18n/index";
+
+const showDemoModeNotification = () => {
+    const t = i18n.t.bind(i18n);
+    notification.warning({
+        message: t("login:demoMode"),
+        description: t("login:demoModeDescription"),
+        placement: "topRight",
+        duration: 3,
+    });
+};
+
+const fakeDemoResponse = (data: any = {}) => {
+    showDemoModeNotification();
+    return Promise.resolve({ data });
+};
 
 const axiosInstance = axios.create();
 
@@ -77,6 +94,7 @@ export const dataProvider: DataProvider = {
         };
     },
     create: async ({ resource, variables }) => {
+        if (DEMO_MODE) return fakeDemoResponse(variables);
         const url = `${API_URL}/${resource}`;
         const { data } = await axiosInstance.post(url, variables);
         return {
@@ -84,6 +102,7 @@ export const dataProvider: DataProvider = {
         };
     },
     update: async ({ resource, id, variables }) => {
+        if (DEMO_MODE) return fakeDemoResponse(variables);
         const url = id ? `${API_URL}/${resource}/${id}` : `${API_URL}/${resource}`;
         const { data } = await axiosInstance.patch(url, variables);
         return {
@@ -91,6 +110,7 @@ export const dataProvider: DataProvider = {
         };
     },
     deleteOne: async ({ resource, id }) => {
+        if (DEMO_MODE) return fakeDemoResponse({ id });
         const url = `${API_URL}/${resource}/${id}`;
         const { data } = await axiosInstance.delete(url);
         return {
@@ -99,13 +119,17 @@ export const dataProvider: DataProvider = {
     },
     getApiUrl: () => API_URL,
     custom: async ({ url, method, payload, query, headers }) => {
+        const httpMethod = (method || "get").toLowerCase();
+        if (DEMO_MODE && httpMethod !== "get") {
+            return fakeDemoResponse(payload);
+        }
         let requestUrl = `${API_URL}/${url}`;
         if (query) {
             const queryString = new URLSearchParams(query as Record<string, string>).toString();
             requestUrl = `${requestUrl}?${queryString}`;
         }
         const { data } = await axiosInstance({
-            method: method || "get",
+            method: httpMethod,
             url: requestUrl,
             data: payload,
             headers,

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { List, DateField } from "@refinedev/antd";
 import { useNotification } from "@refinedev/core";
 import {
@@ -65,6 +66,7 @@ const getPlatformIcon = (platform?: string) => {
 };
 
 export const VersionList = () => {
+    const { t } = useTranslation("versions");
     const [activeTab, setActiveTab] = useState<PlatformFilter>("all");
     const [versions, setVersions] = useState<IAppVersion[]>([]);
     const [loading, setLoading] = useState(false);
@@ -74,6 +76,7 @@ export const VersionList = () => {
     const [submitting, setSubmitting] = useState(false);
     const [form] = Form.useForm();
     const { open: notify } = useNotification();
+
     const fetchData = async (platform: PlatformFilter, page: number = 1) => {
         setLoading(true);
         try {
@@ -97,19 +100,22 @@ export const VersionList = () => {
         } catch (error: unknown) {
             console.error("Failed to fetch versions:", error);
             const err = error as { response?: { data?: { message?: string }; status?: number } };
-            notify?.({ type: "error", message: err.response?.data?.message || `Failed to fetch versions (${err.response?.status || "unknown"})` });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.fetchVersionsFailed", { error: err.response?.status || "unknown" }) });
             setVersions([]);
         } finally {
             setLoading(false);
         }
     };
+
     useEffect(() => {
         fetchData(activeTab, 1);
     }, [activeTab]);
+
     const handlePageChange = (page: number, pageSize: number) => {
         setPagination((prev) => ({ ...prev, page, limit: pageSize }));
         fetchData(activeTab, page);
     };
+
     const handleCreate = () => {
         setEditingVersion(null);
         form.resetFields();
@@ -120,6 +126,7 @@ export const VersionList = () => {
         });
         setModalOpen(true);
     };
+
     const handleEdit = (record: IAppVersion) => {
         setEditingVersion(record);
         form.setFieldsValue({
@@ -131,19 +138,21 @@ export const VersionList = () => {
         });
         setModalOpen(true);
     };
+
     const handleDelete = async (id: string) => {
         try {
             await axiosInstance.patch(`${API_URL}/admin/config/versions`, {
                 versionIds: [id],
                 updates: { deleted: true },
             });
-            notify?.({ type: "success", message: "Version deleted successfully" });
+            notify?.({ type: "success", message: t("messages.deleteSuccess") });
             fetchData(activeTab, pagination.page);
         } catch (error: unknown) {
             const err = error as { response?: { data?: { message?: string } } };
-            notify?.({ type: "error", message: err.response?.data?.message || "Failed to delete version" });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.deleteFailed") });
         }
     };
+
     const handleSubmit = async (values: CreateVersionDto | UpdateVersionDto) => {
         setSubmitting(true);
         try {
@@ -152,32 +161,33 @@ export const VersionList = () => {
                     versionIds: [editingVersion._id],
                     updates: values,
                 });
-                notify?.({ type: "success", message: "Version updated successfully" });
+                notify?.({ type: "success", message: t("messages.updateSuccess") });
             } else {
                 await axiosInstance.patch(`${API_URL}/admin/config/versions`, {
                     creates: [values],
                 });
-                notify?.({ type: "success", message: "Version created successfully" });
+                notify?.({ type: "success", message: t("messages.createSuccess") });
             }
             setModalOpen(false);
             fetchData(activeTab, pagination.page);
         } catch (error: unknown) {
             const err = error as { response?: { data?: { message?: string } } };
-            notify?.({ type: "error", message: err.response?.data?.message || "Failed to save version" });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.saveFailed") });
         } finally {
             setSubmitting(false);
         }
     };
+
     const columns = [
         {
-            title: "Version",
+            title: t("table.version"),
             dataIndex: "semVer",
             key: "semVer",
             width: 100,
             render: (value: string) => <Text strong style={{ fontFamily: "monospace" }}>{value}</Text>,
         },
         {
-            title: "Platform",
+            title: t("table.platform"),
             dataIndex: "platform",
             key: "platform",
             width: 120,
@@ -191,7 +201,7 @@ export const VersionList = () => {
             },
         },
         {
-            title: "Critical",
+            title: t("table.critical"),
             dataIndex: "critical",
             key: "critical",
             width: 90,
@@ -203,7 +213,7 @@ export const VersionList = () => {
                 ),
         },
         {
-            title: "Notify",
+            title: t("table.notify"),
             dataIndex: "notify",
             key: "notify",
             width: 90,
@@ -215,7 +225,7 @@ export const VersionList = () => {
                 ),
         },
         {
-            title: "Notes",
+            title: t("table.notes"),
             dataIndex: "notes",
             key: "notes",
             ellipsis: true,
@@ -226,27 +236,27 @@ export const VersionList = () => {
             ),
         },
         {
-            title: "Created",
+            title: t("table.created"),
             dataIndex: "createdAt",
             key: "createdAt",
             width: 120,
             render: (value: string) => <DateField value={value} format="MMM DD, YYYY" />,
         },
         {
-            title: "Actions",
+            title: t("table.actions"),
             key: "actions",
             width: 100,
             render: (_: unknown, record: IAppVersion) => (
                 <Space size={4}>
-                    <Tooltip title="Edit">
+                    <Tooltip title={t("tooltips.edit")}>
                         <Button size="small" icon={<EditOutlined />} onClick={() => handleEdit(record)} />
                     </Tooltip>
-                    <Tooltip title="Delete">
+                    <Tooltip title={t("tooltips.delete")}>
                         <Popconfirm
-                            title="Delete this version?"
-                            description="This action cannot be undone."
+                            title={t("confirmations.deleteTitle")}
+                            description={t("confirmations.deleteDesc")}
                             onConfirm={() => handleDelete(record._id)}
-                            okText="Delete"
+                            okText={t("confirmations.deleteButton")}
                             okButtonProps={{ danger: true }}
                         >
                             <Button size="small" danger icon={<DeleteOutlined />} />
@@ -256,24 +266,26 @@ export const VersionList = () => {
             ),
         },
     ];
+
     const tabItems = [
-        { key: "all", label: <span><AppstoreOutlined /> All</span> },
+        { key: "all", label: <span><AppstoreOutlined /> {t("tabs.all")}</span> },
         { key: Platform.ios, label: <span><AppleOutlined /> iOS</span> },
         { key: Platform.android, label: <span><AndroidOutlined /> Android</span> },
         { key: Platform.windows, label: <span><WindowsOutlined /> Windows</span> },
-        { key: Platform.macOs, label: <span><DesktopOutlined /> macOS</span> },
-        { key: Platform.other, label: <span><AppstoreOutlined /> Other</span> },
+        { key: Platform.macOs, label: <span><DesktopOutlined /> {t("tabs.macos")}</span> },
+        { key: Platform.other, label: <span><AppstoreOutlined /> {t("tabs.other")}</span> },
     ];
+
     return (
         <List
-            title="App Versions"
+            title={t("page.title")}
             headerButtons={
                 <Space>
-                    <Tooltip title="Refresh">
+                    <Tooltip title={t("tooltips.refresh")}>
                         <Button icon={<ReloadOutlined />} onClick={() => fetchData(activeTab, pagination.page)} />
                     </Tooltip>
                     <Button type="primary" icon={<PlusOutlined />} onClick={handleCreate}>
-                        Add Version
+                        {t("page.addVersionButton")}
                     </Button>
                 </Space>
             }
@@ -305,7 +317,7 @@ export const VersionList = () => {
                 />
             </Card>
             <Modal
-                title={editingVersion ? "Edit Version" : "Add Version"}
+                title={editingVersion ? t("modal.editTitle") : t("modal.addTitle")}
                 open={modalOpen}
                 onCancel={() => setModalOpen(false)}
                 footer={null}
@@ -319,46 +331,46 @@ export const VersionList = () => {
                 >
                     <Form.Item
                         name="platform"
-                        label="Platform"
-                        rules={[{ required: true, message: "Platform is required" }]}
+                        label={t("form.platform")}
+                        rules={[{ required: true, message: t("validation.platformRequired") }]}
                     >
-                        <Select options={PLATFORM_OPTIONS} placeholder="Select platform" />
+                        <Select options={PLATFORM_OPTIONS} placeholder={t("validation.selectPlatform")} />
                     </Form.Item>
                     <Form.Item
                         name="semVer"
-                        label="Version"
+                        label={t("form.version")}
                         rules={[
-                            { required: true, message: "Version is required" },
-                            { pattern: /^\d+\.\d+\.\d+$/, message: "Use format: x.x.x (e.g., 1.2.0)" },
+                            { required: true, message: t("validation.versionRequired") },
+                            { pattern: /^\d+\.\d+\.\d+$/, message: t("validation.versionFormat") },
                         ]}
                     >
                         <Input placeholder="1.0.0" />
                     </Form.Item>
                     <Form.Item
                         name="critical"
-                        label="Critical (Force Update)"
+                        label={t("form.critical")}
                         valuePropName="checked"
                     >
                         <Switch checkedChildren="Yes" unCheckedChildren="No" />
                     </Form.Item>
                     <Form.Item
                         name="notify"
-                        label="Notify Users"
+                        label={t("form.notify")}
                         valuePropName="checked"
                     >
                         <Switch checkedChildren="Yes" unCheckedChildren="No" />
                     </Form.Item>
                     <Form.Item
                         name="notes"
-                        label="Release Notes"
+                        label={t("form.notes")}
                     >
-                        <TextArea rows={3} placeholder="What's new in this version..." />
+                        <TextArea rows={3} placeholder={t("form.notesPlaceholder")} />
                     </Form.Item>
                     <Form.Item style={{ marginBottom: 0, textAlign: "right" }}>
                         <Space>
-                            <Button onClick={() => setModalOpen(false)}>Cancel</Button>
+                            <Button onClick={() => setModalOpen(false)}>{t("buttons.cancel")}</Button>
                             <Button type="primary" htmlType="submit" loading={submitting} icon={<CloudUploadOutlined />}>
-                                {editingVersion ? "Update" : "Create"}
+                                {editingVersion ? t("buttons.update") : t("buttons.create")}
                             </Button>
                         </Space>
                     </Form.Item>

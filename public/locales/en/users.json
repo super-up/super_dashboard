@@ -1,140 +1,202 @@
 {
-    "title": "Users",
-    "list": "User List",
-    "details": "User Details",
-    "fields": {
-        "id": "User ID",
-        "name": "Full Name",
-        "email": "Email Address",
-        "phone": "Phone Number",
-        "avatar": "Avatar",
-        "status": "Status",
-        "bio": "Bio",
-        "country": "Country",
-        "lastSeen": "Last Seen",
-        "createdAt": "Joined At",
-        "isVerified": "Verified",
-        "isPremium": "Premium",
-        "isOnline": "Online Status",
-        "deviceCount": "Devices",
-        "roomCount": "Rooms",
-        "messageCount": "Messages",
-        "platform": "Platform",
-        "registrationStatus": "Registration Status",
-        "verification": "Verification",
-        "registered": "Registered",
-        "banExpires": "Ban Expires",
-        "deletedAt": "Deleted At"
-    },
-    "filters": {
-        "all": "All Users",
-        "active": "Active",
-        "blocked": "Blocked",
-        "verified": "Verified",
-        "unverified": "Unverified",
-        "premium": "Premium",
-        "online": "Online"
-    },
-    "actions": {
-        "block": "Block User",
-        "unblock": "Unblock User",
-        "verify": "Verify User",
-        "unverify": "Unverify",
-        "delete": "Delete User",
-        "restore": "Restore User",
-        "sendNotification": "Send Notification",
-        "viewDevices": "View Devices",
-        "viewRooms": "View Rooms",
-        "edit": "Edit",
-        "ban": "Ban",
-        "unban": "Unban",
-        "logoutAll": "Logout All Devices",
-        "viewGroup": "View Group",
-        "viewDetails": "View Details",
-        "view": "View"
-    },
-    "show": {
-        "userInformation": "User Information",
-        "verifiedUser": "Verified User",
-        "notVerified": "Not Verified",
-        "online": "Online",
-        "offline": "Offline",
-        "active": "Active",
-        "deleted": "Deleted",
-        "bannedUntil": "Banned until {{date}}",
-        "unknown": "Unknown",
-        "untitled": "Untitled"
-    },
-    "tabs": {
-        "overview": "Overview",
-        "rooms": "Rooms",
-        "stories": "Stories",
-        "calls": "Calls"
-    },
-    "devices": {
-        "title": "Devices",
-        "platform": "Platform",
-        "version": "Version",
-        "lastActive": "Last Active",
-        "push": "Push",
-        "enabled": "Enabled",
-        "disabled": "Disabled",
-        "actions": "Actions"
-    },
-    "rooms": {
-        "title": "Room",
-        "type": "Type",
-        "status": "Status",
-        "actions": "Actions",
-        "admin": "Admin",
-        "moderator": "Moderator",
-        "noRooms": "No rooms found"
-    },
-    "stories": {
-        "media": "Media",
-        "type": "Type",
-        "caption": "Caption",
-        "views": "Views",
-        "expiry": "Expiry",
-        "expired": "Expired",
-        "created": "Created",
-        "noStories": "No stories found"
-    },
-    "calls": {
-        "type": "Type",
-        "direction": "Direction",
-        "status": "Status",
-        "duration": "Duration",
-        "date": "Date",
-        "video": "Video",
-        "voice": "Voice",
-        "outgoing": "Outgoing",
-        "incoming": "Incoming",
-        "noCalls": "No calls found"
-    },
-    "confirmations": {
-        "banUser": "Ban this user for 1 year?",
-        "unbanUser": "Unban this user?",
-        "verifyUser": "Add verification badge?",
-        "unverifyUser": "Remove verification badge?",
-        "deleteUser": "Delete this user?",
-        "restoreUser": "Restore this user?",
-        "logoutAll": "Logout from all devices?"
-    },
-    "notifications": {
-        "banned": "User banned",
-        "unbanned": "User unbanned",
-        "verified": "User verified",
-        "badgeRemoved": "Badge removed",
-        "deleted": "User deleted",
-        "restored": "User restored",
-        "loggedOut": "All devices logged out",
-        "updateFailed": "Failed to update user",
-        "logoutFailed": "Failed to logout devices"
-    },
-    "stats": {
-        "devices": "Devices",
-        "rooms": "Rooms",
-        "stories": "Stories"
-    }
+  "show": {
+    "userInformation": "User Information",
+    "notVerified": "Not Verified",
+    "offline": "Offline",
+    "online": "Online",
+    "deleted": "Deleted",
+    "active": "Active",
+    "bannedUntil": "Banned until {{date}}",
+    "verifiedUser": "Verified User",
+    "unknown": "Unknown",
+    "untitled": "Untitled"
+  },
+  "fields": {
+    "id": "ID",
+    "phone": "Phone",
+    "email": "Email",
+    "platform": "Platform",
+    "registrationStatus": "Registration Status",
+    "verification": "Verification",
+    "country": "Country",
+    "isOnline": "Online Status",
+    "lastSeen": "Last Seen",
+    "registered": "Registered",
+    "banExpires": "Ban Expires",
+    "deletedAt": "Deleted At"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "rooms": "Rooms",
+    "stories": "Stories",
+    "calls": "Calls"
+  },
+  "devices": {
+    "title": "Devices",
+    "platform": "Platform",
+    "version": "Version",
+    "lastActive": "Last Active",
+    "push": "Push Notifications",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "actions": "Actions"
+  },
+  "stats": {
+    "devices": "Devices",
+    "rooms": "Rooms",
+    "stories": "Stories"
+  },
+  "rooms": {
+    "title": "Room",
+    "type": "Type",
+    "status": "Status",
+    "admin": "Admin",
+    "moderator": "Moderator",
+    "actions": "Actions",
+    "noRooms": "No rooms found"
+  },
+  "stories": {
+    "media": "Media",
+    "type": "Type",
+    "caption": "Caption",
+    "views": "Views",
+    "expiry": "Expiry",
+    "expired": "Expired",
+    "created": "Created",
+    "noStories": "No stories found"
+  },
+  "calls": {
+    "type": "Type",
+    "video": "Video",
+    "voice": "Voice",
+    "direction": "Direction",
+    "outgoing": "Outgoing",
+    "incoming": "Incoming",
+    "status": "Status",
+    "duration": "Duration",
+    "date": "Date",
+    "noCalls": "No calls found"
+  },
+  "actions": {
+    "viewGroup": "View Group",
+    "viewDetails": "View Details",
+    "view": "View",
+    "edit": "Edit",
+    "ban": "Ban",
+    "unban": "Unban",
+    "verify": "Verify",
+    "unverify": "Unverify",
+    "restore": "Restore",
+    "delete": "Delete",
+    "logoutAll": "Logout All Devices"
+  },
+  "confirmations": {
+    "unbanUser": "Are you sure you want to unban this user?",
+    "banUser": "Are you sure you want to ban this user?",
+    "unverifyUser": "Are you sure you want to remove verification?",
+    "verifyUser": "Are you sure you want to verify this user?",
+    "restoreUser": "Are you sure you want to restore this user?",
+    "deleteUser": "Are you sure you want to delete this user?",
+    "logoutAll": "This will logout user from all devices. Continue?",
+    "banUserTitle": "Ban User",
+    "banUserDesc": "Are you sure you want to ban this user? They will not be able to access the app.",
+    "banButton": "Yes, Ban",
+    "unbannedTitle": "Unban User",
+    "unbannedDesc": "Are you sure you want to unban this user?",
+    "unbannedButton": "Yes, Unban",
+    "restoreTitle": "Restore User",
+    "restoreDesc": "Are you sure you want to restore this user? They will have access to the app again.",
+    "restoreButton": "Yes, Restore",
+    "deleteTitle": "Delete User",
+    "deleteDesc": "Are you sure you want to permanently delete this user? This action cannot be undone.",
+    "deleteButton": "Yes, Delete",
+    "logoutAllTitle": "Logout All Devices",
+    "logoutAllDesc": "This will force logout the user from all devices. Are you sure?",
+    "logoutAllButton": "Yes, Logout All"
+  },
+  "notifications": {
+    "unbanned": "User unbanned successfully",
+    "banned": "User banned successfully",
+    "badgeRemoved": "Verification badge removed",
+    "verified": "User verified successfully",
+    "restored": "User restored successfully",
+    "deleted": "User deleted successfully",
+    "updateFailed": "Failed to update user",
+    "loggedOut": "Logged out from all devices",
+    "logoutFailed": "Failed to logout devices"
+  },
+  "filters": {
+    "verified": "Verified"
+  },
+  "modal": {
+    "title": "Edit User",
+    "profileSection": "Profile Information",
+    "verificationSection": "Verification",
+    "banSection": "Ban Management",
+    "dangerZone": "Danger Zone"
+  },
+  "form": {
+    "fullName": "Full Name",
+    "bio": "Bio",
+    "registrationStatus": "Registration Status",
+    "verificationBadge": "Verification Badge",
+    "banDuration": "Select ban duration",
+    "banEndDate": "Select ban end date",
+    "saveProfileChanges": "Save Profile Changes",
+    "deleted": "This user has been deleted"
+  },
+  "placeholders": {
+    "enterFullName": "Enter full name",
+    "enterBio": "Enter bio"
+  },
+  "validation": {
+    "fullNameRequired": "Name is required",
+    "selectRegistrationStatus": "Select registration status"
+  },
+  "options": {
+    "accepted": "Accepted",
+    "pending": "Pending",
+    "rejected": "Rejected"
+  },
+  "badges": {
+    "verified": "Verified",
+    "notVerified": "Not Verified",
+    "isVerified": "User is verified",
+    "isNotVerified": "User is not verified"
+  },
+  "banDurations": {
+    "1h": "1 Hour",
+    "3d": "3 Days",
+    "7d": "7 Days",
+    "1m": "1 Month",
+    "3m": "3 Months",
+    "1y": "1 Year",
+    "permanent": "Permanent",
+    "customDate": "Custom Date"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "User profile updated successfully",
+    "profileUpdateFailed": "Failed to update user",
+    "userBannedSuccess": "User banned successfully",
+    "userUnbannedSuccess": "User unbanned successfully",
+    "banStatusFailed": "Failed to update ban status",
+    "banUserSuccess": "User banned successfully",
+    "banUserFailed": "Failed to ban user",
+    "verificationBadgeRemoved": "Verification badge removed",
+    "verificationBadgeAdded": "User verified successfully",
+    "verificationFailed": "Failed to update verification",
+    "userRestoredSuccess": "User restored successfully",
+    "userDeletedSuccess": "User deleted successfully",
+    "updateUserFailed": "Failed to update user",
+    "logoutDevicesSuccess": "Logged out from {{count}} device(s) successfully",
+    "logoutDevicesFailed": "Failed to logout devices",
+    "bannedUntil": "User banned until {{date}}"
+  },
+  "buttons": {
+    "banUser": "Ban User",
+    "unbanUser": "Unban User",
+    "deleteUser": "Delete User",
+    "restoreUser": "Restore User",
+    "logoutAllDevices": "Logout All Devices"
+  }
 }

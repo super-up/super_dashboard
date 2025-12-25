@@ -1,15 +1,82 @@
 {
-    "title": "البلاغات",
-    "types": {
-        "user": "مستخدم",
-        "chat": "محادثة",
-        "message": "رسالة"
-    },
-    "reasons": {
-        "spam": "رسائل مزعجة",
-        "harassment": "تحرش",
-        "inappropriateContent": "محتوى غير لائق",
-        "hateSpeech": "خطاب كراهية",
-        "violence": "عنف"
-    }
+  "types": {
+    "user": "تقرير مستخدم",
+    "chat": "تقرير محادثة"
+  },
+  "reasons": {
+    "spam": "بريد عشوائي",
+    "harassment": "مضايقة",
+    "inappropriatecontent": "محتوى غير مناسب",
+    "hatespeech": "خطاب كراهية",
+    "violence": "عنف"
+  },
+  "status": {
+    "pending": "قيد الانتظار",
+    "approved": "موافق عليه",
+    "rejected": "مرفوض"
+  },
+  "labels": {
+    "reportId": "معرف التقرير",
+    "reportProgress": "تقدم التقرير",
+    "submitted": "مُقدّم",
+    "reporter": "المبلغ",
+    "reportedUser": "المستخدم المبلغ عنه",
+    "reportedContent": "المحتوى المبلغ عنه",
+    "reportReason": "سبب التقرير",
+    "reportDetails": "تفاصيل التقرير",
+    "takeAction": "اتخاذ إجراء",
+    "actionsAreIrreversible": "الإجراءات لا رجعة فيها",
+    "takeActionDescription": "الإجراءات التالية ستؤثر بشكل دائم على المستخدم المبلغ عنه. يرجى المراجعة بعناية قبل المتابعة.",
+    "selectBanDuration": "اختر مدة الحظر",
+    "daysFromNow": "أيام من الآن",
+    "orSelectSpecificDate": "أو اختر تاريخًا محددًا",
+    "userWillBeBanned": "سيتم حظر المستخدم لمدة {{duration}}",
+    "warningDeleteAccount": "تحذير: سيتم حذف الحساب بشكل دائم",
+    "softDeletedAccount": "سيتم حذف هذا الحساب بشكل لين وليس يمكن استرجاعه.",
+    "reportedUserDataNotAvailable": "بيانات المستخدم المبلغ عنه غير متاحة",
+    "chatDataNotAvailable": "بيانات المحادثة غير متاحة",
+    "noReportedContent": "لا توجد محتويات مبلغ عنها",
+    "noAdditionalDetails": "لا توجد تفاصيل إضافية",
+    "unknownUser": "مستخدم غير معروف",
+    "type": "النوع",
+    "createdAt": "تم الإنشاء",
+    "updatedAt": "تم التحديث",
+    "resolvedAt": "تم الحل"
+  },
+  "confirmations": {
+    "approveReport": "الموافقة على التقرير",
+    "approveReportDesc": "هل أنت متأكد من رغبتك في الموافقة على هذا التقرير؟",
+    "rejectReport": "رفض التقرير",
+    "rejectReportDesc": "هل أنت متأكد من رغبتك في رفض هذا التقرير؟",
+    "deleteUserAccount": "حذف حساب المستخدم",
+    "deleteUserAccountDesc": "هذا الإجراء سيؤدي إلى حذف حساب المستخدم بشكل دائم. لا يمكن التراجع عن هذا.",
+    "deleteReportedContent": "حذف المحتوى المبلغ عنه",
+    "deleteReportedContentDesc": "هل أنت متأكد من رغبتك في حذف المحتوى المبلغ عنه؟"
+  },
+  "actions": {
+    "approve": "موافقة",
+    "reject": "رفض",
+    "banUser": "حظر المستخدم",
+    "deleteAccount": "حذف الحساب",
+    "deleteContent": "حذف المحتوى",
+    "delete": "حذف",
+    "ban": "حظر",
+    "viewUserProfile": "عرض ملف تعريفي للمستخدم",
+    "viewChatDetails": "عرض تفاصيل المحادثة",
+    "viewProfile": "عرض الملف الشخصي"
+  },
+  "table": {
+    "reason": "السبب",
+    "status": "الحالة"
+  },
+  "messages": {
+    "reportStatusUpdated": "التقرير {{newStatus}}",
+    "updateFailed": "فشل تحديث التقرير",
+    "noReportedUser": "لا يوجد مستخدم مبلغ عنه لاتخاذ إجراء بشأنه",
+    "userBannedFor": "تم حظر المستخدم {{duration}}",
+    "userAccountDeleted": "تم حذف حساب المستخدم",
+    "actionFailed": "فشل الإجراء",
+    "contentDeleted": "تم حذف المحتوى",
+    "deleteContentFailed": "فشل حذف المحتوى"
+  }
 }

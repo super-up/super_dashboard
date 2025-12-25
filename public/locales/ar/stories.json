@@ -1,10 +1,48 @@
 {
-    "title": "القصص",
-    "types": {
-        "image": "صورة",
-        "video": "فيديو",
-        "voice": "صوت",
-        "text": "نص",
-        "file": "ملف"
-    }
+  "types": {
+    "image": "صورة",
+    "video": "فيديو",
+    "voice": "صوت",
+    "file": "ملف",
+    "text": "نص"
+  },
+  "labels": {
+    "storyDetails": "تفاصيل القصة",
+    "storyInformation": "معلومات القصة",
+    "storyId": "معرف القصة",
+    "type": "النوع",
+    "postedBy": "نُشر بواسطة",
+    "createdAt": "تاريخ الإنشاء",
+    "expiresAt": "تاريخ انتهاء الصلاحية",
+    "expiryProgress": "تقدم انتهاء الصلاحية",
+    "unknownUser": "مستخدم غير معروف",
+    "noViewsYet": "لا توجد مشاهدات حتى الآن",
+    "thisStoryDeletedOn": "تم حذف هذه القصة في {{date}}",
+    "thisStoryExpiredOn": "انتهت صلاحية هذه القصة في {{date}}"
+  },
+  "table": {
+    "views": "المشاهدات",
+    "viewer": "المشاهد",
+    "viewedAt": "مشاهدة في",
+    "actions": "الإجراءات",
+    "status": "الحالة"
+  },
+  "status": {
+    "deleted": "محذوف",
+    "expired": "انتهت الصلاحية",
+    "active": "نشط"
+  },
+  "actions": {
+    "deleteStory": "حذف القصة",
+    "delete": "حذف",
+    "cancel": "إلغاء",
+    "viewUser": "عرض المستخدم"
+  },
+  "confirmations": {
+    "deleteStory": "هل أنت متأكد من رغبتك في حذف هذه القصة؟"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "تم حذف القصة بنجاح",
+    "operationFailed": "فشلت العملية"
+  }
 }

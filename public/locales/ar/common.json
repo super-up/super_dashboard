@@ -1,5 +1,14 @@
 {
     "appName": "لوحة تحكم سوبر أب",
+    "confirm": "تأكيد",
+    "common": {
+        "yes": "نعم",
+        "no": "لا",
+        "ok": "موافق",
+        "warning": "تحذير",
+        "error": "خطأ",
+        "success": "نجح"
+    },
     "actions": {
         "save": "حفظ",
         "cancel": "إلغاء",
@@ -219,6 +228,8 @@
         "searchGroups": "بحث في المجموعات...",
         "searchBroadcasts": "بحث في البث...",
         "searchSingles": "بحث في المحادثات الفردية...",
+        "searchMembers": "البحث عن الأعضاء...",
+        "searchRecipients": "البحث عن المستلمين...",
         "senderUserId": "معرف المرسل",
         "roomId": "معرف الغرفة",
         "registeredFrom": "تسجيل من",
@@ -275,6 +286,7 @@
         "removeFromGroup": "إزالة {{count}} عضو من هذه المجموعة؟"
     },
     "labels": {
+        "until": "حتى",
         "clickToCopyId": "انقر لنسخ المعرف",
         "clickToViewUser": "انقر لعرض المستخدم",
         "hasMedia": "يحتوي على وسائط",

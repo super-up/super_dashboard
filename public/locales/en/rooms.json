@@ -1,35 +1,80 @@
 {
-    "title": "Rooms",
-    "list": "Room List",
-    "details": "Room Details",
-    "fields": {
-        "id": "Room ID",
-        "name": "Room Name",
-        "type": "Type",
-        "memberCount": "Members",
-        "messageCount": "Messages",
-        "createdBy": "Created By",
-        "createdAt": "Created At",
-        "lastMessage": "Last Message",
-        "image": "Room Image",
-        "description": "Description"
-    },
-    "types": {
-        "single": "Single",
-        "group": "Group",
-        "broadcast": "Broadcast",
-        "channel": "Channel"
-    },
-    "filters": {
-        "all": "All Rooms",
-        "single": "Single Chats",
-        "group": "Groups",
-        "broadcast": "Broadcasts",
-        "channel": "Channels"
-    },
-    "actions": {
-        "delete": "Delete Room",
-        "viewMembers": "View Members",
-        "viewMessages": "View Messages"
-    }
+  "types": {
+    "group": "Groups",
+    "broadcast": "Broadcast",
+    "single": "Chats"
+  },
+  "labels": {
+    "roomDetails": "Room Details",
+    "groupDetails": "Group Details",
+    "broadcastDetails": "Broadcast Details",
+    "chatDetails": "Chat Details",
+    "directChat": "Direct Chat",
+    "untitled": "Untitled",
+    "description": "Description",
+    "roomId": "Room ID",
+    "broadcastId": "Broadcast ID",
+    "chatId": "Chat ID",
+    "type": "Type",
+    "createdBy": "Created By",
+    "membersCount": "Members Count",
+    "recipientsCount": "Recipients Count",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "roomInformation": "Room Information",
+    "broadcastInformation": "Broadcast Information",
+    "chatInformation": "Chat Information",
+    "thisRoomDeletedOn": "This room was deleted on {{date}}",
+    "owner": "Owner",
+    "member": "Member",
+    "recipient": "Recipient",
+    "userDataNotAvailable": "User data not available",
+    "unknownUser": "Unknown User",
+    "private": "Private"
+  },
+  "table": {
+    "members": "Members",
+    "recipients": "Recipients",
+    "messages": "Messages",
+    "lastActive": "Last Active",
+    "participant1": "Participant 1",
+    "participant2": "Participant 2",
+    "user": "User",
+    "role": "Role",
+    "joined": "Joined",
+    "lastSeen": "Last Seen",
+    "actions": "Actions",
+    "status": "Status",
+    "lastMessage": "Last Message"
+  },
+  "status": {
+    "deleted": "Deleted",
+    "active": "Active"
+  },
+  "actions": {
+    "removeMembers": "Remove Members",
+    "viewUser": "View User",
+    "viewProfile": "View Profile",
+    "restore": "Restore",
+    "delete": "Delete",
+    "cancel": "Cancel"
+  },
+  "confirmations": {
+    "restoreRoom": "Restore Room",
+    "deleteRoom": "Delete Room",
+    "restoreRoomConfirm": "Are you sure you want to restore this room?",
+    "softDeleteRoom": "This room will be soft deleted and can be restored later.",
+    "removeFromGroup": "Remove {{count}} member(s) from group?",
+    "removeFromGroupDesc": "Are you sure you want to remove {{count}} selected member(s) from this group?"
+  },
+  "placeholders": {
+    "searchMembers": "Search members...",
+    "searchRecipients": "Search recipients..."
+  },
+  "messages": {
+    "roomRestored": "Room restored",
+    "roomDeleted": "Room deleted",
+    "membersRemoved": "Removed {{count}} member(s) from group",
+    "operationFailed": "Operation failed"
+  }
 }

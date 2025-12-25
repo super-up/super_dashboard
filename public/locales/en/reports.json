@@ -1,15 +1,82 @@
 {
-    "title": "Reports",
-    "types": {
-        "user": "User",
-        "chat": "Chat",
-        "message": "Message"
-    },
-    "reasons": {
-        "spam": "Spam",
-        "harassment": "Harassment",
-        "inappropriateContent": "Inappropriate Content",
-        "hateSpeech": "Hate Speech",
-        "violence": "Violence"
-    }
+  "types": {
+    "user": "User Report",
+    "chat": "Chat Report"
+  },
+  "reasons": {
+    "spam": "Spam",
+    "harassment": "Harassment",
+    "inappropriatecontent": "Inappropriate Content",
+    "hatespeech": "Hate Speech",
+    "violence": "Violence"
+  },
+  "status": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "labels": {
+    "reportId": "Report ID",
+    "reportProgress": "Report Progress",
+    "submitted": "Submitted",
+    "reporter": "Reporter",
+    "reportedUser": "Reported User",
+    "reportedContent": "Reported Content",
+    "reportReason": "Report Reason",
+    "reportDetails": "Report Details",
+    "takeAction": "Take Action",
+    "actionsAreIrreversible": "Actions are irreversible",
+    "takeActionDescription": "The following actions will permanently affect the reported user. Please review carefully before proceeding.",
+    "selectBanDuration": "Select Ban Duration",
+    "daysFromNow": "Days from now",
+    "orSelectSpecificDate": "Or select specific date",
+    "userWillBeBanned": "User will be banned for {{duration}}",
+    "warningDeleteAccount": "Warning: Account will be permanently deleted",
+    "softDeletedAccount": "This account will be soft deleted and cannot be recovered.",
+    "reportedUserDataNotAvailable": "Reported user data not available",
+    "chatDataNotAvailable": "Chat data not available",
+    "noReportedContent": "No reported content",
+    "noAdditionalDetails": "No additional details provided",
+    "unknownUser": "Unknown User",
+    "type": "Type",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "resolvedAt": "Resolved At"
+  },
+  "confirmations": {
+    "approveReport": "Approve Report",
+    "approveReportDesc": "Are you sure you want to approve this report?",
+    "rejectReport": "Reject Report",
+    "rejectReportDesc": "Are you sure you want to reject this report?",
+    "deleteUserAccount": "Delete User Account",
+    "deleteUserAccountDesc": "This action will permanently delete the user account. This cannot be undone.",
+    "deleteReportedContent": "Delete Reported Content",
+    "deleteReportedContentDesc": "Are you sure you want to delete the reported content?"
+  },
+  "actions": {
+    "approve": "Approve",
+    "reject": "Reject",
+    "banUser": "Ban User",
+    "deleteAccount": "Delete Account",
+    "deleteContent": "Delete Content",
+    "delete": "Delete",
+    "ban": "Ban",
+    "viewUserProfile": "View User Profile",
+    "viewChatDetails": "View Chat Details",
+    "viewProfile": "View Profile"
+  },
+  "table": {
+    "reason": "Reason",
+    "status": "Status"
+  },
+  "messages": {
+    "reportStatusUpdated": "Report {{newStatus}}",
+    "updateFailed": "Failed to update report",
+    "noReportedUser": "No reported user to take action on",
+    "userBannedFor": "User banned {{duration}}",
+    "userAccountDeleted": "User account deleted",
+    "actionFailed": "Failed to take action",
+    "contentDeleted": "Content deleted",
+    "deleteContentFailed": "Failed to delete content"
+  }
 }

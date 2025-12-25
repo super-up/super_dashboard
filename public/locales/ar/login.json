@@ -1,13 +1,16 @@
 {
-    "title": "لوحة تحكم سوبر أب",
-    "subtitle": "تسجيل الدخول للوصول إلى لوحة التحكم",
-    "email": "البريد الإلكتروني",
-    "password": "كلمة المرور",
-    "emailPlaceholder": "admin@example.com",
-    "passwordPlaceholder": "أدخل كلمة المرور",
-    "signIn": "تسجيل الدخول",
-    "signingIn": "جاري تسجيل الدخول...",
-    "emailRequired": "الرجاء إدخال البريد الإلكتروني",
-    "emailInvalid": "الرجاء إدخال بريد إلكتروني صحيح",
-    "passwordRequired": "الرجاء إدخال كلمة المرور"
+  "title": "تسجيل دخول المسؤول",
+  "subtitle": "قم بتسجيل الدخول إلى حساب Super Up Admin الخاص بك",
+  "email": "عنوان البريد الإلكتروني",
+  "emailRequired": "يرجى إدخال بريدك الإلكتروني",
+  "emailInvalid": "يرجى إدخال بريد إلكتروني صحيح",
+  "emailPlaceholder": "admin@example.com",
+  "password": "كلمة المرور",
+  "passwordRequired": "يرجى إدخال كلمة المرور",
+  "passwordPlaceholder": "أدخل كلمة المرور الخاصة بك",
+  "rememberMe": "تذكرني",
+  "signIn": "تسجيل الدخول",
+  "signingIn": "جاري تسجيل الدخول...",
+  "demoMode": "وضع التجربة",
+  "demoModeDescription": "أنت تعرض نسخة تجريبية. بعض الميزات معطلة."
 }

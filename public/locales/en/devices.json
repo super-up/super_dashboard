@@ -1,52 +1,70 @@
 {
-    "title": "Devices",
-    "tabs": {
-        "all": "All Devices",
-        "android": "Android",
-        "ios": "iOS",
-        "web": "Web",
-        "desktop": "Desktop"
-    },
-    "columns": {
-        "user": "User",
-        "platform": "Platform",
-        "appVersion": "App Version",
-        "pushToken": "Push Token",
-        "status": "Status",
-        "lastActive": "Last Active",
-        "created": "Created"
-    },
-    "placeholders": {
-        "searchByUserOrPhone": "Search by user name or phone..."
-    },
-    "labels": {
-        "deviceInformation": "Device Information",
-        "deviceId": "Device ID",
-        "deviceModel": "Device Model",
-        "osVersion": "OS Version",
-        "deviceOwner": "Device Owner",
-        "pushNotification": "Push Notification",
-        "pushStatus": "Push Status",
-        "pushToken": "Push Token",
-        "activityDetails": "Activity Details",
-        "totalVisits": "Total Visits",
-        "noPushToken": "No push token registered for this device. The user may have denied push notification permissions.",
-        "never": "Never"
-    },
-    "actions": {
-        "revokeSession": "Revoke Session",
-        "viewDetails": "View Details",
-        "deleteDevice": "Delete (Revoke Session)"
-    },
-    "confirmations": {
-        "revokeSession": "Revoke this device session?",
-        "revokeDescription": "This will log the user out from this device.",
-        "deleteDevice": "Delete this device? This will revoke the session."
-    },
-    "messages": {
-        "deviceDeleted": "Device deleted successfully",
-        "sessionRevoked": "Device session revoked successfully",
-        "failedToDelete": "Failed to delete device",
-        "failedToRevoke": "Failed to revoke device session"
-    }
+  "title": "Devices",
+  "page": {
+    "title": "Devices"
+  },
+  "columns": {
+    "user": "User",
+    "platform": "Platform",
+    "appVersion": "App Version",
+    "pushToken": "Push Token",
+    "status": "Status",
+    "lastActive": "Last Active",
+    "created": "Created"
+  },
+  "labels": {
+    "never": "Never",
+    "deviceOwner": "Device Owner",
+    "deviceInformation": "Device Information",
+    "deviceId": "Device ID",
+    "deviceModel": "Device Model",
+    "osVersion": "OS Version",
+    "pushNotification": "Push Notification",
+    "pushStatus": "Push Status",
+    "pushToken": "Push Token",
+    "noPushToken": "No push token registered for this device",
+    "activityDetails": "Activity Details",
+    "totalVisits": "Total Visits"
+  },
+  "actions": {
+    "viewDetails": "View Details",
+    "deleteDevice": "Delete Device",
+    "revokeSession": "Revoke Session"
+  },
+  "confirmations": {
+    "deleteDevice": "Are you sure you want to delete this device?",
+    "revokeSession": "Revoke Session",
+    "revokeDescription": "This will log out the user from this device and remove it from the system."
+  },
+  "tabs": {
+    "all": "All",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Desktop"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "Search by user name or phone..."
+  },
+  "table": {
+    "device": "Device",
+    "user": "User",
+    "platform": "Platform",
+    "version": "Version",
+    "status": "Status",
+    "lastSeen": "Last Seen",
+    "push": "Push",
+    "actions": "Actions"
+  },
+  "tooltips": {
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "messages": {
+    "fetchFailed": "Failed to fetch devices ({{status}})",
+    "deviceDeleted": "Device deleted successfully",
+    "failedToDelete": "Failed to delete device",
+    "sessionRevoked": "Session revoked successfully",
+    "failedToRevoke": "Failed to revoke session"
+  }
 }

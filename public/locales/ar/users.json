@@ -1,140 +1,202 @@
 {
-    "title": "المستخدمين",
-    "list": "قائمة المستخدمين",
-    "details": "تفاصيل المستخدم",
-    "fields": {
-        "id": "معرف المستخدم",
-        "name": "الاسم الكامل",
-        "email": "البريد الإلكتروني",
-        "phone": "رقم الهاتف",
-        "avatar": "الصورة الرمزية",
-        "status": "الحالة",
-        "bio": "النبذة",
-        "country": "الدولة",
-        "lastSeen": "آخر ظهور",
-        "createdAt": "تاريخ الانضمام",
-        "isVerified": "موثق",
-        "isPremium": "مميز",
-        "isOnline": "حالة الاتصال",
-        "deviceCount": "الأجهزة",
-        "roomCount": "الغرف",
-        "messageCount": "الرسائل",
-        "platform": "المنصة",
-        "registrationStatus": "حالة التسجيل",
-        "verification": "التوثيق",
-        "registered": "تاريخ التسجيل",
-        "banExpires": "انتهاء الحظر",
-        "deletedAt": "تاريخ الحذف"
-    },
-    "filters": {
-        "all": "جميع المستخدمين",
-        "active": "نشط",
-        "blocked": "محظور",
-        "verified": "موثق",
-        "unverified": "غير موثق",
-        "premium": "مميز",
-        "online": "متصل"
-    },
-    "actions": {
-        "block": "حظر المستخدم",
-        "unblock": "إلغاء الحظر",
-        "verify": "توثيق المستخدم",
-        "unverify": "إلغاء التوثيق",
-        "delete": "حذف المستخدم",
-        "restore": "استعادة المستخدم",
-        "sendNotification": "إرسال إشعار",
-        "viewDevices": "عرض الأجهزة",
-        "viewRooms": "عرض الغرف",
-        "edit": "تعديل",
-        "ban": "حظر",
-        "unban": "إلغاء الحظر",
-        "logoutAll": "تسجيل خروج الكل",
-        "viewGroup": "عرض المجموعة",
-        "viewDetails": "عرض التفاصيل",
-        "view": "عرض"
-    },
-    "show": {
-        "userInformation": "معلومات المستخدم",
-        "verifiedUser": "مستخدم موثق",
-        "notVerified": "غير موثق",
-        "online": "متصل",
-        "offline": "غير متصل",
-        "active": "نشط",
-        "deleted": "محذوف",
-        "bannedUntil": "محظور حتى {{date}}",
-        "unknown": "غير معروف",
-        "untitled": "بدون عنوان"
-    },
-    "tabs": {
-        "overview": "نظرة عامة",
-        "rooms": "الغرف",
-        "stories": "القصص",
-        "calls": "المكالمات"
-    },
-    "devices": {
-        "title": "الأجهزة",
-        "platform": "المنصة",
-        "version": "الإصدار",
-        "lastActive": "آخر نشاط",
-        "push": "الإشعارات",
-        "enabled": "مفعل",
-        "disabled": "معطل",
-        "actions": "الإجراءات"
-    },
-    "rooms": {
-        "title": "الغرفة",
-        "type": "النوع",
-        "status": "الحالة",
-        "actions": "الإجراءات",
-        "admin": "مسؤول",
-        "moderator": "مشرف",
-        "noRooms": "لا توجد غرف"
-    },
-    "stories": {
-        "media": "الوسائط",
-        "type": "النوع",
-        "caption": "التعليق",
-        "views": "المشاهدات",
-        "expiry": "انتهاء الصلاحية",
-        "expired": "منتهية",
-        "created": "تاريخ الإنشاء",
-        "noStories": "لا توجد قصص"
-    },
-    "calls": {
-        "type": "النوع",
-        "direction": "الاتجاه",
-        "status": "الحالة",
-        "duration": "المدة",
-        "date": "التاريخ",
-        "video": "فيديو",
-        "voice": "صوت",
-        "outgoing": "صادرة",
-        "incoming": "واردة",
-        "noCalls": "لا توجد مكالمات"
-    },
-    "confirmations": {
-        "banUser": "حظر هذا المستخدم لمدة سنة؟",
-        "unbanUser": "إلغاء حظر هذا المستخدم؟",
-        "verifyUser": "إضافة شارة التوثيق؟",
-        "unverifyUser": "إزالة شارة التوثيق؟",
-        "deleteUser": "حذف هذا المستخدم؟",
-        "restoreUser": "استعادة هذا المستخدم؟",
-        "logoutAll": "تسجيل الخروج من جميع الأجهزة؟"
-    },
-    "notifications": {
-        "banned": "تم حظر المستخدم",
-        "unbanned": "تم إلغاء حظر المستخدم",
-        "verified": "تم توثيق المستخدم",
-        "badgeRemoved": "تم إزالة الشارة",
-        "deleted": "تم حذف المستخدم",
-        "restored": "تم استعادة المستخدم",
-        "loggedOut": "تم تسجيل الخروج من جميع الأجهزة",
-        "updateFailed": "فشل تحديث المستخدم",
-        "logoutFailed": "فشل تسجيل الخروج من الأجهزة"
-    },
-    "stats": {
-        "devices": "الأجهزة",
-        "rooms": "الغرف",
-        "stories": "القصص"
-    }
+  "show": {
+    "userInformation": "معلومات المستخدم",
+    "notVerified": "غير موثق",
+    "offline": "غير متصل",
+    "online": "متصل",
+    "deleted": "محذوف",
+    "active": "نشط",
+    "bannedUntil": "محظور حتى {{date}}",
+    "verifiedUser": "مستخدم موثق",
+    "unknown": "غير معروف",
+    "untitled": "بدون عنوان"
+  },
+  "fields": {
+    "id": "المعرف",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "platform": "المنصة",
+    "registrationStatus": "حالة التسجيل",
+    "verification": "التوثيق",
+    "country": "الدولة",
+    "isOnline": "حالة الاتصال",
+    "lastSeen": "آخر ظهور",
+    "registered": "تاريخ التسجيل",
+    "banExpires": "انتهاء الحظر",
+    "deletedAt": "تاريخ الحذف"
+  },
+  "tabs": {
+    "overview": "نظرة عامة",
+    "rooms": "الغرف",
+    "stories": "القصص",
+    "calls": "المكالمات"
+  },
+  "devices": {
+    "title": "الأجهزة",
+    "platform": "المنصة",
+    "version": "الإصدار",
+    "lastActive": "آخر نشاط",
+    "push": "إشعارات الدفع",
+    "enabled": "مفعل",
+    "disabled": "معطل",
+    "actions": "الإجراءات"
+  },
+  "stats": {
+    "devices": "الأجهزة",
+    "rooms": "الغرف",
+    "stories": "القصص"
+  },
+  "rooms": {
+    "title": "الغرفة",
+    "type": "النوع",
+    "status": "الحالة",
+    "admin": "مسؤول",
+    "moderator": "مشرف",
+    "actions": "الإجراءات",
+    "noRooms": "لا توجد غرف"
+  },
+  "stories": {
+    "media": "الوسائط",
+    "type": "النوع",
+    "caption": "التعليق",
+    "views": "المشاهدات",
+    "expiry": "انتهاء الصلاحية",
+    "expired": "منتهي الصلاحية",
+    "created": "تاريخ الإنشاء",
+    "noStories": "لا توجد قصص"
+  },
+  "calls": {
+    "type": "النوع",
+    "video": "فيديو",
+    "voice": "صوت",
+    "direction": "الاتجاه",
+    "outgoing": "صادرة",
+    "incoming": "واردة",
+    "status": "الحالة",
+    "duration": "المدة",
+    "date": "التاريخ",
+    "noCalls": "لا توجد مكالمات"
+  },
+  "actions": {
+    "viewGroup": "عرض المجموعة",
+    "viewDetails": "عرض التفاصيل",
+    "view": "عرض",
+    "edit": "تعديل",
+    "ban": "حظر",
+    "unban": "إلغاء الحظر",
+    "verify": "توثيق",
+    "unverify": "إلغاء التوثيق",
+    "restore": "استعادة",
+    "delete": "حذف",
+    "logoutAll": "تسجيل خروج من جميع الأجهزة"
+  },
+  "confirmations": {
+    "unbanUser": "هل أنت متأكد من إلغاء حظر هذا المستخدم؟",
+    "banUser": "هل أنت متأكد من حظر هذا المستخدم؟",
+    "unverifyUser": "هل أنت متأكد من إلغاء توثيق هذا المستخدم؟",
+    "verifyUser": "هل أنت متأكد من توثيق هذا المستخدم؟",
+    "restoreUser": "هل أنت متأكد من استعادة هذا المستخدم؟",
+    "deleteUser": "هل أنت متأكد من حذف هذا المستخدم؟",
+    "logoutAll": "سيتم تسجيل الخروج من جميع الأجهزة. هل تريد المتابعة؟",
+    "banUserTitle": "حظر المستخدم",
+    "banUserDesc": "هل أنت متأكد من حظر هذا المستخدم؟ لن يتمكن من الوصول إلى التطبيق.",
+    "banButton": "نعم، احظر",
+    "unbannedTitle": "إلغاء حظر المستخدم",
+    "unbannedDesc": "هل أنت متأكد من إلغاء حظر هذا المستخدم؟",
+    "unbannedButton": "نعم، إلغاء الحظر",
+    "restoreTitle": "استعادة المستخدم",
+    "restoreDesc": "هل أنت متأكد من استعادة هذا المستخدم؟ سيتمكن من الوصول إلى التطبيق مرة أخرى.",
+    "restoreButton": "نعم، استعادة",
+    "deleteTitle": "حذف المستخدم",
+    "deleteDesc": "هل أنت متأكد من حذف هذا المستخدم بشكل دائم؟ لا يمكن التراجع عن هذا الإجراء.",
+    "deleteButton": "نعم، حذف",
+    "logoutAllTitle": "تسجيل خروج من جميع الأجهزة",
+    "logoutAllDesc": "سيتم تسجيل الخروج من جميع أجهزة المستخدم. هل أنت متأكد؟",
+    "logoutAllButton": "نعم، تسجيل الخروج"
+  },
+  "notifications": {
+    "unbanned": "تم إلغاء حظر المستخدم بنجاح",
+    "banned": "تم حظر المستخدم بنجاح",
+    "badgeRemoved": "تم إزالة شارة التوثيق",
+    "verified": "تم توثيق المستخدم بنجاح",
+    "restored": "تم استعادة المستخدم بنجاح",
+    "deleted": "تم حذف المستخدم بنجاح",
+    "updateFailed": "فشل تحديث المستخدم",
+    "loggedOut": "تم تسجيل الخروج من جميع الأجهزة",
+    "logoutFailed": "فشل تسجيل الخروج من الأجهزة"
+  },
+  "filters": {
+    "verified": "موثق"
+  },
+  "modal": {
+    "title": "تعديل المستخدم",
+    "profileSection": "معلومات الملف الشخصي",
+    "verificationSection": "التوثيق",
+    "banSection": "إدارة الحظر",
+    "dangerZone": "منطقة خطرة"
+  },
+  "form": {
+    "fullName": "الاسم الكامل",
+    "bio": "السيرة الذاتية",
+    "registrationStatus": "حالة التسجيل",
+    "verificationBadge": "شارة التوثيق",
+    "banDuration": "اختر مدة الحظر",
+    "banEndDate": "اختر تاريخ انتهاء الحظر",
+    "saveProfileChanges": "حفظ تغييرات الملف الشخصي",
+    "deleted": "تم حذف هذا المستخدم"
+  },
+  "placeholders": {
+    "enterFullName": "أدخل الاسم الكامل",
+    "enterBio": "أدخل السيرة الذاتية"
+  },
+  "validation": {
+    "fullNameRequired": "الاسم مطلوب",
+    "selectRegistrationStatus": "اختر حالة التسجيل"
+  },
+  "options": {
+    "accepted": "مقبول",
+    "pending": "قيد الانتظار",
+    "rejected": "مرفوض"
+  },
+  "badges": {
+    "verified": "موثق",
+    "notVerified": "غير موثق",
+    "isVerified": "المستخدم موثق",
+    "isNotVerified": "المستخدم غير موثق"
+  },
+  "banDurations": {
+    "1h": "ساعة واحدة",
+    "3d": "3 أيام",
+    "7d": "7 أيام",
+    "1m": "شهر واحد",
+    "3m": "3 أشهر",
+    "1y": "سنة واحدة",
+    "permanent": "دائم",
+    "customDate": "تاريخ مخصص"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "تم تحديث ملف المستخدم بنجاح",
+    "profileUpdateFailed": "فشل تحديث المستخدم",
+    "userBannedSuccess": "تم حظر المستخدم بنجاح",
+    "userUnbannedSuccess": "تم إلغاء حظر المستخدم بنجاح",
+    "banStatusFailed": "فشل تحديث حالة الحظر",
+    "banUserSuccess": "تم حظر المستخدم بنجاح",
+    "banUserFailed": "فشل حظر المستخدم",
+    "verificationBadgeRemoved": "تم إزالة شارة التوثيق",
+    "verificationBadgeAdded": "تم توثيق المستخدم بنجاح",
+    "verificationFailed": "فشل تحديث التوثيق",
+    "userRestoredSuccess": "تم استعادة المستخدم بنجاح",
+    "userDeletedSuccess": "تم حذف المستخدم بنجاح",
+    "updateUserFailed": "فشل تحديث المستخدم",
+    "logoutDevicesSuccess": "تم تسجيل الخروج من {{count}} جهاز بنجاح",
+    "logoutDevicesFailed": "فشل تسجيل الخروج من الأجهزة",
+    "bannedUntil": "تم حظر المستخدم حتى {{date}}"
+  },
+  "buttons": {
+    "banUser": "حظر المستخدم",
+    "unbanUser": "إلغاء حظر المستخدم",
+    "deleteUser": "حذف المستخدم",
+    "restoreUser": "استعادة المستخدم",
+    "logoutAllDevices": "تسجيل خروج من جميع الأجهزة"
+  }
 }

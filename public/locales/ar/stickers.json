@@ -42,7 +42,8 @@
         "removeSticker": "إزالة الملصق",
         "view": "عرض",
         "edit": "تعديل",
-        "delete": "حذف"
+        "delete": "حذف",
+        "remove": "إزالة"
     },
     "show": {
         "packInformation": "معلومات الحزمة",
@@ -65,6 +66,7 @@
         "authorLabel": "المؤلف",
         "authorPlaceholder": "أدخل اسم المؤلف",
         "animatedPack": "حزمة متحركة",
+        "selectThumbnail": "اختر الصورة المصغرة",
         "selectImages": "اختر الصور (حتى 50)",
         "uploadHint": "انقر أو اسحب الصور للرفع",
         "emojis": "الرموز التعبيرية (مفصولة بفواصل)",

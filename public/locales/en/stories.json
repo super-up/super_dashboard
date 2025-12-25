@@ -1,10 +1,48 @@
 {
-    "title": "Stories",
-    "types": {
-        "image": "Image",
-        "video": "Video",
-        "voice": "Voice",
-        "text": "Text",
-        "file": "File"
-    }
+  "types": {
+    "image": "Image",
+    "video": "Video",
+    "voice": "Voice",
+    "file": "File",
+    "text": "Text"
+  },
+  "labels": {
+    "storyDetails": "Story Details",
+    "storyInformation": "Story Information",
+    "storyId": "Story ID",
+    "type": "Type",
+    "postedBy": "Posted By",
+    "createdAt": "Created At",
+    "expiresAt": "Expires At",
+    "expiryProgress": "Expiry Progress",
+    "unknownUser": "Unknown User",
+    "noViewsYet": "No views yet",
+    "thisStoryDeletedOn": "This story was deleted on {{date}}",
+    "thisStoryExpiredOn": "This story expired on {{date}}"
+  },
+  "table": {
+    "views": "Views",
+    "viewer": "Viewer",
+    "viewedAt": "Viewed At",
+    "actions": "Actions",
+    "status": "Status"
+  },
+  "status": {
+    "deleted": "Deleted",
+    "expired": "Expired",
+    "active": "Active"
+  },
+  "actions": {
+    "deleteStory": "Delete Story",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "viewUser": "View User"
+  },
+  "confirmations": {
+    "deleteStory": "Are you sure you want to delete this story?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "Story deleted successfully",
+    "operationFailed": "Operation failed"
+  }
 }

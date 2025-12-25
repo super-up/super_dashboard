@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { List, DateField } from "@refinedev/antd";
 import { useNotification } from "@refinedev/core";
 import {
@@ -35,6 +36,7 @@ interface PaginationState {
 }
 
 export const CountryList = () => {
+    const { t } = useTranslation("countries");
     const [search, setSearch] = useState("");
     const [countries, setCountries] = useState<ICountry[]>([]);
     const [loading, setLoading] = useState(false);
@@ -44,6 +46,7 @@ export const CountryList = () => {
     const [saving, setSaving] = useState(false);
     const [form] = Form.useForm();
     const { open: notify } = useNotification();
+
     const fetchData = async (page: number = 1, searchQuery: string = "") => {
         setLoading(true);
         try {
@@ -66,22 +69,26 @@ export const CountryList = () => {
         } catch (error: unknown) {
             console.error("Failed to fetch countries:", error);
             const err = error as { response?: { data?: { message?: string }; status?: number } };
-            notify?.({ type: "error", message: err.response?.data?.message || `Failed to fetch countries (${err.response?.status || 'unknown'})` });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.fetchFailed", { status: err.response?.status || 'unknown' }) });
             setCountries([]);
         } finally {
             setLoading(false);
         }
     };
+
     useEffect(() => {
         fetchData(1, search);
     }, []);
+
     const handleSearch = () => {
         fetchData(1, search);
     };
+
     const handlePageChange = (page: number, pageSize: number) => {
         setPagination((prev) => ({ ...prev, page, limit: pageSize }));
         fetchData(page, search);
     };
+
     const handleEdit = (country: ICountry) => {
         setEditingCountry(country);
         form.setFieldsValue({
@@ -93,6 +100,7 @@ export const CountryList = () => {
         });
         setEditModalOpen(true);
     };
+
     const handleSave = async () => {
         if (!editingCountry) return;
         try {
@@ -109,26 +117,28 @@ export const CountryList = () => {
             await axiosInstance.patch(`${API_URL}/admin/config/countries`, {
                 updates: [updateDto],
             });
-            notify?.({ type: "success", message: "Country updated successfully" });
+            notify?.({ type: "success", message: t("messages.updateSuccess") });
             setEditModalOpen(false);
             setEditingCountry(null);
             form.resetFields();
             fetchData(pagination.page, search);
         } catch (error: unknown) {
             const err = error as { response?: { data?: { message?: string } } };
-            notify?.({ type: "error", message: err.response?.data?.message || "Failed to update country" });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.updateFailed") });
         } finally {
             setSaving(false);
         }
     };
+
     const handleModalClose = () => {
         setEditModalOpen(false);
         setEditingCountry(null);
         form.resetFields();
     };
+
     const columns = [
         {
-            title: "Flag",
+            title: t("table.flag"),
             key: "flag",
             width: 80,
             align: "center" as const,
@@ -137,20 +147,20 @@ export const CountryList = () => {
             ),
         },
         {
-            title: "Name",
+            title: t("table.name"),
             dataIndex: "name",
             key: "name",
             render: (value: string) => <Text strong>{value}</Text>,
         },
         {
-            title: "Code",
+            title: t("table.code"),
             dataIndex: "code",
             key: "code",
             width: 100,
             render: (value: string) => <Text code>{value}</Text>,
         },
         {
-            title: "Image",
+            title: t("table.image"),
             key: "image",
             width: 80,
             render: (_: unknown, record: ICountry) => (
@@ -167,7 +177,7 @@ export const CountryList = () => {
             ),
         },
         {
-            title: "Updated",
+            title: t("table.updated"),
             dataIndex: "updatedAt",
             key: "updatedAt",
             width: 140,
@@ -175,11 +185,11 @@ export const CountryList = () => {
                 value ? <DateField value={value} format="MMM DD, YYYY" /> : <Text type="secondary">-</Text>,
         },
         {
-            title: "Actions",
+            title: t("table.actions"),
             key: "actions",
             width: 80,
             render: (_: unknown, record: ICountry) => (
-                <Tooltip title="Edit Country">
+                <Tooltip title={t("tooltips.edit")}>
                     <Button
                         size="small"
                         icon={<EditOutlined />}
@@ -189,13 +199,14 @@ export const CountryList = () => {
             ),
         },
     ];
+
     return (
         <List title="Countries" headerButtons={<></>}>
             <Card size="small" style={{ marginBottom: 16 }}>
                 <Row gutter={[16, 12]} align="middle">
                     <Col flex="auto">
                         <Input
-                            placeholder="Search by name or code..."
+                            placeholder={t("form.searchPlaceholder")}
                             prefix={<SearchOutlined />}
                             value={search}
                             onChange={(e) => setSearch(e.target.value)}
@@ -209,7 +220,7 @@ export const CountryList = () => {
                             <Button type="primary" icon={<SearchOutlined />} onClick={handleSearch}>
                                 Search
                             </Button>
-                            <Tooltip title="Refresh">
+                            <Tooltip title={t("tooltips.refresh")}>
                                 <Button
                                     icon={<ReloadOutlined spin={loading} />}
                                     onClick={() => fetchData(pagination.page, search)}
@@ -237,11 +248,11 @@ export const CountryList = () => {
                 />
             </Card>
             <Modal
-                title={`Edit Country: ${editingCountry?.name || ""}`}
+                title={`${t("modal.title")}: ${editingCountry?.name || ""}`}
                 open={editModalOpen}
                 onCancel={handleModalClose}
                 onOk={handleSave}
-                okText="Save Changes"
+                okText={t("buttons.saveChanges")}
                 confirmLoading={saving}
                 destroyOnClose
             >
@@ -249,7 +260,7 @@ export const CountryList = () => {
                     <Form.Item
                         name="name"
                         label="Name"
-                        rules={[{ required: true, message: "Name is required" }]}
+                        rules={[{ required: true, message: t("validation.nameRequired") }]}
                     >
                         <Input placeholder="Country name" />
                     </Form.Item>
@@ -257,8 +268,8 @@ export const CountryList = () => {
                         name="code"
                         label="Code"
                         rules={[
-                            { required: true, message: "Code is required" },
-                            { max: 3, message: "Code must be 2-3 characters" },
+                            { required: true, message: t("validation.codeRequired") },
+                            { max: 3, message: t("validation.codeFormat") },
                         ]}
                     >
                         <Input placeholder="US, EG, etc." style={{ textTransform: "uppercase" }} />
@@ -266,7 +277,7 @@ export const CountryList = () => {
                     <Form.Item
                         name="emoji"
                         label="Flag Emoji"
-                        rules={[{ required: true, message: "Emoji is required" }]}
+                        rules={[{ required: true, message: t("validation.emojiRequired") }]}
                     >
                         <Input placeholder="🇺🇸" style={{ fontSize: 20 }} />
                     </Form.Item>

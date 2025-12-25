@@ -1,35 +1,80 @@
 {
-    "title": "الغرف",
-    "list": "قائمة الغرف",
-    "details": "تفاصيل الغرفة",
-    "fields": {
-        "id": "معرف الغرفة",
-        "name": "اسم الغرفة",
-        "type": "النوع",
-        "memberCount": "الأعضاء",
-        "messageCount": "الرسائل",
-        "createdBy": "أنشئت بواسطة",
-        "createdAt": "تاريخ الإنشاء",
-        "lastMessage": "آخر رسالة",
-        "image": "صورة الغرفة",
-        "description": "الوصف"
-    },
-    "types": {
-        "single": "فردي",
-        "group": "مجموعة",
-        "broadcast": "قائمة بث",
-        "channel": "قناة"
-    },
-    "filters": {
-        "all": "جميع الغرف",
-        "single": "المحادثات الفردية",
-        "group": "المجموعات",
-        "broadcast": "قوائم البث",
-        "channel": "القنوات"
-    },
-    "actions": {
-        "delete": "حذف الغرفة",
-        "viewMembers": "عرض الأعضاء",
-        "viewMessages": "عرض الرسائل"
-    }
+  "types": {
+    "group": "المجموعات",
+    "broadcast": "البث",
+    "single": "المحادثات"
+  },
+  "labels": {
+    "roomDetails": "تفاصيل الغرفة",
+    "groupDetails": "تفاصيل المجموعة",
+    "broadcastDetails": "تفاصيل البث",
+    "chatDetails": "تفاصيل المحادثة",
+    "directChat": "دردشة مباشرة",
+    "untitled": "بدون عنوان",
+    "description": "الوصف",
+    "roomId": "معرف الغرفة",
+    "broadcastId": "معرف البث",
+    "chatId": "معرف المحادثة",
+    "type": "النوع",
+    "createdBy": "أنشأه",
+    "membersCount": "عدد الأعضاء",
+    "recipientsCount": "عدد المتلقين",
+    "createdAt": "تاريخ الإنشاء",
+    "updatedAt": "تاريخ التحديث",
+    "roomInformation": "معلومات الغرفة",
+    "broadcastInformation": "معلومات البث",
+    "chatInformation": "معلومات المحادثة",
+    "thisRoomDeletedOn": "تم حذف هذه الغرفة في {{date}}",
+    "owner": "المالك",
+    "member": "عضو",
+    "recipient": "متلقي",
+    "userDataNotAvailable": "بيانات المستخدم غير متاحة",
+    "unknownUser": "مستخدم غير معروف",
+    "private": "خاص"
+  },
+  "table": {
+    "members": "الأعضاء",
+    "recipients": "المتلقون",
+    "messages": "الرسائل",
+    "lastActive": "آخر نشاط",
+    "participant1": "المشارك 1",
+    "participant2": "المشارك 2",
+    "user": "المستخدم",
+    "role": "الدور",
+    "joined": "انضم",
+    "lastSeen": "آخر ظهور",
+    "actions": "الإجراءات",
+    "status": "الحالة",
+    "lastMessage": "آخر رسالة"
+  },
+  "status": {
+    "deleted": "محذوف",
+    "active": "نشط"
+  },
+  "actions": {
+    "removeMembers": "إزالة الأعضاء",
+    "viewUser": "عرض المستخدم",
+    "viewProfile": "عرض الملف الشخصي",
+    "restore": "استعادة",
+    "delete": "حذف",
+    "cancel": "إلغاء"
+  },
+  "confirmations": {
+    "restoreRoom": "استعادة الغرفة",
+    "deleteRoom": "حذف الغرفة",
+    "restoreRoomConfirm": "هل أنت متأكد من رغبتك في استعادة هذه الغرفة؟",
+    "softDeleteRoom": "سيتم حذف هذه الغرفة بشكل لين ويمكن استعادتها لاحقًا.",
+    "removeFromGroup": "إزالة {{count}} عضو(أعضاء) من المجموعة؟",
+    "removeFromGroupDesc": "هل أنت متأكد من رغبتك في إزالة {{count}} من الأعضاء المحددين من هذه المجموعة؟"
+  },
+  "placeholders": {
+    "searchMembers": "البحث عن الأعضاء...",
+    "searchRecipients": "البحث عن المتلقين..."
+  },
+  "messages": {
+    "roomRestored": "تم استعادة الغرفة",
+    "roomDeleted": "تم حذف الغرفة",
+    "membersRemoved": "تم إزالة {{count}} عضو(أعضاء) من المجموعة",
+    "operationFailed": "فشل العملية"
+  }
 }

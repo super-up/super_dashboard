@@ -1,13 +1,16 @@
 {
-    "title": "Super Up Admin",
-    "subtitle": "Sign in to access the admin panel",
-    "email": "Email",
-    "password": "Password",
-    "emailPlaceholder": "admin@example.com",
-    "passwordPlaceholder": "Enter your password",
-    "signIn": "Sign In",
-    "signingIn": "Signing in...",
-    "emailRequired": "Please enter your email",
-    "emailInvalid": "Please enter a valid email",
-    "passwordRequired": "Please enter your password"
+  "title": "Admin Login",
+  "subtitle": "Sign in to your Super Up Admin account",
+  "email": "Email Address",
+  "emailRequired": "Please enter your email",
+  "emailInvalid": "Please enter a valid email",
+  "emailPlaceholder": "admin@example.com",
+  "password": "Password",
+  "passwordRequired": "Please enter your password",
+  "passwordPlaceholder": "Enter your password",
+  "rememberMe": "Remember me",
+  "signIn": "Sign In",
+  "signingIn": "Signing in...",
+  "demoMode": "Demo Mode",
+  "demoModeDescription": "You are viewing a demo. Some features are disabled."
 }

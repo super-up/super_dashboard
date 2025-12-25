@@ -1,13 +1,19 @@
 import { useLogin } from "@refinedev/core";
-import { Form, Input, Button, Card, Typography, theme } from "antd";
+import { Form, Input, Button, Card, Typography, theme, Checkbox, Alert } from "antd";
 import { LockOutlined, UserOutlined, DashboardOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
+import { DEMO_MODE } from "../../config/api";
 
 const { Title, Text } = Typography;
+const REMEMBER_KEY = "admin_remember";
+const SAVED_EMAIL_KEY = "admin_saved_email";
+const SAVED_PASSWORD_KEY = "admin_saved_password";
 
 interface LoginFormValues {
     email: string;
     password: string;
+    remember?: boolean;
 }
 
 export const Login = () => {
@@ -16,8 +22,29 @@ export const Login = () => {
     const { t: tc } = useTranslation("common");
     const { mutate: login, isPending } = useLogin<LoginFormValues>();
     const [form] = Form.useForm();
+    useEffect(() => {
+        const remembered = localStorage.getItem(REMEMBER_KEY) === "true";
+        if (remembered) {
+            const savedEmail = localStorage.getItem(SAVED_EMAIL_KEY) || "";
+            const savedPassword = localStorage.getItem(SAVED_PASSWORD_KEY) || "";
+            form.setFieldsValue({
+                email: savedEmail,
+                password: savedPassword,
+                remember: true,
+            });
+        }
+    }, [form]);
     const handleSubmit = (values: LoginFormValues) => {
-        login(values);
+        if (values.remember) {
+            localStorage.setItem(REMEMBER_KEY, "true");
+            localStorage.setItem(SAVED_EMAIL_KEY, values.email);
+            localStorage.setItem(SAVED_PASSWORD_KEY, values.password);
+        } else {
+            localStorage.removeItem(REMEMBER_KEY);
+            localStorage.removeItem(SAVED_EMAIL_KEY);
+            localStorage.removeItem(SAVED_PASSWORD_KEY);
+        }
+        login({ email: values.email, password: values.password });
     };
     return (
         <div
@@ -69,6 +96,15 @@ export const Login = () => {
                     body: { padding: 40 },
                 }}
             >
+                {DEMO_MODE && (
+                    <Alert
+                        message={t("demoMode")}
+                        description={t("demoModeDescription")}
+                        type="info"
+                        showIcon
+                        style={{ marginBottom: 24 }}
+                    />
+                )}
                 <div
                     style={{
                         display: "flex",
@@ -116,10 +152,6 @@ export const Login = () => {
                     form={form}
                     layout="vertical"
                     onFinish={handleSubmit}
-                    initialValues={{
-                        email: "admin@admin.com",
-                        password: "",
-                    }}
                     requiredMark={false}
                 >
                     <Form.Item
@@ -161,7 +193,10 @@ export const Login = () => {
                             }}
                         />
                     </Form.Item>
-                    <Form.Item style={{ marginBottom: 0, marginTop: 8 }}>
+                    <Form.Item name="remember" valuePropName="checked" style={{ marginBottom: 16 }}>
+                        <Checkbox>{t("rememberMe")}</Checkbox>
+                    </Form.Item>
+                    <Form.Item style={{ marginBottom: 0 }}>
                         <Button
                             type="primary"
                             htmlType="submit"

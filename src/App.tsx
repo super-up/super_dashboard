@@ -9,6 +9,8 @@ import routerProvider, {
 } from "@refinedev/react-router";
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import { ConfigProvider, App as AntdApp, theme, Layout, Space, Spin } from "antd";
+import ar_EG from "antd/locale/ar_EG";
+import en_US from "antd/locale/en_US";
 import {
     DashboardOutlined,
     UserOutlined,
@@ -96,6 +98,7 @@ const AppContent = () => {
     return (
         <ConfigProvider
             direction={isRTL ? "rtl" : "ltr"}
+            locale={isRTL ? ar_EG : en_US}
             theme={{
                 ...RefineThemes.Blue,
                 algorithm: isDark ? theme.darkAlgorithm : theme.defaultAlgorithm,

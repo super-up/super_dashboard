@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { useCustom, useNotification } from "@refinedev/core";
 import {
     Modal,
@@ -40,18 +41,8 @@ interface EditUserModalProps {
     onSuccess: () => void;
 }
 
-const banDurationOptions = [
-    { label: "1 Day", value: 1 },
-    { label: "3 Days", value: 3 },
-    { label: "1 Week", value: 7 },
-    { label: "1 Month", value: 30 },
-    { label: "3 Months", value: 90 },
-    { label: "1 Year", value: 365 },
-    { label: "Permanent", value: 36500 },
-    { label: "Custom Date", value: -1 },
-];
-
 export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalProps) => {
+    const { t } = useTranslation("users");
     const [form] = Form.useForm();
     const { open: notify } = useNotification();
     const [loading, setLoading] = useState(false);
@@ -59,6 +50,18 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
     const [showCustomDate, setShowCustomDate] = useState(false);
     const [isBanned, setIsBanned] = useState(false);
     const [isVerified, setIsVerified] = useState(false);
+
+    const banDurationOptions = [
+        { label: t("banDurations.1h"), value: 1 },
+        { label: t("banDurations.3d"), value: 3 },
+        { label: t("banDurations.7d"), value: 7 },
+        { label: t("banDurations.1m"), value: 30 },
+        { label: t("banDurations.3m"), value: 90 },
+        { label: t("banDurations.1y"), value: 365 },
+        { label: t("banDurations.permanent"), value: 36500 },
+        { label: t("banDurations.customDate"), value: -1 },
+    ];
+
     useEffect(() => {
         if (user && open) {
             const banned = isUserBanned(user);
@@ -72,6 +75,7 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
             });
         }
     }, [user, open, form]);
+
     const handleUpdate = async (values: { fullName?: string; bio?: string; registerStatus?: RegisterStatus }) => {
         if (!user) return;
         setLoading(true);
@@ -91,17 +95,18 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
                     userIds: [user._id],
                     updates,
                 });
-                notify?.({ type: "success", message: "User profile updated successfully" });
+                notify?.({ type: "success", message: t("messages.profileUpdatedSuccess") });
             }
             onSuccess();
             onClose();
         } catch (error: unknown) {
             const err = error as { response?: { data?: { message?: string } } };
-            notify?.({ type: "error", message: err.response?.data?.message || "Failed to update user" });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.profileUpdateFailed") });
         } finally {
             setLoading(false);
         }
     };
+
     const handleBanToggle = async () => {
         if (!user) return;
         setLoading(true);
@@ -117,17 +122,18 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
             });
             notify?.({
                 type: "success",
-                message: isBanned ? "User unbanned successfully" : "User banned successfully",
+                message: isBanned ? t("messages.userUnbannedSuccess") : t("messages.userBannedSuccess"),
             });
             setIsBanned(!isBanned);
             onSuccess();
         } catch (error: unknown) {
             const err = error as { response?: { data?: { message?: string } } };
-            notify?.({ type: "error", message: err.response?.data?.message || "Failed to update ban status" });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.banStatusFailed") });
         } finally {
             setLoading(false);
         }
     };
+
     const handleBanWithCustomDate = async (date: dayjs.Dayjs | null) => {
         if (!user || !date) return;
         setLoading(true);
@@ -136,17 +142,18 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
                 userIds: [user._id],
                 updates: { banTo: date.toISOString() },
             });
-            notify?.({ type: "success", message: "User banned successfully" });
+            notify?.({ type: "success", message: t("messages.banUserSuccess") });
             setIsBanned(true);
             setShowCustomDate(false);
             onSuccess();
         } catch (error: unknown) {
             const err = error as { response?: { data?: { message?: string } } };
-            notify?.({ type: "error", message: err.response?.data?.message || "Failed to ban user" });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.banUserFailed") });
         } finally {
             setLoading(false);
         }
     };
+
     const handleVerifyToggle = async () => {
         if (!user) return;
         setLoading(true);
@@ -157,17 +164,18 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
             });
             notify?.({
                 type: "success",
-                message: isVerified ? "Verification badge removed" : "User verified successfully",
+                message: isVerified ? t("messages.verificationBadgeRemoved") : t("messages.verificationBadgeAdded"),
             });
             setIsVerified(!isVerified);
             onSuccess();
         } catch (error: unknown) {
             const err = error as { response?: { data?: { message?: string } } };
-            notify?.({ type: "error", message: err.response?.data?.message || "Failed to update verification" });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.verificationFailed") });
         } finally {
             setLoading(false);
         }
     };
+
     const handleDelete = async () => {
         if (!user) return;
         setLoading(true);
@@ -179,17 +187,18 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
             });
             notify?.({
                 type: "success",
-                message: isDeleted ? "User restored successfully" : "User deleted successfully",
+                message: isDeleted ? t("messages.userRestoredSuccess") : t("messages.userDeletedSuccess"),
             });
             onSuccess();
             onClose();
         } catch (error: unknown) {
             const err = error as { response?: { data?: { message?: string } } };
-            notify?.({ type: "error", message: err.response?.data?.message || "Failed to update user" });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.updateUserFailed") });
         } finally {
             setLoading(false);
         }
     };
+
     const handleLogoutAll = async () => {
         if (!user) return;
         setLoading(true);
@@ -198,18 +207,20 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
             const devicesRemoved = response.data?.data?.devicesRemoved || 0;
             notify?.({
                 type: "success",
-                message: `Logged out from ${devicesRemoved} device(s) successfully`,
+                message: t("messages.logoutDevicesSuccess", { count: devicesRemoved }),
             });
             onSuccess();
         } catch (error: unknown) {
             const err = error as { response?: { data?: { message?: string } } };
-            notify?.({ type: "error", message: err.response?.data?.message || "Failed to logout devices" });
+            notify?.({ type: "error", message: err.response?.data?.message || t("messages.logoutDevicesFailed") });
         } finally {
             setLoading(false);
         }
     };
+
     if (!user) return null;
     const deleted = isUserDeleted(user);
+
     return (
         <Modal
             title={null}
@@ -238,7 +249,7 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
                     <Text type="secondary">{user.fullPhone}</Text>
                     {deleted && (
                         <Alert
-                            message="This user has been deleted"
+                            message={t("form.deleted")}
                             type="warning"
                             showIcon
                             style={{ marginTop: 12 }}
@@ -246,14 +257,16 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
                     )}
                     {isBanned && (
                         <Alert
-                            message={`User banned until ${user.banTo ? dayjs(user.banTo).format("MMM DD, YYYY") : "Unknown"}`}
+                            message={t("messages.bannedUntil", {
+                                date: user.banTo ? dayjs(user.banTo).format("MMM DD, YYYY") : "Unknown",
+                            })}
                             type="error"
                             showIcon
                             style={{ marginTop: 12 }}
                         />
                     )}
                 </div>
-                <Divider>Profile Information</Divider>
+                <Divider>{t("modal.profileSection")}</Divider>
                 <Form
                     form={form}
                     layout="vertical"
@@ -261,49 +274,49 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
                 >
                     <Form.Item
                         name="fullName"
-                        label="Full Name"
-                        rules={[{ required: true, message: "Name is required" }]}
+                        label={t("form.fullName")}
+                        rules={[{ required: true, message: t("validation.fullNameRequired") }]}
                     >
-                        <Input placeholder="Enter full name" />
+                        <Input placeholder={t("placeholders.enterFullName")} />
                     </Form.Item>
-                    <Form.Item name="bio" label="Bio">
-                        <TextArea rows={3} placeholder="Enter bio" />
+                    <Form.Item name="bio" label={t("form.bio")}>
+                        <TextArea rows={3} placeholder={t("placeholders.enterBio")} />
                     </Form.Item>
-                    <Form.Item name="registerStatus" label="Registration Status">
+                    <Form.Item name="registerStatus" label={t("form.registrationStatus")}>
                         <Select>
-                            <Select.Option value={RegisterStatus.accepted}>Accepted</Select.Option>
-                            <Select.Option value={RegisterStatus.pending}>Pending</Select.Option>
-                            <Select.Option value={RegisterStatus.rejected}>Rejected</Select.Option>
+                            <Select.Option value={RegisterStatus.accepted}>{t("options.accepted")}</Select.Option>
+                            <Select.Option value={RegisterStatus.pending}>{t("options.pending")}</Select.Option>
+                            <Select.Option value={RegisterStatus.rejected}>{t("options.rejected")}</Select.Option>
                         </Select>
                     </Form.Item>
                     <Button type="primary" htmlType="submit" block>
-                        Save Profile Changes
+                        {t("form.saveProfileChanges")}
                     </Button>
                 </Form>
-                <Divider>Verification</Divider>
+                <Divider>{t("modal.verificationSection")}</Divider>
                 <Space style={{ width: "100%", justifyContent: "space-between" }}>
                     <Space>
                         <SafetyCertificateOutlined style={{ fontSize: 20 }} />
                         <div>
-                            <Text strong>Verification Badge</Text>
+                            <Text strong>{t("form.verificationBadge")}</Text>
                             <br />
                             <Text type="secondary" style={{ fontSize: 12 }}>
-                                {isVerified ? "User is verified" : "User is not verified"}
+                                {isVerified ? t("badges.isVerified") : t("badges.isNotVerified")}
                             </Text>
                         </div>
                     </Space>
                     <Switch
                         checked={isVerified}
                         onChange={handleVerifyToggle}
-                        checkedChildren="Verified"
-                        unCheckedChildren="Not Verified"
+                        checkedChildren={t("badges.verified")}
+                        unCheckedChildren={t("badges.notVerified")}
                     />
                 </Space>
-                <Divider>Ban Management</Divider>
+                <Divider>{t("modal.banSection")}</Divider>
                 {!isBanned ? (
                     <Space direction="vertical" style={{ width: "100%" }}>
                         <Select
-                            placeholder="Select ban duration"
+                            placeholder={t("form.banDuration")}
                             style={{ width: "100%" }}
                             onChange={(value) => {
                                 setBanDuration(value);
@@ -317,49 +330,49 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
                                 showTime
                                 disabledDate={(current) => current && current < dayjs().startOf("day")}
                                 onChange={handleBanWithCustomDate}
-                                placeholder="Select ban end date"
+                                placeholder={t("form.banEndDate")}
                             />
                         )}
                         {!showCustomDate && banDuration && banDuration !== -1 && (
                             <Popconfirm
-                                title="Ban User"
+                                title={t("confirmations.banUserTitle")}
                                 description={`Are you sure you want to ban this user for ${banDurationOptions.find((o) => o.value === banDuration)?.label}?`}
                                 onConfirm={handleBanToggle}
-                                okText="Yes, Ban"
-                                cancelText="Cancel"
+                                okText={t("confirmations.banButton")}
+                                cancelText={t("common:actions.cancel")}
                                 okButtonProps={{ danger: true }}
                             >
                                 <Button danger icon={<StopOutlined />} block>
-                                    Ban User
+                                    {t("buttons.banUser")}
                                 </Button>
                             </Popconfirm>
                         )}
                     </Space>
                 ) : (
                     <Popconfirm
-                        title="Unban User"
-                        description="Are you sure you want to unban this user?"
+                        title={t("confirmations.unbannedTitle")}
+                        description={t("confirmations.unbannedDesc")}
                         onConfirm={handleBanToggle}
-                        okText="Yes, Unban"
-                        cancelText="Cancel"
+                        okText={t("confirmations.unbannedButton")}
+                        cancelText={t("common:actions.cancel")}
                     >
                         <Button type="primary" icon={<StopOutlined />} block>
-                            Unban User
+                            {t("buttons.unbanUser")}
                         </Button>
                     </Popconfirm>
                 )}
-                <Divider>Danger Zone</Divider>
+                <Divider>{t("modal.dangerZone")}</Divider>
                 <Space direction="vertical" style={{ width: "100%" }}>
                     <Popconfirm
-                        title={deleted ? "Restore User" : "Delete User"}
+                        title={deleted ? t("confirmations.restoreTitle") : t("confirmations.deleteTitle")}
                         description={
                             deleted
-                                ? "Are you sure you want to restore this user?"
-                                : "This will soft-delete the user. Are you sure?"
+                                ? t("confirmations.restoreDesc")
+                                : t("confirmations.deleteDesc")
                         }
                         onConfirm={handleDelete}
-                        okText={deleted ? "Yes, Restore" : "Yes, Delete"}
-                        cancelText="Cancel"
+                        okText={deleted ? t("confirmations.restoreButton") : t("confirmations.deleteButton")}
+                        cancelText={t("common:actions.cancel")}
                         okButtonProps={{ danger: !deleted }}
                         icon={<ExclamationCircleOutlined style={{ color: deleted ? "#52c41a" : "#ff4d4f" }} />}
                     >
@@ -369,19 +382,19 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
                             icon={<DeleteOutlined />}
                             block
                         >
-                            {deleted ? "Restore User" : "Delete User"}
+                            {deleted ? t("buttons.restoreUser") : t("buttons.deleteUser")}
                         </Button>
                     </Popconfirm>
                     <Popconfirm
-                        title="Logout All Devices"
-                        description="This will force logout the user from all devices. Are you sure?"
+                        title={t("confirmations.logoutAllTitle")}
+                        description={t("confirmations.logoutAllDesc")}
                         onConfirm={handleLogoutAll}
-                        okText="Yes, Logout All"
-                        cancelText="Cancel"
+                        okText={t("confirmations.logoutAllButton")}
+                        cancelText={t("common:actions.cancel")}
                         okButtonProps={{ danger: true }}
                     >
                         <Button icon={<LogoutOutlined />} block>
-                            Logout All Devices
+                            {t("buttons.logoutAllDevices")}
                         </Button>
                     </Popconfirm>
                 </Space>

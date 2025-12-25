@@ -1,52 +1,70 @@
 {
-    "title": "الأجهزة",
-    "tabs": {
-        "all": "جميع الأجهزة",
-        "android": "أندرويد",
-        "ios": "آي أو إس",
-        "web": "الويب",
-        "desktop": "سطح المكتب"
-    },
-    "columns": {
-        "user": "المستخدم",
-        "platform": "المنصة",
-        "appVersion": "إصدار التطبيق",
-        "pushToken": "رمز الإشعارات",
-        "status": "الحالة",
-        "lastActive": "آخر نشاط",
-        "created": "تاريخ الإنشاء"
-    },
-    "placeholders": {
-        "searchByUserOrPhone": "البحث بالاسم أو الهاتف..."
-    },
-    "labels": {
-        "deviceInformation": "معلومات الجهاز",
-        "deviceId": "معرف الجهاز",
-        "deviceModel": "طراز الجهاز",
-        "osVersion": "إصدار نظام التشغيل",
-        "deviceOwner": "مالك الجهاز",
-        "pushNotification": "إشعارات الدفع",
-        "pushStatus": "حالة الإشعارات",
-        "pushToken": "رمز الإشعارات",
-        "activityDetails": "تفاصيل النشاط",
-        "totalVisits": "إجمالي الزيارات",
-        "noPushToken": "لا يوجد رمز إشعارات مسجل لهذا الجهاز. ربما رفض المستخدم أذونات الإشعارات.",
-        "never": "أبداً"
-    },
-    "actions": {
-        "revokeSession": "إلغاء الجلسة",
-        "viewDetails": "عرض التفاصيل",
-        "deleteDevice": "حذف (إلغاء الجلسة)"
-    },
-    "confirmations": {
-        "revokeSession": "إلغاء جلسة هذا الجهاز؟",
-        "revokeDescription": "سيؤدي هذا إلى تسجيل خروج المستخدم من هذا الجهاز.",
-        "deleteDevice": "حذف هذا الجهاز؟ سيؤدي هذا إلى إلغاء الجلسة."
-    },
-    "messages": {
-        "deviceDeleted": "تم حذف الجهاز بنجاح",
-        "sessionRevoked": "تم إلغاء جلسة الجهاز بنجاح",
-        "failedToDelete": "فشل حذف الجهاز",
-        "failedToRevoke": "فشل إلغاء جلسة الجهاز"
-    }
+  "title": "الأجهزة",
+  "page": {
+    "title": "الأجهزة"
+  },
+  "columns": {
+    "user": "المستخدم",
+    "platform": "المنصة",
+    "appVersion": "إصدار التطبيق",
+    "pushToken": "رمز الإشعارات",
+    "status": "الحالة",
+    "lastActive": "آخر نشاط",
+    "created": "تاريخ الإنشاء"
+  },
+  "labels": {
+    "never": "أبداً",
+    "deviceOwner": "مالك الجهاز",
+    "deviceInformation": "معلومات الجهاز",
+    "deviceId": "معرف الجهاز",
+    "deviceModel": "طراز الجهاز",
+    "osVersion": "إصدار نظام التشغيل",
+    "pushNotification": "إشعارات الدفع",
+    "pushStatus": "حالة الإشعارات",
+    "pushToken": "رمز الإشعارات",
+    "noPushToken": "لا يوجد رمز إشعارات مسجل لهذا الجهاز",
+    "activityDetails": "تفاصيل النشاط",
+    "totalVisits": "إجمالي الزيارات"
+  },
+  "actions": {
+    "viewDetails": "عرض التفاصيل",
+    "deleteDevice": "حذف الجهاز",
+    "revokeSession": "إلغاء الجلسة"
+  },
+  "confirmations": {
+    "deleteDevice": "هل أنت متأكد من حذف هذا الجهاز؟",
+    "revokeSession": "إلغاء الجلسة",
+    "revokeDescription": "سيتم تسجيل خروج المستخدم من هذا الجهاز وإزالته من النظام."
+  },
+  "tabs": {
+    "all": "الكل",
+    "android": "أندرويد",
+    "ios": "آي أو إس",
+    "web": "الويب",
+    "desktop": "سطح المكتب"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "البحث باسم المستخدم أو رقم الهاتف..."
+  },
+  "table": {
+    "device": "الجهاز",
+    "user": "المستخدم",
+    "platform": "المنصة",
+    "version": "الإصدار",
+    "status": "الحالة",
+    "lastSeen": "آخر ظهور",
+    "push": "الإشعارات",
+    "actions": "الإجراءات"
+  },
+  "tooltips": {
+    "edit": "تعديل",
+    "delete": "حذف"
+  },
+  "messages": {
+    "fetchFailed": "فشل جلب الأجهزة ({{status}})",
+    "deviceDeleted": "تم حذف الجهاز بنجاح",
+    "failedToDelete": "فشل حذف الجهاز",
+    "sessionRevoked": "تم إلغاء الجلسة بنجاح",
+    "failedToRevoke": "فشل إلغاء الجلسة"
+  }
 }

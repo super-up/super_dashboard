@@ -42,7 +42,8 @@
         "removeSticker": "Remove Sticker",
         "view": "View",
         "edit": "Edit",
-        "delete": "Delete"
+        "delete": "Delete",
+        "remove": "Remove"
     },
     "show": {
         "packInformation": "Pack Information",
@@ -65,6 +66,7 @@
         "authorLabel": "Author",
         "authorPlaceholder": "Enter author name",
         "animatedPack": "Animated Pack",
+        "selectThumbnail": "Select Thumbnail",
         "selectImages": "Select Images (up to 50)",
         "uploadHint": "Click or drag images to upload",
         "emojis": "Emojis (comma-separated)",

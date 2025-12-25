@@ -1,5 +1,14 @@
 {
     "appName": "Super Up Admin",
+    "confirm": "Confirm",
+    "common": {
+        "yes": "Yes",
+        "no": "No",
+        "ok": "OK",
+        "warning": "Warning",
+        "error": "Error",
+        "success": "Success"
+    },
     "actions": {
         "save": "Save",
         "cancel": "Cancel",
@@ -219,6 +228,8 @@
         "searchGroups": "Search groups...",
         "searchBroadcasts": "Search broadcasts...",
         "searchSingles": "Search singles...",
+        "searchMembers": "Search members...",
+        "searchRecipients": "Search recipients...",
         "senderUserId": "Sender User ID",
         "roomId": "Room ID",
         "registeredFrom": "Registered From",
@@ -275,6 +286,7 @@
         "removeFromGroup": "Remove {{count}} member(s) from this group?"
     },
     "labels": {
+        "until": "Until",
         "clickToCopyId": "Click to copy ID",
         "clickToViewUser": "Click to view user",
         "hasMedia": "Has Media",
