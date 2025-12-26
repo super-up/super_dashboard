@@ -1,0 +1,49 @@
+{
+    "title": "Ekspor Data",
+    "subtitle": "Ekspor data aplikasi dalam format JSON atau CSV",
+    "fields": {
+        "dateRange": "Rentang Tanggal (opsional)",
+        "format": "Format",
+        "limit": "Batas",
+        "maxLimit": "Maks: {{max}}"
+    },
+    "actions": {
+        "export": "Ekspor {{label}}"
+    },
+    "types": {
+        "users": {
+            "label": "Pengguna",
+            "description": "Ekspor profil pengguna dan data akun"
+        },
+        "messages": {
+            "label": "Pesan",
+            "description": "Ekspor pesan chat dan konten"
+        },
+        "reports": {
+            "label": "Laporan",
+            "description": "Ekspor laporan pengguna dan keluhan"
+        },
+        "audit-logs": {
+            "label": "Log Audit",
+            "description": "Ekspor log aktivitas admin"
+        },
+        "stories": {
+            "label": "Story",
+            "description": "Ekspor metadata story pengguna"
+        },
+        "calls": {
+            "label": "Panggilan",
+            "description": "Ekspor riwayat panggilan dan metadata"
+        },
+        "analytics": {
+            "label": "Analitik",
+            "description": "Ekspor laporan analitik agregat"
+        }
+    },
+    "messages": {
+        "exportSuccess": "Ekspor Berhasil",
+        "exportSuccessDesc": "Data {{label}} berhasil diekspor sebagai {{format}}.",
+        "exportFailed": "Ekspor Gagal",
+        "exportFailedDesc": "Gagal mengekspor data {{label}}. Silakan coba lagi."
+    }
+}

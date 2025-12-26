@@ -1,0 +1,16 @@
+{
+  "title": "Inicio de Sesión de Administrador",
+  "subtitle": "Inicie sesión en su cuenta de Super Up Admin",
+  "email": "Dirección de Correo Electrónico",
+  "emailRequired": "Por favor ingrese su correo electrónico",
+  "emailInvalid": "Por favor ingrese un correo electrónico válido",
+  "emailPlaceholder": "admin@ejemplo.com",
+  "password": "Contraseña",
+  "passwordRequired": "Por favor ingrese su contraseña",
+  "passwordPlaceholder": "Ingrese su contraseña",
+  "rememberMe": "Recordarme",
+  "signIn": "Iniciar Sesión",
+  "signingIn": "Iniciando sesión...",
+  "demoMode": "Modo Demo",
+  "demoModeDescription": "Está viendo una demostración. Algunas funciones están deshabilitadas."
+}

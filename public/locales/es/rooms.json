@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "Grupos",
+    "broadcast": "Difusión",
+    "single": "Chats"
+  },
+  "labels": {
+    "roomDetails": "Detalles de la Sala",
+    "groupDetails": "Detalles del Grupo",
+    "broadcastDetails": "Detalles de Difusión",
+    "chatDetails": "Detalles del Chat",
+    "directChat": "Chat Directo",
+    "untitled": "Sin título",
+    "description": "Descripción",
+    "roomId": "ID de Sala",
+    "broadcastId": "ID de Difusión",
+    "chatId": "ID de Chat",
+    "type": "Tipo",
+    "createdBy": "Creado Por",
+    "membersCount": "Cantidad de Miembros",
+    "recipientsCount": "Cantidad de Destinatarios",
+    "createdAt": "Creado el",
+    "updatedAt": "Actualizado el",
+    "roomInformation": "Información de la Sala",
+    "broadcastInformation": "Información de Difusión",
+    "chatInformation": "Información del Chat",
+    "thisRoomDeletedOn": "Esta sala fue eliminada el {{date}}",
+    "owner": "Propietario",
+    "member": "Miembro",
+    "recipient": "Destinatario",
+    "userDataNotAvailable": "Datos del usuario no disponibles",
+    "unknownUser": "Usuario Desconocido",
+    "private": "Privado"
+  },
+  "table": {
+    "members": "Miembros",
+    "recipients": "Destinatarios",
+    "messages": "Mensajes",
+    "lastActive": "Última Actividad",
+    "participant1": "Participante 1",
+    "participant2": "Participante 2",
+    "user": "Usuario",
+    "role": "Rol",
+    "joined": "Unido",
+    "lastSeen": "Visto por Última Vez",
+    "actions": "Acciones",
+    "status": "Estado",
+    "lastMessage": "Último Mensaje"
+  },
+  "status": {
+    "deleted": "Eliminado",
+    "active": "Activo"
+  },
+  "actions": {
+    "removeMembers": "Eliminar Miembros",
+    "viewUser": "Ver Usuario",
+    "viewProfile": "Ver Perfil",
+    "restore": "Restaurar",
+    "delete": "Eliminar",
+    "cancel": "Cancelar"
+  },
+  "confirmations": {
+    "restoreRoom": "Restaurar Sala",
+    "deleteRoom": "Eliminar Sala",
+    "restoreRoomConfirm": "¿Está seguro de que desea restaurar esta sala?",
+    "softDeleteRoom": "Esta sala será eliminada temporalmente y puede restaurarse después.",
+    "removeFromGroup": "¿Eliminar {{count}} miembro(s) del grupo?",
+    "removeFromGroupDesc": "¿Está seguro de que desea eliminar {{count}} miembro(s) seleccionado(s) de este grupo?"
+  },
+  "placeholders": {
+    "searchMembers": "Buscar miembros...",
+    "searchRecipients": "Buscar destinatarios..."
+  },
+  "messages": {
+    "roomRestored": "Sala restaurada",
+    "roomDeleted": "Sala eliminada",
+    "membersRemoved": "{{count}} miembro(s) eliminado(s) del grupo",
+    "operationFailed": "Operación fallida"
+  }
+}

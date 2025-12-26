@@ -1,0 +1,12 @@
+{
+    "title": "审计日志",
+    "columns": {
+        "id": "ID",
+        "action": "操作",
+        "targetType": "目标类型",
+        "targetId": "目标ID",
+        "admin": "管理员",
+        "ipAddress": "IP地址",
+        "timestamp": "时间戳"
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Устройства",
+  "page": {
+    "title": "Устройства"
+  },
+  "columns": {
+    "user": "Пользователь",
+    "platform": "Платформа",
+    "appVersion": "Версия приложения",
+    "pushToken": "Push токен",
+    "status": "Статус",
+    "lastActive": "Последняя активность",
+    "created": "Создано"
+  },
+  "labels": {
+    "never": "Никогда",
+    "deviceOwner": "Владелец устройства",
+    "deviceInformation": "Информация об устройстве",
+    "deviceId": "ID устройства",
+    "deviceModel": "Модель устройства",
+    "osVersion": "Версия ОС",
+    "pushNotification": "Push уведомление",
+    "pushStatus": "Статус Push",
+    "pushToken": "Push токен",
+    "noPushToken": "Для этого устройства не зарегистрирован push токен",
+    "activityDetails": "Детали активности",
+    "totalVisits": "Всего посещений"
+  },
+  "actions": {
+    "viewDetails": "Просмотр деталей",
+    "deleteDevice": "Удалить устройство",
+    "revokeSession": "Отозвать сессию"
+  },
+  "confirmations": {
+    "deleteDevice": "Вы уверены, что хотите удалить это устройство?",
+    "revokeSession": "Отозвать сессию",
+    "revokeDescription": "Это выполнит выход пользователя с этого устройства и удалит его из системы."
+  },
+  "tabs": {
+    "all": "Все",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Десктоп"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "Поиск по имени пользователя или телефону..."
+  },
+  "table": {
+    "device": "Устройство",
+    "user": "Пользователь",
+    "platform": "Платформа",
+    "version": "Версия",
+    "status": "Статус",
+    "lastSeen": "Последний визит",
+    "push": "Push",
+    "actions": "Действия"
+  },
+  "tooltips": {
+    "edit": "Редактировать",
+    "delete": "Удалить"
+  },
+  "messages": {
+    "fetchFailed": "Не удалось получить устройства ({{status}})",
+    "deviceDeleted": "Устройство успешно удалено",
+    "failedToDelete": "Не удалось удалить устройство",
+    "sessionRevoked": "Сессия успешно отозвана",
+    "failedToRevoke": "Не удалось отозвать сессию"
+  }
+}

@@ -1,0 +1,87 @@
+{
+    "title": "アプリ設定",
+    "subtitle": "アプリケーション設定と機能フラグを管理",
+    "sections": {
+        "general": "一般設定",
+        "features": "機能切り替え",
+        "limits": "制限と制約",
+        "urls": "外部URL",
+        "icons": "デフォルトアイコン"
+    },
+    "subsections": {
+        "platformLogin": "プラットフォームログイン",
+        "chatFeatures": "チャット機能",
+        "appStoreLinks": "アプリストアリンク",
+        "roomEmojis": "ルーム絵文字",
+        "defaultImages": "デフォルト画像（ファイル名）"
+    },
+    "fields": {
+        "appName": "アプリ名",
+        "feedbackEmail": "フィードバックメール",
+        "userRegisterStatus": "ユーザー登録ポリシー",
+        "userRegisterStatusTooltip": "新規ユーザー登録の処理方法を制御",
+        "emailCodeExpiry": "メールコード有効期限（分）",
+        "emailCodeExpiryTooltip": "パスワードリセットコードの有効期間",
+        "enableAds": "広告を有効化",
+        "mobileLogin": "モバイルログイン",
+        "webLogin": "ウェブログイン",
+        "desktopLogin": "デスクトップログイン",
+        "messaging": "メッセージング",
+        "sendMedia": "メディア送信",
+        "voiceVideoCalls": "音声/ビデオ通話",
+        "createGroups": "グループ作成",
+        "createBroadcasts": "ブロードキャスト作成",
+        "maxGroupMembers": "最大グループメンバー数",
+        "maxGroupMembersTooltip": "グループで許可されるメンバーの最大数",
+        "maxBroadcastRecipients": "最大ブロードキャスト受信者数",
+        "maxBroadcastRecipientsTooltip": "ブロードキャストメッセージの最大受信者数",
+        "maxForwards": "最大転送回数",
+        "maxForwardsTooltip": "メッセージを転送できる最大回数",
+        "maxMediaSize": "最大メディアサイズ（MB）",
+        "maxMediaSizeTooltip": "メディアアップロードの最大ファイルサイズ",
+        "callTimeout": "通話タイムアウト（秒）",
+        "callTimeoutTooltip": "通話がタイムアウトするまでの呼び出し時間",
+        "privacyUrl": "プライバシーポリシーURL",
+        "webChatUrl": "ウェブチャットURL",
+        "appleStoreUrl": "Apple App Store URL",
+        "googlePlayUrl": "Google Play Store URL",
+        "macStoreUrl": "Mac App Store URL",
+        "windowsStoreUrl": "Windows Store URL",
+        "groupIcon": "グループアイコン",
+        "broadcastIcon": "ブロードキャストアイコン",
+        "orderIcon": "オーダーアイコン",
+        "defaultUserImage": "デフォルトユーザー画像",
+        "defaultGroupImage": "デフォルトグループ画像",
+        "defaultBroadcastImage": "デフォルトブロードキャスト画像",
+        "defaultSupportImage": "デフォルトサポート画像"
+    },
+    "actions": {
+        "refresh": "更新",
+        "resetToDefaults": "デフォルトにリセット",
+        "discardChanges": "変更を破棄",
+        "saveConfiguration": "設定を保存"
+    },
+    "confirmations": {
+        "resetTitle": "設定をリセット",
+        "resetDescription": "すべての設定をデフォルトにリセットしてもよろしいですか？この操作は元に戻せません。",
+        "reset": "リセット"
+    },
+    "messages": {
+        "configUpdated": "設定が更新されました",
+        "configUpdatedDesc": "アプリ設定が正常に保存されました。",
+        "updateFailed": "更新に失敗",
+        "updateFailedDesc": "設定の保存に失敗しました。もう一度お試しください。",
+        "configReset": "設定がリセットされました",
+        "configResetDesc": "アプリ設定がデフォルトにリセットされました。",
+        "resetFailed": "リセットに失敗",
+        "resetFailedDesc": "設定のリセットに失敗しました。もう一度お試しください。",
+        "backendVersion": "バックエンドバージョン"
+    },
+    "validation": {
+        "appNameRequired": "アプリ名は必須です",
+        "emailRequired": "メールアドレスは必須です",
+        "invalidEmail": "無効なメール形式",
+        "invalidUrl": "無効なURL形式"
+    },
+    "current": "現在"
+}

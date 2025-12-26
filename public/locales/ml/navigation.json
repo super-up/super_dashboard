@@ -1,0 +1,18 @@
+{
+    "dashboard": "ഡാഷ്‌ബോർഡ്",
+    "users": "ഉപയോക്താക്കൾ",
+    "messages": "സന്ദേശങ്ങൾ",
+    "rooms": "റൂമുകൾ",
+    "reports": "റിപ്പോർട്ടുകൾ",
+    "calls": "കോളുകൾ",
+    "stories": "സ്റ്റോറികൾ",
+    "auditLogs": "ഓഡിറ്റ് ലോഗുകൾ",
+    "realtimeLogs": "തത്സമയ ലോഗുകൾ",
+    "notifications": "അറിയിപ്പുകൾ",
+    "devices": "ഉപകരണങ്ങൾ",
+    "countries": "രാജ്യങ്ങൾ",
+    "stickers": "സ്റ്റിക്കറുകൾ",
+    "appConfig": "ആപ്പ് കോൺഫിഗ്",
+    "dataExport": "ഡാറ്റ എക്സ്പോർട്ട്",
+    "appVersions": "ആപ്പ് വേർഷനുകൾ"
+}

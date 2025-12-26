@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "国旗",
+    "name": "名称",
+    "code": "代码",
+    "image": "图片",
+    "updated": "更新时间",
+    "actions": "操作"
+  },
+  "tooltips": {
+    "edit": "编辑国家",
+    "refresh": "刷新"
+  },
+  "form": {
+    "searchPlaceholder": "按名称或代码搜索..."
+  },
+  "modal": {
+    "title": "更新国家"
+  },
+  "buttons": {
+    "saveChanges": "保存更改"
+  },
+  "validation": {
+    "nameRequired": "名称为必填项",
+    "codeRequired": "代码为必填项",
+    "codeFormat": "代码必须为2-3个字符",
+    "emojiRequired": "表情符号为必填项"
+  },
+  "messages": {
+    "updateSuccess": "国家已成功更新",
+    "updateFailed": "国家更新失败",
+    "fetchFailed": "获取国家失败（{{status}}）"
+  }
+}

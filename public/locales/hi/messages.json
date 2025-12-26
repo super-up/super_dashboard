@@ -1,0 +1,100 @@
+{
+    "title": "संदेश",
+    "list": "संदेश सूची",
+    "details": "संदेश विवरण",
+    "fields": {
+        "id": "संदेश आईडी",
+        "content": "सामग्री",
+        "type": "प्रकार",
+        "sender": "प्रेषक",
+        "room": "रूम",
+        "roomId": "रूम आईडी",
+        "status": "स्थिति",
+        "platform": "प्लेटफॉर्म",
+        "createdAt": "भेजने का समय",
+        "created": "निर्मित",
+        "updated": "अपडेट किया गया",
+        "seenAt": "देखा गया",
+        "deletedAt": "हटाया गया",
+        "attachments": "अटैचमेंट",
+        "encryption": "एन्क्रिप्शन",
+        "fileName": "फ़ाइल नाम",
+        "mimeType": "MIME प्रकार",
+        "fileSize": "फ़ाइल आकार",
+        "dimensions": "आयाम",
+        "duration": "अवधि",
+        "url": "URL"
+    },
+    "types": {
+        "text": "टेक्स्ट",
+        "image": "छवि",
+        "video": "वीडियो",
+        "audio": "ऑडियो",
+        "voice": "आवाज",
+        "file": "फ़ाइल",
+        "location": "स्थान",
+        "contact": "संपर्क",
+        "sticker": "स्टिकर",
+        "gif": "GIF",
+        "call": "कॉल",
+        "reaction": "प्रतिक्रिया",
+        "info": "जानकारी"
+    },
+    "filters": {
+        "all": "सभी संदेश",
+        "text": "केवल टेक्स्ट",
+        "media": "केवल मीडिया",
+        "today": "आज",
+        "thisWeek": "इस सप्ताह"
+    },
+    "actions": {
+        "delete": "हटाएं",
+        "restore": "पुनर्स्थापित करें",
+        "viewRoom": "रूम देखें",
+        "viewSender": "प्रेषक देखें",
+        "viewProfile": "प्रोफ़ाइल देखें",
+        "viewOriginal": "मूल देखें",
+        "download": "डाउनलोड करें",
+        "downloadAudio": "ऑडियो डाउनलोड करें",
+        "downloadFile": "फ़ाइल डाउनलोड करें",
+        "playVideo": "वीडियो चलाएं",
+        "hidePlayer": "प्लेयर छुपाएं"
+    },
+    "show": {
+        "messageContent": "संदेश सामग्री",
+        "messageDetails": "संदेश विवरण",
+        "attachmentDetails": "अटैचमेंट विवरण",
+        "voiceMessage": "वॉयस संदेश",
+        "videoMessage": "वीडियो संदेश",
+        "locationShared": "स्थान साझा किया गया",
+        "systemMessage": "सिस्टम संदेश",
+        "noContent": "कोई सामग्री नहीं",
+        "noVideoUrl": "कोई वीडियो URL उपलब्ध नहीं",
+        "noAudioUrl": "कोई ऑडियो URL उपलब्ध नहीं",
+        "messageDeleted": "यह संदेश हटा दिया गया था",
+        "replyInfo": "यह संदेश किसी अन्य संदेश का उत्तर है",
+        "forwardedFrom": "से फॉरवर्ड किया गया",
+        "replyTo": "उत्तर दें",
+        "reactions": "प्रतिक्रियाएं",
+        "unknown": "अज्ञात",
+        "size": "आकार",
+        "type": "प्रकार"
+    },
+    "tags": {
+        "deleted": "हटाया गया",
+        "active": "सक्रिय",
+        "hasMedia": "मीडिया है",
+        "forwarded": "फॉरवर्ड किया गया",
+        "reply": "उत्तर",
+        "encrypted": "एन्क्रिप्टेड"
+    },
+    "confirmations": {
+        "deleteMessage": "यह संदेश हटाएं?",
+        "restoreMessage": "यह संदेश पुनर्स्थापित करें?"
+    },
+    "notifications": {
+        "deleted": "संदेश हटाया गया",
+        "restored": "संदेश पुनर्स्थापित",
+        "updateFailed": "संदेश अपडेट करने में विफल"
+    }
+}

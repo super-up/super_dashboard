@@ -1,0 +1,55 @@
+{
+    "title": "Nhật Ký Thời Gian Thực",
+    "logsCount": "{{count}} nhật ký",
+    "logsCountFiltered": "{{filtered}} trong tổng số {{total}} nhật ký",
+    "actions": {
+        "resume": "Tiếp Tục",
+        "pause": "Tạm Dừng",
+        "clear": "Xóa",
+        "reconnect": "Kết Nối Lại"
+    },
+    "status": {
+        "connected": "Đã Kết Nối",
+        "connecting": "Đang kết nối...",
+        "disconnected": "Đã Ngắt Kết Nối",
+        "error": "Lỗi"
+    },
+    "empty": {
+        "paused": "Luồng nhật ký đã tạm dừng",
+        "waiting": "Đang chờ nhật ký...",
+        "noMatch": "Không có nhật ký nào khớp với bộ lọc hiện tại",
+        "notConnected": "Kết nối để bắt đầu nhận nhật ký"
+    },
+    "severity": {
+        "all": "Tất Cả",
+        "info": "Thông Tin",
+        "warning": "Cảnh Báo",
+        "error": "Lỗi",
+        "critical": "Nghiêm Trọng"
+    },
+    "categories": {
+        "all": "Tất Cả",
+        "auth": "Xác Thực",
+        "presence": "Hiện Diện",
+        "message": "Tin Nhắn",
+        "group": "Nhóm",
+        "broadcast": "Quảng Bá",
+        "channel": "Kênh",
+        "story": "Tin",
+        "call": "Cuộc Gọi",
+        "profile": "Hồ Sơ"
+    },
+    "actorTypes": {
+        "user": "Người Dùng",
+        "admin": "Quản Trị Viên",
+        "system": "Hệ Thống"
+    },
+    "labels": {
+        "unknown": "Không Rõ"
+    },
+    "time": {
+        "secondsAgo": "{{count}}g trước",
+        "minutesAgo": "{{count}}p trước",
+        "hoursAgo": "{{count}}h trước"
+    }
+}

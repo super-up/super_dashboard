@@ -1,0 +1,16 @@
+{
+  "title": "관리자 로그인",
+  "subtitle": "Super Up 관리자 계정에 로그인",
+  "email": "이메일 주소",
+  "emailRequired": "이메일을 입력해주세요",
+  "emailInvalid": "올바른 이메일을 입력해주세요",
+  "emailPlaceholder": "admin@example.com",
+  "password": "비밀번호",
+  "passwordRequired": "비밀번호를 입력해주세요",
+  "passwordPlaceholder": "비밀번호 입력",
+  "rememberMe": "로그인 상태 유지",
+  "signIn": "로그인",
+  "signingIn": "로그인 중...",
+  "demoMode": "데모 모드",
+  "demoModeDescription": "데모를 보고 있습니다. 일부 기능이 비활성화되어 있습니다."
+}

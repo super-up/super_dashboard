@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "Grup",
+    "broadcast": "Siaran",
+    "single": "Percakapan"
+  },
+  "labels": {
+    "roomDetails": "Detail Ruangan",
+    "groupDetails": "Detail Grup",
+    "broadcastDetails": "Detail Siaran",
+    "chatDetails": "Detail Percakapan",
+    "directChat": "Chat Langsung",
+    "untitled": "Tanpa Judul",
+    "description": "Deskripsi",
+    "roomId": "ID Ruangan",
+    "broadcastId": "ID Siaran",
+    "chatId": "ID Percakapan",
+    "type": "Tipe",
+    "createdBy": "Dibuat Oleh",
+    "membersCount": "Jumlah Anggota",
+    "recipientsCount": "Jumlah Penerima",
+    "createdAt": "Dibuat Pada",
+    "updatedAt": "Diperbarui Pada",
+    "roomInformation": "Informasi Ruangan",
+    "broadcastInformation": "Informasi Siaran",
+    "chatInformation": "Informasi Percakapan",
+    "thisRoomDeletedOn": "Ruangan ini dihapus pada {{date}}",
+    "owner": "Pemilik",
+    "member": "Anggota",
+    "recipient": "Penerima",
+    "userDataNotAvailable": "Data pengguna tidak tersedia",
+    "unknownUser": "Pengguna Tidak Diketahui",
+    "private": "Pribadi"
+  },
+  "table": {
+    "members": "Anggota",
+    "recipients": "Penerima",
+    "messages": "Pesan",
+    "lastActive": "Terakhir Aktif",
+    "participant1": "Peserta 1",
+    "participant2": "Peserta 2",
+    "user": "Pengguna",
+    "role": "Peran",
+    "joined": "Bergabung",
+    "lastSeen": "Terakhir Dilihat",
+    "actions": "Aksi",
+    "status": "Status",
+    "lastMessage": "Pesan Terakhir"
+  },
+  "status": {
+    "deleted": "Dihapus",
+    "active": "Aktif"
+  },
+  "actions": {
+    "removeMembers": "Hapus Anggota",
+    "viewUser": "Lihat Pengguna",
+    "viewProfile": "Lihat Profil",
+    "restore": "Pulihkan",
+    "delete": "Hapus",
+    "cancel": "Batal"
+  },
+  "confirmations": {
+    "restoreRoom": "Pulihkan Ruangan",
+    "deleteRoom": "Hapus Ruangan",
+    "restoreRoomConfirm": "Apakah Anda yakin ingin memulihkan ruangan ini?",
+    "softDeleteRoom": "Ruangan ini akan dihapus sementara dan dapat dipulihkan nanti.",
+    "removeFromGroup": "Hapus {{count}} anggota dari grup?",
+    "removeFromGroupDesc": "Apakah Anda yakin ingin menghapus {{count}} anggota yang dipilih dari grup ini?"
+  },
+  "placeholders": {
+    "searchMembers": "Cari anggota...",
+    "searchRecipients": "Cari penerima..."
+  },
+  "messages": {
+    "roomRestored": "Ruangan dipulihkan",
+    "roomDeleted": "Ruangan dihapus",
+    "membersRemoved": "{{count}} anggota dihapus dari grup",
+    "operationFailed": "Operasi gagal"
+  }
+}

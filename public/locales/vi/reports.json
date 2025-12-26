@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "Báo Cáo Người Dùng",
+    "chat": "Báo Cáo Trò Chuyện"
+  },
+  "reasons": {
+    "spam": "Spam",
+    "harassment": "Quấy Rối",
+    "inappropriatecontent": "Nội Dung Không Phù Hợp",
+    "hatespeech": "Phát Ngôn Thù Hận",
+    "violence": "Bạo Lực"
+  },
+  "status": {
+    "pending": "Đang Chờ",
+    "approved": "Đã Phê Duyệt",
+    "rejected": "Đã Từ Chối"
+  },
+  "labels": {
+    "reportId": "ID Báo Cáo",
+    "reportProgress": "Tiến Trình Báo Cáo",
+    "submitted": "Đã Gửi",
+    "reporter": "Người Báo Cáo",
+    "reportedUser": "Người Bị Báo Cáo",
+    "reportedContent": "Nội Dung Được Báo Cáo",
+    "reportReason": "Lý Do Báo Cáo",
+    "reportDetails": "Chi Tiết Báo Cáo",
+    "takeAction": "Thực Hiện Hành Động",
+    "actionsAreIrreversible": "Hành động không thể hoàn tác",
+    "takeActionDescription": "Các hành động sau sẽ ảnh hưởng vĩnh viễn đến người dùng bị báo cáo. Vui lòng xem xét cẩn thận trước khi tiếp tục.",
+    "selectBanDuration": "Chọn Thời Gian Cấm",
+    "daysFromNow": "Số ngày từ bây giờ",
+    "orSelectSpecificDate": "Hoặc chọn ngày cụ thể",
+    "userWillBeBanned": "Người dùng sẽ bị cấm trong {{duration}}",
+    "warningDeleteAccount": "Cảnh báo: Tài khoản sẽ bị xóa vĩnh viễn",
+    "softDeletedAccount": "Tài khoản này sẽ bị xóa mềm và không thể khôi phục.",
+    "reportedUserDataNotAvailable": "Dữ liệu người dùng bị báo cáo không khả dụng",
+    "chatDataNotAvailable": "Dữ liệu trò chuyện không khả dụng",
+    "noReportedContent": "Không có nội dung được báo cáo",
+    "noAdditionalDetails": "Không có chi tiết bổ sung",
+    "unknownUser": "Người Dùng Không Rõ",
+    "type": "Loại",
+    "createdAt": "Ngày Tạo",
+    "updatedAt": "Ngày Cập Nhật",
+    "resolvedAt": "Đã Giải Quyết Lúc"
+  },
+  "confirmations": {
+    "approveReport": "Phê Duyệt Báo Cáo",
+    "approveReportDesc": "Bạn có chắc chắn muốn phê duyệt báo cáo này?",
+    "rejectReport": "Từ Chối Báo Cáo",
+    "rejectReportDesc": "Bạn có chắc chắn muốn từ chối báo cáo này?",
+    "deleteUserAccount": "Xóa Tài Khoản Người Dùng",
+    "deleteUserAccountDesc": "Hành động này sẽ xóa vĩnh viễn tài khoản người dùng. Không thể hoàn tác.",
+    "deleteReportedContent": "Xóa Nội Dung Được Báo Cáo",
+    "deleteReportedContentDesc": "Bạn có chắc chắn muốn xóa nội dung được báo cáo?"
+  },
+  "actions": {
+    "approve": "Phê Duyệt",
+    "reject": "Từ Chối",
+    "banUser": "Cấm Người Dùng",
+    "deleteAccount": "Xóa Tài Khoản",
+    "deleteContent": "Xóa Nội Dung",
+    "delete": "Xóa",
+    "ban": "Cấm",
+    "viewUserProfile": "Xem Hồ Sơ Người Dùng",
+    "viewChatDetails": "Xem Chi Tiết Trò Chuyện",
+    "viewProfile": "Xem Hồ Sơ"
+  },
+  "table": {
+    "reason": "Lý Do",
+    "status": "Trạng Thái"
+  },
+  "messages": {
+    "reportStatusUpdated": "Báo cáo {{newStatus}}",
+    "updateFailed": "Không thể cập nhật báo cáo",
+    "noReportedUser": "Không có người dùng bị báo cáo để thực hiện hành động",
+    "userBannedFor": "Người dùng bị cấm {{duration}}",
+    "userAccountDeleted": "Đã xóa tài khoản người dùng",
+    "actionFailed": "Không thể thực hiện hành động",
+    "contentDeleted": "Đã xóa nội dung",
+    "deleteContentFailed": "Không thể xóa nội dung"
+  }
+}

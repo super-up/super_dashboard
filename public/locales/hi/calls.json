@@ -1,0 +1,22 @@
+{
+    "title": "कॉल्स",
+    "stats": {
+        "totalFinishedCalls": "कुल समाप्त कॉल्स",
+        "averageDuration": "औसत अवधि",
+        "longestCall": "सबसे लंबी कॉल",
+        "shortestCall": "सबसे छोटी कॉल"
+    },
+    "types": {
+        "video": "वीडियो",
+        "voice": "आवाज"
+    },
+    "status": {
+        "ended": "समाप्त",
+        "completed": "पूर्ण",
+        "missed": "छूटी",
+        "rejected": "अस्वीकृत",
+        "cancelled": "रद्द",
+        "ongoing": "जारी",
+        "ringing": "बज रहा है"
+    }
+}

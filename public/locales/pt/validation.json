@@ -1,0 +1,21 @@
+{
+    "required": "Este campo é obrigatório",
+    "email": "Por favor, insira um endereço de e-mail válido",
+    "phone": "Por favor, insira um número de telefone válido",
+    "minLength": "Deve ter pelo menos {{min}} caracteres",
+    "maxLength": "Deve ter no máximo {{max}} caracteres",
+    "min": "Deve ser pelo menos {{min}}",
+    "max": "Deve ser no máximo {{max}}",
+    "pattern": "Formato inválido",
+    "url": "Por favor, insira uma URL válida",
+    "number": "Por favor, insira um número válido",
+    "positive": "Deve ser um número positivo",
+    "integer": "Deve ser um número inteiro",
+    "unique": "Este valor já existe",
+    "match": "Os valores não correspondem",
+    "date": "Por favor, insira uma data válida",
+    "futureDate": "A data deve estar no futuro",
+    "pastDate": "A data deve estar no passado",
+    "fileSize": "O tamanho do arquivo deve ser menor que {{size}}",
+    "fileType": "Tipo de arquivo inválido"
+}

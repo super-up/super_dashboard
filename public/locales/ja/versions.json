@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "アプリバージョン",
+    "addVersionButton": "バージョンを追加"
+  },
+  "table": {
+    "version": "バージョン",
+    "platform": "プラットフォーム",
+    "critical": "クリティカル",
+    "notify": "通知",
+    "notes": "リリースノート",
+    "created": "作成日",
+    "actions": "アクション"
+  },
+  "tabs": {
+    "all": "すべて",
+    "macos": "macOS",
+    "other": "その他"
+  },
+  "tooltips": {
+    "edit": "編集",
+    "delete": "削除",
+    "refresh": "更新"
+  },
+  "modal": {
+    "addTitle": "バージョンを追加",
+    "editTitle": "バージョンを編集"
+  },
+  "form": {
+    "platform": "プラットフォーム",
+    "version": "バージョン",
+    "critical": "クリティカル（強制アップデート）",
+    "notify": "ユーザーに通知",
+    "notes": "リリースノート",
+    "notesPlaceholder": "このバージョンの新機能..."
+  },
+  "validation": {
+    "platformRequired": "プラットフォームは必須です",
+    "selectPlatform": "プラットフォームを選択",
+    "versionRequired": "バージョンは必須です",
+    "versionFormat": "形式を使用：x.x.x（例：1.2.0）"
+  },
+  "buttons": {
+    "cancel": "キャンセル",
+    "create": "作成",
+    "update": "更新"
+  },
+  "confirmations": {
+    "deleteTitle": "このバージョンを削除しますか？",
+    "deleteDesc": "この操作は元に戻せません。",
+    "deleteButton": "削除"
+  },
+  "messages": {
+    "fetchVersionsFailed": "バージョンの取得に失敗しました：{{error}}",
+    "deleteSuccess": "バージョンが正常に削除されました",
+    "deleteFailed": "バージョンの削除に失敗しました",
+    "updateSuccess": "バージョンが正常に更新されました",
+    "createSuccess": "バージョンが正常に作成されました",
+    "saveFailed": "バージョンの保存に失敗しました"
+  }
+}

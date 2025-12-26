@@ -1,0 +1,16 @@
+{
+  "title": "প্রশাসক লগইন",
+  "subtitle": "আপনার সুপার আপ অ্যাডমিন অ্যাকাউন্টে সাইন ইন করুন",
+  "email": "ইমেইল ঠিকানা",
+  "emailRequired": "আপনার ইমেইল লিখুন",
+  "emailInvalid": "একটি বৈধ ইমেইল লিখুন",
+  "emailPlaceholder": "admin@example.com",
+  "password": "পাসওয়ার্ড",
+  "passwordRequired": "আপনার পাসওয়ার্ড লিখুন",
+  "passwordPlaceholder": "আপনার পাসওয়ার্ড লিখুন",
+  "rememberMe": "আমাকে মনে রাখুন",
+  "signIn": "সাইন ইন",
+  "signingIn": "সাইন ইন হচ্ছে...",
+  "demoMode": "ডেমো মোড",
+  "demoModeDescription": "আপনি একটি ডেমো দেখছেন। কিছু ফিচার নিষ্ক্রিয়।"
+}

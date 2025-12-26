@@ -1,0 +1,22 @@
+{
+    "title": "通話",
+    "stats": {
+        "totalFinishedCalls": "完了した通話総数",
+        "averageDuration": "平均通話時間",
+        "longestCall": "最長通話",
+        "shortestCall": "最短通話"
+    },
+    "types": {
+        "video": "ビデオ",
+        "voice": "音声"
+    },
+    "status": {
+        "ended": "終了",
+        "completed": "完了",
+        "missed": "不在着信",
+        "rejected": "拒否",
+        "cancelled": "キャンセル",
+        "ongoing": "進行中",
+        "ringing": "呼び出し中"
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "국기",
+    "name": "이름",
+    "code": "코드",
+    "image": "이미지",
+    "updated": "업데이트됨",
+    "actions": "작업"
+  },
+  "tooltips": {
+    "edit": "국가 편집",
+    "refresh": "새로고침"
+  },
+  "form": {
+    "searchPlaceholder": "이름 또는 코드로 검색..."
+  },
+  "modal": {
+    "title": "국가 업데이트"
+  },
+  "buttons": {
+    "saveChanges": "변경사항 저장"
+  },
+  "validation": {
+    "nameRequired": "이름은 필수입니다",
+    "codeRequired": "코드는 필수입니다",
+    "codeFormat": "코드는 2-3자여야 합니다",
+    "emojiRequired": "이모지는 필수입니다"
+  },
+  "messages": {
+    "updateSuccess": "국가가 업데이트되었습니다",
+    "updateFailed": "국가 업데이트 실패",
+    "fetchFailed": "국가 목록을 불러오는데 실패했습니다 ({{status}})"
+  }
+}

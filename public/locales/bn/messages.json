@@ -1,0 +1,100 @@
+{
+    "title": "বার্তাসমূহ",
+    "list": "বার্তা তালিকা",
+    "details": "বার্তা বিবরণ",
+    "fields": {
+        "id": "বার্তা আইডি",
+        "content": "কন্টেন্ট",
+        "type": "ধরন",
+        "sender": "প্রেরক",
+        "room": "রুম",
+        "roomId": "রুম আইডি",
+        "status": "স্ট্যাটাস",
+        "platform": "প্ল্যাটফর্ম",
+        "createdAt": "পাঠানোর সময়",
+        "created": "তৈরি",
+        "updated": "আপডেট",
+        "seenAt": "দেখার সময়",
+        "deletedAt": "মোছার সময়",
+        "attachments": "সংযুক্তি",
+        "encryption": "এনক্রিপশন",
+        "fileName": "ফাইলের নাম",
+        "mimeType": "MIME টাইপ",
+        "fileSize": "ফাইল সাইজ",
+        "dimensions": "মাত্রা",
+        "duration": "সময়কাল",
+        "url": "URL"
+    },
+    "types": {
+        "text": "টেক্সট",
+        "image": "ছবি",
+        "video": "ভিডিও",
+        "audio": "অডিও",
+        "voice": "ভয়েস",
+        "file": "ফাইল",
+        "location": "লোকেশন",
+        "contact": "যোগাযোগ",
+        "sticker": "স্টিকার",
+        "gif": "জিআইএফ",
+        "call": "কল",
+        "reaction": "প্রতিক্রিয়া",
+        "info": "তথ্য"
+    },
+    "filters": {
+        "all": "সব বার্তা",
+        "text": "শুধু টেক্সট",
+        "media": "শুধু মিডিয়া",
+        "today": "আজ",
+        "thisWeek": "এই সপ্তাহ"
+    },
+    "actions": {
+        "delete": "মুছুন",
+        "restore": "পুনরুদ্ধার",
+        "viewRoom": "রুম দেখুন",
+        "viewSender": "প্রেরক দেখুন",
+        "viewProfile": "প্রোফাইল দেখুন",
+        "viewOriginal": "আসল দেখুন",
+        "download": "ডাউনলোড",
+        "downloadAudio": "অডিও ডাউনলোড",
+        "downloadFile": "ফাইল ডাউনলোড",
+        "playVideo": "ভিডিও চালান",
+        "hidePlayer": "প্লেয়ার লুকান"
+    },
+    "show": {
+        "messageContent": "বার্তা কন্টেন্ট",
+        "messageDetails": "বার্তা বিবরণ",
+        "attachmentDetails": "সংযুক্তি বিবরণ",
+        "voiceMessage": "ভয়েস বার্তা",
+        "videoMessage": "ভিডিও বার্তা",
+        "locationShared": "লোকেশন শেয়ারকৃত",
+        "systemMessage": "সিস্টেম বার্তা",
+        "noContent": "কোন কন্টেন্ট নেই",
+        "noVideoUrl": "কোন ভিডিও URL নেই",
+        "noAudioUrl": "কোন অডিও URL নেই",
+        "messageDeleted": "এই বার্তা মুছে ফেলা হয়েছে",
+        "replyInfo": "এই বার্তা অন্য বার্তার উত্তর",
+        "forwardedFrom": "থেকে ফরওয়ার্ড",
+        "replyTo": "উত্তর",
+        "reactions": "প্রতিক্রিয়া",
+        "unknown": "অজানা",
+        "size": "সাইজ",
+        "type": "ধরন"
+    },
+    "tags": {
+        "deleted": "মুছে ফেলা",
+        "active": "সক্রিয়",
+        "hasMedia": "মিডিয়া আছে",
+        "forwarded": "ফরওয়ার্ডকৃত",
+        "reply": "উত্তর",
+        "encrypted": "এনক্রিপ্টেড"
+    },
+    "confirmations": {
+        "deleteMessage": "এই বার্তা মুছবেন?",
+        "restoreMessage": "এই বার্তা পুনরুদ্ধার করবেন?"
+    },
+    "notifications": {
+        "deleted": "বার্তা মুছে ফেলা হয়েছে",
+        "restored": "বার্তা পুনরুদ্ধার হয়েছে",
+        "updateFailed": "বার্তা আপডেট করতে ব্যর্থ"
+    }
+}

@@ -1,0 +1,202 @@
+{
+  "show": {
+    "userInformation": "Informasi Pengguna",
+    "notVerified": "Belum Terverifikasi",
+    "offline": "Offline",
+    "online": "Online",
+    "deleted": "Dihapus",
+    "active": "Aktif",
+    "bannedUntil": "Diblokir sampai {{date}}",
+    "verifiedUser": "Pengguna Terverifikasi",
+    "unknown": "Tidak Diketahui",
+    "untitled": "Tanpa Judul"
+  },
+  "fields": {
+    "id": "ID",
+    "phone": "Telepon",
+    "email": "Email",
+    "platform": "Platform",
+    "registrationStatus": "Status Registrasi",
+    "verification": "Verifikasi",
+    "country": "Negara",
+    "isOnline": "Status Online",
+    "lastSeen": "Terakhir Dilihat",
+    "registered": "Terdaftar",
+    "banExpires": "Blokir Berakhir",
+    "deletedAt": "Dihapus Pada"
+  },
+  "tabs": {
+    "overview": "Ringkasan",
+    "rooms": "Ruangan",
+    "stories": "Story",
+    "calls": "Panggilan"
+  },
+  "devices": {
+    "title": "Perangkat",
+    "platform": "Platform",
+    "version": "Versi",
+    "lastActive": "Terakhir Aktif",
+    "push": "Notifikasi Push",
+    "enabled": "Diaktifkan",
+    "disabled": "Dinonaktifkan",
+    "actions": "Aksi"
+  },
+  "stats": {
+    "devices": "Perangkat",
+    "rooms": "Ruangan",
+    "stories": "Story"
+  },
+  "rooms": {
+    "title": "Ruangan",
+    "type": "Tipe",
+    "status": "Status",
+    "admin": "Admin",
+    "moderator": "Moderator",
+    "actions": "Aksi",
+    "noRooms": "Tidak ada ruangan ditemukan"
+  },
+  "stories": {
+    "media": "Media",
+    "type": "Tipe",
+    "caption": "Keterangan",
+    "views": "Tayangan",
+    "expiry": "Kadaluarsa",
+    "expired": "Kadaluarsa",
+    "created": "Dibuat",
+    "noStories": "Tidak ada story ditemukan"
+  },
+  "calls": {
+    "type": "Tipe",
+    "video": "Video",
+    "voice": "Suara",
+    "direction": "Arah",
+    "outgoing": "Keluar",
+    "incoming": "Masuk",
+    "status": "Status",
+    "duration": "Durasi",
+    "date": "Tanggal",
+    "noCalls": "Tidak ada panggilan ditemukan"
+  },
+  "actions": {
+    "viewGroup": "Lihat Grup",
+    "viewDetails": "Lihat Detail",
+    "view": "Lihat",
+    "edit": "Edit",
+    "ban": "Blokir",
+    "unban": "Buka Blokir",
+    "verify": "Verifikasi",
+    "unverify": "Hapus Verifikasi",
+    "restore": "Pulihkan",
+    "delete": "Hapus",
+    "logoutAll": "Keluar Semua Perangkat"
+  },
+  "confirmations": {
+    "unbanUser": "Apakah Anda yakin ingin membuka blokir pengguna ini?",
+    "banUser": "Apakah Anda yakin ingin memblokir pengguna ini?",
+    "unverifyUser": "Apakah Anda yakin ingin menghapus verifikasi?",
+    "verifyUser": "Apakah Anda yakin ingin memverifikasi pengguna ini?",
+    "restoreUser": "Apakah Anda yakin ingin memulihkan pengguna ini?",
+    "deleteUser": "Apakah Anda yakin ingin menghapus pengguna ini?",
+    "logoutAll": "Ini akan mengeluarkan pengguna dari semua perangkat. Lanjutkan?",
+    "banUserTitle": "Blokir Pengguna",
+    "banUserDesc": "Apakah Anda yakin ingin memblokir pengguna ini? Mereka tidak akan dapat mengakses aplikasi.",
+    "banButton": "Ya, Blokir",
+    "unbannedTitle": "Buka Blokir Pengguna",
+    "unbannedDesc": "Apakah Anda yakin ingin membuka blokir pengguna ini?",
+    "unbannedButton": "Ya, Buka Blokir",
+    "restoreTitle": "Pulihkan Pengguna",
+    "restoreDesc": "Apakah Anda yakin ingin memulihkan pengguna ini? Mereka akan memiliki akses ke aplikasi lagi.",
+    "restoreButton": "Ya, Pulihkan",
+    "deleteTitle": "Hapus Pengguna",
+    "deleteDesc": "Apakah Anda yakin ingin menghapus pengguna ini secara permanen? Tindakan ini tidak dapat dibatalkan.",
+    "deleteButton": "Ya, Hapus",
+    "logoutAllTitle": "Keluar Semua Perangkat",
+    "logoutAllDesc": "Ini akan memaksa pengguna keluar dari semua perangkat. Apakah Anda yakin?",
+    "logoutAllButton": "Ya, Keluar Semua"
+  },
+  "notifications": {
+    "unbanned": "Pengguna berhasil dibuka blokirnya",
+    "banned": "Pengguna berhasil diblokir",
+    "badgeRemoved": "Lencana verifikasi dihapus",
+    "verified": "Pengguna berhasil diverifikasi",
+    "restored": "Pengguna berhasil dipulihkan",
+    "deleted": "Pengguna berhasil dihapus",
+    "updateFailed": "Gagal memperbarui pengguna",
+    "loggedOut": "Keluar dari semua perangkat",
+    "logoutFailed": "Gagal mengeluarkan perangkat"
+  },
+  "filters": {
+    "verified": "Terverifikasi"
+  },
+  "modal": {
+    "title": "Edit Pengguna",
+    "profileSection": "Informasi Profil",
+    "verificationSection": "Verifikasi",
+    "banSection": "Manajemen Blokir",
+    "dangerZone": "Zona Bahaya"
+  },
+  "form": {
+    "fullName": "Nama Lengkap",
+    "bio": "Bio",
+    "registrationStatus": "Status Registrasi",
+    "verificationBadge": "Lencana Verifikasi",
+    "banDuration": "Pilih durasi blokir",
+    "banEndDate": "Pilih tanggal akhir blokir",
+    "saveProfileChanges": "Simpan Perubahan Profil",
+    "deleted": "Pengguna ini telah dihapus"
+  },
+  "placeholders": {
+    "enterFullName": "Masukkan nama lengkap",
+    "enterBio": "Masukkan bio"
+  },
+  "validation": {
+    "fullNameRequired": "Nama diperlukan",
+    "selectRegistrationStatus": "Pilih status registrasi"
+  },
+  "options": {
+    "accepted": "Diterima",
+    "pending": "Tertunda",
+    "rejected": "Ditolak"
+  },
+  "badges": {
+    "verified": "Terverifikasi",
+    "notVerified": "Belum Terverifikasi",
+    "isVerified": "Pengguna terverifikasi",
+    "isNotVerified": "Pengguna belum terverifikasi"
+  },
+  "banDurations": {
+    "1h": "1 Jam",
+    "3d": "3 Hari",
+    "7d": "7 Hari",
+    "1m": "1 Bulan",
+    "3m": "3 Bulan",
+    "1y": "1 Tahun",
+    "permanent": "Permanen",
+    "customDate": "Tanggal Kustom"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "Profil pengguna berhasil diperbarui",
+    "profileUpdateFailed": "Gagal memperbarui pengguna",
+    "userBannedSuccess": "Pengguna berhasil diblokir",
+    "userUnbannedSuccess": "Pengguna berhasil dibuka blokirnya",
+    "banStatusFailed": "Gagal memperbarui status blokir",
+    "banUserSuccess": "Pengguna berhasil diblokir",
+    "banUserFailed": "Gagal memblokir pengguna",
+    "verificationBadgeRemoved": "Lencana verifikasi dihapus",
+    "verificationBadgeAdded": "Pengguna berhasil diverifikasi",
+    "verificationFailed": "Gagal memperbarui verifikasi",
+    "userRestoredSuccess": "Pengguna berhasil dipulihkan",
+    "userDeletedSuccess": "Pengguna berhasil dihapus",
+    "updateUserFailed": "Gagal memperbarui pengguna",
+    "logoutDevicesSuccess": "Berhasil keluar dari {{count}} perangkat",
+    "logoutDevicesFailed": "Gagal mengeluarkan perangkat",
+    "bannedUntil": "Pengguna diblokir sampai {{date}}"
+  },
+  "buttons": {
+    "banUser": "Blokir Pengguna",
+    "unbanUser": "Buka Blokir Pengguna",
+    "deleteUser": "Hapus Pengguna",
+    "restoreUser": "Pulihkan Pengguna",
+    "logoutAllDevices": "Keluar Semua Perangkat"
+  }
+}

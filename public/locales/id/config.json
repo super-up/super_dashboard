@@ -1,0 +1,87 @@
+{
+    "title": "Konfigurasi Aplikasi",
+    "subtitle": "Kelola pengaturan aplikasi dan fitur",
+    "sections": {
+        "general": "Pengaturan Umum",
+        "features": "Pengaturan Fitur",
+        "limits": "Batasan & Kendala",
+        "urls": "URL Eksternal",
+        "icons": "Ikon Default"
+    },
+    "subsections": {
+        "platformLogin": "Login Platform",
+        "chatFeatures": "Fitur Chat",
+        "appStoreLinks": "Tautan App Store",
+        "roomEmojis": "Emoji Ruangan",
+        "defaultImages": "Gambar Default (nama file)"
+    },
+    "fields": {
+        "appName": "Nama Aplikasi",
+        "feedbackEmail": "Email Feedback",
+        "userRegisterStatus": "Kebijakan Registrasi Pengguna",
+        "userRegisterStatusTooltip": "Mengontrol bagaimana registrasi pengguna baru ditangani",
+        "emailCodeExpiry": "Masa Berlaku Kode Email (menit)",
+        "emailCodeExpiryTooltip": "Berapa lama kode reset password tetap valid",
+        "enableAds": "Aktifkan Iklan",
+        "mobileLogin": "Login Mobile",
+        "webLogin": "Login Web",
+        "desktopLogin": "Login Desktop",
+        "messaging": "Pesan",
+        "sendMedia": "Kirim Media",
+        "voiceVideoCalls": "Panggilan Suara/Video",
+        "createGroups": "Buat Grup",
+        "createBroadcasts": "Buat Siaran",
+        "maxGroupMembers": "Maks Anggota Grup",
+        "maxGroupMembersTooltip": "Jumlah maksimum anggota yang diizinkan dalam grup",
+        "maxBroadcastRecipients": "Maks Penerima Siaran",
+        "maxBroadcastRecipientsTooltip": "Penerima maksimum untuk pesan siaran",
+        "maxForwards": "Maks Penerusan",
+        "maxForwardsTooltip": "Jumlah maksimum pesan dapat diteruskan",
+        "maxMediaSize": "Ukuran Media Maks (MB)",
+        "maxMediaSizeTooltip": "Ukuran file maksimum untuk unggahan media",
+        "callTimeout": "Batas Waktu Panggilan (detik)",
+        "callTimeoutTooltip": "Berapa lama berdering sebelum panggilan habis waktu",
+        "privacyUrl": "URL Kebijakan Privasi",
+        "webChatUrl": "URL Chat Web",
+        "appleStoreUrl": "URL Apple App Store",
+        "googlePlayUrl": "URL Google Play Store",
+        "macStoreUrl": "URL Mac App Store",
+        "windowsStoreUrl": "URL Windows Store",
+        "groupIcon": "Ikon Grup",
+        "broadcastIcon": "Ikon Siaran",
+        "orderIcon": "Ikon Pesanan",
+        "defaultUserImage": "Gambar Pengguna Default",
+        "defaultGroupImage": "Gambar Grup Default",
+        "defaultBroadcastImage": "Gambar Siaran Default",
+        "defaultSupportImage": "Gambar Dukungan Default"
+    },
+    "actions": {
+        "refresh": "Muat Ulang",
+        "resetToDefaults": "Reset ke Default",
+        "discardChanges": "Buang Perubahan",
+        "saveConfiguration": "Simpan Konfigurasi"
+    },
+    "confirmations": {
+        "resetTitle": "Reset Konfigurasi",
+        "resetDescription": "Apakah Anda yakin ingin mereset semua pengaturan ke default? Ini tidak dapat dibatalkan.",
+        "reset": "Reset"
+    },
+    "messages": {
+        "configUpdated": "Konfigurasi Diperbarui",
+        "configUpdatedDesc": "Konfigurasi aplikasi berhasil disimpan.",
+        "updateFailed": "Pembaruan Gagal",
+        "updateFailedDesc": "Gagal menyimpan konfigurasi. Silakan coba lagi.",
+        "configReset": "Konfigurasi Direset",
+        "configResetDesc": "Konfigurasi aplikasi telah direset ke default.",
+        "resetFailed": "Reset Gagal",
+        "resetFailedDesc": "Gagal mereset konfigurasi. Silakan coba lagi.",
+        "backendVersion": "Versi Backend"
+    },
+    "validation": {
+        "appNameRequired": "Nama aplikasi diperlukan",
+        "emailRequired": "Email diperlukan",
+        "invalidEmail": "Format email tidak valid",
+        "invalidUrl": "Format URL tidak valid"
+    },
+    "current": "Saat Ini"
+}

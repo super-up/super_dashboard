@@ -1,0 +1,12 @@
+{
+    "title": "Registros de Auditoría",
+    "columns": {
+        "id": "ID",
+        "action": "Acción",
+        "targetType": "Tipo de Objetivo",
+        "targetId": "ID de Objetivo",
+        "admin": "Administrador",
+        "ipAddress": "Dirección IP",
+        "timestamp": "Marca de Tiempo"
+    }
+}

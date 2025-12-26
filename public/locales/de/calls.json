@@ -1,0 +1,22 @@
+{
+    "title": "Anrufe",
+    "stats": {
+        "totalFinishedCalls": "Gesamt abgeschlossene Anrufe",
+        "averageDuration": "Durchschnittliche Dauer",
+        "longestCall": "Längster Anruf",
+        "shortestCall": "Kürzester Anruf"
+    },
+    "types": {
+        "video": "Video",
+        "voice": "Sprache"
+    },
+    "status": {
+        "ended": "Beendet",
+        "completed": "Abgeschlossen",
+        "missed": "Verpasst",
+        "rejected": "Abgelehnt",
+        "cancelled": "Abgebrochen",
+        "ongoing": "Laufend",
+        "ringing": "Klingelt"
+    }
+}

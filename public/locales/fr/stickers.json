@@ -1,0 +1,100 @@
+{
+    "title": "Autocollants",
+    "list": "Packs d'autocollants",
+    "details": "Détails du pack d'autocollants",
+    "fields": {
+        "id": "ID du pack",
+        "name": "Nom",
+        "author": "Auteur",
+        "type": "Type",
+        "thumbnail": "Miniature",
+        "version": "Version",
+        "stickersCount": "Autocollants",
+        "createdAt": "Créé",
+        "updatedAt": "Mis à jour"
+    },
+    "types": {
+        "animated": "Animé",
+        "static": "Statique"
+    },
+    "stats": {
+        "totalPacks": "Packs totaux",
+        "animatedPacks": "Packs animés",
+        "staticPacks": "Packs statiques",
+        "totalStickers": "Autocollants totaux"
+    },
+    "filters": {
+        "searchPlaceholder": "Rechercher par nom ou auteur...",
+        "search": "Rechercher",
+        "filters": "Filtres",
+        "packType": "Type de pack",
+        "createdFromTo": "Créé du/au",
+        "apply": "Appliquer",
+        "clear": "Effacer"
+    },
+    "actions": {
+        "title": "Actions",
+        "refresh": "Actualiser",
+        "createPack": "Créer un pack",
+        "editPack": "Modifier le pack",
+        "deletePack": "Supprimer le pack",
+        "addSticker": "Ajouter un autocollant",
+        "removeSticker": "Supprimer l'autocollant",
+        "view": "Voir",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "remove": "Supprimer"
+    },
+    "show": {
+        "packInformation": "Informations du pack",
+        "packNotFound": "Pack introuvable",
+        "stickersTitle": "Autocollants",
+        "noStickers": "Aucun autocollant dans ce pack"
+    },
+    "modal": {
+        "createTitle": "Créer un pack d'autocollants",
+        "editTitle": "Modifier le pack d'autocollants",
+        "addStickersTitle": "Ajouter des autocollants",
+        "cancel": "Annuler",
+        "create": "Créer",
+        "update": "Mettre à jour",
+        "upload": "Téléverser des autocollants",
+        "packName": "Nom du pack",
+        "packNamePlaceholder": "Entrer le nom du pack",
+        "thumbnailUrl": "URL de la miniature",
+        "thumbnailUrlPlaceholder": "Entrer l'URL de la miniature",
+        "authorLabel": "Auteur",
+        "authorPlaceholder": "Entrer le nom de l'auteur",
+        "animatedPack": "Pack animé",
+        "selectThumbnail": "Sélectionner la miniature",
+        "selectImages": "Sélectionner les images (jusqu'à 50)",
+        "uploadHint": "Cliquer ou glisser des images pour téléverser",
+        "emojis": "Emojis (séparés par des virgules)",
+        "emojisPlaceholder": "Entrer les emojis séparés par des virgules"
+    },
+    "confirmations": {
+        "deletePack": "Supprimer ce pack ?",
+        "removeSticker": "Supprimer cet autocollant ?"
+    },
+    "notifications": {
+        "packCreated": "Pack créé avec succès",
+        "packUpdated": "Pack mis à jour avec succès",
+        "packDeleted": "Pack supprimé avec succès",
+        "stickersAdded": "Autocollants ajoutés avec succès",
+        "stickerRemoved": "Autocollant supprimé avec succès",
+        "createFailed": "Échec de la création du pack",
+        "updateFailed": "Échec de la mise à jour du pack",
+        "deleteFailed": "Échec de la suppression du pack",
+        "uploadFailed": "Échec du téléversement des autocollants"
+    },
+    "validation": {
+        "nameRequired": "Le nom du pack est requis",
+        "thumbnailRequired": "L'URL de la miniature est requise",
+        "authorRequired": "L'auteur est requis",
+        "selectFiles": "Veuillez sélectionner au moins une image",
+        "onlyImages": "Vous ne pouvez téléverser que des fichiers images !",
+        "maxFileSize": "L'image doit être inférieure à 10 Mo !",
+        "maxImagesAllowed": "Maximum 50 images autorisées",
+        "uploadHint": "Prise en charge PNG, JPG, WebP, GIF. Max 50 images, 10 Mo chacune."
+    }
+}

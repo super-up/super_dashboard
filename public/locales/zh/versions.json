@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "应用版本",
+    "addVersionButton": "添加版本"
+  },
+  "table": {
+    "version": "版本",
+    "platform": "平台",
+    "critical": "严重",
+    "notify": "通知",
+    "notes": "说明",
+    "created": "创建时间",
+    "actions": "操作"
+  },
+  "tabs": {
+    "all": "全部",
+    "macos": "macOS",
+    "other": "其他"
+  },
+  "tooltips": {
+    "edit": "编辑",
+    "delete": "删除",
+    "refresh": "刷新"
+  },
+  "modal": {
+    "addTitle": "添加版本",
+    "editTitle": "编辑版本"
+  },
+  "form": {
+    "platform": "平台",
+    "version": "版本",
+    "critical": "严重（强制更新）",
+    "notify": "通知用户",
+    "notes": "发布说明",
+    "notesPlaceholder": "此版本的新功能..."
+  },
+  "validation": {
+    "platformRequired": "平台为必填项",
+    "selectPlatform": "选择平台",
+    "versionRequired": "版本为必填项",
+    "versionFormat": "使用格式：x.x.x（例如，1.2.0）"
+  },
+  "buttons": {
+    "cancel": "取消",
+    "create": "创建",
+    "update": "更新"
+  },
+  "confirmations": {
+    "deleteTitle": "删除此版本？",
+    "deleteDesc": "此操作无法撤销。",
+    "deleteButton": "删除"
+  },
+  "messages": {
+    "fetchVersionsFailed": "获取版本失败：{{error}}",
+    "deleteSuccess": "版本已成功删除",
+    "deleteFailed": "版本删除失败",
+    "updateSuccess": "版本已成功更新",
+    "createSuccess": "版本已成功创建",
+    "saveFailed": "版本保存失败"
+  }
+}

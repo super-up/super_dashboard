@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "Laporan Pengguna",
+    "chat": "Laporan Chat"
+  },
+  "reasons": {
+    "spam": "Spam",
+    "harassment": "Pelecehan",
+    "inappropriatecontent": "Konten Tidak Pantas",
+    "hatespeech": "Ujaran Kebencian",
+    "violence": "Kekerasan"
+  },
+  "status": {
+    "pending": "Tertunda",
+    "approved": "Disetujui",
+    "rejected": "Ditolak"
+  },
+  "labels": {
+    "reportId": "ID Laporan",
+    "reportProgress": "Progres Laporan",
+    "submitted": "Dikirim",
+    "reporter": "Pelapor",
+    "reportedUser": "Pengguna Dilaporkan",
+    "reportedContent": "Konten Dilaporkan",
+    "reportReason": "Alasan Laporan",
+    "reportDetails": "Detail Laporan",
+    "takeAction": "Ambil Tindakan",
+    "actionsAreIrreversible": "Tindakan tidak dapat dibatalkan",
+    "takeActionDescription": "Tindakan berikut akan memengaruhi pengguna yang dilaporkan secara permanen. Harap tinjau dengan hati-hati sebelum melanjutkan.",
+    "selectBanDuration": "Pilih Durasi Blokir",
+    "daysFromNow": "Hari dari sekarang",
+    "orSelectSpecificDate": "Atau pilih tanggal tertentu",
+    "userWillBeBanned": "Pengguna akan diblokir selama {{duration}}",
+    "warningDeleteAccount": "Peringatan: Akun akan dihapus secara permanen",
+    "softDeletedAccount": "Akun ini akan dihapus sementara dan tidak dapat dipulihkan.",
+    "reportedUserDataNotAvailable": "Data pengguna yang dilaporkan tidak tersedia",
+    "chatDataNotAvailable": "Data chat tidak tersedia",
+    "noReportedContent": "Tidak ada konten yang dilaporkan",
+    "noAdditionalDetails": "Tidak ada detail tambahan",
+    "unknownUser": "Pengguna Tidak Diketahui",
+    "type": "Tipe",
+    "createdAt": "Dibuat Pada",
+    "updatedAt": "Diperbarui Pada",
+    "resolvedAt": "Diselesaikan Pada"
+  },
+  "confirmations": {
+    "approveReport": "Setujui Laporan",
+    "approveReportDesc": "Apakah Anda yakin ingin menyetujui laporan ini?",
+    "rejectReport": "Tolak Laporan",
+    "rejectReportDesc": "Apakah Anda yakin ingin menolak laporan ini?",
+    "deleteUserAccount": "Hapus Akun Pengguna",
+    "deleteUserAccountDesc": "Tindakan ini akan menghapus akun pengguna secara permanen. Ini tidak dapat dibatalkan.",
+    "deleteReportedContent": "Hapus Konten yang Dilaporkan",
+    "deleteReportedContentDesc": "Apakah Anda yakin ingin menghapus konten yang dilaporkan?"
+  },
+  "actions": {
+    "approve": "Setujui",
+    "reject": "Tolak",
+    "banUser": "Blokir Pengguna",
+    "deleteAccount": "Hapus Akun",
+    "deleteContent": "Hapus Konten",
+    "delete": "Hapus",
+    "ban": "Blokir",
+    "viewUserProfile": "Lihat Profil Pengguna",
+    "viewChatDetails": "Lihat Detail Chat",
+    "viewProfile": "Lihat Profil"
+  },
+  "table": {
+    "reason": "Alasan",
+    "status": "Status"
+  },
+  "messages": {
+    "reportStatusUpdated": "Laporan {{newStatus}}",
+    "updateFailed": "Gagal memperbarui laporan",
+    "noReportedUser": "Tidak ada pengguna yang dilaporkan untuk ditindak",
+    "userBannedFor": "Pengguna diblokir {{duration}}",
+    "userAccountDeleted": "Akun pengguna dihapus",
+    "actionFailed": "Gagal mengambil tindakan",
+    "contentDeleted": "Konten dihapus",
+    "deleteContentFailed": "Gagal menghapus konten"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "পতাকা",
+    "name": "নাম",
+    "code": "কোড",
+    "image": "ছবি",
+    "updated": "আপডেট",
+    "actions": "কার্যক্রম"
+  },
+  "tooltips": {
+    "edit": "দেশ সম্পাদনা",
+    "refresh": "রিফ্রেশ"
+  },
+  "form": {
+    "searchPlaceholder": "নাম বা কোড দিয়ে খুঁজুন..."
+  },
+  "modal": {
+    "title": "দেশ আপডেট করুন"
+  },
+  "buttons": {
+    "saveChanges": "পরিবর্তন সংরক্ষণ"
+  },
+  "validation": {
+    "nameRequired": "নাম প্রয়োজন",
+    "codeRequired": "কোড প্রয়োজন",
+    "codeFormat": "কোড ২-৩ অক্ষর হতে হবে",
+    "emojiRequired": "ইমোজি প্রয়োজন"
+  },
+  "messages": {
+    "updateSuccess": "দেশ সফলভাবে আপডেট হয়েছে",
+    "updateFailed": "দেশ আপডেট করতে ব্যর্থ",
+    "fetchFailed": "দেশ আনতে ব্যর্থ ({{status}})"
+  }
+}

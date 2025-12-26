@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "Reporte de Usuario",
+    "chat": "Reporte de Chat"
+  },
+  "reasons": {
+    "spam": "Spam",
+    "harassment": "Acoso",
+    "inappropriatecontent": "Contenido Inapropiado",
+    "hatespeech": "Discurso de Odio",
+    "violence": "Violencia"
+  },
+  "status": {
+    "pending": "Pendiente",
+    "approved": "Aprobado",
+    "rejected": "Rechazado"
+  },
+  "labels": {
+    "reportId": "ID de Reporte",
+    "reportProgress": "Progreso del Reporte",
+    "submitted": "Enviado",
+    "reporter": "Reportador",
+    "reportedUser": "Usuario Reportado",
+    "reportedContent": "Contenido Reportado",
+    "reportReason": "Razón del Reporte",
+    "reportDetails": "Detalles del Reporte",
+    "takeAction": "Tomar Acción",
+    "actionsAreIrreversible": "Las acciones son irreversibles",
+    "takeActionDescription": "Las siguientes acciones afectarán permanentemente al usuario reportado. Por favor, revise cuidadosamente antes de proceder.",
+    "selectBanDuration": "Seleccionar Duración del Bloqueo",
+    "daysFromNow": "Días desde ahora",
+    "orSelectSpecificDate": "O seleccionar fecha específica",
+    "userWillBeBanned": "El usuario será bloqueado por {{duration}}",
+    "warningDeleteAccount": "Advertencia: La cuenta será eliminada permanentemente",
+    "softDeletedAccount": "Esta cuenta será eliminada temporalmente y no podrá recuperarse.",
+    "reportedUserDataNotAvailable": "Datos del usuario reportado no disponibles",
+    "chatDataNotAvailable": "Datos del chat no disponibles",
+    "noReportedContent": "Sin contenido reportado",
+    "noAdditionalDetails": "No se proporcionaron detalles adicionales",
+    "unknownUser": "Usuario Desconocido",
+    "type": "Tipo",
+    "createdAt": "Creado el",
+    "updatedAt": "Actualizado el",
+    "resolvedAt": "Resuelto el"
+  },
+  "confirmations": {
+    "approveReport": "Aprobar Reporte",
+    "approveReportDesc": "¿Está seguro de que desea aprobar este reporte?",
+    "rejectReport": "Rechazar Reporte",
+    "rejectReportDesc": "¿Está seguro de que desea rechazar este reporte?",
+    "deleteUserAccount": "Eliminar Cuenta de Usuario",
+    "deleteUserAccountDesc": "Esta acción eliminará permanentemente la cuenta del usuario. Esto no se puede deshacer.",
+    "deleteReportedContent": "Eliminar Contenido Reportado",
+    "deleteReportedContentDesc": "¿Está seguro de que desea eliminar el contenido reportado?"
+  },
+  "actions": {
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "banUser": "Bloquear Usuario",
+    "deleteAccount": "Eliminar Cuenta",
+    "deleteContent": "Eliminar Contenido",
+    "delete": "Eliminar",
+    "ban": "Bloquear",
+    "viewUserProfile": "Ver Perfil de Usuario",
+    "viewChatDetails": "Ver Detalles del Chat",
+    "viewProfile": "Ver Perfil"
+  },
+  "table": {
+    "reason": "Razón",
+    "status": "Estado"
+  },
+  "messages": {
+    "reportStatusUpdated": "Reporte {{newStatus}}",
+    "updateFailed": "Error al actualizar reporte",
+    "noReportedUser": "No hay usuario reportado para tomar acción",
+    "userBannedFor": "Usuario bloqueado {{duration}}",
+    "userAccountDeleted": "Cuenta de usuario eliminada",
+    "actionFailed": "Error al tomar acción",
+    "contentDeleted": "Contenido eliminado",
+    "deleteContentFailed": "Error al eliminar contenido"
+  }
+}

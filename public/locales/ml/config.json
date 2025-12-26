@@ -1,0 +1,87 @@
+{
+    "title": "ആപ്പ് കോൺഫിഗറേഷൻ",
+    "subtitle": "ആപ്ലിക്കേഷൻ ക്രമീകരണങ്ങളും ഫീച്ചർ ഫ്ലാഗുകളും മാനേജ് ചെയ്യുക",
+    "sections": {
+        "general": "പൊതു ക്രമീകരണങ്ങൾ",
+        "features": "ഫീച്ചർ ടോഗിളുകൾ",
+        "limits": "പരിധികളും നിയന്ത്രണങ്ങളും",
+        "urls": "ബാഹ്യ URL-കൾ",
+        "icons": "സ്ഥിരസ്ഥിതി ഐക്കണുകൾ"
+    },
+    "subsections": {
+        "platformLogin": "പ്ലാറ്റ്ഫോം ലോഗിൻ",
+        "chatFeatures": "ചാറ്റ് ഫീച്ചറുകൾ",
+        "appStoreLinks": "ആപ്പ് സ്റ്റോർ ലിങ്കുകൾ",
+        "roomEmojis": "റൂം ഇമോജികൾ",
+        "defaultImages": "സ്ഥിരസ്ഥിതി ചിത്രങ്ങൾ (ഫയൽനാമങ്ങൾ)"
+    },
+    "fields": {
+        "appName": "ആപ്പ് പേര്",
+        "feedbackEmail": "ഫീഡ്ബാക്ക് ഇമെയിൽ",
+        "userRegisterStatus": "ഉപയോക്തൃ രജിസ്ട്രേഷൻ നയം",
+        "userRegisterStatusTooltip": "പുതിയ ഉപയോക്തൃ രജിസ്ട്രേഷനുകൾ എങ്ങനെ കൈകാര്യം ചെയ്യുന്നു എന്ന് നിയന്ത്രിക്കുന്നു",
+        "emailCodeExpiry": "ഇമെയിൽ കോഡ് കാലഹരണം (മിനിറ്റുകൾ)",
+        "emailCodeExpiryTooltip": "പാസ്‌വേഡ് റീസെറ്റ് കോഡുകൾ എത്ര കാലം സാധുവാണ്",
+        "enableAds": "പരസ്യങ്ങൾ പ്രവർത്തനക്ഷമമാക്കുക",
+        "mobileLogin": "മൊബൈൽ ലോഗിൻ",
+        "webLogin": "വെബ് ലോഗിൻ",
+        "desktopLogin": "ഡെസ്ക്ടോപ്പ് ലോഗിൻ",
+        "messaging": "സന്ദേശമയയ്ക്കൽ",
+        "sendMedia": "മീഡിയ അയയ്ക്കുക",
+        "voiceVideoCalls": "വോയ്‌സ്/വീഡിയോ കോളുകൾ",
+        "createGroups": "ഗ്രൂപ്പുകൾ സൃഷ്ടിക്കുക",
+        "createBroadcasts": "ബ്രോഡ്കാസ്റ്റുകൾ സൃഷ്ടിക്കുക",
+        "maxGroupMembers": "പരമാവധി ഗ്രൂപ്പ് അംഗങ്ങൾ",
+        "maxGroupMembersTooltip": "ഒരു ഗ്രൂപ്പിൽ അനുവദനീയമായ പരമാവധി അംഗങ്ങളുടെ എണ്ണം",
+        "maxBroadcastRecipients": "പരമാവധി ബ്രോഡ്കാസ്റ്റ് സ്വീകർത്താക്കൾ",
+        "maxBroadcastRecipientsTooltip": "ബ്രോഡ്കാസ്റ്റ് സന്ദേശങ്ങൾക്കുള്ള പരമാവധി സ്വീകർത്താക്കൾ",
+        "maxForwards": "പരമാവധി ഫോർവേഡുകൾ",
+        "maxForwardsTooltip": "ഒരു സന്ദേശം എത്ര തവണ ഫോർവേഡ് ചെയ്യാമെന്ന് പരമാവധി എണ്ണം",
+        "maxMediaSize": "പരമാവധി മീഡിയ വലുപ്പം (MB)",
+        "maxMediaSizeTooltip": "മീഡിയ അപ്‌ലോഡുകൾക്കുള്ള പരമാവധി ഫയൽ വലുപ്പം",
+        "callTimeout": "കോൾ ടൈംഔട്ട് (സെക്കൻഡുകൾ)",
+        "callTimeoutTooltip": "കോൾ ടൈംഔട്ട് ആകുന്നതിനു മുമ്പ് എത്ര നേരം റിംഗ് ചെയ്യും",
+        "privacyUrl": "സ്വകാര്യതാ നയം URL",
+        "webChatUrl": "വെബ് ചാറ്റ് URL",
+        "appleStoreUrl": "Apple App Store URL",
+        "googlePlayUrl": "Google Play Store URL",
+        "macStoreUrl": "Mac App Store URL",
+        "windowsStoreUrl": "Windows Store URL",
+        "groupIcon": "ഗ്രൂപ്പ് ഐക്കൺ",
+        "broadcastIcon": "ബ്രോഡ്കാസ്റ്റ് ഐക്കൺ",
+        "orderIcon": "ഓർഡർ ഐക്കൺ",
+        "defaultUserImage": "സ്ഥിരസ്ഥിതി ഉപയോക്തൃ ചിത്രം",
+        "defaultGroupImage": "സ്ഥിരസ്ഥിതി ഗ്രൂപ്പ് ചിത്രം",
+        "defaultBroadcastImage": "സ്ഥിരസ്ഥിതി ബ്രോഡ്കാസ്റ്റ് ചിത്രം",
+        "defaultSupportImage": "സ്ഥിരസ്ഥിതി സപ്പോർട്ട് ചിത്രം"
+    },
+    "actions": {
+        "refresh": "പുതുക്കുക",
+        "resetToDefaults": "സ്ഥിരസ്ഥിതിയിലേക്ക് റീസെറ്റ് ചെയ്യുക",
+        "discardChanges": "മാറ്റങ്ങൾ നിരസിക്കുക",
+        "saveConfiguration": "കോൺഫിഗറേഷൻ സംരക്ഷിക്കുക"
+    },
+    "confirmations": {
+        "resetTitle": "കോൺഫിഗറേഷൻ റീസെറ്റ് ചെയ്യുക",
+        "resetDescription": "എല്ലാ ക്രമീകരണങ്ങളും സ്ഥിരസ്ഥിതിയിലേക്ക് റീസെറ്റ് ചെയ്യണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ? ഇത് പഴയപടിയാക്കാൻ കഴിയില്ല.",
+        "reset": "റീസെറ്റ് ചെയ്യുക"
+    },
+    "messages": {
+        "configUpdated": "കോൺഫിഗറേഷൻ അപ്ഡേറ്റ് ചെയ്തു",
+        "configUpdatedDesc": "ആപ്പ് കോൺഫിഗറേഷൻ വിജയകരമായി സംരക്ഷിച്ചു.",
+        "updateFailed": "അപ്ഡേറ്റ് പരാജയപ്പെട്ടു",
+        "updateFailedDesc": "കോൺഫിഗറേഷൻ സംരക്ഷിക്കുന്നതിൽ പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക.",
+        "configReset": "കോൺഫിഗറേഷൻ റീസെറ്റ് ചെയ്തു",
+        "configResetDesc": "ആപ്പ് കോൺഫിഗറേഷൻ സ്ഥിരസ്ഥിതിയിലേക്ക് റീസെറ്റ് ചെയ്തു.",
+        "resetFailed": "റീസെറ്റ് പരാജയപ്പെട്ടു",
+        "resetFailedDesc": "കോൺഫിഗറേഷൻ റീസെറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക.",
+        "backendVersion": "ബാക്ക്എൻഡ് വേർഷൻ"
+    },
+    "validation": {
+        "appNameRequired": "ആപ്പ് പേര് ആവശ്യമാണ്",
+        "emailRequired": "ഇമെയിൽ ആവശ്യമാണ്",
+        "invalidEmail": "അസാധുവായ ഇമെയിൽ ഫോർമാറ്റ്",
+        "invalidUrl": "അസാധുവായ URL ഫോർമാറ്റ്"
+    },
+    "current": "നിലവിലുള്ളത്"
+}

@@ -1,0 +1,49 @@
+{
+    "title": "データエクスポート",
+    "subtitle": "JSONまたはCSV形式でアプリケーションデータをエクスポート",
+    "fields": {
+        "dateRange": "日付範囲（オプション）",
+        "format": "形式",
+        "limit": "制限",
+        "maxLimit": "最大：{{max}}"
+    },
+    "actions": {
+        "export": "{{label}}をエクスポート"
+    },
+    "types": {
+        "users": {
+            "label": "ユーザー",
+            "description": "ユーザープロフィールとアカウントデータをエクスポート"
+        },
+        "messages": {
+            "label": "メッセージ",
+            "description": "チャットメッセージとコンテンツをエクスポート"
+        },
+        "reports": {
+            "label": "報告",
+            "description": "ユーザー報告と苦情をエクスポート"
+        },
+        "audit-logs": {
+            "label": "監査ログ",
+            "description": "管理者アクティビティログをエクスポート"
+        },
+        "stories": {
+            "label": "ストーリー",
+            "description": "ユーザーストーリーのメタデータをエクスポート"
+        },
+        "calls": {
+            "label": "通話",
+            "description": "通話履歴とメタデータをエクスポート"
+        },
+        "analytics": {
+            "label": "分析",
+            "description": "集計された分析レポートをエクスポート"
+        }
+    },
+    "messages": {
+        "exportSuccess": "エクスポート成功",
+        "exportSuccessDesc": "{{label}}データが{{format}}としてエクスポートされました。",
+        "exportFailed": "エクスポート失敗",
+        "exportFailedDesc": "{{label}}データのエクスポートに失敗しました。もう一度お試しください。"
+    }
+}

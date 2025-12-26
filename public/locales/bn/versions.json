@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "অ্যাপ সংস্করণ",
+    "addVersionButton": "সংস্করণ যোগ করুন"
+  },
+  "table": {
+    "version": "সংস্করণ",
+    "platform": "প্ল্যাটফর্ম",
+    "critical": "গুরুত্বপূর্ণ",
+    "notify": "অবহিত করুন",
+    "notes": "নোট",
+    "created": "তৈরি",
+    "actions": "কার্যক্রম"
+  },
+  "tabs": {
+    "all": "সব",
+    "macos": "ম্যাকওএস",
+    "other": "অন্যান্য"
+  },
+  "tooltips": {
+    "edit": "সম্পাদনা",
+    "delete": "মুছুন",
+    "refresh": "রিফ্রেশ"
+  },
+  "modal": {
+    "addTitle": "সংস্করণ যোগ করুন",
+    "editTitle": "সংস্করণ সম্পাদনা"
+  },
+  "form": {
+    "platform": "প্ল্যাটফর্ম",
+    "version": "সংস্করণ",
+    "critical": "গুরুত্বপূর্ণ (জোরপূর্বক আপডেট)",
+    "notify": "ব্যবহারকারীদের অবহিত করুন",
+    "notes": "রিলিজ নোট",
+    "notesPlaceholder": "এই সংস্করণে নতুন কী আছে..."
+  },
+  "validation": {
+    "platformRequired": "প্ল্যাটফর্ম প্রয়োজন",
+    "selectPlatform": "প্ল্যাটফর্ম নির্বাচন করুন",
+    "versionRequired": "সংস্করণ প্রয়োজন",
+    "versionFormat": "ফর্ম্যাট ব্যবহার করুন: x.x.x (যেমন, ১.২.০)"
+  },
+  "buttons": {
+    "cancel": "বাতিল",
+    "create": "তৈরি",
+    "update": "আপডেট"
+  },
+  "confirmations": {
+    "deleteTitle": "এই সংস্করণ মুছবেন?",
+    "deleteDesc": "এই পদক্ষেপ পূর্বাবস্থায় ফেরানো যাবে না।",
+    "deleteButton": "মুছুন"
+  },
+  "messages": {
+    "fetchVersionsFailed": "সংস্করণ আনতে ব্যর্থ: {{error}}",
+    "deleteSuccess": "সংস্করণ সফলভাবে মুছে ফেলা হয়েছে",
+    "deleteFailed": "সংস্করণ মুছতে ব্যর্থ",
+    "updateSuccess": "সংস্করণ সফলভাবে আপডেট হয়েছে",
+    "createSuccess": "সংস্করণ সফলভাবে তৈরি হয়েছে",
+    "saveFailed": "সংস্করণ সংরক্ষণ করতে ব্যর্থ"
+  }
+}

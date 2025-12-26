@@ -1,0 +1,44 @@
+{
+    "title": "Notifikasi",
+    "list": {
+        "sendToAll": "Kirim ke Semua Pengguna",
+        "columns": {
+            "title": "Judul",
+            "content": "Konten",
+            "image": "Gambar",
+            "created": "Dibuat",
+            "actions": "Aksi"
+        },
+        "hasImage": {
+            "yes": "Ya",
+            "no": "Tidak"
+        },
+        "modal": {
+            "title": "Kirim Notifikasi ke Semua Pengguna",
+            "form": {
+                "title": "Judul",
+                "titlePlaceholder": "Judul notifikasi",
+                "content": "Konten",
+                "contentPlaceholder": "Pesan notifikasi",
+                "imageUrl": "URL Gambar (opsional)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "Notifikasi terkirim ke semua pengguna"
+        }
+    },
+    "show": {
+        "adminNotification": "Notifikasi Admin",
+        "created": "Dibuat",
+        "notificationImage": "Gambar Notifikasi",
+        "notificationContent": "Konten Notifikasi",
+        "notificationDetails": "Detail Notifikasi",
+        "notificationId": "ID Notifikasi",
+        "updated": "Diperbarui",
+        "imageUrl": "URL Gambar",
+        "deliveryInfo": "Informasi Pengiriman",
+        "sentAt": "Dikirim Pada",
+        "timeAgo": "Waktu Lalu"
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "Flag",
+    "name": "Name",
+    "code": "Code",
+    "image": "Image",
+    "updated": "Updated",
+    "actions": "Actions"
+  },
+  "tooltips": {
+    "edit": "Edit Country",
+    "refresh": "Refresh"
+  },
+  "form": {
+    "searchPlaceholder": "Search by name or code..."
+  },
+  "modal": {
+    "title": "Update Country"
+  },
+  "buttons": {
+    "saveChanges": "Save Changes"
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "codeRequired": "Code is required",
+    "codeFormat": "Code must be 2-3 characters",
+    "emojiRequired": "Emoji is required"
+  },
+  "messages": {
+    "updateSuccess": "Country updated successfully",
+    "updateFailed": "Failed to update country",
+    "fetchFailed": "Failed to fetch countries ({{status}})"
+  }
+}

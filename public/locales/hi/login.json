@@ -1,0 +1,16 @@
+{
+  "title": "एडमिन लॉगिन",
+  "subtitle": "अपने सुपर अप एडमिन खाते में साइन इन करें",
+  "email": "ईमेल एड्रेस",
+  "emailRequired": "कृपया अपना ईमेल दर्ज करें",
+  "emailInvalid": "कृपया एक मान्य ईमेल दर्ज करें",
+  "emailPlaceholder": "admin@example.com",
+  "password": "पासवर्ड",
+  "passwordRequired": "कृपया अपना पासवर्ड दर्ज करें",
+  "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+  "rememberMe": "मुझे याद रखें",
+  "signIn": "साइन इन करें",
+  "signingIn": "साइन इन हो रहा है...",
+  "demoMode": "डेमो मोड",
+  "demoModeDescription": "आप एक डेमो देख रहे हैं। कुछ फीचर अक्षम हैं।"
+}

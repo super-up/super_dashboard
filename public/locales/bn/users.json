@@ -1,0 +1,202 @@
+{
+  "show": {
+    "userInformation": "ব্যবহারকারী তথ্য",
+    "notVerified": "যাচাইকৃত নয়",
+    "offline": "অফলাইন",
+    "online": "অনলাইন",
+    "deleted": "মুছে ফেলা",
+    "active": "সক্রিয়",
+    "bannedUntil": "{{date}} পর্যন্ত নিষিদ্ধ",
+    "verifiedUser": "যাচাইকৃত ব্যবহারকারী",
+    "unknown": "অজানা",
+    "untitled": "শিরোনামহীন"
+  },
+  "fields": {
+    "id": "আইডি",
+    "phone": "ফোন",
+    "email": "ইমেইল",
+    "platform": "প্ল্যাটফর্ম",
+    "registrationStatus": "নিবন্ধন স্ট্যাটাস",
+    "verification": "যাচাইকরণ",
+    "country": "দেশ",
+    "isOnline": "অনলাইন স্ট্যাটাস",
+    "lastSeen": "শেষ দেখা",
+    "registered": "নিবন্ধিত",
+    "banExpires": "নিষেধাজ্ঞা মেয়াদ",
+    "deletedAt": "মোছার সময়"
+  },
+  "tabs": {
+    "overview": "সংক্ষিপ্ত বিবরণ",
+    "rooms": "রুম",
+    "stories": "স্টোরি",
+    "calls": "কল"
+  },
+  "devices": {
+    "title": "ডিভাইস",
+    "platform": "প্ল্যাটফর্ম",
+    "version": "সংস্করণ",
+    "lastActive": "শেষ সক্রিয়",
+    "push": "পুশ নোটিফিকেশন",
+    "enabled": "সক্রিয়",
+    "disabled": "নিষ্ক্রিয়",
+    "actions": "কার্যক্রম"
+  },
+  "stats": {
+    "devices": "ডিভাইস",
+    "rooms": "রুম",
+    "stories": "স্টোরি"
+  },
+  "rooms": {
+    "title": "রুম",
+    "type": "ধরন",
+    "status": "স্ট্যাটাস",
+    "admin": "প্রশাসক",
+    "moderator": "মডারেটর",
+    "actions": "কার্যক্রম",
+    "noRooms": "কোন রুম পাওয়া যায়নি"
+  },
+  "stories": {
+    "media": "মিডিয়া",
+    "type": "ধরন",
+    "caption": "ক্যাপশন",
+    "views": "ভিউ",
+    "expiry": "মেয়াদ",
+    "expired": "মেয়াদোত্তীর্ণ",
+    "created": "তৈরি",
+    "noStories": "কোন স্টোরি পাওয়া যায়নি"
+  },
+  "calls": {
+    "type": "ধরন",
+    "video": "ভিডিও",
+    "voice": "ভয়েস",
+    "direction": "দিক",
+    "outgoing": "বহির্গমন",
+    "incoming": "আগমন",
+    "status": "স্ট্যাটাস",
+    "duration": "সময়কাল",
+    "date": "তারিখ",
+    "noCalls": "কোন কল পাওয়া যায়নি"
+  },
+  "actions": {
+    "viewGroup": "গ্রুপ দেখুন",
+    "viewDetails": "বিস্তারিত দেখুন",
+    "view": "দেখুন",
+    "edit": "সম্পাদনা",
+    "ban": "নিষিদ্ধ",
+    "unban": "নিষেধাজ্ঞা তুলুন",
+    "verify": "যাচাই করুন",
+    "unverify": "যাচাই বাতিল",
+    "restore": "পুনরুদ্ধার",
+    "delete": "মুছুন",
+    "logoutAll": "সব ডিভাইস লগআউট"
+  },
+  "confirmations": {
+    "unbanUser": "আপনি কি এই ব্যবহারকারীর নিষেধাজ্ঞা তুলতে চান?",
+    "banUser": "আপনি কি এই ব্যবহারকারীকে নিষিদ্ধ করতে চান?",
+    "unverifyUser": "আপনি কি যাচাইকরণ সরাতে চান?",
+    "verifyUser": "আপনি কি এই ব্যবহারকারী যাচাই করতে চান?",
+    "restoreUser": "আপনি কি এই ব্যবহারকারী পুনরুদ্ধার করতে চান?",
+    "deleteUser": "আপনি কি এই ব্যবহারকারী মুছতে চান?",
+    "logoutAll": "এটি সব ডিভাইস থেকে ব্যবহারকারীকে লগআউট করবে। চালিয়ে যাবেন?",
+    "banUserTitle": "ব্যবহারকারী নিষিদ্ধ করুন",
+    "banUserDesc": "আপনি কি এই ব্যবহারকারীকে নিষিদ্ধ করতে চান? তারা অ্যাপ অ্যাক্সেস করতে পারবে না।",
+    "banButton": "হ্যাঁ, নিষিদ্ধ করুন",
+    "unbannedTitle": "নিষেধাজ্ঞা তুলুন",
+    "unbannedDesc": "আপনি কি এই ব্যবহারকারীর নিষেধাজ্ঞা তুলতে চান?",
+    "unbannedButton": "হ্যাঁ, নিষেধাজ্ঞা তুলুন",
+    "restoreTitle": "ব্যবহারকারী পুনরুদ্ধার",
+    "restoreDesc": "আপনি কি এই ব্যবহারকারী পুনরুদ্ধার করতে চান? তারা আবার অ্যাপ অ্যাক্সেস পাবে।",
+    "restoreButton": "হ্যাঁ, পুনরুদ্ধার করুন",
+    "deleteTitle": "ব্যবহারকারী মুছুন",
+    "deleteDesc": "আপনি কি এই ব্যবহারকারীকে স্থায়ীভাবে মুছতে চান? এই পদক্ষেপ পূর্বাবস্থায় ফেরানো যাবে না।",
+    "deleteButton": "হ্যাঁ, মুছুন",
+    "logoutAllTitle": "সব ডিভাইস লগআউট",
+    "logoutAllDesc": "এটি সব ডিভাইস থেকে ব্যবহারকারীকে জোরপূর্বক লগআউট করবে। আপনি কি নিশ্চিত?",
+    "logoutAllButton": "হ্যাঁ, সব লগআউট করুন"
+  },
+  "notifications": {
+    "unbanned": "ব্যবহারকারীর নিষেধাজ্ঞা সফলভাবে তুলে নেওয়া হয়েছে",
+    "banned": "ব্যবহারকারী সফলভাবে নিষিদ্ধ হয়েছে",
+    "badgeRemoved": "যাচাইকরণ ব্যাজ সরানো হয়েছে",
+    "verified": "ব্যবহারকারী সফলভাবে যাচাইকৃত হয়েছে",
+    "restored": "ব্যবহারকারী সফলভাবে পুনরুদ্ধার হয়েছে",
+    "deleted": "ব্যবহারকারী সফলভাবে মুছে ফেলা হয়েছে",
+    "updateFailed": "ব্যবহারকারী আপডেট করতে ব্যর্থ",
+    "loggedOut": "সব ডিভাইস থেকে লগআউট হয়েছে",
+    "logoutFailed": "ডিভাইস লগআউট করতে ব্যর্থ"
+  },
+  "filters": {
+    "verified": "যাচাইকৃত"
+  },
+  "modal": {
+    "title": "ব্যবহারকারী সম্পাদনা",
+    "profileSection": "প্রোফাইল তথ্য",
+    "verificationSection": "যাচাইকরণ",
+    "banSection": "নিষেধাজ্ঞা পরিচালনা",
+    "dangerZone": "বিপজ্জনক অঞ্চল"
+  },
+  "form": {
+    "fullName": "পূর্ণ নাম",
+    "bio": "জীবনী",
+    "registrationStatus": "নিবন্ধন স্ট্যাটাস",
+    "verificationBadge": "যাচাইকরণ ব্যাজ",
+    "banDuration": "নিষেধাজ্ঞার সময়কাল নির্বাচন করুন",
+    "banEndDate": "নিষেধাজ্ঞা শেষের তারিখ নির্বাচন করুন",
+    "saveProfileChanges": "প্রোফাইল পরিবর্তন সংরক্ষণ",
+    "deleted": "এই ব্যবহারকারী মুছে ফেলা হয়েছে"
+  },
+  "placeholders": {
+    "enterFullName": "পূর্ণ নাম লিখুন",
+    "enterBio": "জীবনী লিখুন"
+  },
+  "validation": {
+    "fullNameRequired": "নাম প্রয়োজন",
+    "selectRegistrationStatus": "নিবন্ধন স্ট্যাটাস নির্বাচন করুন"
+  },
+  "options": {
+    "accepted": "গৃহীত",
+    "pending": "মুলতুবি",
+    "rejected": "প্রত্যাখ্যাত"
+  },
+  "badges": {
+    "verified": "যাচাইকৃত",
+    "notVerified": "যাচাইকৃত নয়",
+    "isVerified": "ব্যবহারকারী যাচাইকৃত",
+    "isNotVerified": "ব্যবহারকারী যাচাইকৃত নয়"
+  },
+  "banDurations": {
+    "1h": "১ ঘন্টা",
+    "3d": "৩ দিন",
+    "7d": "৭ দিন",
+    "1m": "১ মাস",
+    "3m": "৩ মাস",
+    "1y": "১ বছর",
+    "permanent": "স্থায়ী",
+    "customDate": "কাস্টম তারিখ"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "ব্যবহারকারী প্রোফাইল সফলভাবে আপডেট হয়েছে",
+    "profileUpdateFailed": "ব্যবহারকারী আপডেট করতে ব্যর্থ",
+    "userBannedSuccess": "ব্যবহারকারী সফলভাবে নিষিদ্ধ হয়েছে",
+    "userUnbannedSuccess": "ব্যবহারকারীর নিষেধাজ্ঞা সফলভাবে তুলে নেওয়া হয়েছে",
+    "banStatusFailed": "নিষেধাজ্ঞা স্ট্যাটাস আপডেট করতে ব্যর্থ",
+    "banUserSuccess": "ব্যবহারকারী সফলভাবে নিষিদ্ধ হয়েছে",
+    "banUserFailed": "ব্যবহারকারী নিষিদ্ধ করতে ব্যর্থ",
+    "verificationBadgeRemoved": "যাচাইকরণ ব্যাজ সরানো হয়েছে",
+    "verificationBadgeAdded": "ব্যবহারকারী সফলভাবে যাচাইকৃত হয়েছে",
+    "verificationFailed": "যাচাইকরণ আপডেট করতে ব্যর্থ",
+    "userRestoredSuccess": "ব্যবহারকারী সফলভাবে পুনরুদ্ধার হয়েছে",
+    "userDeletedSuccess": "ব্যবহারকারী সফলভাবে মুছে ফেলা হয়েছে",
+    "updateUserFailed": "ব্যবহারকারী আপডেট করতে ব্যর্থ",
+    "logoutDevicesSuccess": "{{count}} ডিভাইস থেকে সফলভাবে লগআউট হয়েছে",
+    "logoutDevicesFailed": "ডিভাইস লগআউট করতে ব্যর্থ",
+    "bannedUntil": "{{date}} পর্যন্ত ব্যবহারকারী নিষিদ্ধ"
+  },
+  "buttons": {
+    "banUser": "ব্যবহারকারী নিষিদ্ধ করুন",
+    "unbanUser": "নিষেধাজ্ঞা তুলুন",
+    "deleteUser": "ব্যবহারকারী মুছুন",
+    "restoreUser": "ব্যবহারকারী পুনরুদ্ধার",
+    "logoutAllDevices": "সব ডিভাইস লগআউট"
+  }
+}

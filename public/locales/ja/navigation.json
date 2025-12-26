@@ -1,0 +1,18 @@
+{
+    "dashboard": "ダッシュボード",
+    "users": "ユーザー",
+    "messages": "メッセージ",
+    "rooms": "ルーム",
+    "reports": "報告",
+    "calls": "通話",
+    "stories": "ストーリー",
+    "auditLogs": "監査ログ",
+    "realtimeLogs": "リアルタイムログ",
+    "notifications": "通知",
+    "devices": "デバイス",
+    "countries": "国",
+    "stickers": "スタンプ",
+    "appConfig": "アプリ設定",
+    "dataExport": "データエクスポート",
+    "appVersions": "アプリバージョン"
+}

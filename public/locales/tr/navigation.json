@@ -1,0 +1,18 @@
+{
+    "dashboard": "Kontrol Paneli",
+    "users": "Kullanıcılar",
+    "messages": "Mesajlar",
+    "rooms": "Odalar",
+    "reports": "Şikayetler",
+    "calls": "Aramalar",
+    "stories": "Hikayeler",
+    "auditLogs": "Denetim Günlükleri",
+    "realtimeLogs": "Gerçek Zamanlı Günlükler",
+    "notifications": "Bildirimler",
+    "devices": "Cihazlar",
+    "countries": "Ülkeler",
+    "stickers": "Çıkartmalar",
+    "appConfig": "Uygulama Yapılandırması",
+    "dataExport": "Veri Dışa Aktarma",
+    "appVersions": "Uygulama Versiyonları"
+}

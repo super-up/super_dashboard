@@ -1,0 +1,18 @@
+{
+    "dashboard": "Dasbor",
+    "users": "Pengguna",
+    "messages": "Pesan",
+    "rooms": "Ruangan",
+    "reports": "Laporan",
+    "calls": "Panggilan",
+    "stories": "Story",
+    "auditLogs": "Log Audit",
+    "realtimeLogs": "Log Real-time",
+    "notifications": "Notifikasi",
+    "devices": "Perangkat",
+    "countries": "Negara",
+    "stickers": "Stiker",
+    "appConfig": "Konfigurasi Aplikasi",
+    "dataExport": "Ekspor Data",
+    "appVersions": "Versi Aplikasi"
+}

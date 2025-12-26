@@ -1,0 +1,100 @@
+{
+    "title": "Pesan",
+    "list": "Daftar Pesan",
+    "details": "Detail Pesan",
+    "fields": {
+        "id": "ID Pesan",
+        "content": "Konten",
+        "type": "Tipe",
+        "sender": "Pengirim",
+        "room": "Ruangan",
+        "roomId": "ID Ruangan",
+        "status": "Status",
+        "platform": "Platform",
+        "createdAt": "Dikirim Pada",
+        "created": "Dibuat",
+        "updated": "Diperbarui",
+        "seenAt": "Dilihat Pada",
+        "deletedAt": "Dihapus Pada",
+        "attachments": "Lampiran",
+        "encryption": "Enkripsi",
+        "fileName": "Nama File",
+        "mimeType": "Tipe MIME",
+        "fileSize": "Ukuran File",
+        "dimensions": "Dimensi",
+        "duration": "Durasi",
+        "url": "URL"
+    },
+    "types": {
+        "text": "Teks",
+        "image": "Gambar",
+        "video": "Video",
+        "audio": "Audio",
+        "voice": "Suara",
+        "file": "File",
+        "location": "Lokasi",
+        "contact": "Kontak",
+        "sticker": "Stiker",
+        "gif": "GIF",
+        "call": "Panggilan",
+        "reaction": "Reaksi",
+        "info": "Info"
+    },
+    "filters": {
+        "all": "Semua Pesan",
+        "text": "Teks Saja",
+        "media": "Media Saja",
+        "today": "Hari Ini",
+        "thisWeek": "Minggu Ini"
+    },
+    "actions": {
+        "delete": "Hapus",
+        "restore": "Pulihkan",
+        "viewRoom": "Lihat Ruangan",
+        "viewSender": "Lihat Pengirim",
+        "viewProfile": "Lihat Profil",
+        "viewOriginal": "Lihat Asli",
+        "download": "Unduh",
+        "downloadAudio": "Unduh Audio",
+        "downloadFile": "Unduh File",
+        "playVideo": "Putar Video",
+        "hidePlayer": "Sembunyikan Pemutar"
+    },
+    "show": {
+        "messageContent": "Konten Pesan",
+        "messageDetails": "Detail Pesan",
+        "attachmentDetails": "Detail Lampiran",
+        "voiceMessage": "Pesan Suara",
+        "videoMessage": "Pesan Video",
+        "locationShared": "Lokasi Dibagikan",
+        "systemMessage": "Pesan sistem",
+        "noContent": "Tidak ada konten",
+        "noVideoUrl": "Tidak ada URL video",
+        "noAudioUrl": "Tidak ada URL audio",
+        "messageDeleted": "Pesan ini telah dihapus",
+        "replyInfo": "Pesan ini adalah balasan dari pesan lain",
+        "forwardedFrom": "Diteruskan Dari",
+        "replyTo": "Balas Ke",
+        "reactions": "Reaksi",
+        "unknown": "Tidak Diketahui",
+        "size": "Ukuran",
+        "type": "Tipe"
+    },
+    "tags": {
+        "deleted": "Dihapus",
+        "active": "Aktif",
+        "hasMedia": "Ada Media",
+        "forwarded": "Diteruskan",
+        "reply": "Balasan",
+        "encrypted": "Terenkripsi"
+    },
+    "confirmations": {
+        "deleteMessage": "Hapus pesan ini?",
+        "restoreMessage": "Pulihkan pesan ini?"
+    },
+    "notifications": {
+        "deleted": "Pesan dihapus",
+        "restored": "Pesan dipulihkan",
+        "updateFailed": "Gagal memperbarui pesan"
+    }
+}

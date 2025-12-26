@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "Bayrak",
+    "name": "İsim",
+    "code": "Kod",
+    "image": "Görsel",
+    "updated": "Güncellendi",
+    "actions": "İşlemler"
+  },
+  "tooltips": {
+    "edit": "Ülkeyi Düzenle",
+    "refresh": "Yenile"
+  },
+  "form": {
+    "searchPlaceholder": "İsim veya koda göre ara..."
+  },
+  "modal": {
+    "title": "Ülkeyi Güncelle"
+  },
+  "buttons": {
+    "saveChanges": "Değişiklikleri Kaydet"
+  },
+  "validation": {
+    "nameRequired": "İsim gerekli",
+    "codeRequired": "Kod gerekli",
+    "codeFormat": "Kod 2-3 karakter olmalı",
+    "emojiRequired": "Emoji gerekli"
+  },
+  "messages": {
+    "updateSuccess": "Ülke başarıyla güncellendi",
+    "updateFailed": "Ülke güncellenemedi",
+    "fetchFailed": "Ülkeler getirilemedi ({{status}})"
+  }
+}

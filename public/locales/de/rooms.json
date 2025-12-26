@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "Gruppen",
+    "broadcast": "Broadcast",
+    "single": "Chats"
+  },
+  "labels": {
+    "roomDetails": "Raumdetails",
+    "groupDetails": "Gruppendetails",
+    "broadcastDetails": "Broadcast-Details",
+    "chatDetails": "Chat-Details",
+    "directChat": "Direkter Chat",
+    "untitled": "Unbenannt",
+    "description": "Beschreibung",
+    "roomId": "Raum-ID",
+    "broadcastId": "Broadcast-ID",
+    "chatId": "Chat-ID",
+    "type": "Typ",
+    "createdBy": "Erstellt von",
+    "membersCount": "Mitgliederanzahl",
+    "recipientsCount": "Empfängeranzahl",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "roomInformation": "Rauminformationen",
+    "broadcastInformation": "Broadcast-Informationen",
+    "chatInformation": "Chat-Informationen",
+    "thisRoomDeletedOn": "Dieser Raum wurde am {{date}} gelöscht",
+    "owner": "Eigentümer",
+    "member": "Mitglied",
+    "recipient": "Empfänger",
+    "userDataNotAvailable": "Benutzerdaten nicht verfügbar",
+    "unknownUser": "Unbekannter Benutzer",
+    "private": "Privat"
+  },
+  "table": {
+    "members": "Mitglieder",
+    "recipients": "Empfänger",
+    "messages": "Nachrichten",
+    "lastActive": "Zuletzt aktiv",
+    "participant1": "Teilnehmer 1",
+    "participant2": "Teilnehmer 2",
+    "user": "Benutzer",
+    "role": "Rolle",
+    "joined": "Beigetreten",
+    "lastSeen": "Zuletzt gesehen",
+    "actions": "Aktionen",
+    "status": "Status",
+    "lastMessage": "Letzte Nachricht"
+  },
+  "status": {
+    "deleted": "Gelöscht",
+    "active": "Aktiv"
+  },
+  "actions": {
+    "removeMembers": "Mitglieder entfernen",
+    "viewUser": "Benutzer anzeigen",
+    "viewProfile": "Profil anzeigen",
+    "restore": "Wiederherstellen",
+    "delete": "Löschen",
+    "cancel": "Abbrechen"
+  },
+  "confirmations": {
+    "restoreRoom": "Raum wiederherstellen",
+    "deleteRoom": "Raum löschen",
+    "restoreRoomConfirm": "Möchten Sie diesen Raum wirklich wiederherstellen?",
+    "softDeleteRoom": "Dieser Raum wird vorläufig gelöscht und kann später wiederhergestellt werden.",
+    "removeFromGroup": "{{count}} Mitglied(er) aus Gruppe entfernen?",
+    "removeFromGroupDesc": "Möchten Sie wirklich {{count}} ausgewählte(s) Mitglied(er) aus dieser Gruppe entfernen?"
+  },
+  "placeholders": {
+    "searchMembers": "Mitglieder durchsuchen...",
+    "searchRecipients": "Empfänger durchsuchen..."
+  },
+  "messages": {
+    "roomRestored": "Raum wiederhergestellt",
+    "roomDeleted": "Raum gelöscht",
+    "membersRemoved": "{{count}} Mitglied(er) aus Gruppe entfernt",
+    "operationFailed": "Vorgang fehlgeschlagen"
+  }
+}

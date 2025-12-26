@@ -1,0 +1,70 @@
+{
+  "title": "设备",
+  "page": {
+    "title": "设备"
+  },
+  "columns": {
+    "user": "用户",
+    "platform": "平台",
+    "appVersion": "应用版本",
+    "pushToken": "推送令牌",
+    "status": "状态",
+    "lastActive": "最后活跃",
+    "created": "创建时间"
+  },
+  "labels": {
+    "never": "从未",
+    "deviceOwner": "设备所有者",
+    "deviceInformation": "设备信息",
+    "deviceId": "设备ID",
+    "deviceModel": "设备型号",
+    "osVersion": "系统版本",
+    "pushNotification": "推送通知",
+    "pushStatus": "推送状态",
+    "pushToken": "推送令牌",
+    "noPushToken": "此设备未注册推送令牌",
+    "activityDetails": "活动详情",
+    "totalVisits": "总访问次数"
+  },
+  "actions": {
+    "viewDetails": "查看详情",
+    "deleteDevice": "删除设备",
+    "revokeSession": "撤销会话"
+  },
+  "confirmations": {
+    "deleteDevice": "确定要删除此设备吗？",
+    "revokeSession": "撤销会话",
+    "revokeDescription": "这将使用户从此设备退出并将其从系统中移除。"
+  },
+  "tabs": {
+    "all": "全部",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "网页",
+    "desktop": "桌面"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "按用户名或电话搜索..."
+  },
+  "table": {
+    "device": "设备",
+    "user": "用户",
+    "platform": "平台",
+    "version": "版本",
+    "status": "状态",
+    "lastSeen": "最后在线",
+    "push": "推送",
+    "actions": "操作"
+  },
+  "tooltips": {
+    "edit": "编辑",
+    "delete": "删除"
+  },
+  "messages": {
+    "fetchFailed": "获取设备失败（{{status}}）",
+    "deviceDeleted": "设备已成功删除",
+    "failedToDelete": "设备删除失败",
+    "sessionRevoked": "会话已成功撤销",
+    "failedToRevoke": "会话撤销失败"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Dispositivos",
+  "page": {
+    "title": "Dispositivos"
+  },
+  "columns": {
+    "user": "Usuario",
+    "platform": "Plataforma",
+    "appVersion": "Versión de App",
+    "pushToken": "Token Push",
+    "status": "Estado",
+    "lastActive": "Última Actividad",
+    "created": "Creado"
+  },
+  "labels": {
+    "never": "Nunca",
+    "deviceOwner": "Propietario del Dispositivo",
+    "deviceInformation": "Información del Dispositivo",
+    "deviceId": "ID de Dispositivo",
+    "deviceModel": "Modelo de Dispositivo",
+    "osVersion": "Versión del SO",
+    "pushNotification": "Notificación Push",
+    "pushStatus": "Estado Push",
+    "pushToken": "Token Push",
+    "noPushToken": "No hay token push registrado para este dispositivo",
+    "activityDetails": "Detalles de Actividad",
+    "totalVisits": "Visitas Totales"
+  },
+  "actions": {
+    "viewDetails": "Ver Detalles",
+    "deleteDevice": "Eliminar Dispositivo",
+    "revokeSession": "Revocar Sesión"
+  },
+  "confirmations": {
+    "deleteDevice": "¿Está seguro de que desea eliminar este dispositivo?",
+    "revokeSession": "Revocar Sesión",
+    "revokeDescription": "Esto cerrará la sesión del usuario en este dispositivo y lo eliminará del sistema."
+  },
+  "tabs": {
+    "all": "Todos",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Escritorio"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "Buscar por nombre de usuario o teléfono..."
+  },
+  "table": {
+    "device": "Dispositivo",
+    "user": "Usuario",
+    "platform": "Plataforma",
+    "version": "Versión",
+    "status": "Estado",
+    "lastSeen": "Visto por Última Vez",
+    "push": "Push",
+    "actions": "Acciones"
+  },
+  "tooltips": {
+    "edit": "Editar",
+    "delete": "Eliminar"
+  },
+  "messages": {
+    "fetchFailed": "Error al obtener dispositivos ({{status}})",
+    "deviceDeleted": "Dispositivo eliminado exitosamente",
+    "failedToDelete": "Error al eliminar dispositivo",
+    "sessionRevoked": "Sesión revocada exitosamente",
+    "failedToRevoke": "Error al revocar sesión"
+  }
+}

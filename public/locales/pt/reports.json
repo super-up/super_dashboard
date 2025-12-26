@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "Denúncia de Usuário",
+    "chat": "Denúncia de Chat"
+  },
+  "reasons": {
+    "spam": "Spam",
+    "harassment": "Assédio",
+    "inappropriatecontent": "Conteúdo Inapropriado",
+    "hatespeech": "Discurso de Ódio",
+    "violence": "Violência"
+  },
+  "status": {
+    "pending": "Pendente",
+    "approved": "Aprovado",
+    "rejected": "Rejeitado"
+  },
+  "labels": {
+    "reportId": "ID da Denúncia",
+    "reportProgress": "Progresso da Denúncia",
+    "submitted": "Enviado",
+    "reporter": "Denunciante",
+    "reportedUser": "Usuário Denunciado",
+    "reportedContent": "Conteúdo Denunciado",
+    "reportReason": "Motivo da Denúncia",
+    "reportDetails": "Detalhes da Denúncia",
+    "takeAction": "Tomar Ação",
+    "actionsAreIrreversible": "Ações são irreversíveis",
+    "takeActionDescription": "As seguintes ações afetarão permanentemente o usuário denunciado. Por favor, revise cuidadosamente antes de prosseguir.",
+    "selectBanDuration": "Selecionar Duração do Banimento",
+    "daysFromNow": "Dias a partir de agora",
+    "orSelectSpecificDate": "Ou selecionar data específica",
+    "userWillBeBanned": "Usuário será banido por {{duration}}",
+    "warningDeleteAccount": "Aviso: A conta será excluída permanentemente",
+    "softDeletedAccount": "Esta conta será excluída temporariamente e não poderá ser recuperada.",
+    "reportedUserDataNotAvailable": "Dados do usuário denunciado não disponíveis",
+    "chatDataNotAvailable": "Dados do chat não disponíveis",
+    "noReportedContent": "Nenhum conteúdo denunciado",
+    "noAdditionalDetails": "Nenhum detalhe adicional fornecido",
+    "unknownUser": "Usuário Desconhecido",
+    "type": "Tipo",
+    "createdAt": "Criado em",
+    "updatedAt": "Atualizado em",
+    "resolvedAt": "Resolvido em"
+  },
+  "confirmations": {
+    "approveReport": "Aprovar Denúncia",
+    "approveReportDesc": "Tem certeza de que deseja aprovar esta denúncia?",
+    "rejectReport": "Rejeitar Denúncia",
+    "rejectReportDesc": "Tem certeza de que deseja rejeitar esta denúncia?",
+    "deleteUserAccount": "Excluir Conta do Usuário",
+    "deleteUserAccountDesc": "Esta ação excluirá permanentemente a conta do usuário. Isto não pode ser desfeito.",
+    "deleteReportedContent": "Excluir Conteúdo Denunciado",
+    "deleteReportedContentDesc": "Tem certeza de que deseja excluir o conteúdo denunciado?"
+  },
+  "actions": {
+    "approve": "Aprovar",
+    "reject": "Rejeitar",
+    "banUser": "Banir Usuário",
+    "deleteAccount": "Excluir Conta",
+    "deleteContent": "Excluir Conteúdo",
+    "delete": "Excluir",
+    "ban": "Banir",
+    "viewUserProfile": "Ver Perfil do Usuário",
+    "viewChatDetails": "Ver Detalhes do Chat",
+    "viewProfile": "Ver Perfil"
+  },
+  "table": {
+    "reason": "Motivo",
+    "status": "Status"
+  },
+  "messages": {
+    "reportStatusUpdated": "Denúncia {{newStatus}}",
+    "updateFailed": "Falha ao atualizar denúncia",
+    "noReportedUser": "Nenhum usuário denunciado para tomar ação",
+    "userBannedFor": "Usuário banido {{duration}}",
+    "userAccountDeleted": "Conta do usuário excluída",
+    "actionFailed": "Falha ao executar ação",
+    "contentDeleted": "Conteúdo excluído",
+    "deleteContentFailed": "Falha ao excluir conteúdo"
+  }
+}

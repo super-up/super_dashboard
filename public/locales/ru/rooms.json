@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "Группы",
+    "broadcast": "Рассылка",
+    "single": "Чаты"
+  },
+  "labels": {
+    "roomDetails": "Детали комнаты",
+    "groupDetails": "Детали группы",
+    "broadcastDetails": "Детали рассылки",
+    "chatDetails": "Детали чата",
+    "directChat": "Прямой чат",
+    "untitled": "Без названия",
+    "description": "Описание",
+    "roomId": "ID комнаты",
+    "broadcastId": "ID рассылки",
+    "chatId": "ID чата",
+    "type": "Тип",
+    "createdBy": "Создано",
+    "membersCount": "Количество участников",
+    "recipientsCount": "Количество получателей",
+    "createdAt": "Создано в",
+    "updatedAt": "Обновлено в",
+    "roomInformation": "Информация о комнате",
+    "broadcastInformation": "Информация о рассылке",
+    "chatInformation": "Информация о чате",
+    "thisRoomDeletedOn": "Эта комната была удалена {{date}}",
+    "owner": "Владелец",
+    "member": "Участник",
+    "recipient": "Получатель",
+    "userDataNotAvailable": "Данные пользователя недоступны",
+    "unknownUser": "Неизвестный пользователь",
+    "private": "Приватный"
+  },
+  "table": {
+    "members": "Участники",
+    "recipients": "Получатели",
+    "messages": "Сообщения",
+    "lastActive": "Последняя активность",
+    "participant1": "Участник 1",
+    "participant2": "Участник 2",
+    "user": "Пользователь",
+    "role": "Роль",
+    "joined": "Присоединился",
+    "lastSeen": "Последний визит",
+    "actions": "Действия",
+    "status": "Статус",
+    "lastMessage": "Последнее сообщение"
+  },
+  "status": {
+    "deleted": "Удалено",
+    "active": "Активно"
+  },
+  "actions": {
+    "removeMembers": "Удалить участников",
+    "viewUser": "Просмотр пользователя",
+    "viewProfile": "Просмотр профиля",
+    "restore": "Восстановить",
+    "delete": "Удалить",
+    "cancel": "Отмена"
+  },
+  "confirmations": {
+    "restoreRoom": "Восстановить комнату",
+    "deleteRoom": "Удалить комнату",
+    "restoreRoomConfirm": "Вы уверены, что хотите восстановить эту комнату?",
+    "softDeleteRoom": "Эта комната будет мягко удалена и может быть восстановлена позже.",
+    "removeFromGroup": "Удалить {{count}} участник(ов) из группы?",
+    "removeFromGroupDesc": "Вы уверены, что хотите удалить {{count}} выбранных участник(ов) из этой группы?"
+  },
+  "placeholders": {
+    "searchMembers": "Поиск участников...",
+    "searchRecipients": "Поиск получателей..."
+  },
+  "messages": {
+    "roomRestored": "Комната восстановлена",
+    "roomDeleted": "Комната удалена",
+    "membersRemoved": "Удалено {{count}} участник(ов) из группы",
+    "operationFailed": "Операция не удалась"
+  }
+}

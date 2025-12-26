@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Versiones de App",
+    "addVersionButton": "Agregar Versión"
+  },
+  "table": {
+    "version": "Versión",
+    "platform": "Plataforma",
+    "critical": "Crítico",
+    "notify": "Notificar",
+    "notes": "Notas",
+    "created": "Creado",
+    "actions": "Acciones"
+  },
+  "tabs": {
+    "all": "Todos",
+    "macos": "macOS",
+    "other": "Otro"
+  },
+  "tooltips": {
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "refresh": "Actualizar"
+  },
+  "modal": {
+    "addTitle": "Agregar Versión",
+    "editTitle": "Editar Versión"
+  },
+  "form": {
+    "platform": "Plataforma",
+    "version": "Versión",
+    "critical": "Crítico (Forzar Actualización)",
+    "notify": "Notificar Usuarios",
+    "notes": "Notas de Versión",
+    "notesPlaceholder": "Qué hay de nuevo en esta versión..."
+  },
+  "validation": {
+    "platformRequired": "La plataforma es obligatoria",
+    "selectPlatform": "Seleccionar plataforma",
+    "versionRequired": "La versión es obligatoria",
+    "versionFormat": "Use formato: x.x.x (ej., 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "create": "Crear",
+    "update": "Actualizar"
+  },
+  "confirmations": {
+    "deleteTitle": "¿Eliminar esta versión?",
+    "deleteDesc": "Esta acción no se puede deshacer.",
+    "deleteButton": "Eliminar"
+  },
+  "messages": {
+    "fetchVersionsFailed": "Error al obtener versiones: {{error}}",
+    "deleteSuccess": "Versión eliminada exitosamente",
+    "deleteFailed": "Error al eliminar versión",
+    "updateSuccess": "Versión actualizada exitosamente",
+    "createSuccess": "Versión creada exitosamente",
+    "saveFailed": "Error al guardar versión"
+  }
+}

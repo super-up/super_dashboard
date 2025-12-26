@@ -1,0 +1,22 @@
+{
+    "title": "통화",
+    "stats": {
+        "totalFinishedCalls": "총 완료된 통화",
+        "averageDuration": "평균 통화 시간",
+        "longestCall": "최장 통화",
+        "shortestCall": "최단 통화"
+    },
+    "types": {
+        "video": "영상",
+        "voice": "음성"
+    },
+    "status": {
+        "ended": "종료됨",
+        "completed": "완료됨",
+        "missed": "부재중",
+        "rejected": "거부됨",
+        "cancelled": "취소됨",
+        "ongoing": "진행중",
+        "ringing": "벨 울림"
+    }
+}

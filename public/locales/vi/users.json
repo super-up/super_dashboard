@@ -1,0 +1,202 @@
+{
+  "show": {
+    "userInformation": "Thông Tin Người Dùng",
+    "notVerified": "Chưa Xác Minh",
+    "offline": "Ngoại Tuyến",
+    "online": "Trực Tuyến",
+    "deleted": "Đã Xóa",
+    "active": "Hoạt Động",
+    "bannedUntil": "Bị cấm cho đến {{date}}",
+    "verifiedUser": "Người Dùng Đã Xác Minh",
+    "unknown": "Không Rõ",
+    "untitled": "Không Tiêu Đề"
+  },
+  "fields": {
+    "id": "ID",
+    "phone": "Điện Thoại",
+    "email": "Email",
+    "platform": "Nền Tảng",
+    "registrationStatus": "Trạng Thái Đăng Ký",
+    "verification": "Xác Minh",
+    "country": "Quốc Gia",
+    "isOnline": "Trạng Thái Trực Tuyến",
+    "lastSeen": "Lần Cuối Thấy",
+    "registered": "Đã Đăng Ký",
+    "banExpires": "Hết Hạn Cấm",
+    "deletedAt": "Đã Xóa Lúc"
+  },
+  "tabs": {
+    "overview": "Tổng Quan",
+    "rooms": "Phòng",
+    "stories": "Tin",
+    "calls": "Cuộc Gọi"
+  },
+  "devices": {
+    "title": "Thiết Bị",
+    "platform": "Nền Tảng",
+    "version": "Phiên Bản",
+    "lastActive": "Hoạt Động Cuối",
+    "push": "Thông Báo Đẩy",
+    "enabled": "Đã Bật",
+    "disabled": "Đã Tắt",
+    "actions": "Hành Động"
+  },
+  "stats": {
+    "devices": "Thiết Bị",
+    "rooms": "Phòng",
+    "stories": "Tin"
+  },
+  "rooms": {
+    "title": "Phòng",
+    "type": "Loại",
+    "status": "Trạng Thái",
+    "admin": "Quản Trị Viên",
+    "moderator": "Người Kiểm Duyệt",
+    "actions": "Hành Động",
+    "noRooms": "Không tìm thấy phòng"
+  },
+  "stories": {
+    "media": "Đa Phương Tiện",
+    "type": "Loại",
+    "caption": "Chú Thích",
+    "views": "Lượt Xem",
+    "expiry": "Hết Hạn",
+    "expired": "Đã Hết Hạn",
+    "created": "Đã Tạo",
+    "noStories": "Không tìm thấy tin"
+  },
+  "calls": {
+    "type": "Loại",
+    "video": "Video",
+    "voice": "Thoại",
+    "direction": "Hướng",
+    "outgoing": "Đi",
+    "incoming": "Đến",
+    "status": "Trạng Thái",
+    "duration": "Thời Lượng",
+    "date": "Ngày",
+    "noCalls": "Không tìm thấy cuộc gọi"
+  },
+  "actions": {
+    "viewGroup": "Xem Nhóm",
+    "viewDetails": "Xem Chi Tiết",
+    "view": "Xem",
+    "edit": "Chỉnh Sửa",
+    "ban": "Cấm",
+    "unban": "Bỏ Cấm",
+    "verify": "Xác Minh",
+    "unverify": "Bỏ Xác Minh",
+    "restore": "Khôi Phục",
+    "delete": "Xóa",
+    "logoutAll": "Đăng Xuất Tất Cả Thiết Bị"
+  },
+  "confirmations": {
+    "unbanUser": "Bạn có chắc chắn muốn bỏ cấm người dùng này?",
+    "banUser": "Bạn có chắc chắn muốn cấm người dùng này?",
+    "unverifyUser": "Bạn có chắc chắn muốn xóa xác minh?",
+    "verifyUser": "Bạn có chắc chắn muốn xác minh người dùng này?",
+    "restoreUser": "Bạn có chắc chắn muốn khôi phục người dùng này?",
+    "deleteUser": "Bạn có chắc chắn muốn xóa người dùng này?",
+    "logoutAll": "Điều này sẽ đăng xuất người dùng khỏi tất cả thiết bị. Tiếp tục?",
+    "banUserTitle": "Cấm Người Dùng",
+    "banUserDesc": "Bạn có chắc chắn muốn cấm người dùng này? Họ sẽ không thể truy cập ứng dụng.",
+    "banButton": "Có, Cấm",
+    "unbannedTitle": "Bỏ Cấm Người Dùng",
+    "unbannedDesc": "Bạn có chắc chắn muốn bỏ cấm người dùng này?",
+    "unbannedButton": "Có, Bỏ Cấm",
+    "restoreTitle": "Khôi Phục Người Dùng",
+    "restoreDesc": "Bạn có chắc chắn muốn khôi phục người dùng này? Họ sẽ có quyền truy cập ứng dụng lại.",
+    "restoreButton": "Có, Khôi Phục",
+    "deleteTitle": "Xóa Người Dùng",
+    "deleteDesc": "Bạn có chắc chắn muốn xóa vĩnh viễn người dùng này? Hành động này không thể hoàn tác.",
+    "deleteButton": "Có, Xóa",
+    "logoutAllTitle": "Đăng Xuất Tất Cả Thiết Bị",
+    "logoutAllDesc": "Điều này sẽ buộc đăng xuất người dùng khỏi tất cả thiết bị. Bạn có chắc chắn?",
+    "logoutAllButton": "Có, Đăng Xuất Tất Cả"
+  },
+  "notifications": {
+    "unbanned": "Đã bỏ cấm người dùng thành công",
+    "banned": "Đã cấm người dùng thành công",
+    "badgeRemoved": "Đã xóa huy hiệu xác minh",
+    "verified": "Đã xác minh người dùng thành công",
+    "restored": "Đã khôi phục người dùng thành công",
+    "deleted": "Đã xóa người dùng thành công",
+    "updateFailed": "Không thể cập nhật người dùng",
+    "loggedOut": "Đã đăng xuất khỏi tất cả thiết bị",
+    "logoutFailed": "Không thể đăng xuất thiết bị"
+  },
+  "filters": {
+    "verified": "Đã Xác Minh"
+  },
+  "modal": {
+    "title": "Chỉnh Sửa Người Dùng",
+    "profileSection": "Thông Tin Hồ Sơ",
+    "verificationSection": "Xác Minh",
+    "banSection": "Quản Lý Cấm",
+    "dangerZone": "Vùng Nguy Hiểm"
+  },
+  "form": {
+    "fullName": "Họ Tên",
+    "bio": "Tiểu Sử",
+    "registrationStatus": "Trạng Thái Đăng Ký",
+    "verificationBadge": "Huy Hiệu Xác Minh",
+    "banDuration": "Chọn thời gian cấm",
+    "banEndDate": "Chọn ngày kết thúc cấm",
+    "saveProfileChanges": "Lưu Thay Đổi Hồ Sơ",
+    "deleted": "Người dùng này đã bị xóa"
+  },
+  "placeholders": {
+    "enterFullName": "Nhập họ tên",
+    "enterBio": "Nhập tiểu sử"
+  },
+  "validation": {
+    "fullNameRequired": "Tên là bắt buộc",
+    "selectRegistrationStatus": "Chọn trạng thái đăng ký"
+  },
+  "options": {
+    "accepted": "Đã Chấp Nhận",
+    "pending": "Đang Chờ",
+    "rejected": "Đã Từ Chối"
+  },
+  "badges": {
+    "verified": "Đã Xác Minh",
+    "notVerified": "Chưa Xác Minh",
+    "isVerified": "Người dùng đã được xác minh",
+    "isNotVerified": "Người dùng chưa được xác minh"
+  },
+  "banDurations": {
+    "1h": "1 Giờ",
+    "3d": "3 Ngày",
+    "7d": "7 Ngày",
+    "1m": "1 Tháng",
+    "3m": "3 Tháng",
+    "1y": "1 Năm",
+    "permanent": "Vĩnh Viễn",
+    "customDate": "Ngày Tùy Chỉnh"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "Đã cập nhật hồ sơ người dùng thành công",
+    "profileUpdateFailed": "Không thể cập nhật người dùng",
+    "userBannedSuccess": "Đã cấm người dùng thành công",
+    "userUnbannedSuccess": "Đã bỏ cấm người dùng thành công",
+    "banStatusFailed": "Không thể cập nhật trạng thái cấm",
+    "banUserSuccess": "Đã cấm người dùng thành công",
+    "banUserFailed": "Không thể cấm người dùng",
+    "verificationBadgeRemoved": "Đã xóa huy hiệu xác minh",
+    "verificationBadgeAdded": "Đã xác minh người dùng thành công",
+    "verificationFailed": "Không thể cập nhật xác minh",
+    "userRestoredSuccess": "Đã khôi phục người dùng thành công",
+    "userDeletedSuccess": "Đã xóa người dùng thành công",
+    "updateUserFailed": "Không thể cập nhật người dùng",
+    "logoutDevicesSuccess": "Đã đăng xuất {{count}} thiết bị thành công",
+    "logoutDevicesFailed": "Không thể đăng xuất thiết bị",
+    "bannedUntil": "Người dùng bị cấm cho đến {{date}}"
+  },
+  "buttons": {
+    "banUser": "Cấm Người Dùng",
+    "unbanUser": "Bỏ Cấm Người Dùng",
+    "deleteUser": "Xóa Người Dùng",
+    "restoreUser": "Khôi Phục Người Dùng",
+    "logoutAllDevices": "Đăng Xuất Tất Cả Thiết Bị"
+  }
+}

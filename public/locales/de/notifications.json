@@ -1,0 +1,44 @@
+{
+    "title": "Benachrichtigungen",
+    "list": {
+        "sendToAll": "An alle Benutzer senden",
+        "columns": {
+            "title": "Titel",
+            "content": "Inhalt",
+            "image": "Bild",
+            "created": "Erstellt",
+            "actions": "Aktionen"
+        },
+        "hasImage": {
+            "yes": "Ja",
+            "no": "Nein"
+        },
+        "modal": {
+            "title": "Benachrichtigung an alle Benutzer senden",
+            "form": {
+                "title": "Titel",
+                "titlePlaceholder": "Benachrichtigungstitel",
+                "content": "Inhalt",
+                "contentPlaceholder": "Benachrichtigungsnachricht",
+                "imageUrl": "Bild-URL (optional)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "Benachrichtigung an alle Benutzer gesendet"
+        }
+    },
+    "show": {
+        "adminNotification": "Admin-Benachrichtigung",
+        "created": "Erstellt",
+        "notificationImage": "Benachrichtigungsbild",
+        "notificationContent": "Benachrichtigungsinhalt",
+        "notificationDetails": "Benachrichtigungsdetails",
+        "notificationId": "Benachrichtigungs-ID",
+        "updated": "Aktualisiert",
+        "imageUrl": "Bild-URL",
+        "deliveryInfo": "Zustellungsinformationen",
+        "sentAt": "Gesendet am",
+        "timeAgo": "Vor"
+    }
+}

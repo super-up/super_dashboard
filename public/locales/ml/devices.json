@@ -1,0 +1,70 @@
+{
+  "title": "ഉപകരണങ്ങൾ",
+  "page": {
+    "title": "ഉപകരണങ്ങൾ"
+  },
+  "columns": {
+    "user": "ഉപയോക്താവ്",
+    "platform": "പ്ലാറ്റ്ഫോം",
+    "appVersion": "ആപ്പ് വേർഷൻ",
+    "pushToken": "പുഷ് ടോക്കൺ",
+    "status": "സ്ഥിതി",
+    "lastActive": "അവസാനം സജീവം",
+    "created": "സൃഷ്ടിച്ചത്"
+  },
+  "labels": {
+    "never": "ഒരിക്കലും ഇല്ല",
+    "deviceOwner": "ഉപകരണ ഉടമ",
+    "deviceInformation": "ഉപകരണ വിവരങ്ങൾ",
+    "deviceId": "ഉപകരണ ഐഡി",
+    "deviceModel": "ഉപകരണ മോഡൽ",
+    "osVersion": "ഒഎസ് വേർഷൻ",
+    "pushNotification": "പുഷ് അറിയിപ്പ്",
+    "pushStatus": "പുഷ് സ്ഥിതി",
+    "pushToken": "പുഷ് ടോക്കൺ",
+    "noPushToken": "ഈ ഉപകരണത്തിനായി പുഷ് ടോക്കൺ രജിസ്റ്റർ ചെയ്തിട്ടില്ല",
+    "activityDetails": "പ്രവർത്തന വിശദാംശങ്ങൾ",
+    "totalVisits": "മൊത്തം സന്ദർശനങ്ങൾ"
+  },
+  "actions": {
+    "viewDetails": "വിശദാംശങ്ങൾ കാണുക",
+    "deleteDevice": "ഉപകരണം ഇല്ലാതാക്കുക",
+    "revokeSession": "സെഷൻ അസാധുവാക്കുക"
+  },
+  "confirmations": {
+    "deleteDevice": "ഈ ഉപകരണം ഇല്ലാതാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?",
+    "revokeSession": "സെഷൻ അസാധുവാക്കുക",
+    "revokeDescription": "ഇത് ഉപയോക്താവിനെ ഈ ഉപകരണത്തിൽ നിന്ന് ലോഗൗട്ട് ചെയ്യുകയും സിസ്റ്റത്തിൽ നിന്ന് നീക്കം ചെയ്യുകയും ചെയ്യും."
+  },
+  "tabs": {
+    "all": "എല്ലാം",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Desktop"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "ഉപയോക്തൃനാമം അല്ലെങ്കിൽ ഫോൺ ഉപയോഗിച്ച് തിരയുക..."
+  },
+  "table": {
+    "device": "ഉപകരണം",
+    "user": "ഉപയോക്താവ്",
+    "platform": "പ്ലാറ്റ്ഫോം",
+    "version": "വേർഷൻ",
+    "status": "സ്ഥിതി",
+    "lastSeen": "അവസാനം കണ്ടത്",
+    "push": "പുഷ്",
+    "actions": "പ്രവർത്തനങ്ങൾ"
+  },
+  "tooltips": {
+    "edit": "എഡിറ്റ് ചെയ്യുക",
+    "delete": "ഇല്ലാതാക്കുക"
+  },
+  "messages": {
+    "fetchFailed": "ഉപകരണങ്ങൾ ലഭ്യമാക്കുന്നതിൽ പരാജയപ്പെട്ടു ({{status}})",
+    "deviceDeleted": "ഉപകരണം വിജയകരമായി ഇല്ലാതാക്കി",
+    "failedToDelete": "ഉപകരണം ഇല്ലാതാക്കുന്നതിൽ പരാജയപ്പെട്ടു",
+    "sessionRevoked": "സെഷൻ വിജയകരമായി അസാധുവാക്കി",
+    "failedToRevoke": "സെഷൻ അസാധുവാക്കുന്നതിൽ പരാജയപ്പെട്ടു"
+  }
+}

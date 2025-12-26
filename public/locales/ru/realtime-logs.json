@@ -1,0 +1,55 @@
+{
+    "title": "Логи в реальном времени",
+    "logsCount": "{{count}} логов",
+    "logsCountFiltered": "{{filtered}} из {{total}} логов",
+    "actions": {
+        "resume": "Возобновить",
+        "pause": "Пауза",
+        "clear": "Очистить",
+        "reconnect": "Переподключиться"
+    },
+    "status": {
+        "connected": "Подключено",
+        "connecting": "Подключение...",
+        "disconnected": "Отключено",
+        "error": "Ошибка"
+    },
+    "empty": {
+        "paused": "Поток логов приостановлен",
+        "waiting": "Ожидание логов...",
+        "noMatch": "Нет логов, соответствующих текущим фильтрам",
+        "notConnected": "Подключитесь для начала получения логов"
+    },
+    "severity": {
+        "all": "Все",
+        "info": "Информация",
+        "warning": "Предупреждение",
+        "error": "Ошибка",
+        "critical": "Критическая"
+    },
+    "categories": {
+        "all": "Все",
+        "auth": "Авторизация",
+        "presence": "Присутствие",
+        "message": "Сообщение",
+        "group": "Группа",
+        "broadcast": "Рассылка",
+        "channel": "Канал",
+        "story": "История",
+        "call": "Звонок",
+        "profile": "Профиль"
+    },
+    "actorTypes": {
+        "user": "Пользователь",
+        "admin": "Администратор",
+        "system": "Система"
+    },
+    "labels": {
+        "unknown": "Неизвестно"
+    },
+    "time": {
+        "secondsAgo": "{{count}}с назад",
+        "minutesAgo": "{{count}}м назад",
+        "hoursAgo": "{{count}}ч назад"
+    }
+}

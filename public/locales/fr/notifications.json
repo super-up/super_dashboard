@@ -1,0 +1,44 @@
+{
+    "title": "Notifications",
+    "list": {
+        "sendToAll": "Envoyer à tous les utilisateurs",
+        "columns": {
+            "title": "Titre",
+            "content": "Contenu",
+            "image": "Image",
+            "created": "Créé",
+            "actions": "Actions"
+        },
+        "hasImage": {
+            "yes": "Oui",
+            "no": "Non"
+        },
+        "modal": {
+            "title": "Envoyer une notification à tous les utilisateurs",
+            "form": {
+                "title": "Titre",
+                "titlePlaceholder": "Titre de la notification",
+                "content": "Contenu",
+                "contentPlaceholder": "Message de la notification",
+                "imageUrl": "URL de l'image (optionnel)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "Notification envoyée à tous les utilisateurs"
+        }
+    },
+    "show": {
+        "adminNotification": "Notification administrateur",
+        "created": "Créé",
+        "notificationImage": "Image de notification",
+        "notificationContent": "Contenu de la notification",
+        "notificationDetails": "Détails de la notification",
+        "notificationId": "ID de notification",
+        "updated": "Mis à jour",
+        "imageUrl": "URL de l'image",
+        "deliveryInfo": "Informations de livraison",
+        "sentAt": "Envoyé le",
+        "timeAgo": "Il y a"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Звонки",
+    "stats": {
+        "totalFinishedCalls": "Всего завершенных звонков",
+        "averageDuration": "Средняя продолжительность",
+        "longestCall": "Самый длинный звонок",
+        "shortestCall": "Самый короткий звонок"
+    },
+    "types": {
+        "video": "Видео",
+        "voice": "Голосовой"
+    },
+    "status": {
+        "ended": "Завершен",
+        "completed": "Выполнен",
+        "missed": "Пропущен",
+        "rejected": "Отклонен",
+        "cancelled": "Отменен",
+        "ongoing": "В процессе",
+        "ringing": "Звонит"
+    }
+}

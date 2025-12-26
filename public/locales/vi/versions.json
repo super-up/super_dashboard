@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Phiên Bản Ứng Dụng",
+    "addVersionButton": "Thêm Phiên Bản"
+  },
+  "table": {
+    "version": "Phiên Bản",
+    "platform": "Nền Tảng",
+    "critical": "Quan Trọng",
+    "notify": "Thông Báo",
+    "notes": "Ghi Chú",
+    "created": "Đã Tạo",
+    "actions": "Hành Động"
+  },
+  "tabs": {
+    "all": "Tất Cả",
+    "macos": "macOS",
+    "other": "Khác"
+  },
+  "tooltips": {
+    "edit": "Chỉnh Sửa",
+    "delete": "Xóa",
+    "refresh": "Làm Mới"
+  },
+  "modal": {
+    "addTitle": "Thêm Phiên Bản",
+    "editTitle": "Chỉnh Sửa Phiên Bản"
+  },
+  "form": {
+    "platform": "Nền Tảng",
+    "version": "Phiên Bản",
+    "critical": "Quan Trọng (Buộc Cập Nhật)",
+    "notify": "Thông Báo Người Dùng",
+    "notes": "Ghi Chú Phát Hành",
+    "notesPlaceholder": "Có gì mới trong phiên bản này..."
+  },
+  "validation": {
+    "platformRequired": "Nền tảng là bắt buộc",
+    "selectPlatform": "Chọn nền tảng",
+    "versionRequired": "Phiên bản là bắt buộc",
+    "versionFormat": "Sử dụng định dạng: x.x.x (ví dụ: 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "Hủy",
+    "create": "Tạo",
+    "update": "Cập Nhật"
+  },
+  "confirmations": {
+    "deleteTitle": "Xóa phiên bản này?",
+    "deleteDesc": "Hành động này không thể hoàn tác.",
+    "deleteButton": "Xóa"
+  },
+  "messages": {
+    "fetchVersionsFailed": "Không thể tải phiên bản: {{error}}",
+    "deleteSuccess": "Đã xóa phiên bản thành công",
+    "deleteFailed": "Không thể xóa phiên bản",
+    "updateSuccess": "Đã cập nhật phiên bản thành công",
+    "createSuccess": "Đã tạo phiên bản thành công",
+    "saveFailed": "Không thể lưu phiên bản"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "show": {
+    "userInformation": "Kullanıcı Bilgisi",
+    "notVerified": "Doğrulanmadı",
+    "offline": "Çevrimdışı",
+    "online": "Çevrimiçi",
+    "deleted": "Silindi",
+    "active": "Aktif",
+    "bannedUntil": "{{date}} tarihine kadar yasaklı",
+    "verifiedUser": "Doğrulanmış Kullanıcı",
+    "unknown": "Bilinmiyor",
+    "untitled": "Başlıksız"
+  },
+  "fields": {
+    "id": "ID",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "platform": "Platform",
+    "registrationStatus": "Kayıt Durumu",
+    "verification": "Doğrulama",
+    "country": "Ülke",
+    "isOnline": "Çevrimiçi Durum",
+    "lastSeen": "Son Görülme",
+    "registered": "Kayıt Oldu",
+    "banExpires": "Yasak Bitiş",
+    "deletedAt": "Silinme Tarihi"
+  },
+  "tabs": {
+    "overview": "Genel Bakış",
+    "rooms": "Odalar",
+    "stories": "Hikayeler",
+    "calls": "Aramalar"
+  },
+  "devices": {
+    "title": "Cihazlar",
+    "platform": "Platform",
+    "version": "Versiyon",
+    "lastActive": "Son Aktiflik",
+    "push": "Bildirimler",
+    "enabled": "Etkin",
+    "disabled": "Devre Dışı",
+    "actions": "İşlemler"
+  },
+  "stats": {
+    "devices": "Cihazlar",
+    "rooms": "Odalar",
+    "stories": "Hikayeler"
+  },
+  "rooms": {
+    "title": "Oda",
+    "type": "Tür",
+    "status": "Durum",
+    "admin": "Yönetici",
+    "moderator": "Moderatör",
+    "actions": "İşlemler",
+    "noRooms": "Oda bulunamadı"
+  },
+  "stories": {
+    "media": "Medya",
+    "type": "Tür",
+    "caption": "Açıklama",
+    "views": "Görüntüleme",
+    "expiry": "Süre Sonu",
+    "expired": "Süresi Doldu",
+    "created": "Oluşturuldu",
+    "noStories": "Hikaye bulunamadı"
+  },
+  "calls": {
+    "type": "Tür",
+    "video": "Video",
+    "voice": "Ses",
+    "direction": "Yön",
+    "outgoing": "Giden",
+    "incoming": "Gelen",
+    "status": "Durum",
+    "duration": "Süre",
+    "date": "Tarih",
+    "noCalls": "Arama bulunamadı"
+  },
+  "actions": {
+    "viewGroup": "Grubu Görüntüle",
+    "viewDetails": "Detayları Görüntüle",
+    "view": "Görüntüle",
+    "edit": "Düzenle",
+    "ban": "Yasakla",
+    "unban": "Yasağı Kaldır",
+    "verify": "Doğrula",
+    "unverify": "Doğrulamayı Kaldır",
+    "restore": "Geri Yükle",
+    "delete": "Sil",
+    "logoutAll": "Tüm Cihazlardan Çıkış Yap"
+  },
+  "confirmations": {
+    "unbanUser": "Bu kullanıcının yasağını kaldırmak istediğinizden emin misiniz?",
+    "banUser": "Bu kullanıcıyı yasaklamak istediğinizden emin misiniz?",
+    "unverifyUser": "Doğrulamayı kaldırmak istediğinizden emin misiniz?",
+    "verifyUser": "Bu kullanıcıyı doğrulamak istediğinizden emin misiniz?",
+    "restoreUser": "Bu kullanıcıyı geri yüklemek istediğinizden emin misiniz?",
+    "deleteUser": "Bu kullanıcıyı silmek istediğinizden emin misiniz?",
+    "logoutAll": "Bu, kullanıcıyı tüm cihazlardan çıkış yaptıracak. Devam edilsin mi?",
+    "banUserTitle": "Kullanıcıyı Yasakla",
+    "banUserDesc": "Bu kullanıcıyı yasaklamak istediğinizden emin misiniz? Uygulamaya erişemeyecekler.",
+    "banButton": "Evet, Yasakla",
+    "unbannedTitle": "Kullanıcının Yasağını Kaldır",
+    "unbannedDesc": "Bu kullanıcının yasağını kaldırmak istediğinizden emin misiniz?",
+    "unbannedButton": "Evet, Yasağı Kaldır",
+    "restoreTitle": "Kullanıcıyı Geri Yükle",
+    "restoreDesc": "Bu kullanıcıyı geri yüklemek istediğinizden emin misiniz? Uygulamaya tekrar erişebilecekler.",
+    "restoreButton": "Evet, Geri Yükle",
+    "deleteTitle": "Kullanıcıyı Sil",
+    "deleteDesc": "Bu kullanıcıyı kalıcı olarak silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "deleteButton": "Evet, Sil",
+    "logoutAllTitle": "Tüm Cihazlardan Çıkış Yap",
+    "logoutAllDesc": "Bu, kullanıcıyı tüm cihazlardan zorla çıkış yaptıracak. Emin misiniz?",
+    "logoutAllButton": "Evet, Tümünden Çıkış Yap"
+  },
+  "notifications": {
+    "unbanned": "Kullanıcının yasağı başarıyla kaldırıldı",
+    "banned": "Kullanıcı başarıyla yasaklandı",
+    "badgeRemoved": "Doğrulama rozeti kaldırıldı",
+    "verified": "Kullanıcı başarıyla doğrulandı",
+    "restored": "Kullanıcı başarıyla geri yüklendi",
+    "deleted": "Kullanıcı başarıyla silindi",
+    "updateFailed": "Kullanıcı güncellenemedi",
+    "loggedOut": "Tüm cihazlardan çıkış yapıldı",
+    "logoutFailed": "Cihazlardan çıkış yapılamadı"
+  },
+  "filters": {
+    "verified": "Doğrulanmış"
+  },
+  "modal": {
+    "title": "Kullanıcıyı Düzenle",
+    "profileSection": "Profil Bilgisi",
+    "verificationSection": "Doğrulama",
+    "banSection": "Yasak Yönetimi",
+    "dangerZone": "Tehlikeli Bölge"
+  },
+  "form": {
+    "fullName": "Tam Ad",
+    "bio": "Biyografi",
+    "registrationStatus": "Kayıt Durumu",
+    "verificationBadge": "Doğrulama Rozeti",
+    "banDuration": "Yasak süresini seçin",
+    "banEndDate": "Yasak bitiş tarihi seçin",
+    "saveProfileChanges": "Profil Değişikliklerini Kaydet",
+    "deleted": "Bu kullanıcı silindi"
+  },
+  "placeholders": {
+    "enterFullName": "Tam adı girin",
+    "enterBio": "Biyografi girin"
+  },
+  "validation": {
+    "fullNameRequired": "İsim gerekli",
+    "selectRegistrationStatus": "Kayıt durumu seçin"
+  },
+  "options": {
+    "accepted": "Kabul Edildi",
+    "pending": "Beklemede",
+    "rejected": "Reddedildi"
+  },
+  "badges": {
+    "verified": "Doğrulanmış",
+    "notVerified": "Doğrulanmamış",
+    "isVerified": "Kullanıcı doğrulanmış",
+    "isNotVerified": "Kullanıcı doğrulanmamış"
+  },
+  "banDurations": {
+    "1h": "1 Saat",
+    "3d": "3 Gün",
+    "7d": "7 Gün",
+    "1m": "1 Ay",
+    "3m": "3 Ay",
+    "1y": "1 Yıl",
+    "permanent": "Kalıcı",
+    "customDate": "Özel Tarih"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "Kullanıcı profili başarıyla güncellendi",
+    "profileUpdateFailed": "Kullanıcı güncellenemedi",
+    "userBannedSuccess": "Kullanıcı başarıyla yasaklandı",
+    "userUnbannedSuccess": "Kullanıcının yasağı başarıyla kaldırıldı",
+    "banStatusFailed": "Yasak durumu güncellenemedi",
+    "banUserSuccess": "Kullanıcı başarıyla yasaklandı",
+    "banUserFailed": "Kullanıcı yasaklanamadı",
+    "verificationBadgeRemoved": "Doğrulama rozeti kaldırıldı",
+    "verificationBadgeAdded": "Kullanıcı başarıyla doğrulandı",
+    "verificationFailed": "Doğrulama güncellenemedi",
+    "userRestoredSuccess": "Kullanıcı başarıyla geri yüklendi",
+    "userDeletedSuccess": "Kullanıcı başarıyla silindi",
+    "updateUserFailed": "Kullanıcı güncellenemedi",
+    "logoutDevicesSuccess": "{{count}} cihazdan başarıyla çıkış yapıldı",
+    "logoutDevicesFailed": "Cihazlardan çıkış yapılamadı",
+    "bannedUntil": "Kullanıcı {{date}} tarihine kadar yasaklı"
+  },
+  "buttons": {
+    "banUser": "Kullanıcıyı Yasakla",
+    "unbanUser": "Yasağı Kaldır",
+    "deleteUser": "Kullanıcıyı Sil",
+    "restoreUser": "Kullanıcıyı Geri Yükle",
+    "logoutAllDevices": "Tüm Cihazlardan Çıkış Yap"
+  }
+}

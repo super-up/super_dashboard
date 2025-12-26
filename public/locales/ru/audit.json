@@ -1,0 +1,12 @@
+{
+    "title": "Журналы аудита",
+    "columns": {
+        "id": "ID",
+        "action": "Действие",
+        "targetType": "Тип объекта",
+        "targetId": "ID объекта",
+        "admin": "Администратор",
+        "ipAddress": "IP-адрес",
+        "timestamp": "Время"
+    }
+}

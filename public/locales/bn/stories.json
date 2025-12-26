@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "ছবি",
+    "video": "ভিডিও",
+    "voice": "ভয়েস",
+    "file": "ফাইল",
+    "text": "টেক্সট"
+  },
+  "labels": {
+    "storyDetails": "স্টোরি বিবরণ",
+    "storyInformation": "স্টোরি তথ্য",
+    "storyId": "স্টোরি আইডি",
+    "type": "ধরন",
+    "postedBy": "পোস্টকারী",
+    "createdAt": "তৈরির সময়",
+    "expiresAt": "মেয়াদ শেষ",
+    "expiryProgress": "মেয়াদ অগ্রগতি",
+    "unknownUser": "অজানা ব্যবহারকারী",
+    "noViewsYet": "এখনও কোন ভিউ নেই",
+    "thisStoryDeletedOn": "এই স্টোরি {{date}} তারিখে মুছে ফেলা হয়েছে",
+    "thisStoryExpiredOn": "এই স্টোরি {{date}} তারিখে মেয়াদোত্তীর্ণ হয়েছে"
+  },
+  "table": {
+    "views": "ভিউ",
+    "viewer": "দর্শক",
+    "viewedAt": "দেখার সময়",
+    "actions": "কার্যক্রম",
+    "status": "স্ট্যাটাস"
+  },
+  "status": {
+    "deleted": "মুছে ফেলা",
+    "expired": "মেয়াদোত্তীর্ণ",
+    "active": "সক্রিয়"
+  },
+  "actions": {
+    "deleteStory": "স্টোরি মুছুন",
+    "delete": "মুছুন",
+    "cancel": "বাতিল",
+    "viewUser": "ব্যবহারকারী দেখুন"
+  },
+  "confirmations": {
+    "deleteStory": "আপনি কি এই স্টোরি মুছতে চান?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "স্টোরি সফলভাবে মুছে ফেলা হয়েছে",
+    "operationFailed": "অপারেশন ব্যর্থ"
+  }
+}

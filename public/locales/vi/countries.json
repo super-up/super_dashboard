@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "Cờ",
+    "name": "Tên",
+    "code": "Mã",
+    "image": "Hình Ảnh",
+    "updated": "Đã Cập Nhật",
+    "actions": "Hành Động"
+  },
+  "tooltips": {
+    "edit": "Chỉnh Sửa Quốc Gia",
+    "refresh": "Làm Mới"
+  },
+  "form": {
+    "searchPlaceholder": "Tìm kiếm theo tên hoặc mã..."
+  },
+  "modal": {
+    "title": "Cập Nhật Quốc Gia"
+  },
+  "buttons": {
+    "saveChanges": "Lưu Thay Đổi"
+  },
+  "validation": {
+    "nameRequired": "Tên là bắt buộc",
+    "codeRequired": "Mã là bắt buộc",
+    "codeFormat": "Mã phải có 2-3 ký tự",
+    "emojiRequired": "Biểu tượng cảm xúc là bắt buộc"
+  },
+  "messages": {
+    "updateSuccess": "Đã cập nhật quốc gia thành công",
+    "updateFailed": "Không thể cập nhật quốc gia",
+    "fetchFailed": "Không thể tải quốc gia ({{status}})"
+  }
+}

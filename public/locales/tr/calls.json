@@ -1,0 +1,22 @@
+{
+    "title": "Aramalar",
+    "stats": {
+        "totalFinishedCalls": "Toplam Tamamlanan Arama",
+        "averageDuration": "Ortalama Süre",
+        "longestCall": "En Uzun Arama",
+        "shortestCall": "En Kısa Arama"
+    },
+    "types": {
+        "video": "Video",
+        "voice": "Ses"
+    },
+    "status": {
+        "ended": "Sonlandı",
+        "completed": "Tamamlandı",
+        "missed": "Cevapsız",
+        "rejected": "Reddedildi",
+        "cancelled": "İptal Edildi",
+        "ongoing": "Devam Ediyor",
+        "ringing": "Çalıyor"
+    }
+}

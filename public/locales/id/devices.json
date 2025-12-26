@@ -1,0 +1,70 @@
+{
+  "title": "Perangkat",
+  "page": {
+    "title": "Perangkat"
+  },
+  "columns": {
+    "user": "Pengguna",
+    "platform": "Platform",
+    "appVersion": "Versi Aplikasi",
+    "pushToken": "Token Notifikasi",
+    "status": "Status",
+    "lastActive": "Terakhir Aktif",
+    "created": "Dibuat"
+  },
+  "labels": {
+    "never": "Tidak Pernah",
+    "deviceOwner": "Pemilik Perangkat",
+    "deviceInformation": "Informasi Perangkat",
+    "deviceId": "ID Perangkat",
+    "deviceModel": "Model Perangkat",
+    "osVersion": "Versi OS",
+    "pushNotification": "Notifikasi Push",
+    "pushStatus": "Status Push",
+    "pushToken": "Token Push",
+    "noPushToken": "Tidak ada token push terdaftar untuk perangkat ini",
+    "activityDetails": "Detail Aktivitas",
+    "totalVisits": "Total Kunjungan"
+  },
+  "actions": {
+    "viewDetails": "Lihat Detail",
+    "deleteDevice": "Hapus Perangkat",
+    "revokeSession": "Cabut Sesi"
+  },
+  "confirmations": {
+    "deleteDevice": "Apakah Anda yakin ingin menghapus perangkat ini?",
+    "revokeSession": "Cabut Sesi",
+    "revokeDescription": "Ini akan mengeluarkan pengguna dari perangkat ini dan menghapusnya dari sistem."
+  },
+  "tabs": {
+    "all": "Semua",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Desktop"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "Cari berdasarkan nama pengguna atau telepon..."
+  },
+  "table": {
+    "device": "Perangkat",
+    "user": "Pengguna",
+    "platform": "Platform",
+    "version": "Versi",
+    "status": "Status",
+    "lastSeen": "Terakhir Dilihat",
+    "push": "Push",
+    "actions": "Aksi"
+  },
+  "tooltips": {
+    "edit": "Edit",
+    "delete": "Hapus"
+  },
+  "messages": {
+    "fetchFailed": "Gagal mengambil perangkat ({{status}})",
+    "deviceDeleted": "Perangkat berhasil dihapus",
+    "failedToDelete": "Gagal menghapus perangkat",
+    "sessionRevoked": "Sesi berhasil dicabut",
+    "failedToRevoke": "Gagal mencabut sesi"
+  }
+}

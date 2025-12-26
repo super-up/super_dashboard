@@ -1,0 +1,55 @@
+{
+    "title": "Echtzeit-Protokolle",
+    "logsCount": "{{count}} Protokolle",
+    "logsCountFiltered": "{{filtered}} von {{total}} Protokollen",
+    "actions": {
+        "resume": "Fortsetzen",
+        "pause": "Pausieren",
+        "clear": "Löschen",
+        "reconnect": "Neu verbinden"
+    },
+    "status": {
+        "connected": "Verbunden",
+        "connecting": "Verbindung wird hergestellt...",
+        "disconnected": "Getrennt",
+        "error": "Fehler"
+    },
+    "empty": {
+        "paused": "Protokollstreaming pausiert",
+        "waiting": "Warten auf Protokolle...",
+        "noMatch": "Keine Protokolle entsprechen den aktuellen Filtern",
+        "notConnected": "Verbinden, um Protokolle zu empfangen"
+    },
+    "severity": {
+        "all": "Alle",
+        "info": "Info",
+        "warning": "Warnung",
+        "error": "Fehler",
+        "critical": "Kritisch"
+    },
+    "categories": {
+        "all": "Alle",
+        "auth": "Authentifizierung",
+        "presence": "Präsenz",
+        "message": "Nachricht",
+        "group": "Gruppe",
+        "broadcast": "Broadcast",
+        "channel": "Kanal",
+        "story": "Story",
+        "call": "Anruf",
+        "profile": "Profil"
+    },
+    "actorTypes": {
+        "user": "Benutzer",
+        "admin": "Administrator",
+        "system": "System"
+    },
+    "labels": {
+        "unknown": "Unbekannt"
+    },
+    "time": {
+        "secondsAgo": "vor {{count}} Sek.",
+        "minutesAgo": "vor {{count}} Min.",
+        "hoursAgo": "vor {{count}} Std."
+    }
+}

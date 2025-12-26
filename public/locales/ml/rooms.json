@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "ഗ്രൂപ്പുകൾ",
+    "broadcast": "ബ്രോഡ്കാസ്റ്റ്",
+    "single": "ചാറ്റുകൾ"
+  },
+  "labels": {
+    "roomDetails": "റൂം വിശദാംശങ്ങൾ",
+    "groupDetails": "ഗ്രൂപ്പ് വിശദാംശങ്ങൾ",
+    "broadcastDetails": "ബ്രോഡ്കാസ്റ്റ് വിശദാംശങ്ങൾ",
+    "chatDetails": "ചാറ്റ് വിശദാംശങ്ങൾ",
+    "directChat": "നേരിട്ടുള്ള ചാറ്റ്",
+    "untitled": "പേരിട്ടിട്ടില്ല",
+    "description": "വിവരണം",
+    "roomId": "റൂം ഐഡി",
+    "broadcastId": "ബ്രോഡ്കാസ്റ്റ് ഐഡി",
+    "chatId": "ചാറ്റ് ഐഡി",
+    "type": "തരം",
+    "createdBy": "സൃഷ്ടിച്ചത്",
+    "membersCount": "അംഗങ്ങളുടെ എണ്ണം",
+    "recipientsCount": "സ്വീകർത്താക്കളുടെ എണ്ണം",
+    "createdAt": "സൃഷ്ടിച്ച സമയം",
+    "updatedAt": "അപ്ഡേറ്റ് ചെയ്ത സമയം",
+    "roomInformation": "റൂം വിവരങ്ങൾ",
+    "broadcastInformation": "ബ്രോഡ്കാസ്റ്റ് വിവരങ്ങൾ",
+    "chatInformation": "ചാറ്റ് വിവരങ്ങൾ",
+    "thisRoomDeletedOn": "ഈ റൂം {{date}} ന് ഇല്ലാതാക്കി",
+    "owner": "ഉടമ",
+    "member": "അംഗം",
+    "recipient": "സ്വീകർത്താവ്",
+    "userDataNotAvailable": "ഉപയോക്തൃ ഡാറ്റ ലഭ്യമല്ല",
+    "unknownUser": "അജ്ഞാത ഉപയോക്താവ്",
+    "private": "സ്വകാര്യം"
+  },
+  "table": {
+    "members": "അംഗങ്ങൾ",
+    "recipients": "സ്വീകർത്താക്കൾ",
+    "messages": "സന്ദേശങ്ങൾ",
+    "lastActive": "അവസാനം സജീവം",
+    "participant1": "പങ്കാളി 1",
+    "participant2": "പങ്കാളി 2",
+    "user": "ഉപയോക്താവ്",
+    "role": "റോൾ",
+    "joined": "ചേർന്നത്",
+    "lastSeen": "അവസാനം കണ്ടത്",
+    "actions": "പ്രവർത്തനങ്ങൾ",
+    "status": "സ്ഥിതി",
+    "lastMessage": "അവസാന സന്ദേശം"
+  },
+  "status": {
+    "deleted": "ഇല്ലാതാക്കി",
+    "active": "സജീവം"
+  },
+  "actions": {
+    "removeMembers": "അംഗങ്ങളെ നീക്കം ചെയ്യുക",
+    "viewUser": "ഉപയോക്താവിനെ കാണുക",
+    "viewProfile": "പ്രൊഫൈൽ കാണുക",
+    "restore": "പുനഃസ്ഥാപിക്കുക",
+    "delete": "ഇല്ലാതാക്കുക",
+    "cancel": "റദ്ദാക്കുക"
+  },
+  "confirmations": {
+    "restoreRoom": "റൂം പുനഃസ്ഥാപിക്കുക",
+    "deleteRoom": "റൂം ഇല്ലാതാക്കുക",
+    "restoreRoomConfirm": "ഈ റൂം പുനഃസ്ഥാപിക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?",
+    "softDeleteRoom": "ഈ റൂം സോഫ്റ്റ് ഇല്ലാതാക്കപ്പെടും, പിന്നീട് പുനഃസ്ഥാപിക്കാൻ കഴിയും.",
+    "removeFromGroup": "ഗ്രൂപ്പിൽ നിന്ന് {{count}} അംഗ(ങ്ങളെ) നീക്കം ചെയ്യണോ?",
+    "removeFromGroupDesc": "തിരഞ്ഞെടുത്ത {{count}} അംഗ(ങ്ങളെ) ഈ ഗ്രൂപ്പിൽ നിന്ന് നീക്കം ചെയ്യണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?"
+  },
+  "placeholders": {
+    "searchMembers": "അംഗങ്ങളെ തിരയുക...",
+    "searchRecipients": "സ്വീകർത്താക്കളെ തിരയുക..."
+  },
+  "messages": {
+    "roomRestored": "റൂം പുനഃസ്ഥാപിച്ചു",
+    "roomDeleted": "റൂം ഇല്ലാതാക്കി",
+    "membersRemoved": "ഗ്രൂപ്പിൽ നിന്ന് {{count}} അംഗ(ങ്ങളെ) നീക്കം ചെയ്തു",
+    "operationFailed": "പ്രവർത്തനം പരാജയപ്പെട്ടു"
+  }
+}

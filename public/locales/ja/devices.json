@@ -1,0 +1,70 @@
+{
+  "title": "デバイス",
+  "page": {
+    "title": "デバイス"
+  },
+  "columns": {
+    "user": "ユーザー",
+    "platform": "プラットフォーム",
+    "appVersion": "アプリバージョン",
+    "pushToken": "プッシュトークン",
+    "status": "ステータス",
+    "lastActive": "最終アクティブ",
+    "created": "作成日"
+  },
+  "labels": {
+    "never": "なし",
+    "deviceOwner": "デバイス所有者",
+    "deviceInformation": "デバイス情報",
+    "deviceId": "デバイスID",
+    "deviceModel": "デバイスモデル",
+    "osVersion": "OSバージョン",
+    "pushNotification": "プッシュ通知",
+    "pushStatus": "プッシュステータス",
+    "pushToken": "プッシュトークン",
+    "noPushToken": "このデバイスにはプッシュトークンが登録されていません",
+    "activityDetails": "アクティビティ詳細",
+    "totalVisits": "総訪問回数"
+  },
+  "actions": {
+    "viewDetails": "詳細を表示",
+    "deleteDevice": "デバイスを削除",
+    "revokeSession": "セッションを取り消す"
+  },
+  "confirmations": {
+    "deleteDevice": "このデバイスを削除してもよろしいですか？",
+    "revokeSession": "セッションを取り消す",
+    "revokeDescription": "これによりユーザーはこのデバイスからログアウトされ、システムから削除されます。"
+  },
+  "tabs": {
+    "all": "すべて",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "デスクトップ"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "ユーザー名または電話番号で検索..."
+  },
+  "table": {
+    "device": "デバイス",
+    "user": "ユーザー",
+    "platform": "プラットフォーム",
+    "version": "バージョン",
+    "status": "ステータス",
+    "lastSeen": "最終確認",
+    "push": "プッシュ",
+    "actions": "アクション"
+  },
+  "tooltips": {
+    "edit": "編集",
+    "delete": "削除"
+  },
+  "messages": {
+    "fetchFailed": "デバイスの取得に失敗しました（{{status}}）",
+    "deviceDeleted": "デバイスが正常に削除されました",
+    "failedToDelete": "デバイスの削除に失敗しました",
+    "sessionRevoked": "セッションが正常に取り消されました",
+    "failedToRevoke": "セッションの取り消しに失敗しました"
+  }
+}

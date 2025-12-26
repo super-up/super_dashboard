@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "Kullanıcı Şikayeti",
+    "chat": "Sohbet Şikayeti"
+  },
+  "reasons": {
+    "spam": "Spam",
+    "harassment": "Taciz",
+    "inappropriatecontent": "Uygunsuz İçerik",
+    "hatespeech": "Nefret Söylemi",
+    "violence": "Şiddet"
+  },
+  "status": {
+    "pending": "Beklemede",
+    "approved": "Onaylandı",
+    "rejected": "Reddedildi"
+  },
+  "labels": {
+    "reportId": "Şikayet ID",
+    "reportProgress": "Şikayet İlerlemesi",
+    "submitted": "Gönderildi",
+    "reporter": "Şikayet Eden",
+    "reportedUser": "Şikayet Edilen Kullanıcı",
+    "reportedContent": "Şikayet Edilen İçerik",
+    "reportReason": "Şikayet Sebebi",
+    "reportDetails": "Şikayet Detayları",
+    "takeAction": "İşlem Yap",
+    "actionsAreIrreversible": "İşlemler geri alınamaz",
+    "takeActionDescription": "Aşağıdaki işlemler şikayet edilen kullanıcıyı kalıcı olarak etkileyecektir. Lütfen devam etmeden önce dikkatle inceleyin.",
+    "selectBanDuration": "Yasak Süresini Seçin",
+    "daysFromNow": "Şu andan itibaren gün",
+    "orSelectSpecificDate": "Veya belirli tarih seçin",
+    "userWillBeBanned": "Kullanıcı {{duration}} yasaklanacak",
+    "warningDeleteAccount": "Uyarı: Hesap kalıcı olarak silinecek",
+    "softDeletedAccount": "Bu hesap geçici olarak silinecek ve kurtarılamayacak.",
+    "reportedUserDataNotAvailable": "Şikayet edilen kullanıcı verisi mevcut değil",
+    "chatDataNotAvailable": "Sohbet verisi mevcut değil",
+    "noReportedContent": "Şikayet edilen içerik yok",
+    "noAdditionalDetails": "Ek detay sağlanmadı",
+    "unknownUser": "Bilinmeyen Kullanıcı",
+    "type": "Tür",
+    "createdAt": "Oluşturulma",
+    "updatedAt": "Güncellenme",
+    "resolvedAt": "Çözümlenme"
+  },
+  "confirmations": {
+    "approveReport": "Şikayeti Onayla",
+    "approveReportDesc": "Bu şikayeti onaylamak istediğinizden emin misiniz?",
+    "rejectReport": "Şikayeti Reddet",
+    "rejectReportDesc": "Bu şikayeti reddetmek istediğinizden emin misiniz?",
+    "deleteUserAccount": "Kullanıcı Hesabını Sil",
+    "deleteUserAccountDesc": "Bu işlem kullanıcı hesabını kalıcı olarak silecektir. Bu geri alınamaz.",
+    "deleteReportedContent": "Şikayet Edilen İçeriği Sil",
+    "deleteReportedContentDesc": "Şikayet edilen içeriği silmek istediğinizden emin misiniz?"
+  },
+  "actions": {
+    "approve": "Onayla",
+    "reject": "Reddet",
+    "banUser": "Kullanıcıyı Yasakla",
+    "deleteAccount": "Hesabı Sil",
+    "deleteContent": "İçeriği Sil",
+    "delete": "Sil",
+    "ban": "Yasakla",
+    "viewUserProfile": "Kullanıcı Profilini Görüntüle",
+    "viewChatDetails": "Sohbet Detaylarını Görüntüle",
+    "viewProfile": "Profili Görüntüle"
+  },
+  "table": {
+    "reason": "Sebep",
+    "status": "Durum"
+  },
+  "messages": {
+    "reportStatusUpdated": "Şikayet {{newStatus}}",
+    "updateFailed": "Şikayet güncellenemedi",
+    "noReportedUser": "İşlem yapılacak şikayet edilen kullanıcı yok",
+    "userBannedFor": "Kullanıcı {{duration}} yasaklandı",
+    "userAccountDeleted": "Kullanıcı hesabı silindi",
+    "actionFailed": "İşlem yapılamadı",
+    "contentDeleted": "İçerik silindi",
+    "deleteContentFailed": "İçerik silinemedi"
+  }
+}

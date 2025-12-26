@@ -1,0 +1,87 @@
+{
+    "title": "Uygulama Yapılandırması",
+    "subtitle": "Uygulama ayarlarını ve özellik bayraklarını yönetin",
+    "sections": {
+        "general": "Genel Ayarlar",
+        "features": "Özellik Anahtarları",
+        "limits": "Limitler ve Kısıtlamalar",
+        "urls": "Harici URL'ler",
+        "icons": "Varsayılan İkonlar"
+    },
+    "subsections": {
+        "platformLogin": "Platform Girişi",
+        "chatFeatures": "Sohbet Özellikleri",
+        "appStoreLinks": "Uygulama Mağazası Bağlantıları",
+        "roomEmojis": "Oda Emojileri",
+        "defaultImages": "Varsayılan Görseller (dosya adları)"
+    },
+    "fields": {
+        "appName": "Uygulama Adı",
+        "feedbackEmail": "Geri Bildirim E-postası",
+        "userRegisterStatus": "Kullanıcı Kayıt Politikası",
+        "userRegisterStatusTooltip": "Yeni kullanıcı kayıtlarının nasıl işleneceğini kontrol eder",
+        "emailCodeExpiry": "E-posta Kodu Süresi (dakika)",
+        "emailCodeExpiryTooltip": "Şifre sıfırlama kodlarının ne kadar süre geçerli olduğu",
+        "enableAds": "Reklamları Etkinleştir",
+        "mobileLogin": "Mobil Giriş",
+        "webLogin": "Web Giriş",
+        "desktopLogin": "Masaüstü Giriş",
+        "messaging": "Mesajlaşma",
+        "sendMedia": "Medya Gönder",
+        "voiceVideoCalls": "Sesli/Görüntülü Aramalar",
+        "createGroups": "Grup Oluştur",
+        "createBroadcasts": "Yayın Oluştur",
+        "maxGroupMembers": "Maksimum Grup Üyesi",
+        "maxGroupMembersTooltip": "Bir grupta izin verilen maksimum üye sayısı",
+        "maxBroadcastRecipients": "Maksimum Yayın Alıcısı",
+        "maxBroadcastRecipientsTooltip": "Yayın mesajları için maksimum alıcı sayısı",
+        "maxForwards": "Maksimum İletme",
+        "maxForwardsTooltip": "Bir mesajın kaç kez iletilebileceği",
+        "maxMediaSize": "Maksimum Medya Boyutu (MB)",
+        "maxMediaSizeTooltip": "Medya yüklemeleri için maksimum dosya boyutu",
+        "callTimeout": "Arama Zaman Aşımı (saniye)",
+        "callTimeoutTooltip": "Arama zaman aşımına uğramadan önce ne kadar süre çalacağı",
+        "privacyUrl": "Gizlilik Politikası URL",
+        "webChatUrl": "Web Sohbet URL",
+        "appleStoreUrl": "Apple App Store URL",
+        "googlePlayUrl": "Google Play Store URL",
+        "macStoreUrl": "Mac App Store URL",
+        "windowsStoreUrl": "Windows Store URL",
+        "groupIcon": "Grup İkonu",
+        "broadcastIcon": "Yayın İkonu",
+        "orderIcon": "Sipariş İkonu",
+        "defaultUserImage": "Varsayılan Kullanıcı Görseli",
+        "defaultGroupImage": "Varsayılan Grup Görseli",
+        "defaultBroadcastImage": "Varsayılan Yayın Görseli",
+        "defaultSupportImage": "Varsayılan Destek Görseli"
+    },
+    "actions": {
+        "refresh": "Yenile",
+        "resetToDefaults": "Varsayılanlara Sıfırla",
+        "discardChanges": "Değişiklikleri İptal Et",
+        "saveConfiguration": "Yapılandırmayı Kaydet"
+    },
+    "confirmations": {
+        "resetTitle": "Yapılandırmayı Sıfırla",
+        "resetDescription": "Tüm ayarları varsayılanlara sıfırlamak istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+        "reset": "Sıfırla"
+    },
+    "messages": {
+        "configUpdated": "Yapılandırma Güncellendi",
+        "configUpdatedDesc": "Uygulama yapılandırması başarıyla kaydedildi.",
+        "updateFailed": "Güncelleme Başarısız",
+        "updateFailedDesc": "Yapılandırma kaydedilemedi. Lütfen tekrar deneyin.",
+        "configReset": "Yapılandırma Sıfırlandı",
+        "configResetDesc": "Uygulama yapılandırması varsayılanlara sıfırlandı.",
+        "resetFailed": "Sıfırlama Başarısız",
+        "resetFailedDesc": "Yapılandırma sıfırlanamadı. Lütfen tekrar deneyin.",
+        "backendVersion": "Backend Versiyonu"
+    },
+    "validation": {
+        "appNameRequired": "Uygulama adı gerekli",
+        "emailRequired": "E-posta gerekli",
+        "invalidEmail": "Geçersiz e-posta formatı",
+        "invalidUrl": "Geçersiz URL formatı"
+    },
+    "current": "Mevcut"
+}

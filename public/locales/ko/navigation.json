@@ -1,0 +1,18 @@
+{
+    "dashboard": "대시보드",
+    "users": "사용자",
+    "messages": "메시지",
+    "rooms": "방",
+    "reports": "신고",
+    "calls": "통화",
+    "stories": "스토리",
+    "auditLogs": "감사 로그",
+    "realtimeLogs": "실시간 로그",
+    "notifications": "알림",
+    "devices": "기기",
+    "countries": "국가",
+    "stickers": "스티커",
+    "appConfig": "앱 설정",
+    "dataExport": "데이터 내보내기",
+    "appVersions": "앱 버전"
+}

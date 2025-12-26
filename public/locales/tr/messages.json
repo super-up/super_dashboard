@@ -1,0 +1,100 @@
+{
+    "title": "Mesajlar",
+    "list": "Mesaj Listesi",
+    "details": "Mesaj Detayları",
+    "fields": {
+        "id": "Mesaj ID",
+        "content": "İçerik",
+        "type": "Tür",
+        "sender": "Gönderen",
+        "room": "Oda",
+        "roomId": "Oda ID",
+        "status": "Durum",
+        "platform": "Platform",
+        "createdAt": "Gönderilme",
+        "created": "Oluşturuldu",
+        "updated": "Güncellendi",
+        "seenAt": "Görüldü",
+        "deletedAt": "Silindi",
+        "attachments": "Ekler",
+        "encryption": "Şifreleme",
+        "fileName": "Dosya Adı",
+        "mimeType": "MIME Türü",
+        "fileSize": "Dosya Boyutu",
+        "dimensions": "Boyutlar",
+        "duration": "Süre",
+        "url": "URL"
+    },
+    "types": {
+        "text": "Metin",
+        "image": "Resim",
+        "video": "Video",
+        "audio": "Ses",
+        "voice": "Sesli",
+        "file": "Dosya",
+        "location": "Konum",
+        "contact": "Kişi",
+        "sticker": "Çıkartma",
+        "gif": "GIF",
+        "call": "Arama",
+        "reaction": "Tepki",
+        "info": "Bilgi"
+    },
+    "filters": {
+        "all": "Tüm Mesajlar",
+        "text": "Sadece Metin",
+        "media": "Sadece Medya",
+        "today": "Bugün",
+        "thisWeek": "Bu Hafta"
+    },
+    "actions": {
+        "delete": "Sil",
+        "restore": "Geri Yükle",
+        "viewRoom": "Odayı Görüntüle",
+        "viewSender": "Göndereni Görüntüle",
+        "viewProfile": "Profili Görüntüle",
+        "viewOriginal": "Orijinali Görüntüle",
+        "download": "İndir",
+        "downloadAudio": "Sesi İndir",
+        "downloadFile": "Dosyayı İndir",
+        "playVideo": "Videoyu Oynat",
+        "hidePlayer": "Oynatıcıyı Gizle"
+    },
+    "show": {
+        "messageContent": "Mesaj İçeriği",
+        "messageDetails": "Mesaj Detayları",
+        "attachmentDetails": "Ek Detayları",
+        "voiceMessage": "Sesli Mesaj",
+        "videoMessage": "Video Mesaj",
+        "locationShared": "Konum Paylaşıldı",
+        "systemMessage": "Sistem mesajı",
+        "noContent": "İçerik yok",
+        "noVideoUrl": "Video URL yok",
+        "noAudioUrl": "Ses URL yok",
+        "messageDeleted": "Bu mesaj silindi",
+        "replyInfo": "Bu mesaj başka bir mesaja yanıt",
+        "forwardedFrom": "İletildi",
+        "replyTo": "Yanıt",
+        "reactions": "Tepkiler",
+        "unknown": "Bilinmiyor",
+        "size": "Boyut",
+        "type": "Tür"
+    },
+    "tags": {
+        "deleted": "Silindi",
+        "active": "Aktif",
+        "hasMedia": "Medya İçerir",
+        "forwarded": "İletildi",
+        "reply": "Yanıt",
+        "encrypted": "Şifreli"
+    },
+    "confirmations": {
+        "deleteMessage": "Bu mesajı sil?",
+        "restoreMessage": "Bu mesajı geri yükle?"
+    },
+    "notifications": {
+        "deleted": "Mesaj silindi",
+        "restored": "Mesaj geri yüklendi",
+        "updateFailed": "Mesaj güncellenemedi"
+    }
+}

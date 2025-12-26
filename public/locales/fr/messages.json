@@ -1,0 +1,100 @@
+{
+    "title": "Messages",
+    "list": "Liste des messages",
+    "details": "Détails du message",
+    "fields": {
+        "id": "ID du message",
+        "content": "Contenu",
+        "type": "Type",
+        "sender": "Expéditeur",
+        "room": "Salon",
+        "roomId": "ID du salon",
+        "status": "Statut",
+        "platform": "Plateforme",
+        "createdAt": "Envoyé le",
+        "created": "Créé",
+        "updated": "Mis à jour",
+        "seenAt": "Vu le",
+        "deletedAt": "Supprimé le",
+        "attachments": "Pièces jointes",
+        "encryption": "Chiffrement",
+        "fileName": "Nom du fichier",
+        "mimeType": "Type MIME",
+        "fileSize": "Taille du fichier",
+        "dimensions": "Dimensions",
+        "duration": "Durée",
+        "url": "URL"
+    },
+    "types": {
+        "text": "Texte",
+        "image": "Image",
+        "video": "Vidéo",
+        "audio": "Audio",
+        "voice": "Voix",
+        "file": "Fichier",
+        "location": "Emplacement",
+        "contact": "Contact",
+        "sticker": "Autocollant",
+        "gif": "GIF",
+        "call": "Appel",
+        "reaction": "Réaction",
+        "info": "Info"
+    },
+    "filters": {
+        "all": "Tous les messages",
+        "text": "Texte uniquement",
+        "media": "Médias uniquement",
+        "today": "Aujourd'hui",
+        "thisWeek": "Cette semaine"
+    },
+    "actions": {
+        "delete": "Supprimer",
+        "restore": "Restaurer",
+        "viewRoom": "Voir le salon",
+        "viewSender": "Voir l'expéditeur",
+        "viewProfile": "Voir le profil",
+        "viewOriginal": "Voir l'original",
+        "download": "Télécharger",
+        "downloadAudio": "Télécharger l'audio",
+        "downloadFile": "Télécharger le fichier",
+        "playVideo": "Lire la vidéo",
+        "hidePlayer": "Masquer le lecteur"
+    },
+    "show": {
+        "messageContent": "Contenu du message",
+        "messageDetails": "Détails du message",
+        "attachmentDetails": "Détails de la pièce jointe",
+        "voiceMessage": "Message vocal",
+        "videoMessage": "Message vidéo",
+        "locationShared": "Emplacement partagé",
+        "systemMessage": "Message système",
+        "noContent": "Pas de contenu",
+        "noVideoUrl": "Aucune URL vidéo disponible",
+        "noAudioUrl": "Aucune URL audio disponible",
+        "messageDeleted": "Ce message a été supprimé",
+        "replyInfo": "Ce message est une réponse à un autre message",
+        "forwardedFrom": "Transféré de",
+        "replyTo": "Répondre à",
+        "reactions": "Réactions",
+        "unknown": "Inconnu",
+        "size": "Taille",
+        "type": "Type"
+    },
+    "tags": {
+        "deleted": "Supprimé",
+        "active": "Actif",
+        "hasMedia": "A des médias",
+        "forwarded": "Transféré",
+        "reply": "Réponse",
+        "encrypted": "Chiffré"
+    },
+    "confirmations": {
+        "deleteMessage": "Supprimer ce message ?",
+        "restoreMessage": "Restaurer ce message ?"
+    },
+    "notifications": {
+        "deleted": "Message supprimé",
+        "restored": "Message restauré",
+        "updateFailed": "Échec de la mise à jour du message"
+    }
+}

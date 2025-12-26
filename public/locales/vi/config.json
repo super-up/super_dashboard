@@ -1,0 +1,87 @@
+{
+    "title": "Cấu Hình Ứng Dụng",
+    "subtitle": "Quản lý cài đặt ứng dụng và cờ tính năng",
+    "sections": {
+        "general": "Cài Đặt Chung",
+        "features": "Chuyển Đổi Tính Năng",
+        "limits": "Giới Hạn & Ràng Buộc",
+        "urls": "URL Bên Ngoài",
+        "icons": "Biểu Tượng Mặc Định"
+    },
+    "subsections": {
+        "platformLogin": "Đăng Nhập Nền Tảng",
+        "chatFeatures": "Tính Năng Trò Chuyện",
+        "appStoreLinks": "Liên Kết Cửa Hàng Ứng Dụng",
+        "roomEmojis": "Biểu Tượng Cảm Xúc Phòng",
+        "defaultImages": "Hình Ảnh Mặc Định (tên tệp)"
+    },
+    "fields": {
+        "appName": "Tên Ứng Dụng",
+        "feedbackEmail": "Email Phản Hồi",
+        "userRegisterStatus": "Chính Sách Đăng Ký Người Dùng",
+        "userRegisterStatusTooltip": "Kiểm soát cách xử lý đăng ký người dùng mới",
+        "emailCodeExpiry": "Hết Hạn Mã Email (phút)",
+        "emailCodeExpiryTooltip": "Thời gian mã đặt lại mật khẩu còn hiệu lực",
+        "enableAds": "Bật Quảng Cáo",
+        "mobileLogin": "Đăng Nhập Di Động",
+        "webLogin": "Đăng Nhập Web",
+        "desktopLogin": "Đăng Nhập Máy Tính",
+        "messaging": "Nhắn Tin",
+        "sendMedia": "Gửi Đa Phương Tiện",
+        "voiceVideoCalls": "Cuộc Gọi Thoại/Video",
+        "createGroups": "Tạo Nhóm",
+        "createBroadcasts": "Tạo Quảng Bá",
+        "maxGroupMembers": "Số Thành Viên Nhóm Tối Đa",
+        "maxGroupMembersTooltip": "Số lượng thành viên tối đa được phép trong một nhóm",
+        "maxBroadcastRecipients": "Số Người Nhận Quảng Bá Tối Đa",
+        "maxBroadcastRecipientsTooltip": "Số người nhận tối đa cho tin nhắn quảng bá",
+        "maxForwards": "Số Lần Chuyển Tiếp Tối Đa",
+        "maxForwardsTooltip": "Số lần tối đa một tin nhắn có thể được chuyển tiếp",
+        "maxMediaSize": "Kích Thước Đa Phương Tiện Tối Đa (MB)",
+        "maxMediaSizeTooltip": "Kích thước tệp tối đa cho tải lên đa phương tiện",
+        "callTimeout": "Thời Gian Chờ Cuộc Gọi (giây)",
+        "callTimeoutTooltip": "Thời gian đổ chuông trước khi cuộc gọi hết thời gian",
+        "privacyUrl": "URL Chính Sách Bảo Mật",
+        "webChatUrl": "URL Trò Chuyện Web",
+        "appleStoreUrl": "URL Apple App Store",
+        "googlePlayUrl": "URL Google Play Store",
+        "macStoreUrl": "URL Mac App Store",
+        "windowsStoreUrl": "URL Windows Store",
+        "groupIcon": "Biểu Tượng Nhóm",
+        "broadcastIcon": "Biểu Tượng Quảng Bá",
+        "orderIcon": "Biểu Tượng Đơn Hàng",
+        "defaultUserImage": "Hình Ảnh Người Dùng Mặc Định",
+        "defaultGroupImage": "Hình Ảnh Nhóm Mặc Định",
+        "defaultBroadcastImage": "Hình Ảnh Quảng Bá Mặc Định",
+        "defaultSupportImage": "Hình Ảnh Hỗ Trợ Mặc Định"
+    },
+    "actions": {
+        "refresh": "Làm Mới",
+        "resetToDefaults": "Đặt Lại Về Mặc Định",
+        "discardChanges": "Hủy Thay Đổi",
+        "saveConfiguration": "Lưu Cấu Hình"
+    },
+    "confirmations": {
+        "resetTitle": "Đặt Lại Cấu Hình",
+        "resetDescription": "Bạn có chắc chắn muốn đặt lại tất cả cài đặt về mặc định? Hành động này không thể hoàn tác.",
+        "reset": "Đặt Lại"
+    },
+    "messages": {
+        "configUpdated": "Đã Cập Nhật Cấu Hình",
+        "configUpdatedDesc": "Cấu hình ứng dụng đã được lưu thành công.",
+        "updateFailed": "Cập Nhật Thất Bại",
+        "updateFailedDesc": "Không thể lưu cấu hình. Vui lòng thử lại.",
+        "configReset": "Đã Đặt Lại Cấu Hình",
+        "configResetDesc": "Cấu hình ứng dụng đã được đặt lại về mặc định.",
+        "resetFailed": "Đặt Lại Thất Bại",
+        "resetFailedDesc": "Không thể đặt lại cấu hình. Vui lòng thử lại.",
+        "backendVersion": "Phiên Bản Backend"
+    },
+    "validation": {
+        "appNameRequired": "Tên ứng dụng là bắt buộc",
+        "emailRequired": "Email là bắt buộc",
+        "invalidEmail": "Định dạng email không hợp lệ",
+        "invalidUrl": "Định dạng URL không hợp lệ"
+    },
+    "current": "Hiện Tại"
+}

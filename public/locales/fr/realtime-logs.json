@@ -1,0 +1,55 @@
+{
+    "title": "Journaux en temps réel",
+    "logsCount": "{{count}} journaux",
+    "logsCountFiltered": "{{filtered}} sur {{total}} journaux",
+    "actions": {
+        "resume": "Reprendre",
+        "pause": "Pause",
+        "clear": "Effacer",
+        "reconnect": "Reconnecter"
+    },
+    "status": {
+        "connected": "Connecté",
+        "connecting": "Connexion...",
+        "disconnected": "Déconnecté",
+        "error": "Erreur"
+    },
+    "empty": {
+        "paused": "Diffusion des journaux en pause",
+        "waiting": "En attente de journaux...",
+        "noMatch": "Aucun journal ne correspond aux filtres actuels",
+        "notConnected": "Connectez-vous pour commencer à recevoir les journaux"
+    },
+    "severity": {
+        "all": "Tous",
+        "info": "Info",
+        "warning": "Avertissement",
+        "error": "Erreur",
+        "critical": "Critique"
+    },
+    "categories": {
+        "all": "Tous",
+        "auth": "Authentification",
+        "presence": "Présence",
+        "message": "Message",
+        "group": "Groupe",
+        "broadcast": "Diffusion",
+        "channel": "Canal",
+        "story": "Histoire",
+        "call": "Appel",
+        "profile": "Profil"
+    },
+    "actorTypes": {
+        "user": "Utilisateur",
+        "admin": "Administrateur",
+        "system": "Système"
+    },
+    "labels": {
+        "unknown": "Inconnu"
+    },
+    "time": {
+        "secondsAgo": "Il y a {{count}}s",
+        "minutesAgo": "Il y a {{count}}min",
+        "hoursAgo": "Il y a {{count}}h"
+    }
+}

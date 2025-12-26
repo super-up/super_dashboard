@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "Bild",
+    "video": "Video",
+    "voice": "Sprache",
+    "file": "Datei",
+    "text": "Text"
+  },
+  "labels": {
+    "storyDetails": "Story-Details",
+    "storyInformation": "Story-Informationen",
+    "storyId": "Story-ID",
+    "type": "Typ",
+    "postedBy": "Gepostet von",
+    "createdAt": "Erstellt am",
+    "expiresAt": "Läuft ab am",
+    "expiryProgress": "Ablauffortschritt",
+    "unknownUser": "Unbekannter Benutzer",
+    "noViewsYet": "Noch keine Aufrufe",
+    "thisStoryDeletedOn": "Diese Story wurde am {{date}} gelöscht",
+    "thisStoryExpiredOn": "Diese Story ist am {{date}} abgelaufen"
+  },
+  "table": {
+    "views": "Aufrufe",
+    "viewer": "Betrachter",
+    "viewedAt": "Angesehen am",
+    "actions": "Aktionen",
+    "status": "Status"
+  },
+  "status": {
+    "deleted": "Gelöscht",
+    "expired": "Abgelaufen",
+    "active": "Aktiv"
+  },
+  "actions": {
+    "deleteStory": "Story löschen",
+    "delete": "Löschen",
+    "cancel": "Abbrechen",
+    "viewUser": "Benutzer anzeigen"
+  },
+  "confirmations": {
+    "deleteStory": "Möchten Sie diese Story wirklich löschen?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "Story erfolgreich gelöscht",
+    "operationFailed": "Vorgang fehlgeschlagen"
+  }
+}

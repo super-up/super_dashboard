@@ -1,0 +1,22 @@
+{
+    "title": "通话",
+    "stats": {
+        "totalFinishedCalls": "总完成通话",
+        "averageDuration": "平均时长",
+        "longestCall": "最长通话",
+        "shortestCall": "最短通话"
+    },
+    "types": {
+        "video": "视频",
+        "voice": "语音"
+    },
+    "status": {
+        "ended": "已结束",
+        "completed": "已完成",
+        "missed": "未接",
+        "rejected": "已拒绝",
+        "cancelled": "已取消",
+        "ongoing": "进行中",
+        "ringing": "响铃中"
+    }
+}

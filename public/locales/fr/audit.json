@@ -1,0 +1,12 @@
+{
+    "title": "Journaux d'audit",
+    "columns": {
+        "id": "ID",
+        "action": "Action",
+        "targetType": "Type de cible",
+        "targetId": "ID de la cible",
+        "admin": "Administrateur",
+        "ipAddress": "Adresse IP",
+        "timestamp": "Horodatage"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "title": "贴纸",
+    "list": "贴纸包",
+    "details": "贴纸包详情",
+    "fields": {
+        "id": "包ID",
+        "name": "名称",
+        "author": "作者",
+        "type": "类型",
+        "thumbnail": "缩略图",
+        "version": "版本",
+        "stickersCount": "贴纸",
+        "createdAt": "创建时间",
+        "updatedAt": "更新时间"
+    },
+    "types": {
+        "animated": "动画",
+        "static": "静态"
+    },
+    "stats": {
+        "totalPacks": "总贴纸包",
+        "animatedPacks": "动画贴纸包",
+        "staticPacks": "静态贴纸包",
+        "totalStickers": "总贴纸"
+    },
+    "filters": {
+        "searchPlaceholder": "按名称或作者搜索...",
+        "search": "搜索",
+        "filters": "筛选器",
+        "packType": "贴纸包类型",
+        "createdFromTo": "创建时间范围",
+        "apply": "应用",
+        "clear": "清除"
+    },
+    "actions": {
+        "title": "操作",
+        "refresh": "刷新",
+        "createPack": "创建贴纸包",
+        "editPack": "编辑贴纸包",
+        "deletePack": "删除贴纸包",
+        "addSticker": "添加贴纸",
+        "removeSticker": "移除贴纸",
+        "view": "查看",
+        "edit": "编辑",
+        "delete": "删除",
+        "remove": "移除"
+    },
+    "show": {
+        "packInformation": "贴纸包信息",
+        "packNotFound": "未找到贴纸包",
+        "stickersTitle": "贴纸",
+        "noStickers": "此贴纸包中无贴纸"
+    },
+    "modal": {
+        "createTitle": "创建贴纸包",
+        "editTitle": "编辑贴纸包",
+        "addStickersTitle": "添加贴纸",
+        "cancel": "取消",
+        "create": "创建",
+        "update": "更新",
+        "upload": "上传贴纸",
+        "packName": "贴纸包名称",
+        "packNamePlaceholder": "输入贴纸包名称",
+        "thumbnailUrl": "缩略图URL",
+        "thumbnailUrlPlaceholder": "输入缩略图URL",
+        "authorLabel": "作者",
+        "authorPlaceholder": "输入作者名称",
+        "animatedPack": "动画贴纸包",
+        "selectThumbnail": "选择缩略图",
+        "selectImages": "选择图片（最多50张）",
+        "uploadHint": "点击或拖拽图片上传",
+        "emojis": "表情（逗号分隔）",
+        "emojisPlaceholder": "输入用逗号分隔的表情"
+    },
+    "confirmations": {
+        "deletePack": "删除此贴纸包？",
+        "removeSticker": "移除此贴纸？"
+    },
+    "notifications": {
+        "packCreated": "贴纸包创建成功",
+        "packUpdated": "贴纸包更新成功",
+        "packDeleted": "贴纸包删除成功",
+        "stickersAdded": "贴纸添加成功",
+        "stickerRemoved": "贴纸移除成功",
+        "createFailed": "贴纸包创建失败",
+        "updateFailed": "贴纸包更新失败",
+        "deleteFailed": "贴纸包删除失败",
+        "uploadFailed": "贴纸上传失败"
+    },
+    "validation": {
+        "nameRequired": "贴纸包名称为必填项",
+        "thumbnailRequired": "缩略图URL为必填项",
+        "authorRequired": "作者为必填项",
+        "selectFiles": "请至少选择一张图片",
+        "onlyImages": "只能上传图片文件！",
+        "maxFileSize": "图片大小必须小于10MB！",
+        "maxImagesAllowed": "最多允许50张图片",
+        "uploadHint": "支持PNG、JPG、WebP、GIF。最多50张图片，每张10MB。"
+    }
+}

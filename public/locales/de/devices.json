@@ -1,0 +1,70 @@
+{
+  "title": "Geräte",
+  "page": {
+    "title": "Geräte"
+  },
+  "columns": {
+    "user": "Benutzer",
+    "platform": "Plattform",
+    "appVersion": "App-Version",
+    "pushToken": "Push-Token",
+    "status": "Status",
+    "lastActive": "Zuletzt aktiv",
+    "created": "Erstellt"
+  },
+  "labels": {
+    "never": "Nie",
+    "deviceOwner": "Gerätebesitzer",
+    "deviceInformation": "Geräteinformationen",
+    "deviceId": "Geräte-ID",
+    "deviceModel": "Gerätemodell",
+    "osVersion": "OS-Version",
+    "pushNotification": "Push-Benachrichtigung",
+    "pushStatus": "Push-Status",
+    "pushToken": "Push-Token",
+    "noPushToken": "Kein Push-Token für dieses Gerät registriert",
+    "activityDetails": "Aktivitätsdetails",
+    "totalVisits": "Gesamt Besuche"
+  },
+  "actions": {
+    "viewDetails": "Details anzeigen",
+    "deleteDevice": "Gerät löschen",
+    "revokeSession": "Sitzung widerrufen"
+  },
+  "confirmations": {
+    "deleteDevice": "Möchten Sie dieses Gerät wirklich löschen?",
+    "revokeSession": "Sitzung widerrufen",
+    "revokeDescription": "Der Benutzer wird von diesem Gerät abgemeldet und es wird aus dem System entfernt."
+  },
+  "tabs": {
+    "all": "Alle",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Desktop"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "Nach Benutzername oder Telefon suchen..."
+  },
+  "table": {
+    "device": "Gerät",
+    "user": "Benutzer",
+    "platform": "Plattform",
+    "version": "Version",
+    "status": "Status",
+    "lastSeen": "Zuletzt gesehen",
+    "push": "Push",
+    "actions": "Aktionen"
+  },
+  "tooltips": {
+    "edit": "Bearbeiten",
+    "delete": "Löschen"
+  },
+  "messages": {
+    "fetchFailed": "Geräte konnten nicht abgerufen werden ({{status}})",
+    "deviceDeleted": "Gerät erfolgreich gelöscht",
+    "failedToDelete": "Gerät konnte nicht gelöscht werden",
+    "sessionRevoked": "Sitzung erfolgreich widerrufen",
+    "failedToRevoke": "Sitzung konnte nicht widerrufen werden"
+  }
+}

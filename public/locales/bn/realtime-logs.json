@@ -1,0 +1,55 @@
+{
+    "title": "রিয়েল-টাইম লগ",
+    "logsCount": "{{count}} লগ",
+    "logsCountFiltered": "{{total}} এর মধ্যে {{filtered}}",
+    "actions": {
+        "resume": "পুনরায় শুরু",
+        "pause": "বিরতি",
+        "clear": "পরিষ্কার",
+        "reconnect": "পুনঃসংযোগ"
+    },
+    "status": {
+        "connected": "সংযুক্ত",
+        "connecting": "সংযোগ হচ্ছে...",
+        "disconnected": "সংযোগ বিচ্ছিন্ন",
+        "error": "ত্রুটি"
+    },
+    "empty": {
+        "paused": "লগ স্ট্রিমিং বিরাম",
+        "waiting": "লগের জন্য অপেক্ষা...",
+        "noMatch": "বর্তমান ফিল্টারের সাথে কোন লগ মিলছে না",
+        "notConnected": "লগ গ্রহণ শুরু করতে সংযুক্ত হন"
+    },
+    "severity": {
+        "all": "সব",
+        "info": "তথ্য",
+        "warning": "সতর্কতা",
+        "error": "ত্রুটি",
+        "critical": "গুরুতর"
+    },
+    "categories": {
+        "all": "সব",
+        "auth": "প্রমাণীকরণ",
+        "presence": "উপস্থিতি",
+        "message": "বার্তা",
+        "group": "গ্রুপ",
+        "broadcast": "ব্রডকাস্ট",
+        "channel": "চ্যানেল",
+        "story": "স্টোরি",
+        "call": "কল",
+        "profile": "প্রোফাইল"
+    },
+    "actorTypes": {
+        "user": "ব্যবহারকারী",
+        "admin": "প্রশাসক",
+        "system": "সিস্টেম"
+    },
+    "labels": {
+        "unknown": "অজানা"
+    },
+    "time": {
+        "secondsAgo": "{{count}} সেকেন্ড আগে",
+        "minutesAgo": "{{count}} মিনিট আগে",
+        "hoursAgo": "{{count}} ঘন্টা আগে"
+    }
+}

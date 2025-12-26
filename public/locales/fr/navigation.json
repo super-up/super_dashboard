@@ -1,0 +1,18 @@
+{
+    "dashboard": "Tableau de bord",
+    "users": "Utilisateurs",
+    "messages": "Messages",
+    "rooms": "Salons",
+    "reports": "Signalements",
+    "calls": "Appels",
+    "stories": "Histoires",
+    "auditLogs": "Journaux d'audit",
+    "realtimeLogs": "Journaux en temps réel",
+    "notifications": "Notifications",
+    "devices": "Appareils",
+    "countries": "Pays",
+    "stickers": "Autocollants",
+    "appConfig": "Configuration de l'application",
+    "dataExport": "Exportation de données",
+    "appVersions": "Versions de l'application"
+}

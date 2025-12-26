@@ -1,0 +1,18 @@
+{
+    "dashboard": "डैशबोर्ड",
+    "users": "उपयोगकर्ता",
+    "messages": "संदेश",
+    "rooms": "रूम",
+    "reports": "रिपोर्ट",
+    "calls": "कॉल्स",
+    "stories": "स्टोरीज़",
+    "auditLogs": "ऑडिट लॉग",
+    "realtimeLogs": "रियल-टाइम लॉग",
+    "notifications": "सूचनाएं",
+    "devices": "डिवाइस",
+    "countries": "देश",
+    "stickers": "स्टिकर",
+    "appConfig": "ऐप कॉन्फ़िग",
+    "dataExport": "डेटा निर्यात",
+    "appVersions": "ऐप संस्करण"
+}

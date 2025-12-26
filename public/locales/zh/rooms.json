@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "群组",
+    "broadcast": "广播",
+    "single": "聊天"
+  },
+  "labels": {
+    "roomDetails": "房间详情",
+    "groupDetails": "群组详情",
+    "broadcastDetails": "广播详情",
+    "chatDetails": "聊天详情",
+    "directChat": "直接聊天",
+    "untitled": "无标题",
+    "description": "描述",
+    "roomId": "房间ID",
+    "broadcastId": "广播ID",
+    "chatId": "聊天ID",
+    "type": "类型",
+    "createdBy": "创建者",
+    "membersCount": "成员数量",
+    "recipientsCount": "收件人数量",
+    "createdAt": "创建时间",
+    "updatedAt": "更新时间",
+    "roomInformation": "房间信息",
+    "broadcastInformation": "广播信息",
+    "chatInformation": "聊天信息",
+    "thisRoomDeletedOn": "此房间已于 {{date}} 删除",
+    "owner": "所有者",
+    "member": "成员",
+    "recipient": "收件人",
+    "userDataNotAvailable": "用户数据不可用",
+    "unknownUser": "未知用户",
+    "private": "私密"
+  },
+  "table": {
+    "members": "成员",
+    "recipients": "收件人",
+    "messages": "消息",
+    "lastActive": "最后活跃",
+    "participant1": "参与者1",
+    "participant2": "参与者2",
+    "user": "用户",
+    "role": "角色",
+    "joined": "加入时间",
+    "lastSeen": "最后在线",
+    "actions": "操作",
+    "status": "状态",
+    "lastMessage": "最后消息"
+  },
+  "status": {
+    "deleted": "已删除",
+    "active": "活跃"
+  },
+  "actions": {
+    "removeMembers": "移除成员",
+    "viewUser": "查看用户",
+    "viewProfile": "查看资料",
+    "restore": "恢复",
+    "delete": "删除",
+    "cancel": "取消"
+  },
+  "confirmations": {
+    "restoreRoom": "恢复房间",
+    "deleteRoom": "删除房间",
+    "restoreRoomConfirm": "确定要恢复此房间吗？",
+    "softDeleteRoom": "此房间将被软删除，稍后可以恢复。",
+    "removeFromGroup": "从群组移除 {{count}} 个成员？",
+    "removeFromGroupDesc": "确定要从此群组移除 {{count}} 个选中成员吗？"
+  },
+  "placeholders": {
+    "searchMembers": "搜索成员...",
+    "searchRecipients": "搜索收件人..."
+  },
+  "messages": {
+    "roomRestored": "房间已恢复",
+    "roomDeleted": "房间已删除",
+    "membersRemoved": "已从群组移除 {{count}} 个成员",
+    "operationFailed": "操作失败"
+  }
+}

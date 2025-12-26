@@ -1,0 +1,16 @@
+{
+  "title": "Login de Administrador",
+  "subtitle": "Entre na sua conta Super Up Admin",
+  "email": "Endereço de E-mail",
+  "emailRequired": "Por favor, insira seu e-mail",
+  "emailInvalid": "Por favor, insira um e-mail válido",
+  "emailPlaceholder": "admin@exemplo.com",
+  "password": "Senha",
+  "passwordRequired": "Por favor, insira sua senha",
+  "passwordPlaceholder": "Insira sua senha",
+  "rememberMe": "Lembrar-me",
+  "signIn": "Entrar",
+  "signingIn": "Entrando...",
+  "demoMode": "Modo Demo",
+  "demoModeDescription": "Você está visualizando uma demonstração. Alguns recursos estão desabilitados."
+}

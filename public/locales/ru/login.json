@@ -1,0 +1,16 @@
+{
+  "title": "Вход администратора",
+  "subtitle": "Войдите в свой аккаунт Super Up Admin",
+  "email": "Email адрес",
+  "emailRequired": "Пожалуйста, введите email",
+  "emailInvalid": "Пожалуйста, введите корректный email",
+  "emailPlaceholder": "admin@example.com",
+  "password": "Пароль",
+  "passwordRequired": "Пожалуйста, введите пароль",
+  "passwordPlaceholder": "Введите пароль",
+  "rememberMe": "Запомнить меня",
+  "signIn": "Войти",
+  "signingIn": "Вход...",
+  "demoMode": "Демо режим",
+  "demoModeDescription": "Вы просматриваете демонстрацию. Некоторые функции отключены."
+}

@@ -1,0 +1,21 @@
+{
+    "required": "Trường này là bắt buộc",
+    "email": "Vui lòng nhập địa chỉ email hợp lệ",
+    "phone": "Vui lòng nhập số điện thoại hợp lệ",
+    "minLength": "Phải có ít nhất {{min}} ký tự",
+    "maxLength": "Phải không quá {{max}} ký tự",
+    "min": "Phải ít nhất là {{min}}",
+    "max": "Phải không quá {{max}}",
+    "pattern": "Định dạng không hợp lệ",
+    "url": "Vui lòng nhập URL hợp lệ",
+    "number": "Vui lòng nhập số hợp lệ",
+    "positive": "Phải là số dương",
+    "integer": "Phải là số nguyên",
+    "unique": "Giá trị này đã tồn tại",
+    "match": "Các giá trị không khớp",
+    "date": "Vui lòng nhập ngày hợp lệ",
+    "futureDate": "Ngày phải trong tương lai",
+    "pastDate": "Ngày phải trong quá khứ",
+    "fileSize": "Kích thước tệp phải nhỏ hơn {{size}}",
+    "fileType": "Loại tệp không hợp lệ"
+}

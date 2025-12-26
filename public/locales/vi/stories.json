@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "Hình Ảnh",
+    "video": "Video",
+    "voice": "Thoại",
+    "file": "Tệp",
+    "text": "Văn Bản"
+  },
+  "labels": {
+    "storyDetails": "Chi Tiết Tin",
+    "storyInformation": "Thông Tin Tin",
+    "storyId": "ID Tin",
+    "type": "Loại",
+    "postedBy": "Được Đăng Bởi",
+    "createdAt": "Ngày Tạo",
+    "expiresAt": "Hết Hạn Lúc",
+    "expiryProgress": "Tiến Trình Hết Hạn",
+    "unknownUser": "Người Dùng Không Rõ",
+    "noViewsYet": "Chưa có lượt xem",
+    "thisStoryDeletedOn": "Tin này đã bị xóa vào {{date}}",
+    "thisStoryExpiredOn": "Tin này đã hết hạn vào {{date}}"
+  },
+  "table": {
+    "views": "Lượt Xem",
+    "viewer": "Người Xem",
+    "viewedAt": "Đã Xem Lúc",
+    "actions": "Hành Động",
+    "status": "Trạng Thái"
+  },
+  "status": {
+    "deleted": "Đã Xóa",
+    "expired": "Đã Hết Hạn",
+    "active": "Hoạt Động"
+  },
+  "actions": {
+    "deleteStory": "Xóa Tin",
+    "delete": "Xóa",
+    "cancel": "Hủy",
+    "viewUser": "Xem Người Dùng"
+  },
+  "confirmations": {
+    "deleteStory": "Bạn có chắc chắn muốn xóa tin này?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "Đã xóa tin thành công",
+    "operationFailed": "Thao tác thất bại"
+  }
+}

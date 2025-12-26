@@ -1,0 +1,100 @@
+{
+    "title": "Tin Nhắn",
+    "list": "Danh Sách Tin Nhắn",
+    "details": "Chi Tiết Tin Nhắn",
+    "fields": {
+        "id": "ID Tin Nhắn",
+        "content": "Nội Dung",
+        "type": "Loại",
+        "sender": "Người Gửi",
+        "room": "Phòng",
+        "roomId": "ID Phòng",
+        "status": "Trạng Thái",
+        "platform": "Nền Tảng",
+        "createdAt": "Đã Gửi Lúc",
+        "created": "Đã Tạo",
+        "updated": "Đã Cập Nhật",
+        "seenAt": "Đã Xem Lúc",
+        "deletedAt": "Đã Xóa Lúc",
+        "attachments": "Tệp Đính Kèm",
+        "encryption": "Mã Hóa",
+        "fileName": "Tên Tệp",
+        "mimeType": "Loại MIME",
+        "fileSize": "Kích Thước Tệp",
+        "dimensions": "Kích Thước",
+        "duration": "Thời Lượng",
+        "url": "URL"
+    },
+    "types": {
+        "text": "Văn Bản",
+        "image": "Hình Ảnh",
+        "video": "Video",
+        "audio": "Âm Thanh",
+        "voice": "Thoại",
+        "file": "Tệp",
+        "location": "Vị Trí",
+        "contact": "Liên Hệ",
+        "sticker": "Nhãn Dán",
+        "gif": "GIF",
+        "call": "Cuộc Gọi",
+        "reaction": "Phản Ứng",
+        "info": "Thông Tin"
+    },
+    "filters": {
+        "all": "Tất Cả Tin Nhắn",
+        "text": "Chỉ Văn Bản",
+        "media": "Chỉ Đa Phương Tiện",
+        "today": "Hôm Nay",
+        "thisWeek": "Tuần Này"
+    },
+    "actions": {
+        "delete": "Xóa",
+        "restore": "Khôi Phục",
+        "viewRoom": "Xem Phòng",
+        "viewSender": "Xem Người Gửi",
+        "viewProfile": "Xem Hồ Sơ",
+        "viewOriginal": "Xem Gốc",
+        "download": "Tải Xuống",
+        "downloadAudio": "Tải Xuống Âm Thanh",
+        "downloadFile": "Tải Xuống Tệp",
+        "playVideo": "Phát Video",
+        "hidePlayer": "Ẩn Trình Phát"
+    },
+    "show": {
+        "messageContent": "Nội Dung Tin Nhắn",
+        "messageDetails": "Chi Tiết Tin Nhắn",
+        "attachmentDetails": "Chi Tiết Tệp Đính Kèm",
+        "voiceMessage": "Tin Nhắn Thoại",
+        "videoMessage": "Tin Nhắn Video",
+        "locationShared": "Vị Trí Được Chia Sẻ",
+        "systemMessage": "Tin nhắn hệ thống",
+        "noContent": "Không có nội dung",
+        "noVideoUrl": "Không có URL video",
+        "noAudioUrl": "Không có URL âm thanh",
+        "messageDeleted": "Tin nhắn này đã bị xóa",
+        "replyInfo": "Tin nhắn này là trả lời tin nhắn khác",
+        "forwardedFrom": "Được Chuyển Tiếp Từ",
+        "replyTo": "Trả Lời",
+        "reactions": "Phản Ứng",
+        "unknown": "Không Rõ",
+        "size": "Kích Thước",
+        "type": "Loại"
+    },
+    "tags": {
+        "deleted": "Đã Xóa",
+        "active": "Hoạt Động",
+        "hasMedia": "Có Đa Phương Tiện",
+        "forwarded": "Đã Chuyển Tiếp",
+        "reply": "Trả Lời",
+        "encrypted": "Đã Mã Hóa"
+    },
+    "confirmations": {
+        "deleteMessage": "Xóa tin nhắn này?",
+        "restoreMessage": "Khôi phục tin nhắn này?"
+    },
+    "notifications": {
+        "deleted": "Đã xóa tin nhắn",
+        "restored": "Đã khôi phục tin nhắn",
+        "updateFailed": "Không thể cập nhật tin nhắn"
+    }
+}

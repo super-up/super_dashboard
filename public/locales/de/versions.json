@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "App-Versionen",
+    "addVersionButton": "Version hinzufügen"
+  },
+  "table": {
+    "version": "Version",
+    "platform": "Plattform",
+    "critical": "Kritisch",
+    "notify": "Benachrichtigen",
+    "notes": "Hinweise",
+    "created": "Erstellt",
+    "actions": "Aktionen"
+  },
+  "tabs": {
+    "all": "Alle",
+    "macos": "macOS",
+    "other": "Andere"
+  },
+  "tooltips": {
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "refresh": "Aktualisieren"
+  },
+  "modal": {
+    "addTitle": "Version hinzufügen",
+    "editTitle": "Version bearbeiten"
+  },
+  "form": {
+    "platform": "Plattform",
+    "version": "Version",
+    "critical": "Kritisch (Update erzwingen)",
+    "notify": "Benutzer benachrichtigen",
+    "notes": "Release-Hinweise",
+    "notesPlaceholder": "Was ist neu in dieser Version..."
+  },
+  "validation": {
+    "platformRequired": "Plattform ist erforderlich",
+    "selectPlatform": "Plattform auswählen",
+    "versionRequired": "Version ist erforderlich",
+    "versionFormat": "Format verwenden: x.x.x (z.B. 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "Abbrechen",
+    "create": "Erstellen",
+    "update": "Aktualisieren"
+  },
+  "confirmations": {
+    "deleteTitle": "Diese Version löschen?",
+    "deleteDesc": "Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteButton": "Löschen"
+  },
+  "messages": {
+    "fetchVersionsFailed": "Versionen konnten nicht abgerufen werden: {{error}}",
+    "deleteSuccess": "Version erfolgreich gelöscht",
+    "deleteFailed": "Version konnte nicht gelöscht werden",
+    "updateSuccess": "Version erfolgreich aktualisiert",
+    "createSuccess": "Version erfolgreich erstellt",
+    "saveFailed": "Version konnte nicht gespeichert werden"
+  }
+}

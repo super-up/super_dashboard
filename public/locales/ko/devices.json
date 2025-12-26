@@ -1,0 +1,70 @@
+{
+  "title": "기기",
+  "page": {
+    "title": "기기"
+  },
+  "columns": {
+    "user": "사용자",
+    "platform": "플랫폼",
+    "appVersion": "앱 버전",
+    "pushToken": "푸시 토큰",
+    "status": "상태",
+    "lastActive": "마지막 활동",
+    "created": "생성일"
+  },
+  "labels": {
+    "never": "없음",
+    "deviceOwner": "기기 소유자",
+    "deviceInformation": "기기 정보",
+    "deviceId": "기기 ID",
+    "deviceModel": "기기 모델",
+    "osVersion": "OS 버전",
+    "pushNotification": "푸시 알림",
+    "pushStatus": "푸시 상태",
+    "pushToken": "푸시 토큰",
+    "noPushToken": "이 기기에 등록된 푸시 토큰 없음",
+    "activityDetails": "활동 상세정보",
+    "totalVisits": "총 방문 횟수"
+  },
+  "actions": {
+    "viewDetails": "상세 보기",
+    "deleteDevice": "기기 삭제",
+    "revokeSession": "세션 취소"
+  },
+  "confirmations": {
+    "deleteDevice": "이 기기를 삭제하시겠습니까?",
+    "revokeSession": "세션 취소",
+    "revokeDescription": "이 기기에서 사용자를 로그아웃하고 시스템에서 제거합니다."
+  },
+  "tabs": {
+    "all": "전체",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Desktop"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "사용자 이름 또는 전화번호로 검색..."
+  },
+  "table": {
+    "device": "기기",
+    "user": "사용자",
+    "platform": "플랫폼",
+    "version": "버전",
+    "status": "상태",
+    "lastSeen": "마지막 접속",
+    "push": "푸시",
+    "actions": "작업"
+  },
+  "tooltips": {
+    "edit": "편집",
+    "delete": "삭제"
+  },
+  "messages": {
+    "fetchFailed": "기기 목록을 불러오는데 실패했습니다 ({{status}})",
+    "deviceDeleted": "기기가 삭제되었습니다",
+    "failedToDelete": "기기 삭제 실패",
+    "sessionRevoked": "세션이 취소되었습니다",
+    "failedToRevoke": "세션 취소 실패"
+  }
+}

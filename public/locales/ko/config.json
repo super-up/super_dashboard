@@ -1,0 +1,87 @@
+{
+    "title": "앱 설정",
+    "subtitle": "애플리케이션 설정 및 기능 플래그 관리",
+    "sections": {
+        "general": "일반 설정",
+        "features": "기능 토글",
+        "limits": "제한 및 제약",
+        "urls": "외부 URL",
+        "icons": "기본 아이콘"
+    },
+    "subsections": {
+        "platformLogin": "플랫폼 로그인",
+        "chatFeatures": "채팅 기능",
+        "appStoreLinks": "앱스토어 링크",
+        "roomEmojis": "방 이모지",
+        "defaultImages": "기본 이미지 (파일명)"
+    },
+    "fields": {
+        "appName": "앱 이름",
+        "feedbackEmail": "피드백 이메일",
+        "userRegisterStatus": "사용자 가입 정책",
+        "userRegisterStatusTooltip": "신규 사용자 가입 처리 방식을 제어합니다",
+        "emailCodeExpiry": "이메일 코드 만료 (분)",
+        "emailCodeExpiryTooltip": "비밀번호 재설정 코드 유효 기간",
+        "enableAds": "광고 활성화",
+        "mobileLogin": "모바일 로그인",
+        "webLogin": "웹 로그인",
+        "desktopLogin": "데스크톱 로그인",
+        "messaging": "메시징",
+        "sendMedia": "미디어 전송",
+        "voiceVideoCalls": "음성/영상 통화",
+        "createGroups": "그룹 생성",
+        "createBroadcasts": "브로드캐스트 생성",
+        "maxGroupMembers": "최대 그룹 멤버",
+        "maxGroupMembersTooltip": "그룹에 허용되는 최대 멤버 수",
+        "maxBroadcastRecipients": "최대 브로드캐스트 수신자",
+        "maxBroadcastRecipientsTooltip": "브로드캐스트 메시지 최대 수신자",
+        "maxForwards": "최대 전달 횟수",
+        "maxForwardsTooltip": "메시지를 전달할 수 있는 최대 횟수",
+        "maxMediaSize": "최대 미디어 크기 (MB)",
+        "maxMediaSizeTooltip": "미디어 업로드 최대 파일 크기",
+        "callTimeout": "통화 타임아웃 (초)",
+        "callTimeoutTooltip": "통화 타임아웃 전 벨이 울리는 시간",
+        "privacyUrl": "개인정보 처리방침 URL",
+        "webChatUrl": "웹 채팅 URL",
+        "appleStoreUrl": "Apple 앱스토어 URL",
+        "googlePlayUrl": "Google Play 스토어 URL",
+        "macStoreUrl": "Mac 앱스토어 URL",
+        "windowsStoreUrl": "Windows 스토어 URL",
+        "groupIcon": "그룹 아이콘",
+        "broadcastIcon": "브로드캐스트 아이콘",
+        "orderIcon": "주문 아이콘",
+        "defaultUserImage": "기본 사용자 이미지",
+        "defaultGroupImage": "기본 그룹 이미지",
+        "defaultBroadcastImage": "기본 브로드캐스트 이미지",
+        "defaultSupportImage": "기본 지원 이미지"
+    },
+    "actions": {
+        "refresh": "새로고침",
+        "resetToDefaults": "기본값으로 재설정",
+        "discardChanges": "변경사항 취소",
+        "saveConfiguration": "설정 저장"
+    },
+    "confirmations": {
+        "resetTitle": "설정 재설정",
+        "resetDescription": "모든 설정을 기본값으로 재설정하시겠습니까? 이 작업은 취소할 수 없습니다.",
+        "reset": "재설정"
+    },
+    "messages": {
+        "configUpdated": "설정 업데이트됨",
+        "configUpdatedDesc": "앱 설정이 성공적으로 저장되었습니다.",
+        "updateFailed": "업데이트 실패",
+        "updateFailedDesc": "설정 저장에 실패했습니다. 다시 시도해주세요.",
+        "configReset": "설정 재설정됨",
+        "configResetDesc": "앱 설정이 기본값으로 재설정되었습니다.",
+        "resetFailed": "재설정 실패",
+        "resetFailedDesc": "설정 재설정에 실패했습니다. 다시 시도해주세요.",
+        "backendVersion": "백엔드 버전"
+    },
+    "validation": {
+        "appNameRequired": "앱 이름은 필수입니다",
+        "emailRequired": "이메일은 필수입니다",
+        "invalidEmail": "잘못된 이메일 형식",
+        "invalidUrl": "잘못된 URL 형식"
+    },
+    "current": "현재"
+}

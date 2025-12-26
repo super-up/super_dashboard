@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "画像",
+    "video": "動画",
+    "voice": "音声",
+    "file": "ファイル",
+    "text": "テキスト"
+  },
+  "labels": {
+    "storyDetails": "ストーリー詳細",
+    "storyInformation": "ストーリー情報",
+    "storyId": "ストーリーID",
+    "type": "タイプ",
+    "postedBy": "投稿者",
+    "createdAt": "作成日時",
+    "expiresAt": "有効期限",
+    "expiryProgress": "有効期限の進行状況",
+    "unknownUser": "不明なユーザー",
+    "noViewsYet": "まだ閲覧されていません",
+    "thisStoryDeletedOn": "このストーリーは{{date}}に削除されました",
+    "thisStoryExpiredOn": "このストーリーは{{date}}に期限切れになりました"
+  },
+  "table": {
+    "views": "閲覧数",
+    "viewer": "閲覧者",
+    "viewedAt": "閲覧日時",
+    "actions": "アクション",
+    "status": "ステータス"
+  },
+  "status": {
+    "deleted": "削除済み",
+    "expired": "期限切れ",
+    "active": "有効"
+  },
+  "actions": {
+    "deleteStory": "ストーリーを削除",
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "viewUser": "ユーザーを表示"
+  },
+  "confirmations": {
+    "deleteStory": "このストーリーを削除してもよろしいですか？"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "ストーリーが正常に削除されました",
+    "operationFailed": "操作に失敗しました"
+  }
+}

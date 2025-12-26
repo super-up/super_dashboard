@@ -1,0 +1,12 @@
+{
+    "title": "Nhật Ký Kiểm Toán",
+    "columns": {
+        "id": "ID",
+        "action": "Hành Động",
+        "targetType": "Loại Đối Tượng",
+        "targetId": "ID Đối Tượng",
+        "admin": "Quản Trị Viên",
+        "ipAddress": "Địa Chỉ IP",
+        "timestamp": "Thời Gian"
+    }
+}

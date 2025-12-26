@@ -1,0 +1,70 @@
+{
+  "title": "डिवाइस",
+  "page": {
+    "title": "डिवाइस"
+  },
+  "columns": {
+    "user": "उपयोगकर्ता",
+    "platform": "प्लेटफॉर्म",
+    "appVersion": "ऐप संस्करण",
+    "pushToken": "पुश टोकन",
+    "status": "स्थिति",
+    "lastActive": "अंतिम सक्रिय",
+    "created": "निर्मित"
+  },
+  "labels": {
+    "never": "कभी नहीं",
+    "deviceOwner": "डिवाइस स्वामी",
+    "deviceInformation": "डिवाइस जानकारी",
+    "deviceId": "डिवाइस आईडी",
+    "deviceModel": "डिवाइस मॉडल",
+    "osVersion": "OS संस्करण",
+    "pushNotification": "पुश सूचना",
+    "pushStatus": "पुश स्थिति",
+    "pushToken": "पुश टोकन",
+    "noPushToken": "इस डिवाइस के लिए कोई पुश टोकन पंजीकृत नहीं",
+    "activityDetails": "गतिविधि विवरण",
+    "totalVisits": "कुल विज़िट"
+  },
+  "actions": {
+    "viewDetails": "विवरण देखें",
+    "deleteDevice": "डिवाइस हटाएं",
+    "revokeSession": "सत्र रद्द करें"
+  },
+  "confirmations": {
+    "deleteDevice": "क्या आप वाकई इस डिवाइस को हटाना चाहते हैं?",
+    "revokeSession": "सत्र रद्द करें",
+    "revokeDescription": "यह उपयोगकर्ता को इस डिवाइस से लॉगआउट करेगा और इसे सिस्टम से हटा देगा।"
+  },
+  "tabs": {
+    "all": "सभी",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Desktop"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "उपयोगकर्ता नाम या फोन से खोजें..."
+  },
+  "table": {
+    "device": "डिवाइस",
+    "user": "उपयोगकर्ता",
+    "platform": "प्लेटफॉर्म",
+    "version": "संस्करण",
+    "status": "स्थिति",
+    "lastSeen": "अंतिम बार देखा गया",
+    "push": "पुश",
+    "actions": "कार्रवाइयां"
+  },
+  "tooltips": {
+    "edit": "संपादित करें",
+    "delete": "हटाएं"
+  },
+  "messages": {
+    "fetchFailed": "डिवाइस प्राप्त करने में विफल ({{status}})",
+    "deviceDeleted": "डिवाइस सफलतापूर्वक हटाया गया",
+    "failedToDelete": "डिवाइस हटाने में विफल",
+    "sessionRevoked": "सत्र सफलतापूर्वक रद्द किया गया",
+    "failedToRevoke": "सत्र रद्द करने में विफल"
+  }
+}

@@ -1,0 +1,100 @@
+{
+    "title": "Sticker",
+    "list": "Sticker-Pakete",
+    "details": "Sticker-Paket-Details",
+    "fields": {
+        "id": "Paket-ID",
+        "name": "Name",
+        "author": "Autor",
+        "type": "Typ",
+        "thumbnail": "Vorschaubild",
+        "version": "Version",
+        "stickersCount": "Sticker",
+        "createdAt": "Erstellt",
+        "updatedAt": "Aktualisiert"
+    },
+    "types": {
+        "animated": "Animiert",
+        "static": "Statisch"
+    },
+    "stats": {
+        "totalPacks": "Gesamt Pakete",
+        "animatedPacks": "Animierte Pakete",
+        "staticPacks": "Statische Pakete",
+        "totalStickers": "Gesamt Sticker"
+    },
+    "filters": {
+        "searchPlaceholder": "Nach Name oder Autor suchen...",
+        "search": "Suchen",
+        "filters": "Filter",
+        "packType": "Pakettyp",
+        "createdFromTo": "Erstellt von/bis",
+        "apply": "Anwenden",
+        "clear": "Löschen"
+    },
+    "actions": {
+        "title": "Aktionen",
+        "refresh": "Aktualisieren",
+        "createPack": "Paket erstellen",
+        "editPack": "Paket bearbeiten",
+        "deletePack": "Paket löschen",
+        "addSticker": "Sticker hinzufügen",
+        "removeSticker": "Sticker entfernen",
+        "view": "Ansehen",
+        "edit": "Bearbeiten",
+        "delete": "Löschen",
+        "remove": "Entfernen"
+    },
+    "show": {
+        "packInformation": "Paketinformationen",
+        "packNotFound": "Paket nicht gefunden",
+        "stickersTitle": "Sticker",
+        "noStickers": "Keine Sticker in diesem Paket"
+    },
+    "modal": {
+        "createTitle": "Sticker-Paket erstellen",
+        "editTitle": "Sticker-Paket bearbeiten",
+        "addStickersTitle": "Sticker hinzufügen",
+        "cancel": "Abbrechen",
+        "create": "Erstellen",
+        "update": "Aktualisieren",
+        "upload": "Sticker hochladen",
+        "packName": "Paketname",
+        "packNamePlaceholder": "Paketnamen eingeben",
+        "thumbnailUrl": "Vorschaubild-URL",
+        "thumbnailUrlPlaceholder": "Vorschaubild-URL eingeben",
+        "authorLabel": "Autor",
+        "authorPlaceholder": "Autorennamen eingeben",
+        "animatedPack": "Animiertes Paket",
+        "selectThumbnail": "Vorschaubild auswählen",
+        "selectImages": "Bilder auswählen (bis zu 50)",
+        "uploadHint": "Klicken oder ziehen Sie Bilder zum Hochladen",
+        "emojis": "Emojis (kommagetrennt)",
+        "emojisPlaceholder": "Emojis durch Kommas getrennt eingeben"
+    },
+    "confirmations": {
+        "deletePack": "Dieses Paket löschen?",
+        "removeSticker": "Diesen Sticker entfernen?"
+    },
+    "notifications": {
+        "packCreated": "Paket erfolgreich erstellt",
+        "packUpdated": "Paket erfolgreich aktualisiert",
+        "packDeleted": "Paket erfolgreich gelöscht",
+        "stickersAdded": "Sticker erfolgreich hinzugefügt",
+        "stickerRemoved": "Sticker erfolgreich entfernt",
+        "createFailed": "Paket konnte nicht erstellt werden",
+        "updateFailed": "Paket konnte nicht aktualisiert werden",
+        "deleteFailed": "Paket konnte nicht gelöscht werden",
+        "uploadFailed": "Sticker konnten nicht hochgeladen werden"
+    },
+    "validation": {
+        "nameRequired": "Paketname ist erforderlich",
+        "thumbnailRequired": "Vorschaubild-URL ist erforderlich",
+        "authorRequired": "Autor ist erforderlich",
+        "selectFiles": "Bitte wählen Sie mindestens ein Bild aus",
+        "onlyImages": "Sie können nur Bilddateien hochladen!",
+        "maxFileSize": "Bild muss kleiner als 10MB sein!",
+        "maxImagesAllowed": "Maximal 50 Bilder erlaubt",
+        "uploadHint": "Unterstützt PNG, JPG, WebP, GIF. Max. 50 Bilder, je 10MB."
+    }
+}

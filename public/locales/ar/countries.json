@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "العلم",
+    "name": "الاسم",
+    "code": "الرمز",
+    "image": "الصورة",
+    "updated": "تم التحديث",
+    "actions": "الإجراءات"
+  },
+  "tooltips": {
+    "edit": "تعديل الدول",
+    "refresh": "تحديث"
+  },
+  "form": {
+    "searchPlaceholder": "ابحث بالاسم أو الرمز..."
+  },
+  "modal": {
+    "title": "تحديث الدول"
+  },
+  "buttons": {
+    "saveChanges": "حفظ التغييرات"
+  },
+  "validation": {
+    "nameRequired": "الاسم مطلوب",
+    "codeRequired": "الرمز مطلوب",
+    "codeFormat": "يجب أن يكون الرمز من 2-3 أحرف",
+    "emojiRequired": "الرموز التعبيرية مطلوبة"
+  },
+  "messages": {
+    "updateSuccess": "تم تحديث الدول بنجاح",
+    "updateFailed": "فشل تحديث الدول",
+    "fetchFailed": "فشل جلب الدول ({{status}})"
+  }
+}

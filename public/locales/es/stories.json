@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "Imagen",
+    "video": "Video",
+    "voice": "Voz",
+    "file": "Archivo",
+    "text": "Texto"
+  },
+  "labels": {
+    "storyDetails": "Detalles de Historia",
+    "storyInformation": "Información de Historia",
+    "storyId": "ID de Historia",
+    "type": "Tipo",
+    "postedBy": "Publicado Por",
+    "createdAt": "Creado el",
+    "expiresAt": "Expira el",
+    "expiryProgress": "Progreso de Expiración",
+    "unknownUser": "Usuario Desconocido",
+    "noViewsYet": "Sin vistas aún",
+    "thisStoryDeletedOn": "Esta historia fue eliminada el {{date}}",
+    "thisStoryExpiredOn": "Esta historia expiró el {{date}}"
+  },
+  "table": {
+    "views": "Vistas",
+    "viewer": "Espectador",
+    "viewedAt": "Visto el",
+    "actions": "Acciones",
+    "status": "Estado"
+  },
+  "status": {
+    "deleted": "Eliminado",
+    "expired": "Expirado",
+    "active": "Activo"
+  },
+  "actions": {
+    "deleteStory": "Eliminar Historia",
+    "delete": "Eliminar",
+    "cancel": "Cancelar",
+    "viewUser": "Ver Usuario"
+  },
+  "confirmations": {
+    "deleteStory": "¿Está seguro de que desea eliminar esta historia?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "Historia eliminada exitosamente",
+    "operationFailed": "Operación fallida"
+  }
+}

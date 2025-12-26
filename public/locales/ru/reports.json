@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "Жалоба на пользователя",
+    "chat": "Жалоба на чат"
+  },
+  "reasons": {
+    "spam": "Спам",
+    "harassment": "Преследование",
+    "inappropriatecontent": "Неприемлемый контент",
+    "hatespeech": "Язык вражды",
+    "violence": "Насилие"
+  },
+  "status": {
+    "pending": "В ожидании",
+    "approved": "Одобрено",
+    "rejected": "Отклонено"
+  },
+  "labels": {
+    "reportId": "ID жалобы",
+    "reportProgress": "Прогресс жалобы",
+    "submitted": "Отправлено",
+    "reporter": "Докладчик",
+    "reportedUser": "Пользователь на которого пожаловались",
+    "reportedContent": "Содержимое жалобы",
+    "reportReason": "Причина жалобы",
+    "reportDetails": "Детали жалобы",
+    "takeAction": "Принять меры",
+    "actionsAreIrreversible": "Действия необратимы",
+    "takeActionDescription": "Следующие действия навсегда повлияют на пользователя на которого пожаловались. Пожалуйста, внимательно проверьте перед продолжением.",
+    "selectBanDuration": "Выберите срок бана",
+    "daysFromNow": "Дней с текущего момента",
+    "orSelectSpecificDate": "Или выберите конкретную дату",
+    "userWillBeBanned": "Пользователь будет забанен на {{duration}}",
+    "warningDeleteAccount": "Предупреждение: Аккаунт будет навсегда удален",
+    "softDeletedAccount": "Этот аккаунт будет мягко удален и не может быть восстановлен.",
+    "reportedUserDataNotAvailable": "Данные пользователя на которого пожаловались недоступны",
+    "chatDataNotAvailable": "Данные чата недоступны",
+    "noReportedContent": "Нет содержимого жалобы",
+    "noAdditionalDetails": "Дополнительные детали не предоставлены",
+    "unknownUser": "Неизвестный пользователь",
+    "type": "Тип",
+    "createdAt": "Создано в",
+    "updatedAt": "Обновлено в",
+    "resolvedAt": "Решено в"
+  },
+  "confirmations": {
+    "approveReport": "Одобрить жалобу",
+    "approveReportDesc": "Вы уверены, что хотите одобрить эту жалобу?",
+    "rejectReport": "Отклонить жалобу",
+    "rejectReportDesc": "Вы уверены, что хотите отклонить эту жалобу?",
+    "deleteUserAccount": "Удалить аккаунт пользователя",
+    "deleteUserAccountDesc": "Это действие навсегда удалит аккаунт пользователя. Это не может быть отменено.",
+    "deleteReportedContent": "Удалить содержимое жалобы",
+    "deleteReportedContentDesc": "Вы уверены, что хотите удалить содержимое на которое пожаловались?"
+  },
+  "actions": {
+    "approve": "Одобрить",
+    "reject": "Отклонить",
+    "banUser": "Забанить пользователя",
+    "deleteAccount": "Удалить аккаунт",
+    "deleteContent": "Удалить контент",
+    "delete": "Удалить",
+    "ban": "Забанить",
+    "viewUserProfile": "Просмотр профиля пользователя",
+    "viewChatDetails": "Просмотр деталей чата",
+    "viewProfile": "Просмотр профиля"
+  },
+  "table": {
+    "reason": "Причина",
+    "status": "Статус"
+  },
+  "messages": {
+    "reportStatusUpdated": "Жалоба {{newStatus}}",
+    "updateFailed": "Не удалось обновить жалобу",
+    "noReportedUser": "Нет пользователя на которого пожаловались для выполнения действия",
+    "userBannedFor": "Пользователь забанен {{duration}}",
+    "userAccountDeleted": "Аккаунт пользователя удален",
+    "actionFailed": "Не удалось выполнить действие",
+    "contentDeleted": "Контент удален",
+    "deleteContentFailed": "Не удалось удалить контент"
+  }
+}

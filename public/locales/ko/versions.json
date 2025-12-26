@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "앱 버전",
+    "addVersionButton": "버전 추가"
+  },
+  "table": {
+    "version": "버전",
+    "platform": "플랫폼",
+    "critical": "중요",
+    "notify": "알림",
+    "notes": "노트",
+    "created": "생성일",
+    "actions": "작업"
+  },
+  "tabs": {
+    "all": "전체",
+    "macos": "macOS",
+    "other": "기타"
+  },
+  "tooltips": {
+    "edit": "편집",
+    "delete": "삭제",
+    "refresh": "새로고침"
+  },
+  "modal": {
+    "addTitle": "버전 추가",
+    "editTitle": "버전 편집"
+  },
+  "form": {
+    "platform": "플랫폼",
+    "version": "버전",
+    "critical": "중요 (강제 업데이트)",
+    "notify": "사용자 알림",
+    "notes": "릴리즈 노트",
+    "notesPlaceholder": "이 버전의 새로운 기능..."
+  },
+  "validation": {
+    "platformRequired": "플랫폼은 필수입니다",
+    "selectPlatform": "플랫폼 선택",
+    "versionRequired": "버전은 필수입니다",
+    "versionFormat": "형식 사용: x.x.x (예: 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "취소",
+    "create": "생성",
+    "update": "업데이트"
+  },
+  "confirmations": {
+    "deleteTitle": "이 버전을 삭제하시겠습니까?",
+    "deleteDesc": "이 작업은 취소할 수 없습니다.",
+    "deleteButton": "삭제"
+  },
+  "messages": {
+    "fetchVersionsFailed": "버전 목록을 불러오는데 실패했습니다: {{error}}",
+    "deleteSuccess": "버전이 삭제되었습니다",
+    "deleteFailed": "버전 삭제 실패",
+    "updateSuccess": "버전이 업데이트되었습니다",
+    "createSuccess": "버전이 생성되었습니다",
+    "saveFailed": "버전 저장 실패"
+  }
+}

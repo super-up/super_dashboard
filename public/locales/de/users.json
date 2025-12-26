@@ -1,0 +1,202 @@
+{
+  "show": {
+    "userInformation": "Benutzerinformationen",
+    "notVerified": "Nicht verifiziert",
+    "offline": "Offline",
+    "online": "Online",
+    "deleted": "Gelöscht",
+    "active": "Aktiv",
+    "bannedUntil": "Gesperrt bis {{date}}",
+    "verifiedUser": "Verifizierter Benutzer",
+    "unknown": "Unbekannt",
+    "untitled": "Unbenannt"
+  },
+  "fields": {
+    "id": "ID",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "platform": "Plattform",
+    "registrationStatus": "Registrierungsstatus",
+    "verification": "Verifizierung",
+    "country": "Land",
+    "isOnline": "Online-Status",
+    "lastSeen": "Zuletzt gesehen",
+    "registered": "Registriert",
+    "banExpires": "Sperre läuft ab",
+    "deletedAt": "Gelöscht am"
+  },
+  "tabs": {
+    "overview": "Übersicht",
+    "rooms": "Räume",
+    "stories": "Stories",
+    "calls": "Anrufe"
+  },
+  "devices": {
+    "title": "Geräte",
+    "platform": "Plattform",
+    "version": "Version",
+    "lastActive": "Zuletzt aktiv",
+    "push": "Push-Benachrichtigungen",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "actions": "Aktionen"
+  },
+  "stats": {
+    "devices": "Geräte",
+    "rooms": "Räume",
+    "stories": "Stories"
+  },
+  "rooms": {
+    "title": "Raum",
+    "type": "Typ",
+    "status": "Status",
+    "admin": "Administrator",
+    "moderator": "Moderator",
+    "actions": "Aktionen",
+    "noRooms": "Keine Räume gefunden"
+  },
+  "stories": {
+    "media": "Medien",
+    "type": "Typ",
+    "caption": "Beschriftung",
+    "views": "Aufrufe",
+    "expiry": "Ablauf",
+    "expired": "Abgelaufen",
+    "created": "Erstellt",
+    "noStories": "Keine Stories gefunden"
+  },
+  "calls": {
+    "type": "Typ",
+    "video": "Video",
+    "voice": "Sprache",
+    "direction": "Richtung",
+    "outgoing": "Ausgehend",
+    "incoming": "Eingehend",
+    "status": "Status",
+    "duration": "Dauer",
+    "date": "Datum",
+    "noCalls": "Keine Anrufe gefunden"
+  },
+  "actions": {
+    "viewGroup": "Gruppe anzeigen",
+    "viewDetails": "Details anzeigen",
+    "view": "Ansehen",
+    "edit": "Bearbeiten",
+    "ban": "Sperren",
+    "unban": "Entsperren",
+    "verify": "Verifizieren",
+    "unverify": "Verifizierung aufheben",
+    "restore": "Wiederherstellen",
+    "delete": "Löschen",
+    "logoutAll": "Alle Geräte abmelden"
+  },
+  "confirmations": {
+    "unbanUser": "Möchten Sie diesen Benutzer wirklich entsperren?",
+    "banUser": "Möchten Sie diesen Benutzer wirklich sperren?",
+    "unverifyUser": "Möchten Sie die Verifizierung wirklich entfernen?",
+    "verifyUser": "Möchten Sie diesen Benutzer wirklich verifizieren?",
+    "restoreUser": "Möchten Sie diesen Benutzer wirklich wiederherstellen?",
+    "deleteUser": "Möchten Sie diesen Benutzer wirklich löschen?",
+    "logoutAll": "Der Benutzer wird von allen Geräten abgemeldet. Fortfahren?",
+    "banUserTitle": "Benutzer sperren",
+    "banUserDesc": "Möchten Sie diesen Benutzer wirklich sperren? Er wird keinen Zugriff mehr auf die App haben.",
+    "banButton": "Ja, sperren",
+    "unbannedTitle": "Benutzer entsperren",
+    "unbannedDesc": "Möchten Sie diesen Benutzer wirklich entsperren?",
+    "unbannedButton": "Ja, entsperren",
+    "restoreTitle": "Benutzer wiederherstellen",
+    "restoreDesc": "Möchten Sie diesen Benutzer wirklich wiederherstellen? Er wird wieder Zugriff auf die App haben.",
+    "restoreButton": "Ja, wiederherstellen",
+    "deleteTitle": "Benutzer löschen",
+    "deleteDesc": "Möchten Sie diesen Benutzer wirklich dauerhaft löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteButton": "Ja, löschen",
+    "logoutAllTitle": "Alle Geräte abmelden",
+    "logoutAllDesc": "Der Benutzer wird von allen Geräten zwangsabgemeldet. Sind Sie sicher?",
+    "logoutAllButton": "Ja, alle abmelden"
+  },
+  "notifications": {
+    "unbanned": "Benutzer erfolgreich entsperrt",
+    "banned": "Benutzer erfolgreich gesperrt",
+    "badgeRemoved": "Verifizierungsabzeichen entfernt",
+    "verified": "Benutzer erfolgreich verifiziert",
+    "restored": "Benutzer erfolgreich wiederhergestellt",
+    "deleted": "Benutzer erfolgreich gelöscht",
+    "updateFailed": "Benutzer konnte nicht aktualisiert werden",
+    "loggedOut": "Von allen Geräten abgemeldet",
+    "logoutFailed": "Geräte-Abmeldung fehlgeschlagen"
+  },
+  "filters": {
+    "verified": "Verifiziert"
+  },
+  "modal": {
+    "title": "Benutzer bearbeiten",
+    "profileSection": "Profilinformationen",
+    "verificationSection": "Verifizierung",
+    "banSection": "Sperrverwaltung",
+    "dangerZone": "Gefahrenbereich"
+  },
+  "form": {
+    "fullName": "Vollständiger Name",
+    "bio": "Biografie",
+    "registrationStatus": "Registrierungsstatus",
+    "verificationBadge": "Verifizierungsabzeichen",
+    "banDuration": "Sperrdauer auswählen",
+    "banEndDate": "Sperrende-Datum auswählen",
+    "saveProfileChanges": "Profiländerungen speichern",
+    "deleted": "Dieser Benutzer wurde gelöscht"
+  },
+  "placeholders": {
+    "enterFullName": "Vollständigen Namen eingeben",
+    "enterBio": "Biografie eingeben"
+  },
+  "validation": {
+    "fullNameRequired": "Name ist erforderlich",
+    "selectRegistrationStatus": "Registrierungsstatus auswählen"
+  },
+  "options": {
+    "accepted": "Akzeptiert",
+    "pending": "Ausstehend",
+    "rejected": "Abgelehnt"
+  },
+  "badges": {
+    "verified": "Verifiziert",
+    "notVerified": "Nicht verifiziert",
+    "isVerified": "Benutzer ist verifiziert",
+    "isNotVerified": "Benutzer ist nicht verifiziert"
+  },
+  "banDurations": {
+    "1h": "1 Stunde",
+    "3d": "3 Tage",
+    "7d": "7 Tage",
+    "1m": "1 Monat",
+    "3m": "3 Monate",
+    "1y": "1 Jahr",
+    "permanent": "Permanent",
+    "customDate": "Benutzerdefiniertes Datum"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "Benutzerprofil erfolgreich aktualisiert",
+    "profileUpdateFailed": "Benutzer konnte nicht aktualisiert werden",
+    "userBannedSuccess": "Benutzer erfolgreich gesperrt",
+    "userUnbannedSuccess": "Benutzer erfolgreich entsperrt",
+    "banStatusFailed": "Sperrstatus konnte nicht aktualisiert werden",
+    "banUserSuccess": "Benutzer erfolgreich gesperrt",
+    "banUserFailed": "Benutzer konnte nicht gesperrt werden",
+    "verificationBadgeRemoved": "Verifizierungsabzeichen entfernt",
+    "verificationBadgeAdded": "Benutzer erfolgreich verifiziert",
+    "verificationFailed": "Verifizierung konnte nicht aktualisiert werden",
+    "userRestoredSuccess": "Benutzer erfolgreich wiederhergestellt",
+    "userDeletedSuccess": "Benutzer erfolgreich gelöscht",
+    "updateUserFailed": "Benutzer konnte nicht aktualisiert werden",
+    "logoutDevicesSuccess": "Erfolgreich von {{count}} Gerät(en) abgemeldet",
+    "logoutDevicesFailed": "Geräte-Abmeldung fehlgeschlagen",
+    "bannedUntil": "Benutzer gesperrt bis {{date}}"
+  },
+  "buttons": {
+    "banUser": "Benutzer sperren",
+    "unbanUser": "Benutzer entsperren",
+    "deleteUser": "Benutzer löschen",
+    "restoreUser": "Benutzer wiederherstellen",
+    "logoutAllDevices": "Alle Geräte abmelden"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "Nhóm",
+    "broadcast": "Quảng Bá",
+    "single": "Trò Chuyện"
+  },
+  "labels": {
+    "roomDetails": "Chi Tiết Phòng",
+    "groupDetails": "Chi Tiết Nhóm",
+    "broadcastDetails": "Chi Tiết Quảng Bá",
+    "chatDetails": "Chi Tiết Trò Chuyện",
+    "directChat": "Trò Chuyện Trực Tiếp",
+    "untitled": "Không Tiêu Đề",
+    "description": "Mô Tả",
+    "roomId": "ID Phòng",
+    "broadcastId": "ID Quảng Bá",
+    "chatId": "ID Trò Chuyện",
+    "type": "Loại",
+    "createdBy": "Được Tạo Bởi",
+    "membersCount": "Số Thành Viên",
+    "recipientsCount": "Số Người Nhận",
+    "createdAt": "Ngày Tạo",
+    "updatedAt": "Ngày Cập Nhật",
+    "roomInformation": "Thông Tin Phòng",
+    "broadcastInformation": "Thông Tin Quảng Bá",
+    "chatInformation": "Thông Tin Trò Chuyện",
+    "thisRoomDeletedOn": "Phòng này đã bị xóa vào {{date}}",
+    "owner": "Chủ Sở Hữu",
+    "member": "Thành Viên",
+    "recipient": "Người Nhận",
+    "userDataNotAvailable": "Dữ liệu người dùng không khả dụng",
+    "unknownUser": "Người Dùng Không Rõ",
+    "private": "Riêng Tư"
+  },
+  "table": {
+    "members": "Thành Viên",
+    "recipients": "Người Nhận",
+    "messages": "Tin Nhắn",
+    "lastActive": "Hoạt Động Cuối",
+    "participant1": "Người Tham Gia 1",
+    "participant2": "Người Tham Gia 2",
+    "user": "Người Dùng",
+    "role": "Vai Trò",
+    "joined": "Đã Tham Gia",
+    "lastSeen": "Lần Cuối Thấy",
+    "actions": "Hành Động",
+    "status": "Trạng Thái",
+    "lastMessage": "Tin Nhắn Cuối"
+  },
+  "status": {
+    "deleted": "Đã Xóa",
+    "active": "Hoạt Động"
+  },
+  "actions": {
+    "removeMembers": "Xóa Thành Viên",
+    "viewUser": "Xem Người Dùng",
+    "viewProfile": "Xem Hồ Sơ",
+    "restore": "Khôi Phục",
+    "delete": "Xóa",
+    "cancel": "Hủy"
+  },
+  "confirmations": {
+    "restoreRoom": "Khôi Phục Phòng",
+    "deleteRoom": "Xóa Phòng",
+    "restoreRoomConfirm": "Bạn có chắc chắn muốn khôi phục phòng này?",
+    "softDeleteRoom": "Phòng này sẽ được xóa mềm và có thể khôi phục sau.",
+    "removeFromGroup": "Xóa {{count}} thành viên khỏi nhóm?",
+    "removeFromGroupDesc": "Bạn có chắc chắn muốn xóa {{count}} thành viên đã chọn khỏi nhóm này?"
+  },
+  "placeholders": {
+    "searchMembers": "Tìm kiếm thành viên...",
+    "searchRecipients": "Tìm kiếm người nhận..."
+  },
+  "messages": {
+    "roomRestored": "Đã khôi phục phòng",
+    "roomDeleted": "Đã xóa phòng",
+    "membersRemoved": "Đã xóa {{count}} thành viên khỏi nhóm",
+    "operationFailed": "Thao tác thất bại"
+  }
+}

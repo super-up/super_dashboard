@@ -1,0 +1,100 @@
+{
+    "title": "স্টিকার",
+    "list": "স্টিকার প্যাক",
+    "details": "স্টিকার প্যাক বিবরণ",
+    "fields": {
+        "id": "প্যাক আইডি",
+        "name": "নাম",
+        "author": "লেখক",
+        "type": "ধরন",
+        "thumbnail": "থাম্বনেইল",
+        "version": "সংস্করণ",
+        "stickersCount": "স্টিকার",
+        "createdAt": "তৈরি",
+        "updatedAt": "আপডেট"
+    },
+    "types": {
+        "animated": "অ্যানিমেটেড",
+        "static": "স্ট্যাটিক"
+    },
+    "stats": {
+        "totalPacks": "মোট প্যাক",
+        "animatedPacks": "অ্যানিমেটেড প্যাক",
+        "staticPacks": "স্ট্যাটিক প্যাক",
+        "totalStickers": "মোট স্টিকার"
+    },
+    "filters": {
+        "searchPlaceholder": "নাম বা লেখক দিয়ে খুঁজুন...",
+        "search": "খুঁজুন",
+        "filters": "ফিল্টার",
+        "packType": "প্যাক ধরন",
+        "createdFromTo": "তৈরি থেকে/পর্যন্ত",
+        "apply": "প্রয়োগ",
+        "clear": "পরিষ্কার"
+    },
+    "actions": {
+        "title": "কার্যক্রম",
+        "refresh": "রিফ্রেশ",
+        "createPack": "প্যাক তৈরি",
+        "editPack": "প্যাক সম্পাদনা",
+        "deletePack": "প্যাক মুছুন",
+        "addSticker": "স্টিকার যোগ",
+        "removeSticker": "স্টিকার সরান",
+        "view": "দেখুন",
+        "edit": "সম্পাদনা",
+        "delete": "মুছুন",
+        "remove": "সরান"
+    },
+    "show": {
+        "packInformation": "প্যাক তথ্য",
+        "packNotFound": "প্যাক পাওয়া যায়নি",
+        "stickersTitle": "স্টিকার",
+        "noStickers": "এই প্যাকে কোন স্টিকার নেই"
+    },
+    "modal": {
+        "createTitle": "স্টিকার প্যাক তৈরি",
+        "editTitle": "স্টিকার প্যাক সম্পাদনা",
+        "addStickersTitle": "স্টিকার যোগ করুন",
+        "cancel": "বাতিল",
+        "create": "তৈরি",
+        "update": "আপডেট",
+        "upload": "স্টিকার আপলোড",
+        "packName": "প্যাক নাম",
+        "packNamePlaceholder": "প্যাক নাম লিখুন",
+        "thumbnailUrl": "থাম্বনেইল URL",
+        "thumbnailUrlPlaceholder": "থাম্বনেইল URL লিখুন",
+        "authorLabel": "লেখক",
+        "authorPlaceholder": "লেখকের নাম লিখুন",
+        "animatedPack": "অ্যানিমেটেড প্যাক",
+        "selectThumbnail": "থাম্বনেইল নির্বাচন",
+        "selectImages": "ছবি নির্বাচন (সর্বোচ্চ ৫০টি)",
+        "uploadHint": "আপলোড করতে ক্লিক করুন বা ছবি টেনে আনুন",
+        "emojis": "ইমোজি (কমা দিয়ে পৃথক)",
+        "emojisPlaceholder": "কমা দিয়ে পৃথক করে ইমোজি লিখুন"
+    },
+    "confirmations": {
+        "deletePack": "এই প্যাক মুছবেন?",
+        "removeSticker": "এই স্টিকার সরাবেন?"
+    },
+    "notifications": {
+        "packCreated": "প্যাক সফলভাবে তৈরি হয়েছে",
+        "packUpdated": "প্যাক সফলভাবে আপডেট হয়েছে",
+        "packDeleted": "প্যাক সফলভাবে মুছে ফেলা হয়েছে",
+        "stickersAdded": "স্টিকার সফলভাবে যোগ করা হয়েছে",
+        "stickerRemoved": "স্টিকার সফলভাবে সরানো হয়েছে",
+        "createFailed": "প্যাক তৈরি করতে ব্যর্থ",
+        "updateFailed": "প্যাক আপডেট করতে ব্যর্থ",
+        "deleteFailed": "প্যাক মুছতে ব্যর্থ",
+        "uploadFailed": "স্টিকার আপলোড করতে ব্যর্থ"
+    },
+    "validation": {
+        "nameRequired": "প্যাক নাম প্রয়োজন",
+        "thumbnailRequired": "থাম্বনেইল URL প্রয়োজন",
+        "authorRequired": "লেখক প্রয়োজন",
+        "selectFiles": "অন্তত একটি ছবি নির্বাচন করুন",
+        "onlyImages": "শুধুমাত্র ছবি ফাইল আপলোড করতে পারেন!",
+        "maxFileSize": "ছবি ১০এমবি এর ছোট হতে হবে!",
+        "maxImagesAllowed": "সর্বোচ্চ ৫০টি ছবি অনুমোদিত",
+        "uploadHint": "PNG, JPG, WebP, GIF সমর্থিত। সর্বোচ্চ ৫০টি ছবি, প্রতিটি ১০এমবি।"
+    }
+}

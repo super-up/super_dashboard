@@ -1,0 +1,70 @@
+{
+  "title": "Dispositivos",
+  "page": {
+    "title": "Dispositivos"
+  },
+  "columns": {
+    "user": "Usuário",
+    "platform": "Plataforma",
+    "appVersion": "Versão do App",
+    "pushToken": "Token Push",
+    "status": "Status",
+    "lastActive": "Último Acesso",
+    "created": "Criado"
+  },
+  "labels": {
+    "never": "Nunca",
+    "deviceOwner": "Proprietário do Dispositivo",
+    "deviceInformation": "Informações do Dispositivo",
+    "deviceId": "ID do Dispositivo",
+    "deviceModel": "Modelo do Dispositivo",
+    "osVersion": "Versão do SO",
+    "pushNotification": "Notificação Push",
+    "pushStatus": "Status Push",
+    "pushToken": "Token Push",
+    "noPushToken": "Nenhum token push registrado para este dispositivo",
+    "activityDetails": "Detalhes de Atividade",
+    "totalVisits": "Total de Visitas"
+  },
+  "actions": {
+    "viewDetails": "Ver Detalhes",
+    "deleteDevice": "Excluir Dispositivo",
+    "revokeSession": "Revogar Sessão"
+  },
+  "confirmations": {
+    "deleteDevice": "Tem certeza de que deseja excluir este dispositivo?",
+    "revokeSession": "Revogar Sessão",
+    "revokeDescription": "Isto desconectará o usuário deste dispositivo e o removerá do sistema."
+  },
+  "tabs": {
+    "all": "Todos",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Desktop"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "Pesquisar por nome de usuário ou telefone..."
+  },
+  "table": {
+    "device": "Dispositivo",
+    "user": "Usuário",
+    "platform": "Plataforma",
+    "version": "Versão",
+    "status": "Status",
+    "lastSeen": "Visto por Último",
+    "push": "Push",
+    "actions": "Ações"
+  },
+  "tooltips": {
+    "edit": "Editar",
+    "delete": "Excluir"
+  },
+  "messages": {
+    "fetchFailed": "Falha ao buscar dispositivos ({{status}})",
+    "deviceDeleted": "Dispositivo excluído com sucesso",
+    "failedToDelete": "Falha ao excluir dispositivo",
+    "sessionRevoked": "Sessão revogada com sucesso",
+    "failedToRevoke": "Falha ao revogar sessão"
+  }
+}

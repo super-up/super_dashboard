@@ -1,0 +1,44 @@
+{
+    "title": "Уведомления",
+    "list": {
+        "sendToAll": "Отправить всем пользователям",
+        "columns": {
+            "title": "Заголовок",
+            "content": "Содержимое",
+            "image": "Изображение",
+            "created": "Создано",
+            "actions": "Действия"
+        },
+        "hasImage": {
+            "yes": "Да",
+            "no": "Нет"
+        },
+        "modal": {
+            "title": "Отправить уведомление всем пользователям",
+            "form": {
+                "title": "Заголовок",
+                "titlePlaceholder": "Заголовок уведомления",
+                "content": "Содержимое",
+                "contentPlaceholder": "Сообщение уведомления",
+                "imageUrl": "URL изображения (опционально)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "Уведомление отправлено всем пользователям"
+        }
+    },
+    "show": {
+        "adminNotification": "Уведомление администратора",
+        "created": "Создано",
+        "notificationImage": "Изображение уведомления",
+        "notificationContent": "Содержимое уведомления",
+        "notificationDetails": "Детали уведомления",
+        "notificationId": "ID уведомления",
+        "updated": "Обновлено",
+        "imageUrl": "URL изображения",
+        "deliveryInfo": "Информация о доставке",
+        "sentAt": "Отправлено в",
+        "timeAgo": "Время назад"
+    }
+}

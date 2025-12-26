@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "छवि",
+    "video": "वीडियो",
+    "voice": "आवाज",
+    "file": "फ़ाइल",
+    "text": "टेक्स्ट"
+  },
+  "labels": {
+    "storyDetails": "स्टोरी विवरण",
+    "storyInformation": "स्टोरी जानकारी",
+    "storyId": "स्टोरी आईडी",
+    "type": "प्रकार",
+    "postedBy": "द्वारा पोस्ट किया गया",
+    "createdAt": "निर्माण तिथि",
+    "expiresAt": "समाप्ति तिथि",
+    "expiryProgress": "समाप्ति प्रगति",
+    "unknownUser": "अज्ञात उपयोगकर्ता",
+    "noViewsYet": "अभी तक कोई दृश्य नहीं",
+    "thisStoryDeletedOn": "यह स्टोरी {{date}} को हटाई गई थी",
+    "thisStoryExpiredOn": "यह स्टोरी {{date}} को समाप्त हो गई थी"
+  },
+  "table": {
+    "views": "दृश्य",
+    "viewer": "दर्शक",
+    "viewedAt": "देखा गया",
+    "actions": "कार्रवाइयां",
+    "status": "स्थिति"
+  },
+  "status": {
+    "deleted": "हटाया गया",
+    "expired": "समाप्त",
+    "active": "सक्रिय"
+  },
+  "actions": {
+    "deleteStory": "स्टोरी हटाएं",
+    "delete": "हटाएं",
+    "cancel": "रद्द करें",
+    "viewUser": "उपयोगकर्ता देखें"
+  },
+  "confirmations": {
+    "deleteStory": "क्या आप वाकई इस स्टोरी को हटाना चाहते हैं?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "स्टोरी सफलतापूर्वक हटाई गई",
+    "operationFailed": "ऑपरेशन विफल"
+  }
+}

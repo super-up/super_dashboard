@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "图片",
+    "video": "视频",
+    "voice": "语音",
+    "file": "文件",
+    "text": "文本"
+  },
+  "labels": {
+    "storyDetails": "动态详情",
+    "storyInformation": "动态信息",
+    "storyId": "动态ID",
+    "type": "类型",
+    "postedBy": "发布者",
+    "createdAt": "创建时间",
+    "expiresAt": "过期时间",
+    "expiryProgress": "过期进度",
+    "unknownUser": "未知用户",
+    "noViewsYet": "暂无浏览",
+    "thisStoryDeletedOn": "此动态已于 {{date}} 删除",
+    "thisStoryExpiredOn": "此动态已于 {{date}} 过期"
+  },
+  "table": {
+    "views": "浏览",
+    "viewer": "查看者",
+    "viewedAt": "查看时间",
+    "actions": "操作",
+    "status": "状态"
+  },
+  "status": {
+    "deleted": "已删除",
+    "expired": "已过期",
+    "active": "活跃"
+  },
+  "actions": {
+    "deleteStory": "删除动态",
+    "delete": "删除",
+    "cancel": "取消",
+    "viewUser": "查看用户"
+  },
+  "confirmations": {
+    "deleteStory": "确定要删除此动态吗？"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "动态已成功删除",
+    "operationFailed": "操作失败"
+  }
+}

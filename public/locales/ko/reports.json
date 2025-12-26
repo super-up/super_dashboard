@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "사용자 신고",
+    "chat": "채팅 신고"
+  },
+  "reasons": {
+    "spam": "스팸",
+    "harassment": "괴롭힘",
+    "inappropriatecontent": "부적절한 콘텐츠",
+    "hatespeech": "혐오 발언",
+    "violence": "폭력"
+  },
+  "status": {
+    "pending": "대기중",
+    "approved": "승인됨",
+    "rejected": "거부됨"
+  },
+  "labels": {
+    "reportId": "신고 ID",
+    "reportProgress": "신고 진행상황",
+    "submitted": "제출됨",
+    "reporter": "신고자",
+    "reportedUser": "신고된 사용자",
+    "reportedContent": "신고된 콘텐츠",
+    "reportReason": "신고 사유",
+    "reportDetails": "신고 상세정보",
+    "takeAction": "조치 실행",
+    "actionsAreIrreversible": "조치는 되돌릴 수 없습니다",
+    "takeActionDescription": "다음 조치는 신고된 사용자에게 영구적으로 영향을 미칩니다. 진행하기 전에 신중히 검토해주세요.",
+    "selectBanDuration": "차단 기간 선택",
+    "daysFromNow": "지금부터 일수",
+    "orSelectSpecificDate": "또는 특정 날짜 선택",
+    "userWillBeBanned": "사용자가 {{duration}} 차단됩니다",
+    "warningDeleteAccount": "경고: 계정이 영구적으로 삭제됩니다",
+    "softDeletedAccount": "이 계정은 소프트 삭제되며 복구할 수 없습니다.",
+    "reportedUserDataNotAvailable": "신고된 사용자 데이터 없음",
+    "chatDataNotAvailable": "채팅 데이터 없음",
+    "noReportedContent": "신고된 콘텐츠 없음",
+    "noAdditionalDetails": "추가 세부정보 없음",
+    "unknownUser": "알 수 없는 사용자",
+    "type": "유형",
+    "createdAt": "생성일",
+    "updatedAt": "수정일",
+    "resolvedAt": "해결일"
+  },
+  "confirmations": {
+    "approveReport": "신고 승인",
+    "approveReportDesc": "이 신고를 승인하시겠습니까?",
+    "rejectReport": "신고 거부",
+    "rejectReportDesc": "이 신고를 거부하시겠습니까?",
+    "deleteUserAccount": "사용자 계정 삭제",
+    "deleteUserAccountDesc": "이 작업은 사용자 계정을 영구적으로 삭제합니다. 취소할 수 없습니다.",
+    "deleteReportedContent": "신고된 콘텐츠 삭제",
+    "deleteReportedContentDesc": "신고된 콘텐츠를 삭제하시겠습니까?"
+  },
+  "actions": {
+    "approve": "승인",
+    "reject": "거부",
+    "banUser": "사용자 차단",
+    "deleteAccount": "계정 삭제",
+    "deleteContent": "콘텐츠 삭제",
+    "delete": "삭제",
+    "ban": "차단",
+    "viewUserProfile": "사용자 프로필 보기",
+    "viewChatDetails": "채팅 상세정보 보기",
+    "viewProfile": "프로필 보기"
+  },
+  "table": {
+    "reason": "사유",
+    "status": "상태"
+  },
+  "messages": {
+    "reportStatusUpdated": "신고 {{newStatus}}",
+    "updateFailed": "신고 업데이트 실패",
+    "noReportedUser": "조치를 실행할 신고된 사용자 없음",
+    "userBannedFor": "사용자가 {{duration}} 차단되었습니다",
+    "userAccountDeleted": "사용자 계정이 삭제되었습니다",
+    "actionFailed": "조치 실행 실패",
+    "contentDeleted": "콘텐츠 삭제됨",
+    "deleteContentFailed": "콘텐츠 삭제 실패"
+  }
+}

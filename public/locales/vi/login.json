@@ -1,0 +1,16 @@
+{
+  "title": "Đăng Nhập Quản Trị Viên",
+  "subtitle": "Đăng nhập vào tài khoản Super Up Admin của bạn",
+  "email": "Địa Chỉ Email",
+  "emailRequired": "Vui lòng nhập email của bạn",
+  "emailInvalid": "Vui lòng nhập email hợp lệ",
+  "emailPlaceholder": "admin@example.com",
+  "password": "Mật Khẩu",
+  "passwordRequired": "Vui lòng nhập mật khẩu của bạn",
+  "passwordPlaceholder": "Nhập mật khẩu của bạn",
+  "rememberMe": "Ghi nhớ đăng nhập",
+  "signIn": "Đăng Nhập",
+  "signingIn": "Đang đăng nhập...",
+  "demoMode": "Chế Độ Demo",
+  "demoModeDescription": "Bạn đang xem bản demo. Một số tính năng bị vô hiệu hóa."
+}

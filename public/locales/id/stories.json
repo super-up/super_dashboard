@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "Gambar",
+    "video": "Video",
+    "voice": "Suara",
+    "file": "File",
+    "text": "Teks"
+  },
+  "labels": {
+    "storyDetails": "Detail Story",
+    "storyInformation": "Informasi Story",
+    "storyId": "ID Story",
+    "type": "Tipe",
+    "postedBy": "Diposting Oleh",
+    "createdAt": "Dibuat Pada",
+    "expiresAt": "Kadaluarsa Pada",
+    "expiryProgress": "Progres Kadaluarsa",
+    "unknownUser": "Pengguna Tidak Diketahui",
+    "noViewsYet": "Belum ada yang melihat",
+    "thisStoryDeletedOn": "Story ini dihapus pada {{date}}",
+    "thisStoryExpiredOn": "Story ini kadaluarsa pada {{date}}"
+  },
+  "table": {
+    "views": "Tayangan",
+    "viewer": "Penonton",
+    "viewedAt": "Dilihat Pada",
+    "actions": "Aksi",
+    "status": "Status"
+  },
+  "status": {
+    "deleted": "Dihapus",
+    "expired": "Kadaluarsa",
+    "active": "Aktif"
+  },
+  "actions": {
+    "deleteStory": "Hapus Story",
+    "delete": "Hapus",
+    "cancel": "Batal",
+    "viewUser": "Lihat Pengguna"
+  },
+  "confirmations": {
+    "deleteStory": "Apakah Anda yakin ingin menghapus story ini?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "Story berhasil dihapus",
+    "operationFailed": "Operasi gagal"
+  }
+}

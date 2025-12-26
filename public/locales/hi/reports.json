@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "उपयोगकर्ता रिपोर्ट",
+    "chat": "चैट रिपोर्ट"
+  },
+  "reasons": {
+    "spam": "स्पैम",
+    "harassment": "उत्पीड़न",
+    "inappropriatecontent": "अनुचित सामग्री",
+    "hatespeech": "घृणास्पद भाषण",
+    "violence": "हिंसा"
+  },
+  "status": {
+    "pending": "लंबित",
+    "approved": "स्वीकृत",
+    "rejected": "अस्वीकृत"
+  },
+  "labels": {
+    "reportId": "रिपोर्ट आईडी",
+    "reportProgress": "रिपोर्ट प्रगति",
+    "submitted": "सबमिट किया गया",
+    "reporter": "रिपोर्टर",
+    "reportedUser": "रिपोर्ट किया गया उपयोगकर्ता",
+    "reportedContent": "रिपोर्ट की गई सामग्री",
+    "reportReason": "रिपोर्ट कारण",
+    "reportDetails": "रिपोर्ट विवरण",
+    "takeAction": "कार्रवाई करें",
+    "actionsAreIrreversible": "कार्रवाइयां अपरिवर्तनीय हैं",
+    "takeActionDescription": "निम्नलिखित कार्रवाइयां रिपोर्ट किए गए उपयोगकर्ता को स्थायी रूप से प्रभावित करेंगी। कृपया आगे बढ़ने से पहले ध्यान से समीक्षा करें।",
+    "selectBanDuration": "प्रतिबंध अवधि चुनें",
+    "daysFromNow": "अब से दिन",
+    "orSelectSpecificDate": "या विशिष्ट तिथि चुनें",
+    "userWillBeBanned": "उपयोगकर्ता {{duration}} के लिए प्रतिबंधित होगा",
+    "warningDeleteAccount": "चेतावनी: खाता स्थायी रूप से हटा दिया जाएगा",
+    "softDeletedAccount": "यह खाता सॉफ्ट डिलीट किया जाएगा और पुनर्प्राप्त नहीं किया जा सकता।",
+    "reportedUserDataNotAvailable": "रिपोर्ट किया गया उपयोगकर्ता डेटा उपलब्ध नहीं",
+    "chatDataNotAvailable": "चैट डेटा उपलब्ध नहीं",
+    "noReportedContent": "कोई रिपोर्ट की गई सामग्री नहीं",
+    "noAdditionalDetails": "कोई अतिरिक्त विवरण नहीं दिया गया",
+    "unknownUser": "अज्ञात उपयोगकर्ता",
+    "type": "प्रकार",
+    "createdAt": "निर्माण तिथि",
+    "updatedAt": "अपडेट तिथि",
+    "resolvedAt": "समाधान तिथि"
+  },
+  "confirmations": {
+    "approveReport": "रिपोर्ट स्वीकृत करें",
+    "approveReportDesc": "क्या आप वाकई इस रिपोर्ट को स्वीकृत करना चाहते हैं?",
+    "rejectReport": "रिपोर्ट अस्वीकार करें",
+    "rejectReportDesc": "क्या आप वाकई इस रिपोर्ट को अस्वीकार करना चाहते हैं?",
+    "deleteUserAccount": "उपयोगकर्ता खाता हटाएं",
+    "deleteUserAccountDesc": "यह कार्रवाई उपयोगकर्ता खाते को स्थायी रूप से हटा देगी। इसे पूर्ववत नहीं किया जा सकता।",
+    "deleteReportedContent": "रिपोर्ट की गई सामग्री हटाएं",
+    "deleteReportedContentDesc": "क्या आप वाकई रिपोर्ट की गई सामग्री को हटाना चाहते हैं?"
+  },
+  "actions": {
+    "approve": "स्वीकृत करें",
+    "reject": "अस्वीकार करें",
+    "banUser": "उपयोगकर्ता प्रतिबंधित करें",
+    "deleteAccount": "खाता हटाएं",
+    "deleteContent": "सामग्री हटाएं",
+    "delete": "हटाएं",
+    "ban": "प्रतिबंधित करें",
+    "viewUserProfile": "उपयोगकर्ता प्रोफ़ाइल देखें",
+    "viewChatDetails": "चैट विवरण देखें",
+    "viewProfile": "प्रोफ़ाइल देखें"
+  },
+  "table": {
+    "reason": "कारण",
+    "status": "स्थिति"
+  },
+  "messages": {
+    "reportStatusUpdated": "रिपोर्ट {{newStatus}}",
+    "updateFailed": "रिपोर्ट अपडेट करने में विफल",
+    "noReportedUser": "कार्रवाई करने के लिए कोई रिपोर्ट किया गया उपयोगकर्ता नहीं",
+    "userBannedFor": "उपयोगकर्ता {{duration}} के लिए प्रतिबंधित",
+    "userAccountDeleted": "उपयोगकर्ता खाता हटाया गया",
+    "actionFailed": "कार्रवाई करने में विफल",
+    "contentDeleted": "सामग्री हटाई गई",
+    "deleteContentFailed": "सामग्री हटाने में विफल"
+  }
+}

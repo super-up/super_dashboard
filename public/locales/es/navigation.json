@@ -1,0 +1,18 @@
+{
+    "dashboard": "Panel de Control",
+    "users": "Usuarios",
+    "messages": "Mensajes",
+    "rooms": "Salas",
+    "reports": "Reportes",
+    "calls": "Llamadas",
+    "stories": "Historias",
+    "auditLogs": "Registros de Auditoría",
+    "realtimeLogs": "Registros en Tiempo Real",
+    "notifications": "Notificaciones",
+    "devices": "Dispositivos",
+    "countries": "Países",
+    "stickers": "Stickers",
+    "appConfig": "Configuración de App",
+    "dataExport": "Exportación de Datos",
+    "appVersions": "Versiones de App"
+}

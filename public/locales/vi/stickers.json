@@ -1,0 +1,100 @@
+{
+    "title": "Nhãn Dán",
+    "list": "Gói Nhãn Dán",
+    "details": "Chi Tiết Gói Nhãn Dán",
+    "fields": {
+        "id": "ID Gói",
+        "name": "Tên",
+        "author": "Tác Giả",
+        "type": "Loại",
+        "thumbnail": "Hình Thu Nhỏ",
+        "version": "Phiên Bản",
+        "stickersCount": "Nhãn Dán",
+        "createdAt": "Đã Tạo",
+        "updatedAt": "Đã Cập Nhật"
+    },
+    "types": {
+        "animated": "Động",
+        "static": "Tĩnh"
+    },
+    "stats": {
+        "totalPacks": "Tổng Gói",
+        "animatedPacks": "Gói Động",
+        "staticPacks": "Gói Tĩnh",
+        "totalStickers": "Tổng Nhãn Dán"
+    },
+    "filters": {
+        "searchPlaceholder": "Tìm kiếm theo tên hoặc tác giả...",
+        "search": "Tìm Kiếm",
+        "filters": "Bộ Lọc",
+        "packType": "Loại Gói",
+        "createdFromTo": "Đã Tạo Từ/Đến",
+        "apply": "Áp Dụng",
+        "clear": "Xóa"
+    },
+    "actions": {
+        "title": "Hành Động",
+        "refresh": "Làm Mới",
+        "createPack": "Tạo Gói",
+        "editPack": "Chỉnh Sửa Gói",
+        "deletePack": "Xóa Gói",
+        "addSticker": "Thêm Nhãn Dán",
+        "removeSticker": "Xóa Nhãn Dán",
+        "view": "Xem",
+        "edit": "Chỉnh Sửa",
+        "delete": "Xóa",
+        "remove": "Xóa"
+    },
+    "show": {
+        "packInformation": "Thông Tin Gói",
+        "packNotFound": "Không tìm thấy gói",
+        "stickersTitle": "Nhãn Dán",
+        "noStickers": "Không có nhãn dán trong gói này"
+    },
+    "modal": {
+        "createTitle": "Tạo Gói Nhãn Dán",
+        "editTitle": "Chỉnh Sửa Gói Nhãn Dán",
+        "addStickersTitle": "Thêm Nhãn Dán",
+        "cancel": "Hủy",
+        "create": "Tạo",
+        "update": "Cập Nhật",
+        "upload": "Tải Lên Nhãn Dán",
+        "packName": "Tên Gói",
+        "packNamePlaceholder": "Nhập tên gói",
+        "thumbnailUrl": "URL Hình Thu Nhỏ",
+        "thumbnailUrlPlaceholder": "Nhập URL hình thu nhỏ",
+        "authorLabel": "Tác Giả",
+        "authorPlaceholder": "Nhập tên tác giả",
+        "animatedPack": "Gói Động",
+        "selectThumbnail": "Chọn Hình Thu Nhỏ",
+        "selectImages": "Chọn Hình Ảnh (tối đa 50)",
+        "uploadHint": "Nhấp hoặc kéo hình ảnh để tải lên",
+        "emojis": "Biểu Tượng Cảm Xúc (phân cách bằng dấu phẩy)",
+        "emojisPlaceholder": "Nhập biểu tượng cảm xúc cách nhau bằng dấu phẩy"
+    },
+    "confirmations": {
+        "deletePack": "Xóa gói này?",
+        "removeSticker": "Xóa nhãn dán này?"
+    },
+    "notifications": {
+        "packCreated": "Đã tạo gói thành công",
+        "packUpdated": "Đã cập nhật gói thành công",
+        "packDeleted": "Đã xóa gói thành công",
+        "stickersAdded": "Đã thêm nhãn dán thành công",
+        "stickerRemoved": "Đã xóa nhãn dán thành công",
+        "createFailed": "Không thể tạo gói",
+        "updateFailed": "Không thể cập nhật gói",
+        "deleteFailed": "Không thể xóa gói",
+        "uploadFailed": "Không thể tải lên nhãn dán"
+    },
+    "validation": {
+        "nameRequired": "Tên gói là bắt buộc",
+        "thumbnailRequired": "URL hình thu nhỏ là bắt buộc",
+        "authorRequired": "Tác giả là bắt buộc",
+        "selectFiles": "Vui lòng chọn ít nhất một hình ảnh",
+        "onlyImages": "Bạn chỉ có thể tải lên tệp hình ảnh!",
+        "maxFileSize": "Hình ảnh phải nhỏ hơn 10MB!",
+        "maxImagesAllowed": "Tối đa 50 hình ảnh được phép",
+        "uploadHint": "Hỗ trợ PNG, JPG, WebP, GIF. Tối đa 50 hình ảnh, mỗi hình 10MB."
+    }
+}

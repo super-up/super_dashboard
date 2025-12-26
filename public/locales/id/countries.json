@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "Bendera",
+    "name": "Nama",
+    "code": "Kode",
+    "image": "Gambar",
+    "updated": "Diperbarui",
+    "actions": "Aksi"
+  },
+  "tooltips": {
+    "edit": "Edit Negara",
+    "refresh": "Muat Ulang"
+  },
+  "form": {
+    "searchPlaceholder": "Cari berdasarkan nama atau kode..."
+  },
+  "modal": {
+    "title": "Perbarui Negara"
+  },
+  "buttons": {
+    "saveChanges": "Simpan Perubahan"
+  },
+  "validation": {
+    "nameRequired": "Nama diperlukan",
+    "codeRequired": "Kode diperlukan",
+    "codeFormat": "Kode harus 2-3 karakter",
+    "emojiRequired": "Emoji diperlukan"
+  },
+  "messages": {
+    "updateSuccess": "Negara berhasil diperbarui",
+    "updateFailed": "Gagal memperbarui negara",
+    "fetchFailed": "Gagal mengambil negara ({{status}})"
+  }
+}

@@ -1,0 +1,100 @@
+{
+    "title": "Figurinhas",
+    "list": "Pacotes de Figurinhas",
+    "details": "Detalhes do Pacote de Figurinhas",
+    "fields": {
+        "id": "ID do Pacote",
+        "name": "Nome",
+        "author": "Autor",
+        "type": "Tipo",
+        "thumbnail": "Miniatura",
+        "version": "Versão",
+        "stickersCount": "Figurinhas",
+        "createdAt": "Criado",
+        "updatedAt": "Atualizado"
+    },
+    "types": {
+        "animated": "Animado",
+        "static": "Estático"
+    },
+    "stats": {
+        "totalPacks": "Total de Pacotes",
+        "animatedPacks": "Pacotes Animados",
+        "staticPacks": "Pacotes Estáticos",
+        "totalStickers": "Total de Figurinhas"
+    },
+    "filters": {
+        "searchPlaceholder": "Pesquisar por nome ou autor...",
+        "search": "Pesquisar",
+        "filters": "Filtros",
+        "packType": "Tipo de Pacote",
+        "createdFromTo": "Criado De/Até",
+        "apply": "Aplicar",
+        "clear": "Limpar"
+    },
+    "actions": {
+        "title": "Ações",
+        "refresh": "Atualizar",
+        "createPack": "Criar Pacote",
+        "editPack": "Editar Pacote",
+        "deletePack": "Excluir Pacote",
+        "addSticker": "Adicionar Figurinha",
+        "removeSticker": "Remover Figurinha",
+        "view": "Ver",
+        "edit": "Editar",
+        "delete": "Excluir",
+        "remove": "Remover"
+    },
+    "show": {
+        "packInformation": "Informações do Pacote",
+        "packNotFound": "Pacote não encontrado",
+        "stickersTitle": "Figurinhas",
+        "noStickers": "Nenhuma figurinha neste pacote"
+    },
+    "modal": {
+        "createTitle": "Criar Pacote de Figurinhas",
+        "editTitle": "Editar Pacote de Figurinhas",
+        "addStickersTitle": "Adicionar Figurinhas",
+        "cancel": "Cancelar",
+        "create": "Criar",
+        "update": "Atualizar",
+        "upload": "Enviar Figurinhas",
+        "packName": "Nome do Pacote",
+        "packNamePlaceholder": "Digite o nome do pacote",
+        "thumbnailUrl": "URL da Miniatura",
+        "thumbnailUrlPlaceholder": "Digite a URL da miniatura",
+        "authorLabel": "Autor",
+        "authorPlaceholder": "Digite o nome do autor",
+        "animatedPack": "Pacote Animado",
+        "selectThumbnail": "Selecionar Miniatura",
+        "selectImages": "Selecionar Imagens (até 50)",
+        "uploadHint": "Clique ou arraste imagens para enviar",
+        "emojis": "Emojis (separados por vírgula)",
+        "emojisPlaceholder": "Digite emojis separados por vírgulas"
+    },
+    "confirmations": {
+        "deletePack": "Excluir este pacote?",
+        "removeSticker": "Remover esta figurinha?"
+    },
+    "notifications": {
+        "packCreated": "Pacote criado com sucesso",
+        "packUpdated": "Pacote atualizado com sucesso",
+        "packDeleted": "Pacote excluído com sucesso",
+        "stickersAdded": "Figurinhas adicionadas com sucesso",
+        "stickerRemoved": "Figurinha removida com sucesso",
+        "createFailed": "Falha ao criar pacote",
+        "updateFailed": "Falha ao atualizar pacote",
+        "deleteFailed": "Falha ao excluir pacote",
+        "uploadFailed": "Falha ao enviar figurinhas"
+    },
+    "validation": {
+        "nameRequired": "Nome do pacote é obrigatório",
+        "thumbnailRequired": "URL da miniatura é obrigatória",
+        "authorRequired": "Autor é obrigatório",
+        "selectFiles": "Por favor, selecione pelo menos uma imagem",
+        "onlyImages": "Você só pode enviar arquivos de imagem!",
+        "maxFileSize": "A imagem deve ser menor que 10MB!",
+        "maxImagesAllowed": "Máximo de 50 imagens permitidas",
+        "uploadHint": "Suporta PNG, JPG, WebP, GIF. Máx 50 imagens, 10MB cada."
+    }
+}

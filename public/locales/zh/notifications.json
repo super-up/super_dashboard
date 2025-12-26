@@ -1,0 +1,44 @@
+{
+    "title": "通知",
+    "list": {
+        "sendToAll": "发送给所有用户",
+        "columns": {
+            "title": "标题",
+            "content": "内容",
+            "image": "图片",
+            "created": "创建时间",
+            "actions": "操作"
+        },
+        "hasImage": {
+            "yes": "是",
+            "no": "否"
+        },
+        "modal": {
+            "title": "发送通知给所有用户",
+            "form": {
+                "title": "标题",
+                "titlePlaceholder": "通知标题",
+                "content": "内容",
+                "contentPlaceholder": "通知消息",
+                "imageUrl": "图片URL（可选）",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "通知已发送给所有用户"
+        }
+    },
+    "show": {
+        "adminNotification": "管理员通知",
+        "created": "创建时间",
+        "notificationImage": "通知图片",
+        "notificationContent": "通知内容",
+        "notificationDetails": "通知详情",
+        "notificationId": "通知ID",
+        "updated": "更新时间",
+        "imageUrl": "图片URL",
+        "deliveryInfo": "发送信息",
+        "sentAt": "发送时间",
+        "timeAgo": "时间前"
+    }
+}

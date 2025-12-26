@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "Resim",
+    "video": "Video",
+    "voice": "Ses",
+    "file": "Dosya",
+    "text": "Metin"
+  },
+  "labels": {
+    "storyDetails": "Hikaye Detayları",
+    "storyInformation": "Hikaye Bilgisi",
+    "storyId": "Hikaye ID",
+    "type": "Tür",
+    "postedBy": "Gönderen",
+    "createdAt": "Oluşturulma",
+    "expiresAt": "Süre Sonu",
+    "expiryProgress": "Süre İlerlemesi",
+    "unknownUser": "Bilinmeyen Kullanıcı",
+    "noViewsYet": "Henüz görüntüleme yok",
+    "thisStoryDeletedOn": "Bu hikaye {{date}} tarihinde silindi",
+    "thisStoryExpiredOn": "Bu hikayenin süresi {{date}} tarihinde doldu"
+  },
+  "table": {
+    "views": "Görüntüleme",
+    "viewer": "Görüntüleyen",
+    "viewedAt": "Görüntülenme",
+    "actions": "İşlemler",
+    "status": "Durum"
+  },
+  "status": {
+    "deleted": "Silindi",
+    "expired": "Süresi Doldu",
+    "active": "Aktif"
+  },
+  "actions": {
+    "deleteStory": "Hikayeyi Sil",
+    "delete": "Sil",
+    "cancel": "İptal",
+    "viewUser": "Kullanıcıyı Görüntüle"
+  },
+  "confirmations": {
+    "deleteStory": "Bu hikayeyi silmek istediğinizden emin misiniz?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "Hikaye başarıyla silindi",
+    "operationFailed": "İşlem başarısız"
+  }
+}

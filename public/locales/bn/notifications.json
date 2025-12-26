@@ -1,0 +1,44 @@
+{
+    "title": "নোটিফিকেশন",
+    "list": {
+        "sendToAll": "সব ব্যবহারকারীকে পাঠান",
+        "columns": {
+            "title": "শিরোনাম",
+            "content": "কন্টেন্ট",
+            "image": "ছবি",
+            "created": "তৈরি",
+            "actions": "কার্যক্রম"
+        },
+        "hasImage": {
+            "yes": "হ্যাঁ",
+            "no": "না"
+        },
+        "modal": {
+            "title": "সব ব্যবহারকারীকে নোটিফিকেশন পাঠান",
+            "form": {
+                "title": "শিরোনাম",
+                "titlePlaceholder": "নোটিফিকেশন শিরোনাম",
+                "content": "কন্টেন্ট",
+                "contentPlaceholder": "নোটিফিকেশন বার্তা",
+                "imageUrl": "ছবি URL (ঐচ্ছিক)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "সব ব্যবহারকারীকে নোটিফিকেশন পাঠানো হয়েছে"
+        }
+    },
+    "show": {
+        "adminNotification": "প্রশাসক নোটিফিকেশন",
+        "created": "তৈরি",
+        "notificationImage": "নোটিফিকেশন ছবি",
+        "notificationContent": "নোটিফিকেশন কন্টেন্ট",
+        "notificationDetails": "নোটিফিকেশন বিবরণ",
+        "notificationId": "নোটিফিকেশন আইডি",
+        "updated": "আপডেট",
+        "imageUrl": "ছবি URL",
+        "deliveryInfo": "ডেলিভারি তথ্য",
+        "sentAt": "পাঠানোর সময়",
+        "timeAgo": "সময় আগে"
+    }
+}

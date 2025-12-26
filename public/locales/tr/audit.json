@@ -1,0 +1,12 @@
+{
+    "title": "Denetim Günlükleri",
+    "columns": {
+        "id": "ID",
+        "action": "İşlem",
+        "targetType": "Hedef Türü",
+        "targetId": "Hedef ID",
+        "admin": "Yönetici",
+        "ipAddress": "IP Adresi",
+        "timestamp": "Zaman Damgası"
+    }
+}

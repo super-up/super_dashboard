@@ -1,0 +1,87 @@
+{
+    "title": "App-Konfiguration",
+    "subtitle": "Anwendungseinstellungen und Feature-Flags verwalten",
+    "sections": {
+        "general": "Allgemeine Einstellungen",
+        "features": "Feature-Schalter",
+        "limits": "Limits & Beschränkungen",
+        "urls": "Externe URLs",
+        "icons": "Standard-Icons"
+    },
+    "subsections": {
+        "platformLogin": "Plattform-Anmeldung",
+        "chatFeatures": "Chat-Funktionen",
+        "appStoreLinks": "App Store-Links",
+        "roomEmojis": "Raum-Emojis",
+        "defaultImages": "Standard-Bilder (Dateinamen)"
+    },
+    "fields": {
+        "appName": "App-Name",
+        "feedbackEmail": "Feedback-E-Mail",
+        "userRegisterStatus": "Benutzerregistrierungsrichtlinie",
+        "userRegisterStatusTooltip": "Steuert, wie neue Benutzerregistrierungen behandelt werden",
+        "emailCodeExpiry": "E-Mail-Code-Ablauf (Minuten)",
+        "emailCodeExpiryTooltip": "Wie lange Passwort-Reset-Codes gültig bleiben",
+        "enableAds": "Werbung aktivieren",
+        "mobileLogin": "Mobile Anmeldung",
+        "webLogin": "Web-Anmeldung",
+        "desktopLogin": "Desktop-Anmeldung",
+        "messaging": "Messaging",
+        "sendMedia": "Medien senden",
+        "voiceVideoCalls": "Sprach-/Videoanrufe",
+        "createGroups": "Gruppen erstellen",
+        "createBroadcasts": "Broadcasts erstellen",
+        "maxGroupMembers": "Max. Gruppenmitglieder",
+        "maxGroupMembersTooltip": "Maximale Anzahl der erlaubten Mitglieder in einer Gruppe",
+        "maxBroadcastRecipients": "Max. Broadcast-Empfänger",
+        "maxBroadcastRecipientsTooltip": "Maximale Empfänger für Broadcast-Nachrichten",
+        "maxForwards": "Max. Weiterleitungen",
+        "maxForwardsTooltip": "Maximale Anzahl, wie oft eine Nachricht weitergeleitet werden kann",
+        "maxMediaSize": "Max. Mediengröße (MB)",
+        "maxMediaSizeTooltip": "Maximale Dateigröße für Medien-Uploads",
+        "callTimeout": "Anruf-Timeout (Sekunden)",
+        "callTimeoutTooltip": "Wie lange es klingelt, bevor der Anruf abbricht",
+        "privacyUrl": "Datenschutzrichtlinien-URL",
+        "webChatUrl": "Web-Chat-URL",
+        "appleStoreUrl": "Apple App Store-URL",
+        "googlePlayUrl": "Google Play Store-URL",
+        "macStoreUrl": "Mac App Store-URL",
+        "windowsStoreUrl": "Windows Store-URL",
+        "groupIcon": "Gruppen-Icon",
+        "broadcastIcon": "Broadcast-Icon",
+        "orderIcon": "Auftrags-Icon",
+        "defaultUserImage": "Standard-Benutzerbild",
+        "defaultGroupImage": "Standard-Gruppenbild",
+        "defaultBroadcastImage": "Standard-Broadcast-Bild",
+        "defaultSupportImage": "Standard-Support-Bild"
+    },
+    "actions": {
+        "refresh": "Aktualisieren",
+        "resetToDefaults": "Auf Standardwerte zurücksetzen",
+        "discardChanges": "Änderungen verwerfen",
+        "saveConfiguration": "Konfiguration speichern"
+    },
+    "confirmations": {
+        "resetTitle": "Konfiguration zurücksetzen",
+        "resetDescription": "Möchten Sie wirklich alle Einstellungen auf die Standardwerte zurücksetzen? Dies kann nicht rückgängig gemacht werden.",
+        "reset": "Zurücksetzen"
+    },
+    "messages": {
+        "configUpdated": "Konfiguration aktualisiert",
+        "configUpdatedDesc": "App-Konfiguration wurde erfolgreich gespeichert.",
+        "updateFailed": "Aktualisierung fehlgeschlagen",
+        "updateFailedDesc": "Konfiguration konnte nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+        "configReset": "Konfiguration zurückgesetzt",
+        "configResetDesc": "App-Konfiguration wurde auf Standardwerte zurückgesetzt.",
+        "resetFailed": "Zurücksetzen fehlgeschlagen",
+        "resetFailedDesc": "Konfiguration konnte nicht zurückgesetzt werden. Bitte versuchen Sie es erneut.",
+        "backendVersion": "Backend-Version"
+    },
+    "validation": {
+        "appNameRequired": "App-Name ist erforderlich",
+        "emailRequired": "E-Mail ist erforderlich",
+        "invalidEmail": "Ungültiges E-Mail-Format",
+        "invalidUrl": "Ungültiges URL-Format"
+    },
+    "current": "Aktuell"
+}

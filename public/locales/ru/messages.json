@@ -1,0 +1,100 @@
+{
+    "title": "Сообщения",
+    "list": "Список сообщений",
+    "details": "Детали сообщения",
+    "fields": {
+        "id": "ID сообщения",
+        "content": "Содержимое",
+        "type": "Тип",
+        "sender": "Отправитель",
+        "room": "Комната",
+        "roomId": "ID комнаты",
+        "status": "Статус",
+        "platform": "Платформа",
+        "createdAt": "Отправлено в",
+        "created": "Создано",
+        "updated": "Обновлено",
+        "seenAt": "Просмотрено в",
+        "deletedAt": "Удалено в",
+        "attachments": "Вложения",
+        "encryption": "Шифрование",
+        "fileName": "Имя файла",
+        "mimeType": "MIME тип",
+        "fileSize": "Размер файла",
+        "dimensions": "Размеры",
+        "duration": "Длительность",
+        "url": "URL"
+    },
+    "types": {
+        "text": "Текст",
+        "image": "Изображение",
+        "video": "Видео",
+        "audio": "Аудио",
+        "voice": "Голосовое",
+        "file": "Файл",
+        "location": "Местоположение",
+        "contact": "Контакт",
+        "sticker": "Стикер",
+        "gif": "GIF",
+        "call": "Звонок",
+        "reaction": "Реакция",
+        "info": "Информация"
+    },
+    "filters": {
+        "all": "Все сообщения",
+        "text": "Только текст",
+        "media": "Только медиа",
+        "today": "Сегодня",
+        "thisWeek": "На этой неделе"
+    },
+    "actions": {
+        "delete": "Удалить",
+        "restore": "Восстановить",
+        "viewRoom": "Просмотр комнаты",
+        "viewSender": "Просмотр отправителя",
+        "viewProfile": "Просмотр профиля",
+        "viewOriginal": "Просмотр оригинала",
+        "download": "Скачать",
+        "downloadAudio": "Скачать аудио",
+        "downloadFile": "Скачать файл",
+        "playVideo": "Воспроизвести видео",
+        "hidePlayer": "Скрыть плеер"
+    },
+    "show": {
+        "messageContent": "Содержимое сообщения",
+        "messageDetails": "Детали сообщения",
+        "attachmentDetails": "Детали вложения",
+        "voiceMessage": "Голосовое сообщение",
+        "videoMessage": "Видео сообщение",
+        "locationShared": "Местоположение отправлено",
+        "systemMessage": "Системное сообщение",
+        "noContent": "Нет содержимого",
+        "noVideoUrl": "URL видео недоступен",
+        "noAudioUrl": "URL аудио недоступен",
+        "messageDeleted": "Это сообщение было удалено",
+        "replyInfo": "Это сообщение является ответом на другое сообщение",
+        "forwardedFrom": "Переслано от",
+        "replyTo": "Ответ на",
+        "reactions": "Реакции",
+        "unknown": "Неизвестно",
+        "size": "Размер",
+        "type": "Тип"
+    },
+    "tags": {
+        "deleted": "Удалено",
+        "active": "Активно",
+        "hasMedia": "Есть медиа",
+        "forwarded": "Переслано",
+        "reply": "Ответ",
+        "encrypted": "Зашифровано"
+    },
+    "confirmations": {
+        "deleteMessage": "Удалить это сообщение?",
+        "restoreMessage": "Восстановить это сообщение?"
+    },
+    "notifications": {
+        "deleted": "Сообщение удалено",
+        "restored": "Сообщение восстановлено",
+        "updateFailed": "Не удалось обновить сообщение"
+    }
+}

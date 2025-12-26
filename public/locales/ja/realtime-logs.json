@@ -1,0 +1,55 @@
+{
+    "title": "リアルタイムログ",
+    "logsCount": "{{count}}件のログ",
+    "logsCountFiltered": "{{total}}件中{{filtered}}件のログ",
+    "actions": {
+        "resume": "再開",
+        "pause": "一時停止",
+        "clear": "クリア",
+        "reconnect": "再接続"
+    },
+    "status": {
+        "connected": "接続済み",
+        "connecting": "接続中...",
+        "disconnected": "切断済み",
+        "error": "エラー"
+    },
+    "empty": {
+        "paused": "ログストリーミングが一時停止されています",
+        "waiting": "ログを待機中...",
+        "noMatch": "現在のフィルタに一致するログがありません",
+        "notConnected": "接続してログの受信を開始"
+    },
+    "severity": {
+        "all": "すべて",
+        "info": "情報",
+        "warning": "警告",
+        "error": "エラー",
+        "critical": "クリティカル"
+    },
+    "categories": {
+        "all": "すべて",
+        "auth": "認証",
+        "presence": "プレゼンス",
+        "message": "メッセージ",
+        "group": "グループ",
+        "broadcast": "ブロードキャスト",
+        "channel": "チャンネル",
+        "story": "ストーリー",
+        "call": "通話",
+        "profile": "プロフィール"
+    },
+    "actorTypes": {
+        "user": "ユーザー",
+        "admin": "管理者",
+        "system": "システム"
+    },
+    "labels": {
+        "unknown": "不明"
+    },
+    "time": {
+        "secondsAgo": "{{count}}秒前",
+        "minutesAgo": "{{count}}分前",
+        "hoursAgo": "{{count}}時間前"
+    }
+}

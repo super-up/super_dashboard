@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "Gruplar",
+    "broadcast": "Yayın",
+    "single": "Sohbetler"
+  },
+  "labels": {
+    "roomDetails": "Oda Detayları",
+    "groupDetails": "Grup Detayları",
+    "broadcastDetails": "Yayın Detayları",
+    "chatDetails": "Sohbet Detayları",
+    "directChat": "Doğrudan Sohbet",
+    "untitled": "Başlıksız",
+    "description": "Açıklama",
+    "roomId": "Oda ID",
+    "broadcastId": "Yayın ID",
+    "chatId": "Sohbet ID",
+    "type": "Tür",
+    "createdBy": "Oluşturan",
+    "membersCount": "Üye Sayısı",
+    "recipientsCount": "Alıcı Sayısı",
+    "createdAt": "Oluşturulma",
+    "updatedAt": "Güncellenme",
+    "roomInformation": "Oda Bilgisi",
+    "broadcastInformation": "Yayın Bilgisi",
+    "chatInformation": "Sohbet Bilgisi",
+    "thisRoomDeletedOn": "Bu oda {{date}} tarihinde silindi",
+    "owner": "Sahip",
+    "member": "Üye",
+    "recipient": "Alıcı",
+    "userDataNotAvailable": "Kullanıcı verisi mevcut değil",
+    "unknownUser": "Bilinmeyen Kullanıcı",
+    "private": "Özel"
+  },
+  "table": {
+    "members": "Üyeler",
+    "recipients": "Alıcılar",
+    "messages": "Mesajlar",
+    "lastActive": "Son Aktiflik",
+    "participant1": "Katılımcı 1",
+    "participant2": "Katılımcı 2",
+    "user": "Kullanıcı",
+    "role": "Rol",
+    "joined": "Katıldı",
+    "lastSeen": "Son Görülme",
+    "actions": "İşlemler",
+    "status": "Durum",
+    "lastMessage": "Son Mesaj"
+  },
+  "status": {
+    "deleted": "Silindi",
+    "active": "Aktif"
+  },
+  "actions": {
+    "removeMembers": "Üyeleri Kaldır",
+    "viewUser": "Kullanıcıyı Görüntüle",
+    "viewProfile": "Profili Görüntüle",
+    "restore": "Geri Yükle",
+    "delete": "Sil",
+    "cancel": "İptal"
+  },
+  "confirmations": {
+    "restoreRoom": "Odayı Geri Yükle",
+    "deleteRoom": "Odayı Sil",
+    "restoreRoomConfirm": "Bu odayı geri yüklemek istediğinizden emin misiniz?",
+    "softDeleteRoom": "Bu oda geçici olarak silinecek ve daha sonra geri yüklenebilir.",
+    "removeFromGroup": "{{count}} üyeyi gruptan kaldır?",
+    "removeFromGroupDesc": "{{count}} seçili üyeyi bu gruptan kaldırmak istediğinizden emin misiniz?"
+  },
+  "placeholders": {
+    "searchMembers": "Üyeleri ara...",
+    "searchRecipients": "Alıcıları ara..."
+  },
+  "messages": {
+    "roomRestored": "Oda geri yüklendi",
+    "roomDeleted": "Oda silindi",
+    "membersRemoved": "{{count}} üye gruptan kaldırıldı",
+    "operationFailed": "İşlem başarısız"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "Signalement d'utilisateur",
+    "chat": "Signalement de chat"
+  },
+  "reasons": {
+    "spam": "Spam",
+    "harassment": "Harcèlement",
+    "inappropriatecontent": "Contenu inapproprié",
+    "hatespeech": "Discours de haine",
+    "violence": "Violence"
+  },
+  "status": {
+    "pending": "En attente",
+    "approved": "Approuvé",
+    "rejected": "Rejeté"
+  },
+  "labels": {
+    "reportId": "ID du signalement",
+    "reportProgress": "Progression du signalement",
+    "submitted": "Soumis",
+    "reporter": "Rapporteur",
+    "reportedUser": "Utilisateur signalé",
+    "reportedContent": "Contenu signalé",
+    "reportReason": "Raison du signalement",
+    "reportDetails": "Détails du signalement",
+    "takeAction": "Prendre une action",
+    "actionsAreIrreversible": "Les actions sont irréversibles",
+    "takeActionDescription": "Les actions suivantes affecteront définitivement l'utilisateur signalé. Veuillez examiner attentivement avant de continuer.",
+    "selectBanDuration": "Sélectionner la durée du bannissement",
+    "daysFromNow": "Jours à partir de maintenant",
+    "orSelectSpecificDate": "Ou sélectionner une date spécifique",
+    "userWillBeBanned": "L'utilisateur sera banni pendant {{duration}}",
+    "warningDeleteAccount": "Avertissement : Le compte sera définitivement supprimé",
+    "softDeletedAccount": "Ce compte sera supprimé de manière réversible et ne pourra pas être récupéré.",
+    "reportedUserDataNotAvailable": "Données de l'utilisateur signalé non disponibles",
+    "chatDataNotAvailable": "Données du chat non disponibles",
+    "noReportedContent": "Aucun contenu signalé",
+    "noAdditionalDetails": "Aucun détail supplémentaire fourni",
+    "unknownUser": "Utilisateur inconnu",
+    "type": "Type",
+    "createdAt": "Créé le",
+    "updatedAt": "Mis à jour le",
+    "resolvedAt": "Résolu le"
+  },
+  "confirmations": {
+    "approveReport": "Approuver le signalement",
+    "approveReportDesc": "Êtes-vous sûr de vouloir approuver ce signalement ?",
+    "rejectReport": "Rejeter le signalement",
+    "rejectReportDesc": "Êtes-vous sûr de vouloir rejeter ce signalement ?",
+    "deleteUserAccount": "Supprimer le compte utilisateur",
+    "deleteUserAccountDesc": "Cette action supprimera définitivement le compte utilisateur. Cela ne peut pas être annulé.",
+    "deleteReportedContent": "Supprimer le contenu signalé",
+    "deleteReportedContentDesc": "Êtes-vous sûr de vouloir supprimer le contenu signalé ?"
+  },
+  "actions": {
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "banUser": "Bannir l'utilisateur",
+    "deleteAccount": "Supprimer le compte",
+    "deleteContent": "Supprimer le contenu",
+    "delete": "Supprimer",
+    "ban": "Bannir",
+    "viewUserProfile": "Voir le profil utilisateur",
+    "viewChatDetails": "Voir les détails du chat",
+    "viewProfile": "Voir le profil"
+  },
+  "table": {
+    "reason": "Raison",
+    "status": "Statut"
+  },
+  "messages": {
+    "reportStatusUpdated": "Signalement {{newStatus}}",
+    "updateFailed": "Échec de la mise à jour du signalement",
+    "noReportedUser": "Aucun utilisateur signalé pour effectuer une action",
+    "userBannedFor": "Utilisateur banni {{duration}}",
+    "userAccountDeleted": "Compte utilisateur supprimé",
+    "actionFailed": "Échec de l'action",
+    "contentDeleted": "Contenu supprimé",
+    "deleteContentFailed": "Échec de la suppression du contenu"
+  }
+}

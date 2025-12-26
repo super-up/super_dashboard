@@ -1,0 +1,22 @@
+{
+    "title": "Panggilan",
+    "stats": {
+        "totalFinishedCalls": "Total Panggilan Selesai",
+        "averageDuration": "Durasi Rata-rata",
+        "longestCall": "Panggilan Terlama",
+        "shortestCall": "Panggilan Terpendek"
+    },
+    "types": {
+        "video": "Video",
+        "voice": "Suara"
+    },
+    "status": {
+        "ended": "Berakhir",
+        "completed": "Selesai",
+        "missed": "Tidak Terjawab",
+        "rejected": "Ditolak",
+        "cancelled": "Dibatalkan",
+        "ongoing": "Berlangsung",
+        "ringing": "Berdering"
+    }
+}

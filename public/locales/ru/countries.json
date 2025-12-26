@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "Флаг",
+    "name": "Название",
+    "code": "Код",
+    "image": "Изображение",
+    "updated": "Обновлено",
+    "actions": "Действия"
+  },
+  "tooltips": {
+    "edit": "Редактировать страну",
+    "refresh": "Обновить"
+  },
+  "form": {
+    "searchPlaceholder": "Поиск по названию или коду..."
+  },
+  "modal": {
+    "title": "Обновить страну"
+  },
+  "buttons": {
+    "saveChanges": "Сохранить изменения"
+  },
+  "validation": {
+    "nameRequired": "Название обязательно",
+    "codeRequired": "Код обязателен",
+    "codeFormat": "Код должен быть 2-3 символа",
+    "emojiRequired": "Эмодзи обязательно"
+  },
+  "messages": {
+    "updateSuccess": "Страна успешно обновлена",
+    "updateFailed": "Не удалось обновить страну",
+    "fetchFailed": "Не удалось получить страны ({{status}})"
+  }
+}

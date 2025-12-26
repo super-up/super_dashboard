@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "グループ",
+    "broadcast": "ブロードキャスト",
+    "single": "チャット"
+  },
+  "labels": {
+    "roomDetails": "ルーム詳細",
+    "groupDetails": "グループ詳細",
+    "broadcastDetails": "ブロードキャスト詳細",
+    "chatDetails": "チャット詳細",
+    "directChat": "ダイレクトチャット",
+    "untitled": "無題",
+    "description": "説明",
+    "roomId": "ルームID",
+    "broadcastId": "ブロードキャストID",
+    "chatId": "チャットID",
+    "type": "タイプ",
+    "createdBy": "作成者",
+    "membersCount": "メンバー数",
+    "recipientsCount": "受信者数",
+    "createdAt": "作成日時",
+    "updatedAt": "更新日時",
+    "roomInformation": "ルーム情報",
+    "broadcastInformation": "ブロードキャスト情報",
+    "chatInformation": "チャット情報",
+    "thisRoomDeletedOn": "このルームは{{date}}に削除されました",
+    "owner": "オーナー",
+    "member": "メンバー",
+    "recipient": "受信者",
+    "userDataNotAvailable": "ユーザーデータは利用できません",
+    "unknownUser": "不明なユーザー",
+    "private": "非公開"
+  },
+  "table": {
+    "members": "メンバー",
+    "recipients": "受信者",
+    "messages": "メッセージ",
+    "lastActive": "最終アクティブ",
+    "participant1": "参加者1",
+    "participant2": "参加者2",
+    "user": "ユーザー",
+    "role": "ロール",
+    "joined": "参加日",
+    "lastSeen": "最終確認",
+    "actions": "アクション",
+    "status": "ステータス",
+    "lastMessage": "最新メッセージ"
+  },
+  "status": {
+    "deleted": "削除済み",
+    "active": "有効"
+  },
+  "actions": {
+    "removeMembers": "メンバーを削除",
+    "viewUser": "ユーザーを表示",
+    "viewProfile": "プロフィールを表示",
+    "restore": "復元",
+    "delete": "削除",
+    "cancel": "キャンセル"
+  },
+  "confirmations": {
+    "restoreRoom": "ルームを復元",
+    "deleteRoom": "ルームを削除",
+    "restoreRoomConfirm": "このルームを復元してもよろしいですか？",
+    "softDeleteRoom": "このルームは論理削除され、後で復元できます。",
+    "removeFromGroup": "{{count}}人のメンバーをグループから削除しますか？",
+    "removeFromGroupDesc": "選択された{{count}}人のメンバーをこのグループから削除してもよろしいですか？"
+  },
+  "placeholders": {
+    "searchMembers": "メンバーを検索...",
+    "searchRecipients": "受信者を検索..."
+  },
+  "messages": {
+    "roomRestored": "ルームが復元されました",
+    "roomDeleted": "ルームが削除されました",
+    "membersRemoved": "{{count}}人のメンバーをグループから削除しました",
+    "operationFailed": "操作に失敗しました"
+  }
+}

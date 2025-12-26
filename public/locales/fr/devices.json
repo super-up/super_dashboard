@@ -1,0 +1,70 @@
+{
+  "title": "Appareils",
+  "page": {
+    "title": "Appareils"
+  },
+  "columns": {
+    "user": "Utilisateur",
+    "platform": "Plateforme",
+    "appVersion": "Version de l'application",
+    "pushToken": "Jeton push",
+    "status": "Statut",
+    "lastActive": "Dernière activité",
+    "created": "Créé"
+  },
+  "labels": {
+    "never": "Jamais",
+    "deviceOwner": "Propriétaire de l'appareil",
+    "deviceInformation": "Informations de l'appareil",
+    "deviceId": "ID de l'appareil",
+    "deviceModel": "Modèle de l'appareil",
+    "osVersion": "Version du système d'exploitation",
+    "pushNotification": "Notification push",
+    "pushStatus": "Statut push",
+    "pushToken": "Jeton push",
+    "noPushToken": "Aucun jeton push enregistré pour cet appareil",
+    "activityDetails": "Détails de l'activité",
+    "totalVisits": "Total des visites"
+  },
+  "actions": {
+    "viewDetails": "Voir les détails",
+    "deleteDevice": "Supprimer l'appareil",
+    "revokeSession": "Révoquer la session"
+  },
+  "confirmations": {
+    "deleteDevice": "Êtes-vous sûr de vouloir supprimer cet appareil ?",
+    "revokeSession": "Révoquer la session",
+    "revokeDescription": "Cela déconnectera l'utilisateur de cet appareil et le supprimera du système."
+  },
+  "tabs": {
+    "all": "Tous",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Bureau"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "Rechercher par nom d'utilisateur ou téléphone..."
+  },
+  "table": {
+    "device": "Appareil",
+    "user": "Utilisateur",
+    "platform": "Plateforme",
+    "version": "Version",
+    "status": "Statut",
+    "lastSeen": "Dernière visite",
+    "push": "Push",
+    "actions": "Actions"
+  },
+  "tooltips": {
+    "edit": "Modifier",
+    "delete": "Supprimer"
+  },
+  "messages": {
+    "fetchFailed": "Échec de la récupération des appareils ({{status}})",
+    "deviceDeleted": "Appareil supprimé avec succès",
+    "failedToDelete": "Échec de la suppression de l'appareil",
+    "sessionRevoked": "Session révoquée avec succès",
+    "failedToRevoke": "Échec de la révocation de la session"
+  }
+}

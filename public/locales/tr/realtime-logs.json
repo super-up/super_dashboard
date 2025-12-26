@@ -1,0 +1,55 @@
+{
+    "title": "Gerçek Zamanlı Günlükler",
+    "logsCount": "{{count}} günlük",
+    "logsCountFiltered": "{{total}} günlükten {{filtered}} tanesi",
+    "actions": {
+        "resume": "Devam Et",
+        "pause": "Duraklat",
+        "clear": "Temizle",
+        "reconnect": "Yeniden Bağlan"
+    },
+    "status": {
+        "connected": "Bağlı",
+        "connecting": "Bağlanıyor...",
+        "disconnected": "Bağlantı Kesildi",
+        "error": "Hata"
+    },
+    "empty": {
+        "paused": "Günlük akışı duraklatıldı",
+        "waiting": "Günlükler bekleniyor...",
+        "noMatch": "Mevcut filtrelere uyan günlük yok",
+        "notConnected": "Günlükleri almak için bağlanın"
+    },
+    "severity": {
+        "all": "Tümü",
+        "info": "Bilgi",
+        "warning": "Uyarı",
+        "error": "Hata",
+        "critical": "Kritik"
+    },
+    "categories": {
+        "all": "Tümü",
+        "auth": "Yetki",
+        "presence": "Çevrimiçi Durum",
+        "message": "Mesaj",
+        "group": "Grup",
+        "broadcast": "Yayın",
+        "channel": "Kanal",
+        "story": "Hikaye",
+        "call": "Arama",
+        "profile": "Profil"
+    },
+    "actorTypes": {
+        "user": "Kullanıcı",
+        "admin": "Yönetici",
+        "system": "Sistem"
+    },
+    "labels": {
+        "unknown": "Bilinmiyor"
+    },
+    "time": {
+        "secondsAgo": "{{count}}s önce",
+        "minutesAgo": "{{count}}d önce",
+        "hoursAgo": "{{count}}s önce"
+    }
+}

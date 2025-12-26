@@ -1,0 +1,49 @@
+{
+    "title": "Exportation de données",
+    "subtitle": "Exporter les données de l'application au format JSON ou CSV",
+    "fields": {
+        "dateRange": "Plage de dates (optionnel)",
+        "format": "Format",
+        "limit": "Limite",
+        "maxLimit": "Max : {{max}}"
+    },
+    "actions": {
+        "export": "Exporter {{label}}"
+    },
+    "types": {
+        "users": {
+            "label": "Utilisateurs",
+            "description": "Exporter les profils utilisateurs et les données de compte"
+        },
+        "messages": {
+            "label": "Messages",
+            "description": "Exporter les messages de chat et le contenu"
+        },
+        "reports": {
+            "label": "Signalements",
+            "description": "Exporter les signalements et plaintes des utilisateurs"
+        },
+        "audit-logs": {
+            "label": "Journaux d'audit",
+            "description": "Exporter les journaux d'activité des administrateurs"
+        },
+        "stories": {
+            "label": "Histoires",
+            "description": "Exporter les métadonnées des histoires utilisateurs"
+        },
+        "calls": {
+            "label": "Appels",
+            "description": "Exporter l'historique et les métadonnées des appels"
+        },
+        "analytics": {
+            "label": "Analyses",
+            "description": "Exporter le rapport d'analyses agrégées"
+        }
+    },
+    "messages": {
+        "exportSuccess": "Exportation réussie",
+        "exportSuccessDesc": "Les données {{label}} ont été exportées au format {{format}}.",
+        "exportFailed": "Échec de l'exportation",
+        "exportFailedDesc": "Échec de l'exportation des données {{label}}. Veuillez réessayer."
+    }
+}

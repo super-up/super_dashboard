@@ -1,0 +1,16 @@
+{
+  "title": "Admin-Anmeldung",
+  "subtitle": "Melden Sie sich bei Ihrem Super Up Admin-Konto an",
+  "email": "E-Mail-Adresse",
+  "emailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+  "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+  "emailPlaceholder": "admin@example.com",
+  "password": "Passwort",
+  "passwordRequired": "Bitte geben Sie Ihr Passwort ein",
+  "passwordPlaceholder": "Geben Sie Ihr Passwort ein",
+  "rememberMe": "Angemeldet bleiben",
+  "signIn": "Anmelden",
+  "signingIn": "Anmeldung läuft...",
+  "demoMode": "Demo-Modus",
+  "demoModeDescription": "Sie betrachten eine Demo. Einige Funktionen sind deaktiviert."
+}

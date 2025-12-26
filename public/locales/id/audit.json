@@ -1,0 +1,12 @@
+{
+    "title": "Log Audit",
+    "columns": {
+        "id": "ID",
+        "action": "Tindakan",
+        "targetType": "Jenis Target",
+        "targetId": "ID Target",
+        "admin": "Admin",
+        "ipAddress": "Alamat IP",
+        "timestamp": "Waktu"
+    }
+}

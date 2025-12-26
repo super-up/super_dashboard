@@ -1,0 +1,55 @@
+{
+    "title": "实时日志",
+    "logsCount": "{{count}} 条日志",
+    "logsCountFiltered": "{{filtered}} / {{total}} 条日志",
+    "actions": {
+        "resume": "恢复",
+        "pause": "暂停",
+        "clear": "清除",
+        "reconnect": "重新连接"
+    },
+    "status": {
+        "connected": "已连接",
+        "connecting": "连接中...",
+        "disconnected": "已断开",
+        "error": "错误"
+    },
+    "empty": {
+        "paused": "日志流已暂停",
+        "waiting": "等待日志...",
+        "noMatch": "没有日志匹配当前筛选条件",
+        "notConnected": "连接以开始接收日志"
+    },
+    "severity": {
+        "all": "全部",
+        "info": "信息",
+        "warning": "警告",
+        "error": "错误",
+        "critical": "严重"
+    },
+    "categories": {
+        "all": "全部",
+        "auth": "认证",
+        "presence": "在线状态",
+        "message": "消息",
+        "group": "群组",
+        "broadcast": "广播",
+        "channel": "频道",
+        "story": "动态",
+        "call": "通话",
+        "profile": "资料"
+    },
+    "actorTypes": {
+        "user": "用户",
+        "admin": "管理员",
+        "system": "系统"
+    },
+    "labels": {
+        "unknown": "未知"
+    },
+    "time": {
+        "secondsAgo": "{{count}}秒前",
+        "minutesAgo": "{{count}}分钟前",
+        "hoursAgo": "{{count}}小时前"
+    }
+}

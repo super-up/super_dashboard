@@ -1,0 +1,87 @@
+{
+    "title": "Configuración de la Aplicación",
+    "subtitle": "Gestionar configuración de la aplicación y características",
+    "sections": {
+        "general": "Configuración General",
+        "features": "Activación de Características",
+        "limits": "Límites y Restricciones",
+        "urls": "URLs Externas",
+        "icons": "Iconos Predeterminados"
+    },
+    "subsections": {
+        "platformLogin": "Inicio de Sesión por Plataforma",
+        "chatFeatures": "Características de Chat",
+        "appStoreLinks": "Enlaces de Tiendas de Aplicaciones",
+        "roomEmojis": "Emojis de Sala",
+        "defaultImages": "Imágenes Predeterminadas (nombres de archivo)"
+    },
+    "fields": {
+        "appName": "Nombre de la Aplicación",
+        "feedbackEmail": "Correo de Comentarios",
+        "userRegisterStatus": "Política de Registro de Usuarios",
+        "userRegisterStatusTooltip": "Controla cómo se manejan los nuevos registros de usuarios",
+        "emailCodeExpiry": "Expiración del Código de Correo (minutos)",
+        "emailCodeExpiryTooltip": "Cuánto tiempo permanecen válidos los códigos de restablecimiento de contraseña",
+        "enableAds": "Habilitar Publicidad",
+        "mobileLogin": "Inicio de Sesión Móvil",
+        "webLogin": "Inicio de Sesión Web",
+        "desktopLogin": "Inicio de Sesión de Escritorio",
+        "messaging": "Mensajería",
+        "sendMedia": "Enviar Multimedia",
+        "voiceVideoCalls": "Llamadas de Voz/Video",
+        "createGroups": "Crear Grupos",
+        "createBroadcasts": "Crear Difusiones",
+        "maxGroupMembers": "Máximo de Miembros en Grupo",
+        "maxGroupMembersTooltip": "Número máximo de miembros permitidos en un grupo",
+        "maxBroadcastRecipients": "Máximo de Destinatarios de Difusión",
+        "maxBroadcastRecipientsTooltip": "Máximo de destinatarios para mensajes de difusión",
+        "maxForwards": "Máximo de Reenvíos",
+        "maxForwardsTooltip": "Número máximo de veces que un mensaje puede ser reenviado",
+        "maxMediaSize": "Tamaño Máximo de Multimedia (MB)",
+        "maxMediaSizeTooltip": "Tamaño máximo de archivo para subidas multimedia",
+        "callTimeout": "Tiempo de Espera de Llamada (segundos)",
+        "callTimeoutTooltip": "Cuánto tiempo sonar antes de que la llamada expire",
+        "privacyUrl": "URL de Política de Privacidad",
+        "webChatUrl": "URL de Chat Web",
+        "appleStoreUrl": "URL de Apple App Store",
+        "googlePlayUrl": "URL de Google Play Store",
+        "macStoreUrl": "URL de Mac App Store",
+        "windowsStoreUrl": "URL de Windows Store",
+        "groupIcon": "Icono de Grupo",
+        "broadcastIcon": "Icono de Difusión",
+        "orderIcon": "Icono de Orden",
+        "defaultUserImage": "Imagen de Usuario Predeterminada",
+        "defaultGroupImage": "Imagen de Grupo Predeterminada",
+        "defaultBroadcastImage": "Imagen de Difusión Predeterminada",
+        "defaultSupportImage": "Imagen de Soporte Predeterminada"
+    },
+    "actions": {
+        "refresh": "Actualizar",
+        "resetToDefaults": "Restablecer Valores Predeterminados",
+        "discardChanges": "Descartar Cambios",
+        "saveConfiguration": "Guardar Configuración"
+    },
+    "confirmations": {
+        "resetTitle": "Restablecer Configuración",
+        "resetDescription": "¿Está seguro de que desea restablecer toda la configuración a los valores predeterminados? Esto no se puede deshacer.",
+        "reset": "Restablecer"
+    },
+    "messages": {
+        "configUpdated": "Configuración Actualizada",
+        "configUpdatedDesc": "La configuración de la aplicación se ha guardado exitosamente.",
+        "updateFailed": "Error al Actualizar",
+        "updateFailedDesc": "Error al guardar la configuración. Por favor, inténtelo de nuevo.",
+        "configReset": "Configuración Restablecida",
+        "configResetDesc": "La configuración de la aplicación se ha restablecido a los valores predeterminados.",
+        "resetFailed": "Error al Restablecer",
+        "resetFailedDesc": "Error al restablecer la configuración. Por favor, inténtelo de nuevo.",
+        "backendVersion": "Versión del Backend"
+    },
+    "validation": {
+        "appNameRequired": "El nombre de la aplicación es obligatorio",
+        "emailRequired": "El correo electrónico es obligatorio",
+        "invalidEmail": "Formato de correo electrónico inválido",
+        "invalidUrl": "Formato de URL inválido"
+    },
+    "current": "Actual"
+}

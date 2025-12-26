@@ -1,0 +1,44 @@
+{
+    "title": "सूचनाएं",
+    "list": {
+        "sendToAll": "सभी उपयोगकर्ताओं को भेजें",
+        "columns": {
+            "title": "शीर्षक",
+            "content": "सामग्री",
+            "image": "छवि",
+            "created": "निर्मित",
+            "actions": "कार्रवाइयां"
+        },
+        "hasImage": {
+            "yes": "हाँ",
+            "no": "नहीं"
+        },
+        "modal": {
+            "title": "सभी उपयोगकर्ताओं को सूचना भेजें",
+            "form": {
+                "title": "शीर्षक",
+                "titlePlaceholder": "सूचना शीर्षक",
+                "content": "सामग्री",
+                "contentPlaceholder": "सूचना संदेश",
+                "imageUrl": "छवि URL (वैकल्पिक)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "सूचना सभी उपयोगकर्ताओं को भेजी गई"
+        }
+    },
+    "show": {
+        "adminNotification": "एडमिन सूचना",
+        "created": "निर्मित",
+        "notificationImage": "सूचना छवि",
+        "notificationContent": "सूचना सामग्री",
+        "notificationDetails": "सूचना विवरण",
+        "notificationId": "सूचना आईडी",
+        "updated": "अपडेट किया गया",
+        "imageUrl": "छवि URL",
+        "deliveryInfo": "वितरण जानकारी",
+        "sentAt": "भेजा गया",
+        "timeAgo": "समय पहले"
+    }
+}

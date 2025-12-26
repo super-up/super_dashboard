@@ -1,0 +1,55 @@
+{
+    "title": "रियल-टाइम लॉग",
+    "logsCount": "{{count}} लॉग",
+    "logsCountFiltered": "{{total}} में से {{filtered}} लॉग",
+    "actions": {
+        "resume": "जारी रखें",
+        "pause": "रोकें",
+        "clear": "साफ करें",
+        "reconnect": "पुनः कनेक्ट करें"
+    },
+    "status": {
+        "connected": "कनेक्टेड",
+        "connecting": "कनेक्ट हो रहा है...",
+        "disconnected": "डिस्कनेक्टेड",
+        "error": "त्रुटि"
+    },
+    "empty": {
+        "paused": "लॉग स्ट्रीमिंग रुकी हुई है",
+        "waiting": "लॉग की प्रतीक्षा में...",
+        "noMatch": "कोई लॉग वर्तमान फ़िल्टर से मेल नहीं खाता",
+        "notConnected": "लॉग प्राप्त करना शुरू करने के लिए कनेक्ट करें"
+    },
+    "severity": {
+        "all": "सभी",
+        "info": "जानकारी",
+        "warning": "चेतावनी",
+        "error": "त्रुटि",
+        "critical": "गंभीर"
+    },
+    "categories": {
+        "all": "सभी",
+        "auth": "प्रमाणीकरण",
+        "presence": "उपस्थिति",
+        "message": "संदेश",
+        "group": "समूह",
+        "broadcast": "ब्रॉडकास्ट",
+        "channel": "चैनल",
+        "story": "स्टोरी",
+        "call": "कॉल",
+        "profile": "प्रोफ़ाइल"
+    },
+    "actorTypes": {
+        "user": "उपयोगकर्ता",
+        "admin": "एडमिन",
+        "system": "सिस्टम"
+    },
+    "labels": {
+        "unknown": "अज्ञात"
+    },
+    "time": {
+        "secondsAgo": "{{count}} सेकंड पहले",
+        "minutesAgo": "{{count}} मिनट पहले",
+        "hoursAgo": "{{count}} घंटे पहले"
+    }
+}

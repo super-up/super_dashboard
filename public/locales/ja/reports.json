@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "ユーザー報告",
+    "chat": "チャット報告"
+  },
+  "reasons": {
+    "spam": "スパム",
+    "harassment": "ハラスメント",
+    "inappropriatecontent": "不適切なコンテンツ",
+    "hatespeech": "ヘイトスピーチ",
+    "violence": "暴力"
+  },
+  "status": {
+    "pending": "保留中",
+    "approved": "承認済み",
+    "rejected": "拒否済み"
+  },
+  "labels": {
+    "reportId": "報告ID",
+    "reportProgress": "報告の進行状況",
+    "submitted": "送信済み",
+    "reporter": "報告者",
+    "reportedUser": "報告されたユーザー",
+    "reportedContent": "報告されたコンテンツ",
+    "reportReason": "報告理由",
+    "reportDetails": "報告詳細",
+    "takeAction": "アクションを実行",
+    "actionsAreIrreversible": "アクションは取り消しできません",
+    "takeActionDescription": "以下のアクションは報告されたユーザーに永久的な影響を与えます。実行前に慎重に確認してください。",
+    "selectBanDuration": "禁止期間を選択",
+    "daysFromNow": "今日から日数",
+    "orSelectSpecificDate": "または特定の日付を選択",
+    "userWillBeBanned": "ユーザーは{{duration}}禁止されます",
+    "warningDeleteAccount": "警告：アカウントは永久に削除されます",
+    "softDeletedAccount": "このアカウントは論理削除され、復元できません。",
+    "reportedUserDataNotAvailable": "報告されたユーザーのデータは利用できません",
+    "chatDataNotAvailable": "チャットデータは利用できません",
+    "noReportedContent": "報告されたコンテンツはありません",
+    "noAdditionalDetails": "追加の詳細はありません",
+    "unknownUser": "不明なユーザー",
+    "type": "タイプ",
+    "createdAt": "作成日時",
+    "updatedAt": "更新日時",
+    "resolvedAt": "解決日時"
+  },
+  "confirmations": {
+    "approveReport": "報告を承認",
+    "approveReportDesc": "この報告を承認してもよろしいですか？",
+    "rejectReport": "報告を拒否",
+    "rejectReportDesc": "この報告を拒否してもよろしいですか？",
+    "deleteUserAccount": "ユーザーアカウントを削除",
+    "deleteUserAccountDesc": "このアクションによりユーザーアカウントが永久に削除されます。元に戻すことはできません。",
+    "deleteReportedContent": "報告されたコンテンツを削除",
+    "deleteReportedContentDesc": "報告されたコンテンツを削除してもよろしいですか？"
+  },
+  "actions": {
+    "approve": "承認",
+    "reject": "拒否",
+    "banUser": "ユーザーを禁止",
+    "deleteAccount": "アカウントを削除",
+    "deleteContent": "コンテンツを削除",
+    "delete": "削除",
+    "ban": "禁止",
+    "viewUserProfile": "ユーザープロフィールを表示",
+    "viewChatDetails": "チャット詳細を表示",
+    "viewProfile": "プロフィールを表示"
+  },
+  "table": {
+    "reason": "理由",
+    "status": "ステータス"
+  },
+  "messages": {
+    "reportStatusUpdated": "報告が{{newStatus}}されました",
+    "updateFailed": "報告の更新に失敗しました",
+    "noReportedUser": "アクションを実行する報告されたユーザーがいません",
+    "userBannedFor": "ユーザーが{{duration}}禁止されました",
+    "userAccountDeleted": "ユーザーアカウントが削除されました",
+    "actionFailed": "アクションの実行に失敗しました",
+    "contentDeleted": "コンテンツが削除されました",
+    "deleteContentFailed": "コンテンツの削除に失敗しました"
+  }
+}

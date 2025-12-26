@@ -1,0 +1,87 @@
+{
+    "title": "应用配置",
+    "subtitle": "管理应用设置和功能标志",
+    "sections": {
+        "general": "常规设置",
+        "features": "功能开关",
+        "limits": "限制和约束",
+        "urls": "外部URL",
+        "icons": "默认图标"
+    },
+    "subsections": {
+        "platformLogin": "平台登录",
+        "chatFeatures": "聊天功能",
+        "appStoreLinks": "应用商店链接",
+        "roomEmojis": "房间表情",
+        "defaultImages": "默认图片（文件名）"
+    },
+    "fields": {
+        "appName": "应用名称",
+        "feedbackEmail": "反馈邮箱",
+        "userRegisterStatus": "用户注册政策",
+        "userRegisterStatusTooltip": "控制新用户注册的处理方式",
+        "emailCodeExpiry": "邮箱验证码过期时间（分钟）",
+        "emailCodeExpiryTooltip": "密码重置验证码的有效时长",
+        "enableAds": "启用广告",
+        "mobileLogin": "移动端登录",
+        "webLogin": "网页登录",
+        "desktopLogin": "桌面登录",
+        "messaging": "消息功能",
+        "sendMedia": "发送媒体",
+        "voiceVideoCalls": "语音/视频通话",
+        "createGroups": "创建群组",
+        "createBroadcasts": "创建广播",
+        "maxGroupMembers": "群组最大成员数",
+        "maxGroupMembersTooltip": "群组允许的最大成员数",
+        "maxBroadcastRecipients": "广播最大收件人数",
+        "maxBroadcastRecipientsTooltip": "广播消息的最大收件人数",
+        "maxForwards": "最大转发次数",
+        "maxForwardsTooltip": "消息可转发的最大次数",
+        "maxMediaSize": "最大媒体大小（MB）",
+        "maxMediaSizeTooltip": "媒体上传的最大文件大小",
+        "callTimeout": "通话超时（秒）",
+        "callTimeoutTooltip": "通话超时前的响铃时长",
+        "privacyUrl": "隐私政策URL",
+        "webChatUrl": "网页聊天URL",
+        "appleStoreUrl": "Apple App Store URL",
+        "googlePlayUrl": "Google Play商店URL",
+        "macStoreUrl": "Mac App Store URL",
+        "windowsStoreUrl": "Windows商店URL",
+        "groupIcon": "群组图标",
+        "broadcastIcon": "广播图标",
+        "orderIcon": "订单图标",
+        "defaultUserImage": "默认用户图片",
+        "defaultGroupImage": "默认群组图片",
+        "defaultBroadcastImage": "默认广播图片",
+        "defaultSupportImage": "默认支持图片"
+    },
+    "actions": {
+        "refresh": "刷新",
+        "resetToDefaults": "重置为默认",
+        "discardChanges": "放弃更改",
+        "saveConfiguration": "保存配置"
+    },
+    "confirmations": {
+        "resetTitle": "重置配置",
+        "resetDescription": "确定要将所有设置重置为默认值吗？此操作无法撤销。",
+        "reset": "重置"
+    },
+    "messages": {
+        "configUpdated": "配置已更新",
+        "configUpdatedDesc": "应用配置已成功保存。",
+        "updateFailed": "更新失败",
+        "updateFailedDesc": "配置保存失败。请重试。",
+        "configReset": "配置已重置",
+        "configResetDesc": "应用配置已重置为默认值。",
+        "resetFailed": "重置失败",
+        "resetFailedDesc": "配置重置失败。请重试。",
+        "backendVersion": "后端版本"
+    },
+    "validation": {
+        "appNameRequired": "应用名称为必填项",
+        "emailRequired": "邮箱为必填项",
+        "invalidEmail": "邮箱格式无效",
+        "invalidUrl": "URL格式无效"
+    },
+    "current": "当前"
+}

@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "झंडा",
+    "name": "नाम",
+    "code": "कोड",
+    "image": "छवि",
+    "updated": "अपडेट किया गया",
+    "actions": "कार्रवाइयां"
+  },
+  "tooltips": {
+    "edit": "देश संपादित करें",
+    "refresh": "रिफ्रेश करें"
+  },
+  "form": {
+    "searchPlaceholder": "नाम या कोड से खोजें..."
+  },
+  "modal": {
+    "title": "देश अपडेट करें"
+  },
+  "buttons": {
+    "saveChanges": "परिवर्तन सहेजें"
+  },
+  "validation": {
+    "nameRequired": "नाम आवश्यक है",
+    "codeRequired": "कोड आवश्यक है",
+    "codeFormat": "कोड 2-3 वर्णों का होना चाहिए",
+    "emojiRequired": "इमोजी आवश्यक है"
+  },
+  "messages": {
+    "updateSuccess": "देश सफलतापूर्वक अपडेट किया गया",
+    "updateFailed": "देश अपडेट करने में विफल",
+    "fetchFailed": "देश प्राप्त करने में विफल ({{status}})"
+  }
+}

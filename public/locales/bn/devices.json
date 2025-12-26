@@ -1,0 +1,70 @@
+{
+  "title": "ডিভাইস",
+  "page": {
+    "title": "ডিভাইস"
+  },
+  "columns": {
+    "user": "ব্যবহারকারী",
+    "platform": "প্ল্যাটফর্ম",
+    "appVersion": "অ্যাপ সংস্করণ",
+    "pushToken": "পুশ টোকেন",
+    "status": "স্ট্যাটাস",
+    "lastActive": "শেষ সক্রিয়",
+    "created": "তৈরি"
+  },
+  "labels": {
+    "never": "কখনও না",
+    "deviceOwner": "ডিভাইস মালিক",
+    "deviceInformation": "ডিভাইস তথ্য",
+    "deviceId": "ডিভাইস আইডি",
+    "deviceModel": "ডিভাইস মডেল",
+    "osVersion": "OS সংস্করণ",
+    "pushNotification": "পুশ নোটিফিকেশন",
+    "pushStatus": "পুশ স্ট্যাটাস",
+    "pushToken": "পুশ টোকেন",
+    "noPushToken": "এই ডিভাইসের জন্য কোন পুশ টোকেন নিবন্ধিত নেই",
+    "activityDetails": "কার্যক্রম বিবরণ",
+    "totalVisits": "মোট ভিজিট"
+  },
+  "actions": {
+    "viewDetails": "বিস্তারিত দেখুন",
+    "deleteDevice": "ডিভাইস মুছুন",
+    "revokeSession": "সেশন বাতিল করুন"
+  },
+  "confirmations": {
+    "deleteDevice": "আপনি কি এই ডিভাইস মুছতে চান?",
+    "revokeSession": "সেশন বাতিল করুন",
+    "revokeDescription": "এটি ব্যবহারকারীকে এই ডিভাইস থেকে লগআউট করবে এবং সিস্টেম থেকে সরিয়ে দেবে।"
+  },
+  "tabs": {
+    "all": "সব",
+    "android": "অ্যান্ড্রয়েড",
+    "ios": "iOS",
+    "web": "ওয়েব",
+    "desktop": "ডেস্কটপ"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "ব্যবহারকারীর নাম বা ফোন দিয়ে খুঁজুন..."
+  },
+  "table": {
+    "device": "ডিভাইস",
+    "user": "ব্যবহারকারী",
+    "platform": "প্ল্যাটফর্ম",
+    "version": "সংস্করণ",
+    "status": "স্ট্যাটাস",
+    "lastSeen": "শেষ দেখা",
+    "push": "পুশ",
+    "actions": "কার্যক্রম"
+  },
+  "tooltips": {
+    "edit": "সম্পাদনা",
+    "delete": "মুছুন"
+  },
+  "messages": {
+    "fetchFailed": "ডিভাইস আনতে ব্যর্থ ({{status}})",
+    "deviceDeleted": "ডিভাইস সফলভাবে মুছে ফেলা হয়েছে",
+    "failedToDelete": "ডিভাইস মুছতে ব্যর্থ",
+    "sessionRevoked": "সেশন সফলভাবে বাতিল হয়েছে",
+    "failedToRevoke": "সেশন বাতিল করতে ব্যর্থ"
+  }
+}

@@ -1,0 +1,100 @@
+{
+    "title": "സന്ദേശങ്ങൾ",
+    "list": "സന്ദേശ പട്ടിക",
+    "details": "സന്ദേശ വിശദാംശങ്ങൾ",
+    "fields": {
+        "id": "സന്ദേശ ഐഡി",
+        "content": "ഉള്ളടക്കം",
+        "type": "തരം",
+        "sender": "അയച്ചയാൾ",
+        "room": "റൂം",
+        "roomId": "റൂം ഐഡി",
+        "status": "സ്ഥിതി",
+        "platform": "പ്ലാറ്റ്ഫോം",
+        "createdAt": "അയച്ച സമയം",
+        "created": "സൃഷ്ടിച്ചത്",
+        "updated": "അപ്ഡേറ്റ് ചെയ്തത്",
+        "seenAt": "കണ്ട സമയം",
+        "deletedAt": "ഇല്ലാതാക്കിയ സമയം",
+        "attachments": "അറ്റാച്ച്‌മെന്റുകൾ",
+        "encryption": "എൻക്രിപ്ഷൻ",
+        "fileName": "ഫയൽ പേര്",
+        "mimeType": "MIME തരം",
+        "fileSize": "ഫയൽ വലുപ്പം",
+        "dimensions": "അളവുകൾ",
+        "duration": "ദൈർഘ്യം",
+        "url": "URL"
+    },
+    "types": {
+        "text": "ടെക്സ്റ്റ്",
+        "image": "ചിത്രം",
+        "video": "വീഡിയോ",
+        "audio": "ഓഡിയോ",
+        "voice": "വോയ്‌സ്",
+        "file": "ഫയൽ",
+        "location": "ലൊക്കേഷൻ",
+        "contact": "കോൺടാക്റ്റ്",
+        "sticker": "സ്റ്റിക്കർ",
+        "gif": "GIF",
+        "call": "കോൾ",
+        "reaction": "പ്രതികരണം",
+        "info": "വിവരം"
+    },
+    "filters": {
+        "all": "എല്ലാ സന്ദേശങ്ങളും",
+        "text": "ടെക്സ്റ്റ് മാത്രം",
+        "media": "മീഡിയ മാത്രം",
+        "today": "ഇന്ന്",
+        "thisWeek": "ഈ ആഴ്ച"
+    },
+    "actions": {
+        "delete": "ഇല്ലാതാക്കുക",
+        "restore": "പുനഃസ്ഥാപിക്കുക",
+        "viewRoom": "റൂം കാണുക",
+        "viewSender": "അയച്ചയാളെ കാണുക",
+        "viewProfile": "പ്രൊഫൈൽ കാണുക",
+        "viewOriginal": "ഒറിജിനൽ കാണുക",
+        "download": "ഡൗൺലോഡ് ചെയ്യുക",
+        "downloadAudio": "ഓഡിയോ ഡൗൺലോഡ് ചെയ്യുക",
+        "downloadFile": "ഫയൽ ഡൗൺലോഡ് ചെയ്യുക",
+        "playVideo": "വീഡിയോ പ്ലേ ചെയ്യുക",
+        "hidePlayer": "പ്ലെയർ മറയ്ക്കുക"
+    },
+    "show": {
+        "messageContent": "സന്ദേശ ഉള്ളടക്കം",
+        "messageDetails": "സന്ദേശ വിശദാംശങ്ങൾ",
+        "attachmentDetails": "അറ്റാച്ച്‌മെന്റ് വിശദാംശങ്ങൾ",
+        "voiceMessage": "വോയ്‌സ് സന്ദേശം",
+        "videoMessage": "വീഡിയോ സന്ദേശം",
+        "locationShared": "ലൊക്കേഷൻ പങ്കിട്ടു",
+        "systemMessage": "സിസ്റ്റം സന്ദേശം",
+        "noContent": "ഉള്ളടക്കമില്ല",
+        "noVideoUrl": "വീഡിയോ URL ലഭ്യമല്ല",
+        "noAudioUrl": "ഓഡിയോ URL ലഭ്യമല്ല",
+        "messageDeleted": "ഈ സന്ദേശം ഇല്ലാതാക്കി",
+        "replyInfo": "ഈ സന്ദേശം മറ്റൊരു സന്ദേശത്തിനുള്ള മറുപടിയാണ്",
+        "forwardedFrom": "ഫോർവേഡ് ചെയ്തത്",
+        "replyTo": "മറുപടി",
+        "reactions": "പ്രതികരണങ്ങൾ",
+        "unknown": "അജ്ഞാതം",
+        "size": "വലുപ്പം",
+        "type": "തരം"
+    },
+    "tags": {
+        "deleted": "ഇല്ലാതാക്കി",
+        "active": "സജീവം",
+        "hasMedia": "മീഡിയ ഉണ്ട്",
+        "forwarded": "ഫോർവേഡ് ചെയ്തു",
+        "reply": "മറുപടി",
+        "encrypted": "എൻക്രിപ്റ്റ് ചെയ്തു"
+    },
+    "confirmations": {
+        "deleteMessage": "ഈ സന്ദേശം ഇല്ലാതാക്കണോ?",
+        "restoreMessage": "ഈ സന്ദേശം പുനഃസ്ഥാപിക്കണോ?"
+    },
+    "notifications": {
+        "deleted": "സന്ദേശം ഇല്ലാതാക്കി",
+        "restored": "സന്ദേശം പുനഃസ്ഥാപിച്ചു",
+        "updateFailed": "സന്ദേശം അപ്ഡേറ്റ് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു"
+    }
+}

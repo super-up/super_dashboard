@@ -1,0 +1,16 @@
+{
+  "title": "Yönetici Girişi",
+  "subtitle": "Super Up Yönetici hesabınıza giriş yapın",
+  "email": "E-posta Adresi",
+  "emailRequired": "Lütfen e-postanızı girin",
+  "emailInvalid": "Lütfen geçerli bir e-posta girin",
+  "emailPlaceholder": "admin@example.com",
+  "password": "Şifre",
+  "passwordRequired": "Lütfen şifrenizi girin",
+  "passwordPlaceholder": "Şifrenizi girin",
+  "rememberMe": "Beni hatırla",
+  "signIn": "Giriş Yap",
+  "signingIn": "Giriş yapılıyor...",
+  "demoMode": "Demo Modu",
+  "demoModeDescription": "Bir demoyu görüntülüyorsunuz. Bazı özellikler devre dışı."
+}

@@ -1,0 +1,202 @@
+{
+  "show": {
+    "userInformation": "Informations utilisateur",
+    "notVerified": "Non vérifié",
+    "offline": "Hors ligne",
+    "online": "En ligne",
+    "deleted": "Supprimé",
+    "active": "Actif",
+    "bannedUntil": "Banni jusqu'au {{date}}",
+    "verifiedUser": "Utilisateur vérifié",
+    "unknown": "Inconnu",
+    "untitled": "Sans titre"
+  },
+  "fields": {
+    "id": "ID",
+    "phone": "Téléphone",
+    "email": "Email",
+    "platform": "Plateforme",
+    "registrationStatus": "Statut d'inscription",
+    "verification": "Vérification",
+    "country": "Pays",
+    "isOnline": "Statut en ligne",
+    "lastSeen": "Dernière visite",
+    "registered": "Inscrit",
+    "banExpires": "Bannissement expire",
+    "deletedAt": "Supprimé le"
+  },
+  "tabs": {
+    "overview": "Aperçu",
+    "rooms": "Salons",
+    "stories": "Histoires",
+    "calls": "Appels"
+  },
+  "devices": {
+    "title": "Appareils",
+    "platform": "Plateforme",
+    "version": "Version",
+    "lastActive": "Dernière activité",
+    "push": "Notifications push",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "actions": "Actions"
+  },
+  "stats": {
+    "devices": "Appareils",
+    "rooms": "Salons",
+    "stories": "Histoires"
+  },
+  "rooms": {
+    "title": "Salon",
+    "type": "Type",
+    "status": "Statut",
+    "admin": "Administrateur",
+    "moderator": "Modérateur",
+    "actions": "Actions",
+    "noRooms": "Aucun salon trouvé"
+  },
+  "stories": {
+    "media": "Média",
+    "type": "Type",
+    "caption": "Légende",
+    "views": "Vues",
+    "expiry": "Expiration",
+    "expired": "Expiré",
+    "created": "Créé",
+    "noStories": "Aucune histoire trouvée"
+  },
+  "calls": {
+    "type": "Type",
+    "video": "Vidéo",
+    "voice": "Voix",
+    "direction": "Direction",
+    "outgoing": "Sortant",
+    "incoming": "Entrant",
+    "status": "Statut",
+    "duration": "Durée",
+    "date": "Date",
+    "noCalls": "Aucun appel trouvé"
+  },
+  "actions": {
+    "viewGroup": "Voir le groupe",
+    "viewDetails": "Voir les détails",
+    "view": "Voir",
+    "edit": "Modifier",
+    "ban": "Bannir",
+    "unban": "Débannir",
+    "verify": "Vérifier",
+    "unverify": "Retirer la vérification",
+    "restore": "Restaurer",
+    "delete": "Supprimer",
+    "logoutAll": "Déconnecter tous les appareils"
+  },
+  "confirmations": {
+    "unbanUser": "Êtes-vous sûr de vouloir débannir cet utilisateur ?",
+    "banUser": "Êtes-vous sûr de vouloir bannir cet utilisateur ?",
+    "unverifyUser": "Êtes-vous sûr de vouloir retirer la vérification ?",
+    "verifyUser": "Êtes-vous sûr de vouloir vérifier cet utilisateur ?",
+    "restoreUser": "Êtes-vous sûr de vouloir restaurer cet utilisateur ?",
+    "deleteUser": "Êtes-vous sûr de vouloir supprimer cet utilisateur ?",
+    "logoutAll": "Cela déconnectera l'utilisateur de tous les appareils. Continuer ?",
+    "banUserTitle": "Bannir l'utilisateur",
+    "banUserDesc": "Êtes-vous sûr de vouloir bannir cet utilisateur ? Il ne pourra plus accéder à l'application.",
+    "banButton": "Oui, bannir",
+    "unbannedTitle": "Débannir l'utilisateur",
+    "unbannedDesc": "Êtes-vous sûr de vouloir débannir cet utilisateur ?",
+    "unbannedButton": "Oui, débannir",
+    "restoreTitle": "Restaurer l'utilisateur",
+    "restoreDesc": "Êtes-vous sûr de vouloir restaurer cet utilisateur ? Il aura à nouveau accès à l'application.",
+    "restoreButton": "Oui, restaurer",
+    "deleteTitle": "Supprimer l'utilisateur",
+    "deleteDesc": "Êtes-vous sûr de vouloir supprimer définitivement cet utilisateur ? Cette action ne peut pas être annulée.",
+    "deleteButton": "Oui, supprimer",
+    "logoutAllTitle": "Déconnecter tous les appareils",
+    "logoutAllDesc": "Cela forcera la déconnexion de l'utilisateur de tous les appareils. Êtes-vous sûr ?",
+    "logoutAllButton": "Oui, tout déconnecter"
+  },
+  "notifications": {
+    "unbanned": "Utilisateur débanni avec succès",
+    "banned": "Utilisateur banni avec succès",
+    "badgeRemoved": "Badge de vérification retiré",
+    "verified": "Utilisateur vérifié avec succès",
+    "restored": "Utilisateur restauré avec succès",
+    "deleted": "Utilisateur supprimé avec succès",
+    "updateFailed": "Échec de la mise à jour de l'utilisateur",
+    "loggedOut": "Déconnecté de tous les appareils",
+    "logoutFailed": "Échec de la déconnexion des appareils"
+  },
+  "filters": {
+    "verified": "Vérifié"
+  },
+  "modal": {
+    "title": "Modifier l'utilisateur",
+    "profileSection": "Informations du profil",
+    "verificationSection": "Vérification",
+    "banSection": "Gestion du bannissement",
+    "dangerZone": "Zone de danger"
+  },
+  "form": {
+    "fullName": "Nom complet",
+    "bio": "Biographie",
+    "registrationStatus": "Statut d'inscription",
+    "verificationBadge": "Badge de vérification",
+    "banDuration": "Sélectionner la durée du bannissement",
+    "banEndDate": "Sélectionner la date de fin du bannissement",
+    "saveProfileChanges": "Enregistrer les modifications du profil",
+    "deleted": "Cet utilisateur a été supprimé"
+  },
+  "placeholders": {
+    "enterFullName": "Entrer le nom complet",
+    "enterBio": "Entrer la biographie"
+  },
+  "validation": {
+    "fullNameRequired": "Le nom est requis",
+    "selectRegistrationStatus": "Sélectionner le statut d'inscription"
+  },
+  "options": {
+    "accepted": "Accepté",
+    "pending": "En attente",
+    "rejected": "Rejeté"
+  },
+  "badges": {
+    "verified": "Vérifié",
+    "notVerified": "Non vérifié",
+    "isVerified": "L'utilisateur est vérifié",
+    "isNotVerified": "L'utilisateur n'est pas vérifié"
+  },
+  "banDurations": {
+    "1h": "1 heure",
+    "3d": "3 jours",
+    "7d": "7 jours",
+    "1m": "1 mois",
+    "3m": "3 mois",
+    "1y": "1 an",
+    "permanent": "Permanent",
+    "customDate": "Date personnalisée"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "Profil utilisateur mis à jour avec succès",
+    "profileUpdateFailed": "Échec de la mise à jour de l'utilisateur",
+    "userBannedSuccess": "Utilisateur banni avec succès",
+    "userUnbannedSuccess": "Utilisateur débanni avec succès",
+    "banStatusFailed": "Échec de la mise à jour du statut de bannissement",
+    "banUserSuccess": "Utilisateur banni avec succès",
+    "banUserFailed": "Échec du bannissement de l'utilisateur",
+    "verificationBadgeRemoved": "Badge de vérification retiré",
+    "verificationBadgeAdded": "Utilisateur vérifié avec succès",
+    "verificationFailed": "Échec de la mise à jour de la vérification",
+    "userRestoredSuccess": "Utilisateur restauré avec succès",
+    "userDeletedSuccess": "Utilisateur supprimé avec succès",
+    "updateUserFailed": "Échec de la mise à jour de l'utilisateur",
+    "logoutDevicesSuccess": "Déconnecté de {{count}} appareil(s) avec succès",
+    "logoutDevicesFailed": "Échec de la déconnexion des appareils",
+    "bannedUntil": "Utilisateur banni jusqu'au {{date}}"
+  },
+  "buttons": {
+    "banUser": "Bannir l'utilisateur",
+    "unbanUser": "Débannir l'utilisateur",
+    "deleteUser": "Supprimer l'utilisateur",
+    "restoreUser": "Restaurer l'utilisateur",
+    "logoutAllDevices": "Déconnecter tous les appareils"
+  }
+}

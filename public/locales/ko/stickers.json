@@ -1,0 +1,100 @@
+{
+    "title": "스티커",
+    "list": "스티커팩",
+    "details": "스티커팩 상세정보",
+    "fields": {
+        "id": "팩 ID",
+        "name": "이름",
+        "author": "제작자",
+        "type": "유형",
+        "thumbnail": "썸네일",
+        "version": "버전",
+        "stickersCount": "스티커",
+        "createdAt": "생성일",
+        "updatedAt": "수정일"
+    },
+    "types": {
+        "animated": "애니메이션",
+        "static": "정적"
+    },
+    "stats": {
+        "totalPacks": "전체 팩",
+        "animatedPacks": "애니메이션 팩",
+        "staticPacks": "정적 팩",
+        "totalStickers": "전체 스티커"
+    },
+    "filters": {
+        "searchPlaceholder": "이름 또는 제작자로 검색...",
+        "search": "검색",
+        "filters": "필터",
+        "packType": "팩 유형",
+        "createdFromTo": "생성일 범위",
+        "apply": "적용",
+        "clear": "지우기"
+    },
+    "actions": {
+        "title": "작업",
+        "refresh": "새로고침",
+        "createPack": "팩 생성",
+        "editPack": "팩 편집",
+        "deletePack": "팩 삭제",
+        "addSticker": "스티커 추가",
+        "removeSticker": "스티커 제거",
+        "view": "보기",
+        "edit": "편집",
+        "delete": "삭제",
+        "remove": "제거"
+    },
+    "show": {
+        "packInformation": "팩 정보",
+        "packNotFound": "팩을 찾을 수 없습니다",
+        "stickersTitle": "스티커",
+        "noStickers": "이 팩에 스티커가 없습니다"
+    },
+    "modal": {
+        "createTitle": "스티커팩 생성",
+        "editTitle": "스티커팩 편집",
+        "addStickersTitle": "스티커 추가",
+        "cancel": "취소",
+        "create": "생성",
+        "update": "업데이트",
+        "upload": "스티커 업로드",
+        "packName": "팩 이름",
+        "packNamePlaceholder": "팩 이름 입력",
+        "thumbnailUrl": "썸네일 URL",
+        "thumbnailUrlPlaceholder": "썸네일 URL 입력",
+        "authorLabel": "제작자",
+        "authorPlaceholder": "제작자 이름 입력",
+        "animatedPack": "애니메이션 팩",
+        "selectThumbnail": "썸네일 선택",
+        "selectImages": "이미지 선택 (최대 50개)",
+        "uploadHint": "클릭하거나 드래그하여 이미지 업로드",
+        "emojis": "이모지 (쉼표로 구분)",
+        "emojisPlaceholder": "이모지를 쉼표로 구분하여 입력"
+    },
+    "confirmations": {
+        "deletePack": "이 팩을 삭제하시겠습니까?",
+        "removeSticker": "이 스티커를 제거하시겠습니까?"
+    },
+    "notifications": {
+        "packCreated": "팩이 생성되었습니다",
+        "packUpdated": "팩이 업데이트되었습니다",
+        "packDeleted": "팩이 삭제되었습니다",
+        "stickersAdded": "스티커가 추가되었습니다",
+        "stickerRemoved": "스티커가 제거되었습니다",
+        "createFailed": "팩 생성 실패",
+        "updateFailed": "팩 업데이트 실패",
+        "deleteFailed": "팩 삭제 실패",
+        "uploadFailed": "스티커 업로드 실패"
+    },
+    "validation": {
+        "nameRequired": "팩 이름은 필수입니다",
+        "thumbnailRequired": "썸네일 URL은 필수입니다",
+        "authorRequired": "제작자는 필수입니다",
+        "selectFiles": "최소 1개 이상의 이미지를 선택해주세요",
+        "onlyImages": "이미지 파일만 업로드할 수 있습니다!",
+        "maxFileSize": "이미지는 10MB 미만이어야 합니다!",
+        "maxImagesAllowed": "최대 50개 이미지까지 허용됩니다",
+        "uploadHint": "PNG, JPG, WebP, GIF 지원. 최대 50개 이미지, 각 10MB."
+    }
+}

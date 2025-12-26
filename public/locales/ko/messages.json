@@ -1,0 +1,100 @@
+{
+    "title": "메시지",
+    "list": "메시지 목록",
+    "details": "메시지 상세정보",
+    "fields": {
+        "id": "메시지 ID",
+        "content": "내용",
+        "type": "유형",
+        "sender": "발신자",
+        "room": "방",
+        "roomId": "방 ID",
+        "status": "상태",
+        "platform": "플랫폼",
+        "createdAt": "전송일",
+        "created": "생성됨",
+        "updated": "수정됨",
+        "seenAt": "읽은 시간",
+        "deletedAt": "삭제일",
+        "attachments": "첨부파일",
+        "encryption": "암호화",
+        "fileName": "파일명",
+        "mimeType": "MIME 타입",
+        "fileSize": "파일 크기",
+        "dimensions": "크기",
+        "duration": "재생시간",
+        "url": "URL"
+    },
+    "types": {
+        "text": "텍스트",
+        "image": "이미지",
+        "video": "동영상",
+        "audio": "오디오",
+        "voice": "음성",
+        "file": "파일",
+        "location": "위치",
+        "contact": "연락처",
+        "sticker": "스티커",
+        "gif": "GIF",
+        "call": "통화",
+        "reaction": "반응",
+        "info": "정보"
+    },
+    "filters": {
+        "all": "모든 메시지",
+        "text": "텍스트만",
+        "media": "미디어만",
+        "today": "오늘",
+        "thisWeek": "이번 주"
+    },
+    "actions": {
+        "delete": "삭제",
+        "restore": "복원",
+        "viewRoom": "방 보기",
+        "viewSender": "발신자 보기",
+        "viewProfile": "프로필 보기",
+        "viewOriginal": "원본 보기",
+        "download": "다운로드",
+        "downloadAudio": "오디오 다운로드",
+        "downloadFile": "파일 다운로드",
+        "playVideo": "동영상 재생",
+        "hidePlayer": "플레이어 숨기기"
+    },
+    "show": {
+        "messageContent": "메시지 내용",
+        "messageDetails": "메시지 상세정보",
+        "attachmentDetails": "첨부파일 상세정보",
+        "voiceMessage": "음성 메시지",
+        "videoMessage": "동영상 메시지",
+        "locationShared": "위치 공유됨",
+        "systemMessage": "시스템 메시지",
+        "noContent": "내용 없음",
+        "noVideoUrl": "동영상 URL 없음",
+        "noAudioUrl": "오디오 URL 없음",
+        "messageDeleted": "이 메시지는 삭제되었습니다",
+        "replyInfo": "이 메시지는 다른 메시지에 대한 답장입니다",
+        "forwardedFrom": "전달된 곳",
+        "replyTo": "답장 대상",
+        "reactions": "반응",
+        "unknown": "알 수 없음",
+        "size": "크기",
+        "type": "유형"
+    },
+    "tags": {
+        "deleted": "삭제됨",
+        "active": "활성",
+        "hasMedia": "미디어 포함",
+        "forwarded": "전달됨",
+        "reply": "답장",
+        "encrypted": "암호화됨"
+    },
+    "confirmations": {
+        "deleteMessage": "이 메시지를 삭제하시겠습니까?",
+        "restoreMessage": "이 메시지를 복원하시겠습니까?"
+    },
+    "notifications": {
+        "deleted": "메시지 삭제됨",
+        "restored": "메시지 복원됨",
+        "updateFailed": "메시지 업데이트 실패"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Login Admin",
+  "subtitle": "Masuk ke akun Super Up Admin Anda",
+  "email": "Alamat Email",
+  "emailRequired": "Silakan masukkan email Anda",
+  "emailInvalid": "Silakan masukkan email yang valid",
+  "emailPlaceholder": "admin@example.com",
+  "password": "Password",
+  "passwordRequired": "Silakan masukkan password Anda",
+  "passwordPlaceholder": "Masukkan password Anda",
+  "rememberMe": "Ingat saya",
+  "signIn": "Masuk",
+  "signingIn": "Sedang masuk...",
+  "demoMode": "Mode Demo",
+  "demoModeDescription": "Anda sedang melihat demo. Beberapa fitur dinonaktifkan."
+}

@@ -1,0 +1,80 @@
+{
+  "types": {
+    "group": "গ্রুপ",
+    "broadcast": "ব্রডকাস্ট",
+    "single": "চ্যাট"
+  },
+  "labels": {
+    "roomDetails": "রুম বিবরণ",
+    "groupDetails": "গ্রুপ বিবরণ",
+    "broadcastDetails": "ব্রডকাস্ট বিবরণ",
+    "chatDetails": "চ্যাট বিবরণ",
+    "directChat": "সরাসরি চ্যাট",
+    "untitled": "শিরোনামহীন",
+    "description": "বিবরণ",
+    "roomId": "রুম আইডি",
+    "broadcastId": "ব্রডকাস্ট আইডি",
+    "chatId": "চ্যাট আইডি",
+    "type": "ধরন",
+    "createdBy": "তৈরিকারী",
+    "membersCount": "সদস্য সংখ্যা",
+    "recipientsCount": "প্রাপক সংখ্যা",
+    "createdAt": "তৈরির সময়",
+    "updatedAt": "আপডেটের সময়",
+    "roomInformation": "রুম তথ্য",
+    "broadcastInformation": "ব্রডকাস্ট তথ্য",
+    "chatInformation": "চ্যাট তথ্য",
+    "thisRoomDeletedOn": "এই রুম {{date}} তারিখে মুছে ফেলা হয়েছে",
+    "owner": "মালিক",
+    "member": "সদস্য",
+    "recipient": "প্রাপক",
+    "userDataNotAvailable": "ব্যবহারকারীর তথ্য পাওয়া যাচ্ছে না",
+    "unknownUser": "অজানা ব্যবহারকারী",
+    "private": "প্রাইভেট"
+  },
+  "table": {
+    "members": "সদস্য",
+    "recipients": "প্রাপক",
+    "messages": "বার্তা",
+    "lastActive": "শেষ সক্রিয়",
+    "participant1": "অংশগ্রহণকারী ১",
+    "participant2": "অংশগ্রহণকারী ২",
+    "user": "ব্যবহারকারী",
+    "role": "ভূমিকা",
+    "joined": "যোগদান",
+    "lastSeen": "শেষ দেখা",
+    "actions": "কার্যক্রম",
+    "status": "স্ট্যাটাস",
+    "lastMessage": "শেষ বার্তা"
+  },
+  "status": {
+    "deleted": "মুছে ফেলা",
+    "active": "সক্রিয়"
+  },
+  "actions": {
+    "removeMembers": "সদস্য সরান",
+    "viewUser": "ব্যবহারকারী দেখুন",
+    "viewProfile": "প্রোফাইল দেখুন",
+    "restore": "পুনরুদ্ধার",
+    "delete": "মুছুন",
+    "cancel": "বাতিল"
+  },
+  "confirmations": {
+    "restoreRoom": "রুম পুনরুদ্ধার",
+    "deleteRoom": "রুম মুছুন",
+    "restoreRoomConfirm": "আপনি কি এই রুম পুনরুদ্ধার করতে চান?",
+    "softDeleteRoom": "এই রুম সফট মুছে ফেলা হবে এবং পরে পুনরুদ্ধার করা যাবে।",
+    "removeFromGroup": "গ্রুপ থেকে {{count}} সদস্য সরাবেন?",
+    "removeFromGroupDesc": "আপনি কি গ্রুপ থেকে {{count}} নির্বাচিত সদস্য সরাতে চান?"
+  },
+  "placeholders": {
+    "searchMembers": "সদস্য খুঁজুন...",
+    "searchRecipients": "প্রাপক খুঁজুন..."
+  },
+  "messages": {
+    "roomRestored": "রুম পুনরুদ্ধার হয়েছে",
+    "roomDeleted": "রুম মুছে ফেলা হয়েছে",
+    "membersRemoved": "গ্রুপ থেকে {{count}} সদস্য সরানো হয়েছে",
+    "operationFailed": "অপারেশন ব্যর্থ"
+  }
+}

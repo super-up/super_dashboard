@@ -1,0 +1,18 @@
+{
+    "dashboard": "Панель управления",
+    "users": "Пользователи",
+    "messages": "Сообщения",
+    "rooms": "Комнаты",
+    "reports": "Жалобы",
+    "calls": "Звонки",
+    "stories": "Истории",
+    "auditLogs": "Журналы аудита",
+    "realtimeLogs": "Логи в реальном времени",
+    "notifications": "Уведомления",
+    "devices": "Устройства",
+    "countries": "Страны",
+    "stickers": "Стикеры",
+    "appConfig": "Конфигурация приложения",
+    "dataExport": "Экспорт данных",
+    "appVersions": "Версии приложения"
+}

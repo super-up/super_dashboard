@@ -1,0 +1,12 @@
+{
+    "title": "監査ログ",
+    "columns": {
+        "id": "ID",
+        "action": "アクション",
+        "targetType": "対象タイプ",
+        "targetId": "対象ID",
+        "admin": "管理者",
+        "ipAddress": "IPアドレス",
+        "timestamp": "タイムスタンプ"
+    }
+}

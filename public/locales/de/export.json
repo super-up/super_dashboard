@@ -1,0 +1,49 @@
+{
+    "title": "Datenexport",
+    "subtitle": "Anwendungsdaten im JSON- oder CSV-Format exportieren",
+    "fields": {
+        "dateRange": "Datumsbereich (optional)",
+        "format": "Format",
+        "limit": "Limit",
+        "maxLimit": "Max: {{max}}"
+    },
+    "actions": {
+        "export": "{{label}} exportieren"
+    },
+    "types": {
+        "users": {
+            "label": "Benutzer",
+            "description": "Benutzerprofile und Kontodaten exportieren"
+        },
+        "messages": {
+            "label": "Nachrichten",
+            "description": "Chat-Nachrichten und Inhalte exportieren"
+        },
+        "reports": {
+            "label": "Meldungen",
+            "description": "Benutzermeldungen und Beschwerden exportieren"
+        },
+        "audit-logs": {
+            "label": "Audit-Protokolle",
+            "description": "Admin-Aktivitätsprotokolle exportieren"
+        },
+        "stories": {
+            "label": "Stories",
+            "description": "Benutzer-Stories-Metadaten exportieren"
+        },
+        "calls": {
+            "label": "Anrufe",
+            "description": "Anrufverlauf und Metadaten exportieren"
+        },
+        "analytics": {
+            "label": "Analysen",
+            "description": "Aggregierten Analysebericht exportieren"
+        }
+    },
+    "messages": {
+        "exportSuccess": "Export erfolgreich",
+        "exportSuccessDesc": "{{label}}-Daten wurden als {{format}} exportiert.",
+        "exportFailed": "Export fehlgeschlagen",
+        "exportFailedDesc": "{{label}}-Daten konnten nicht exportiert werden. Bitte versuchen Sie es erneut."
+    }
+}

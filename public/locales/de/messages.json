@@ -1,0 +1,100 @@
+{
+    "title": "Nachrichten",
+    "list": "Nachrichtenliste",
+    "details": "Nachrichtendetails",
+    "fields": {
+        "id": "Nachrichten-ID",
+        "content": "Inhalt",
+        "type": "Typ",
+        "sender": "Absender",
+        "room": "Raum",
+        "roomId": "Raum-ID",
+        "status": "Status",
+        "platform": "Plattform",
+        "createdAt": "Gesendet am",
+        "created": "Erstellt",
+        "updated": "Aktualisiert",
+        "seenAt": "Gesehen am",
+        "deletedAt": "Gelöscht am",
+        "attachments": "Anhänge",
+        "encryption": "Verschlüsselung",
+        "fileName": "Dateiname",
+        "mimeType": "MIME-Typ",
+        "fileSize": "Dateigröße",
+        "dimensions": "Abmessungen",
+        "duration": "Dauer",
+        "url": "URL"
+    },
+    "types": {
+        "text": "Text",
+        "image": "Bild",
+        "video": "Video",
+        "audio": "Audio",
+        "voice": "Sprache",
+        "file": "Datei",
+        "location": "Standort",
+        "contact": "Kontakt",
+        "sticker": "Sticker",
+        "gif": "GIF",
+        "call": "Anruf",
+        "reaction": "Reaktion",
+        "info": "Info"
+    },
+    "filters": {
+        "all": "Alle Nachrichten",
+        "text": "Nur Text",
+        "media": "Nur Medien",
+        "today": "Heute",
+        "thisWeek": "Diese Woche"
+    },
+    "actions": {
+        "delete": "Löschen",
+        "restore": "Wiederherstellen",
+        "viewRoom": "Raum anzeigen",
+        "viewSender": "Absender anzeigen",
+        "viewProfile": "Profil anzeigen",
+        "viewOriginal": "Original anzeigen",
+        "download": "Herunterladen",
+        "downloadAudio": "Audio herunterladen",
+        "downloadFile": "Datei herunterladen",
+        "playVideo": "Video abspielen",
+        "hidePlayer": "Player ausblenden"
+    },
+    "show": {
+        "messageContent": "Nachrichteninhalt",
+        "messageDetails": "Nachrichtendetails",
+        "attachmentDetails": "Anhangsdetails",
+        "voiceMessage": "Sprachnachricht",
+        "videoMessage": "Videonachricht",
+        "locationShared": "Standort geteilt",
+        "systemMessage": "Systemnachricht",
+        "noContent": "Kein Inhalt",
+        "noVideoUrl": "Keine Video-URL verfügbar",
+        "noAudioUrl": "Keine Audio-URL verfügbar",
+        "messageDeleted": "Diese Nachricht wurde gelöscht",
+        "replyInfo": "Diese Nachricht ist eine Antwort auf eine andere Nachricht",
+        "forwardedFrom": "Weitergeleitet von",
+        "replyTo": "Antwort an",
+        "reactions": "Reaktionen",
+        "unknown": "Unbekannt",
+        "size": "Größe",
+        "type": "Typ"
+    },
+    "tags": {
+        "deleted": "Gelöscht",
+        "active": "Aktiv",
+        "hasMedia": "Hat Medien",
+        "forwarded": "Weitergeleitet",
+        "reply": "Antwort",
+        "encrypted": "Verschlüsselt"
+    },
+    "confirmations": {
+        "deleteMessage": "Diese Nachricht löschen?",
+        "restoreMessage": "Diese Nachricht wiederherstellen?"
+    },
+    "notifications": {
+        "deleted": "Nachricht gelöscht",
+        "restored": "Nachricht wiederhergestellt",
+        "updateFailed": "Nachricht konnte nicht aktualisiert werden"
+    }
+}

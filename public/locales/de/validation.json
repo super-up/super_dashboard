@@ -1,0 +1,21 @@
+{
+    "required": "Dieses Feld ist erforderlich",
+    "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "phone": "Bitte geben Sie eine gültige Telefonnummer ein",
+    "minLength": "Muss mindestens {{min}} Zeichen lang sein",
+    "maxLength": "Darf maximal {{max}} Zeichen lang sein",
+    "min": "Muss mindestens {{min}} sein",
+    "max": "Darf maximal {{max}} sein",
+    "pattern": "Ungültiges Format",
+    "url": "Bitte geben Sie eine gültige URL ein",
+    "number": "Bitte geben Sie eine gültige Zahl ein",
+    "positive": "Muss eine positive Zahl sein",
+    "integer": "Muss eine ganze Zahl sein",
+    "unique": "Dieser Wert existiert bereits",
+    "match": "Werte stimmen nicht überein",
+    "date": "Bitte geben Sie ein gültiges Datum ein",
+    "futureDate": "Datum muss in der Zukunft liegen",
+    "pastDate": "Datum muss in der Vergangenheit liegen",
+    "fileSize": "Dateigröße muss kleiner als {{size}} sein",
+    "fileType": "Ungültiger Dateityp"
+}

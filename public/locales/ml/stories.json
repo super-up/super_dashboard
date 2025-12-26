@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "ചിത്രം",
+    "video": "വീഡിയോ",
+    "voice": "വോയ്‌സ്",
+    "file": "ഫയൽ",
+    "text": "ടെക്സ്റ്റ്"
+  },
+  "labels": {
+    "storyDetails": "സ്റ്റോറി വിശദാംശങ്ങൾ",
+    "storyInformation": "സ്റ്റോറി വിവരങ്ങൾ",
+    "storyId": "സ്റ്റോറി ഐഡി",
+    "type": "തരം",
+    "postedBy": "പോസ്റ്റ് ചെയ്തത്",
+    "createdAt": "സൃഷ്ടിച്ചത്",
+    "expiresAt": "കാലഹരണപ്പെടുന്ന സമയം",
+    "expiryProgress": "കാലഹരണ പുരോഗതി",
+    "unknownUser": "അജ്ഞാത ഉപയോക്താവ്",
+    "noViewsYet": "ഇതുവരെ കാഴ്ചകളൊന്നുമില്ല",
+    "thisStoryDeletedOn": "ഈ സ്റ്റോറി {{date}} ന് ഇല്ലാതാക്കി",
+    "thisStoryExpiredOn": "ഈ സ്റ്റോറി {{date}} ന് കാലഹരണപ്പെട്ടു"
+  },
+  "table": {
+    "views": "കാഴ്ചകൾ",
+    "viewer": "കാണുന്നയാൾ",
+    "viewedAt": "കണ്ട സമയം",
+    "actions": "പ്രവർത്തനങ്ങൾ",
+    "status": "സ്ഥിതി"
+  },
+  "status": {
+    "deleted": "ഇല്ലാതാക്കി",
+    "expired": "കാലഹരണപ്പെട്ടു",
+    "active": "സജീവം"
+  },
+  "actions": {
+    "deleteStory": "സ്റ്റോറി ഇല്ലാതാക്കുക",
+    "delete": "ഇല്ലാതാക്കുക",
+    "cancel": "റദ്ദാക്കുക",
+    "viewUser": "ഉപയോക്താവിനെ കാണുക"
+  },
+  "confirmations": {
+    "deleteStory": "ഈ സ്റ്റോറി ഇല്ലാതാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "സ്റ്റോറി വിജയകരമായി ഇല്ലാതാക്കി",
+    "operationFailed": "പ്രവർത്തനം പരാജയപ്പെട്ടു"
+  }
+}

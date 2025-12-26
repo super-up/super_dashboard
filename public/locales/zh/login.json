@@ -1,0 +1,16 @@
+{
+  "title": "管理员登录",
+  "subtitle": "登录您的 Super Up 管理账户",
+  "email": "邮箱地址",
+  "emailRequired": "请输入您的邮箱",
+  "emailInvalid": "请输入有效的邮箱",
+  "emailPlaceholder": "admin@example.com",
+  "password": "密码",
+  "passwordRequired": "请输入您的密码",
+  "passwordPlaceholder": "输入您的密码",
+  "rememberMe": "记住我",
+  "signIn": "登录",
+  "signingIn": "登录中...",
+  "demoMode": "演示模式",
+  "demoModeDescription": "您正在查看演示。部分功能已禁用。"
+}

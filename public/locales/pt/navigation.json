@@ -1,0 +1,18 @@
+{
+    "dashboard": "Painel",
+    "users": "Usuários",
+    "messages": "Mensagens",
+    "rooms": "Salas",
+    "reports": "Denúncias",
+    "calls": "Chamadas",
+    "stories": "Stories",
+    "auditLogs": "Logs de Auditoria",
+    "realtimeLogs": "Logs em Tempo Real",
+    "notifications": "Notificações",
+    "devices": "Dispositivos",
+    "countries": "Países",
+    "stickers": "Figurinhas",
+    "appConfig": "Configuração do App",
+    "dataExport": "Exportação de Dados",
+    "appVersions": "Versões do App"
+}

@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Версии приложения",
+    "addVersionButton": "Добавить версию"
+  },
+  "table": {
+    "version": "Версия",
+    "platform": "Платформа",
+    "critical": "Критическая",
+    "notify": "Уведомить",
+    "notes": "Заметки",
+    "created": "Создано",
+    "actions": "Действия"
+  },
+  "tabs": {
+    "all": "Все",
+    "macos": "macOS",
+    "other": "Другое"
+  },
+  "tooltips": {
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "refresh": "Обновить"
+  },
+  "modal": {
+    "addTitle": "Добавить версию",
+    "editTitle": "Редактировать версию"
+  },
+  "form": {
+    "platform": "Платформа",
+    "version": "Версия",
+    "critical": "Критическая (принудительное обновление)",
+    "notify": "Уведомить пользователей",
+    "notes": "Заметки о релизе",
+    "notesPlaceholder": "Что нового в этой версии..."
+  },
+  "validation": {
+    "platformRequired": "Платформа обязательна",
+    "selectPlatform": "Выберите платформу",
+    "versionRequired": "Версия обязательна",
+    "versionFormat": "Используйте формат: x.x.x (например, 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "Отмена",
+    "create": "Создать",
+    "update": "Обновить"
+  },
+  "confirmations": {
+    "deleteTitle": "Удалить эту версию?",
+    "deleteDesc": "Это действие не может быть отменено.",
+    "deleteButton": "Удалить"
+  },
+  "messages": {
+    "fetchVersionsFailed": "Не удалось получить версии: {{error}}",
+    "deleteSuccess": "Версия успешно удалена",
+    "deleteFailed": "Не удалось удалить версию",
+    "updateSuccess": "Версия успешно обновлена",
+    "createSuccess": "Версия успешно создана",
+    "saveFailed": "Не удалось сохранить версию"
+  }
+}

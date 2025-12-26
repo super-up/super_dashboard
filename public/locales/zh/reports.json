@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "用户举报",
+    "chat": "聊天举报"
+  },
+  "reasons": {
+    "spam": "垃圾信息",
+    "harassment": "骚扰",
+    "inappropriatecontent": "不当内容",
+    "hatespeech": "仇恨言论",
+    "violence": "暴力"
+  },
+  "status": {
+    "pending": "待处理",
+    "approved": "已批准",
+    "rejected": "已拒绝"
+  },
+  "labels": {
+    "reportId": "举报ID",
+    "reportProgress": "举报进度",
+    "submitted": "已提交",
+    "reporter": "举报者",
+    "reportedUser": "被举报用户",
+    "reportedContent": "被举报内容",
+    "reportReason": "举报原因",
+    "reportDetails": "举报详情",
+    "takeAction": "采取行动",
+    "actionsAreIrreversible": "操作不可逆",
+    "takeActionDescription": "以下操作将永久影响被举报用户。请仔细审查后再继续。",
+    "selectBanDuration": "选择封禁时长",
+    "daysFromNow": "从今天起天数",
+    "orSelectSpecificDate": "或选择具体日期",
+    "userWillBeBanned": "用户将被封禁 {{duration}}",
+    "warningDeleteAccount": "警告：账户将被永久删除",
+    "softDeletedAccount": "此账户将被软删除，无法恢复。",
+    "reportedUserDataNotAvailable": "被举报用户数据不可用",
+    "chatDataNotAvailable": "聊天数据不可用",
+    "noReportedContent": "无被举报内容",
+    "noAdditionalDetails": "无其他详情",
+    "unknownUser": "未知用户",
+    "type": "类型",
+    "createdAt": "创建时间",
+    "updatedAt": "更新时间",
+    "resolvedAt": "解决时间"
+  },
+  "confirmations": {
+    "approveReport": "批准举报",
+    "approveReportDesc": "确定要批准此举报吗？",
+    "rejectReport": "拒绝举报",
+    "rejectReportDesc": "确定要拒绝此举报吗？",
+    "deleteUserAccount": "删除用户账户",
+    "deleteUserAccountDesc": "此操作将永久删除用户账户。无法撤销。",
+    "deleteReportedContent": "删除被举报内容",
+    "deleteReportedContentDesc": "确定要删除被举报内容吗？"
+  },
+  "actions": {
+    "approve": "批准",
+    "reject": "拒绝",
+    "banUser": "封禁用户",
+    "deleteAccount": "删除账户",
+    "deleteContent": "删除内容",
+    "delete": "删除",
+    "ban": "封禁",
+    "viewUserProfile": "查看用户资料",
+    "viewChatDetails": "查看聊天详情",
+    "viewProfile": "查看资料"
+  },
+  "table": {
+    "reason": "原因",
+    "status": "状态"
+  },
+  "messages": {
+    "reportStatusUpdated": "举报 {{newStatus}}",
+    "updateFailed": "举报更新失败",
+    "noReportedUser": "没有被举报用户可执行操作",
+    "userBannedFor": "用户已被封禁 {{duration}}",
+    "userAccountDeleted": "用户账户已删除",
+    "actionFailed": "操作执行失败",
+    "contentDeleted": "内容已删除",
+    "deleteContentFailed": "内容删除失败"
+  }
+}

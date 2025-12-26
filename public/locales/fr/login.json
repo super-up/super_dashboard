@@ -1,0 +1,16 @@
+{
+  "title": "Connexion administrateur",
+  "subtitle": "Connectez-vous à votre compte Super Up Admin",
+  "email": "Adresse email",
+  "emailRequired": "Veuillez entrer votre email",
+  "emailInvalid": "Veuillez entrer un email valide",
+  "emailPlaceholder": "admin@exemple.com",
+  "password": "Mot de passe",
+  "passwordRequired": "Veuillez entrer votre mot de passe",
+  "passwordPlaceholder": "Entrez votre mot de passe",
+  "rememberMe": "Se souvenir de moi",
+  "signIn": "Se connecter",
+  "signingIn": "Connexion en cours...",
+  "demoMode": "Mode démo",
+  "demoModeDescription": "Vous visualisez une démo. Certaines fonctionnalités sont désactivées."
+}

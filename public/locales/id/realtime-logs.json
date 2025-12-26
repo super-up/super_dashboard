@@ -1,0 +1,55 @@
+{
+    "title": "Log Real-time",
+    "logsCount": "{{count}} log",
+    "logsCountFiltered": "{{filtered}} dari {{total}} log",
+    "actions": {
+        "resume": "Lanjutkan",
+        "pause": "Jeda",
+        "clear": "Hapus",
+        "reconnect": "Sambung Ulang"
+    },
+    "status": {
+        "connected": "Terhubung",
+        "connecting": "Menghubungkan...",
+        "disconnected": "Terputus",
+        "error": "Kesalahan"
+    },
+    "empty": {
+        "paused": "Streaming log dijeda",
+        "waiting": "Menunggu log...",
+        "noMatch": "Tidak ada log yang cocok dengan filter saat ini",
+        "notConnected": "Hubungkan untuk mulai menerima log"
+    },
+    "severity": {
+        "all": "Semua",
+        "info": "Info",
+        "warning": "Peringatan",
+        "error": "Kesalahan",
+        "critical": "Kritis"
+    },
+    "categories": {
+        "all": "Semua",
+        "auth": "Autentikasi",
+        "presence": "Kehadiran",
+        "message": "Pesan",
+        "group": "Grup",
+        "broadcast": "Siaran",
+        "channel": "Saluran",
+        "story": "Story",
+        "call": "Panggilan",
+        "profile": "Profil"
+    },
+    "actorTypes": {
+        "user": "Pengguna",
+        "admin": "Admin",
+        "system": "Sistem"
+    },
+    "labels": {
+        "unknown": "Tidak Diketahui"
+    },
+    "time": {
+        "secondsAgo": "{{count}}d yang lalu",
+        "minutesAgo": "{{count}}m yang lalu",
+        "hoursAgo": "{{count}}j yang lalu"
+    }
+}

@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Versões do App",
+    "addVersionButton": "Adicionar Versão"
+  },
+  "table": {
+    "version": "Versão",
+    "platform": "Plataforma",
+    "critical": "Crítico",
+    "notify": "Notificar",
+    "notes": "Notas",
+    "created": "Criado",
+    "actions": "Ações"
+  },
+  "tabs": {
+    "all": "Todos",
+    "macos": "macOS",
+    "other": "Outro"
+  },
+  "tooltips": {
+    "edit": "Editar",
+    "delete": "Excluir",
+    "refresh": "Atualizar"
+  },
+  "modal": {
+    "addTitle": "Adicionar Versão",
+    "editTitle": "Editar Versão"
+  },
+  "form": {
+    "platform": "Plataforma",
+    "version": "Versão",
+    "critical": "Crítico (Forçar Atualização)",
+    "notify": "Notificar Usuários",
+    "notes": "Notas de Lançamento",
+    "notesPlaceholder": "O que há de novo nesta versão..."
+  },
+  "validation": {
+    "platformRequired": "Plataforma é obrigatória",
+    "selectPlatform": "Selecionar plataforma",
+    "versionRequired": "Versão é obrigatória",
+    "versionFormat": "Use o formato: x.x.x (ex: 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "create": "Criar",
+    "update": "Atualizar"
+  },
+  "confirmations": {
+    "deleteTitle": "Excluir esta versão?",
+    "deleteDesc": "Esta ação não pode ser desfeita.",
+    "deleteButton": "Excluir"
+  },
+  "messages": {
+    "fetchVersionsFailed": "Falha ao buscar versões: {{error}}",
+    "deleteSuccess": "Versão excluída com sucesso",
+    "deleteFailed": "Falha ao excluir versão",
+    "updateSuccess": "Versão atualizada com sucesso",
+    "createSuccess": "Versão criada com sucesso",
+    "saveFailed": "Falha ao salvar versão"
+  }
+}

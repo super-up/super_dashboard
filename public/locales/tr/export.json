@@ -1,0 +1,49 @@
+{
+    "title": "Veri Dışa Aktarma",
+    "subtitle": "Uygulama verilerini JSON veya CSV formatında dışa aktarın",
+    "fields": {
+        "dateRange": "Tarih Aralığı (opsiyonel)",
+        "format": "Format",
+        "limit": "Limit",
+        "maxLimit": "Maks: {{max}}"
+    },
+    "actions": {
+        "export": "{{label}} Dışa Aktar"
+    },
+    "types": {
+        "users": {
+            "label": "Kullanıcılar",
+            "description": "Kullanıcı profillerini ve hesap verilerini dışa aktarın"
+        },
+        "messages": {
+            "label": "Mesajlar",
+            "description": "Sohbet mesajlarını ve içeriği dışa aktarın"
+        },
+        "reports": {
+            "label": "Şikayetler",
+            "description": "Kullanıcı şikayetlerini ve bildirimleri dışa aktarın"
+        },
+        "audit-logs": {
+            "label": "Denetim Günlükleri",
+            "description": "Yönetici aktivite günlüklerini dışa aktarın"
+        },
+        "stories": {
+            "label": "Hikayeler",
+            "description": "Kullanıcı hikaye meta verilerini dışa aktarın"
+        },
+        "calls": {
+            "label": "Aramalar",
+            "description": "Arama geçmişini ve meta verilerini dışa aktarın"
+        },
+        "analytics": {
+            "label": "Analizler",
+            "description": "Toplu analiz raporunu dışa aktarın"
+        }
+    },
+    "messages": {
+        "exportSuccess": "Dışa Aktarma Başarılı",
+        "exportSuccessDesc": "{{label}} verisi {{format}} olarak dışa aktarıldı.",
+        "exportFailed": "Dışa Aktarma Başarısız",
+        "exportFailedDesc": "{{label}} verisi dışa aktarılamadı. Lütfen tekrar deneyin."
+    }
+}

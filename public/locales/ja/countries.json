@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "国旗",
+    "name": "名前",
+    "code": "コード",
+    "image": "画像",
+    "updated": "更新日",
+    "actions": "アクション"
+  },
+  "tooltips": {
+    "edit": "国を編集",
+    "refresh": "更新"
+  },
+  "form": {
+    "searchPlaceholder": "名前またはコードで検索..."
+  },
+  "modal": {
+    "title": "国を更新"
+  },
+  "buttons": {
+    "saveChanges": "変更を保存"
+  },
+  "validation": {
+    "nameRequired": "名前は必須です",
+    "codeRequired": "コードは必須です",
+    "codeFormat": "コードは2〜3文字である必要があります",
+    "emojiRequired": "絵文字は必須です"
+  },
+  "messages": {
+    "updateSuccess": "国が正常に更新されました",
+    "updateFailed": "国の更新に失敗しました",
+    "fetchFailed": "国の取得に失敗しました（{{status}}）"
+  }
+}

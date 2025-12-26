@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "ऐप संस्करण",
+    "addVersionButton": "संस्करण जोड़ें"
+  },
+  "table": {
+    "version": "संस्करण",
+    "platform": "प्लेटफॉर्म",
+    "critical": "गंभीर",
+    "notify": "सूचित करें",
+    "notes": "नोट्स",
+    "created": "निर्मित",
+    "actions": "कार्रवाइयां"
+  },
+  "tabs": {
+    "all": "सभी",
+    "macos": "macOS",
+    "other": "अन्य"
+  },
+  "tooltips": {
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "refresh": "रिफ्रेश करें"
+  },
+  "modal": {
+    "addTitle": "संस्करण जोड़ें",
+    "editTitle": "संस्करण संपादित करें"
+  },
+  "form": {
+    "platform": "प्लेटफॉर्म",
+    "version": "संस्करण",
+    "critical": "गंभीर (जबरन अपडेट)",
+    "notify": "उपयोगकर्ताओं को सूचित करें",
+    "notes": "रिलीज नोट्स",
+    "notesPlaceholder": "इस संस्करण में नया क्या है..."
+  },
+  "validation": {
+    "platformRequired": "प्लेटफॉर्म आवश्यक है",
+    "selectPlatform": "प्लेटफॉर्म चुनें",
+    "versionRequired": "संस्करण आवश्यक है",
+    "versionFormat": "प्रारूप का उपयोग करें: x.x.x (जैसे, 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "रद्द करें",
+    "create": "बनाएं",
+    "update": "अपडेट करें"
+  },
+  "confirmations": {
+    "deleteTitle": "यह संस्करण हटाएं?",
+    "deleteDesc": "यह कार्रवाई पूर्ववत नहीं की जा सकती।",
+    "deleteButton": "हटाएं"
+  },
+  "messages": {
+    "fetchVersionsFailed": "संस्करण प्राप्त करने में विफल: {{error}}",
+    "deleteSuccess": "संस्करण सफलतापूर्वक हटाया गया",
+    "deleteFailed": "संस्करण हटाने में विफल",
+    "updateSuccess": "संस्करण सफलतापूर्वक अपडेट किया गया",
+    "createSuccess": "संस्करण सफलतापूर्वक बनाया गया",
+    "saveFailed": "संस्करण सहेजने में विफल"
+  }
+}

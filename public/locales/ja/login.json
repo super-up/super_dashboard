@@ -1,0 +1,16 @@
+{
+  "title": "管理者ログイン",
+  "subtitle": "Super Up 管理アカウントにサインイン",
+  "email": "メールアドレス",
+  "emailRequired": "メールアドレスを入力してください",
+  "emailInvalid": "有効なメールアドレスを入力してください",
+  "emailPlaceholder": "admin@example.com",
+  "password": "パスワード",
+  "passwordRequired": "パスワードを入力してください",
+  "passwordPlaceholder": "パスワードを入力",
+  "rememberMe": "ログイン状態を保持",
+  "signIn": "サインイン",
+  "signingIn": "サインイン中...",
+  "demoMode": "デモモード",
+  "demoModeDescription": "デモを表示しています。一部の機能は無効になっています。"
+}

@@ -1,0 +1,48 @@
+{
+  "types": {
+    "image": "Изображение",
+    "video": "Видео",
+    "voice": "Голосовое",
+    "file": "Файл",
+    "text": "Текст"
+  },
+  "labels": {
+    "storyDetails": "Детали истории",
+    "storyInformation": "Информация об истории",
+    "storyId": "ID истории",
+    "type": "Тип",
+    "postedBy": "Опубликовано",
+    "createdAt": "Создано в",
+    "expiresAt": "Истекает в",
+    "expiryProgress": "Прогресс истечения",
+    "unknownUser": "Неизвестный пользователь",
+    "noViewsYet": "Пока нет просмотров",
+    "thisStoryDeletedOn": "Эта история была удалена {{date}}",
+    "thisStoryExpiredOn": "Эта история истекла {{date}}"
+  },
+  "table": {
+    "views": "Просмотры",
+    "viewer": "Просмотревший",
+    "viewedAt": "Просмотрено в",
+    "actions": "Действия",
+    "status": "Статус"
+  },
+  "status": {
+    "deleted": "Удалено",
+    "expired": "Истекло",
+    "active": "Активно"
+  },
+  "actions": {
+    "deleteStory": "Удалить историю",
+    "delete": "Удалить",
+    "cancel": "Отмена",
+    "viewUser": "Просмотр пользователя"
+  },
+  "confirmations": {
+    "deleteStory": "Вы уверены, что хотите удалить эту историю?"
+  },
+  "messages": {
+    "storyDeletedSuccessfully": "История успешно удалена",
+    "operationFailed": "Операция не удалась"
+  }
+}

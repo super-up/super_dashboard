@@ -1,0 +1,55 @@
+{
+    "title": "Registros en Tiempo Real",
+    "logsCount": "{{count}} registros",
+    "logsCountFiltered": "{{filtered}} de {{total}} registros",
+    "actions": {
+        "resume": "Reanudar",
+        "pause": "Pausar",
+        "clear": "Limpiar",
+        "reconnect": "Reconectar"
+    },
+    "status": {
+        "connected": "Conectado",
+        "connecting": "Conectando...",
+        "disconnected": "Desconectado",
+        "error": "Error"
+    },
+    "empty": {
+        "paused": "Transmisión de registros pausada",
+        "waiting": "Esperando registros...",
+        "noMatch": "Ningún registro coincide con los filtros actuales",
+        "notConnected": "Conecte para comenzar a recibir registros"
+    },
+    "severity": {
+        "all": "Todos",
+        "info": "Info",
+        "warning": "Advertencia",
+        "error": "Error",
+        "critical": "Crítico"
+    },
+    "categories": {
+        "all": "Todos",
+        "auth": "Autenticación",
+        "presence": "Presencia",
+        "message": "Mensaje",
+        "group": "Grupo",
+        "broadcast": "Difusión",
+        "channel": "Canal",
+        "story": "Historia",
+        "call": "Llamada",
+        "profile": "Perfil"
+    },
+    "actorTypes": {
+        "user": "Usuario",
+        "admin": "Administrador",
+        "system": "Sistema"
+    },
+    "labels": {
+        "unknown": "Desconocido"
+    },
+    "time": {
+        "secondsAgo": "hace {{count}}s",
+        "minutesAgo": "hace {{count}}m",
+        "hoursAgo": "hace {{count}}h"
+    }
+}

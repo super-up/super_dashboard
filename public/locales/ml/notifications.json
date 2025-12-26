@@ -1,0 +1,44 @@
+{
+    "title": "അറിയിപ്പുകൾ",
+    "list": {
+        "sendToAll": "എല്ലാ ഉപയോക്താക്കൾക്കും അയയ്ക്കുക",
+        "columns": {
+            "title": "ശീർഷകം",
+            "content": "ഉള്ളടക്കം",
+            "image": "ചിത്രം",
+            "created": "സൃഷ്ടിച്ചത്",
+            "actions": "പ്രവർത്തനങ്ങൾ"
+        },
+        "hasImage": {
+            "yes": "അതെ",
+            "no": "ഇല്ല"
+        },
+        "modal": {
+            "title": "എല്ലാ ഉപയോക്താക്കൾക്കും അറിയിപ്പ് അയയ്ക്കുക",
+            "form": {
+                "title": "ശീർഷകം",
+                "titlePlaceholder": "അറിയിപ്പ് ശീർഷകം",
+                "content": "ഉള്ളടക്കം",
+                "contentPlaceholder": "അറിയിപ്പ് സന്ദേശം",
+                "imageUrl": "ചിത്ര URL (ഓപ്ഷണൽ)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "എല്ലാ ഉപയോക്താക്കൾക്കും അറിയിപ്പ് അയച്ചു"
+        }
+    },
+    "show": {
+        "adminNotification": "അഡ്മിൻ അറിയിപ്പ്",
+        "created": "സൃഷ്ടിച്ചത്",
+        "notificationImage": "അറിയിപ്പ് ചിത്രം",
+        "notificationContent": "അറിയിപ്പ് ഉള്ളടക്കം",
+        "notificationDetails": "അറിയിപ്പ് വിശദാംശങ്ങൾ",
+        "notificationId": "അറിയിപ്പ് ഐഡി",
+        "updated": "അപ്ഡേറ്റ് ചെയ്തത്",
+        "imageUrl": "ചിത്ര URL",
+        "deliveryInfo": "ഡെലിവറി വിവരം",
+        "sentAt": "അയച്ച സമയം",
+        "timeAgo": "മുമ്പ്"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "title": "Cuộc Gọi",
+    "stats": {
+        "totalFinishedCalls": "Tổng Cuộc Gọi Đã Kết Thúc",
+        "averageDuration": "Thời Lượng Trung Bình",
+        "longestCall": "Cuộc Gọi Dài Nhất",
+        "shortestCall": "Cuộc Gọi Ngắn Nhất"
+    },
+    "types": {
+        "video": "Video",
+        "voice": "Thoại"
+    },
+    "status": {
+        "ended": "Đã Kết Thúc",
+        "completed": "Hoàn Thành",
+        "missed": "Nhớ",
+        "rejected": "Từ Chối",
+        "cancelled": "Đã Hủy",
+        "ongoing": "Đang Diễn Ra",
+        "ringing": "Đang Đổ Chuông"
+    }
+}

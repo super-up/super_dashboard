@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "إصدارات التطبيق",
+    "addVersionButton": "إضافة إصدار"
+  },
+  "table": {
+    "version": "الإصدار",
+    "platform": "المنصة",
+    "critical": "حرج",
+    "notify": "إخطار",
+    "notes": "الملاحظات",
+    "created": "تم الإنشاء",
+    "actions": "الإجراءات"
+  },
+  "tabs": {
+    "all": "الكل",
+    "macos": "macOS",
+    "other": "أخرى"
+  },
+  "tooltips": {
+    "edit": "تعديل",
+    "delete": "حذف",
+    "refresh": "تحديث"
+  },
+  "modal": {
+    "addTitle": "إضافة إصدار",
+    "editTitle": "تعديل إصدار"
+  },
+  "form": {
+    "platform": "المنصة",
+    "version": "الإصدار",
+    "critical": "حرج (فرض التحديث)",
+    "notify": "إخطار المستخدمين",
+    "notes": "ملاحظات الإصدار",
+    "notesPlaceholder": "ما الجديد في هذا الإصدار..."
+  },
+  "validation": {
+    "platformRequired": "المنصة مطلوبة",
+    "selectPlatform": "اختر المنصة",
+    "versionRequired": "الإصدار مطلوب",
+    "versionFormat": "استخدم الصيغة: x.x.x (مثلاً 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "إلغاء",
+    "create": "إنشاء",
+    "update": "تحديث"
+  },
+  "confirmations": {
+    "deleteTitle": "حذف هذا الإصدار؟",
+    "deleteDesc": "لا يمكن التراجع عن هذا الإجراء.",
+    "deleteButton": "حذف"
+  },
+  "messages": {
+    "fetchVersionsFailed": "فشل جلب الإصدارات: {{error}}",
+    "deleteSuccess": "تم حذف الإصدار بنجاح",
+    "deleteFailed": "فشل حذف الإصدار",
+    "updateSuccess": "تم تحديث الإصدار بنجاح",
+    "createSuccess": "تم إنشاء الإصدار بنجاح",
+    "saveFailed": "فشل حفظ الإصدار"
+  }
+}

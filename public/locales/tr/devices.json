@@ -1,0 +1,70 @@
+{
+  "title": "Cihazlar",
+  "page": {
+    "title": "Cihazlar"
+  },
+  "columns": {
+    "user": "Kullanıcı",
+    "platform": "Platform",
+    "appVersion": "Uygulama Versiyonu",
+    "pushToken": "Bildirim Token",
+    "status": "Durum",
+    "lastActive": "Son Aktiflik",
+    "created": "Oluşturuldu"
+  },
+  "labels": {
+    "never": "Hiç",
+    "deviceOwner": "Cihaz Sahibi",
+    "deviceInformation": "Cihaz Bilgisi",
+    "deviceId": "Cihaz ID",
+    "deviceModel": "Cihaz Modeli",
+    "osVersion": "İşletim Sistemi Versiyonu",
+    "pushNotification": "Bildirim",
+    "pushStatus": "Bildirim Durumu",
+    "pushToken": "Bildirim Token",
+    "noPushToken": "Bu cihaz için kayıtlı bildirim token yok",
+    "activityDetails": "Aktivite Detayları",
+    "totalVisits": "Toplam Ziyaret"
+  },
+  "actions": {
+    "viewDetails": "Detayları Görüntüle",
+    "deleteDevice": "Cihazı Sil",
+    "revokeSession": "Oturumu İptal Et"
+  },
+  "confirmations": {
+    "deleteDevice": "Bu cihazı silmek istediğinizden emin misiniz?",
+    "revokeSession": "Oturumu İptal Et",
+    "revokeDescription": "Bu, kullanıcının bu cihazdan çıkış yapmasını ve sistemden kaldırılmasını sağlayacaktır."
+  },
+  "tabs": {
+    "all": "Tümü",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Masaüstü"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "Kullanıcı adı veya telefona göre ara..."
+  },
+  "table": {
+    "device": "Cihaz",
+    "user": "Kullanıcı",
+    "platform": "Platform",
+    "version": "Versiyon",
+    "status": "Durum",
+    "lastSeen": "Son Görülme",
+    "push": "Bildirim",
+    "actions": "İşlemler"
+  },
+  "tooltips": {
+    "edit": "Düzenle",
+    "delete": "Sil"
+  },
+  "messages": {
+    "fetchFailed": "Cihazlar getirilemedi ({{status}})",
+    "deviceDeleted": "Cihaz başarıyla silindi",
+    "failedToDelete": "Cihaz silinemedi",
+    "sessionRevoked": "Oturum başarıyla iptal edildi",
+    "failedToRevoke": "Oturum iptal edilemedi"
+  }
+}

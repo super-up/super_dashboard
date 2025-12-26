@@ -1,0 +1,12 @@
+{
+    "title": "Audit-Protokolle",
+    "columns": {
+        "id": "ID",
+        "action": "Aktion",
+        "targetType": "Zieltyp",
+        "targetId": "Ziel-ID",
+        "admin": "Administrator",
+        "ipAddress": "IP-Adresse",
+        "timestamp": "Zeitstempel"
+    }
+}

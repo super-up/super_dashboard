@@ -1,0 +1,22 @@
+{
+    "title": "কলসমূহ",
+    "stats": {
+        "totalFinishedCalls": "মোট সমাপ্ত কল",
+        "averageDuration": "গড় সময়কাল",
+        "longestCall": "দীর্ঘতম কল",
+        "shortestCall": "ক্ষুদ্রতম কল"
+    },
+    "types": {
+        "video": "ভিডিও",
+        "voice": "ভয়েস"
+    },
+    "status": {
+        "ended": "সমাপ্ত",
+        "completed": "সম্পন্ন",
+        "missed": "মিসড",
+        "rejected": "প্রত্যাখ্যাত",
+        "cancelled": "বাতিল",
+        "ongoing": "চলমান",
+        "ringing": "রিং হচ্ছে"
+    }
+}

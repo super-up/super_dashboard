@@ -1,0 +1,100 @@
+{
+    "title": "消息",
+    "list": "消息列表",
+    "details": "消息详情",
+    "fields": {
+        "id": "消息ID",
+        "content": "内容",
+        "type": "类型",
+        "sender": "发送者",
+        "room": "房间",
+        "roomId": "房间ID",
+        "status": "状态",
+        "platform": "平台",
+        "createdAt": "发送时间",
+        "created": "创建时间",
+        "updated": "更新时间",
+        "seenAt": "查看时间",
+        "deletedAt": "删除时间",
+        "attachments": "附件",
+        "encryption": "加密",
+        "fileName": "文件名",
+        "mimeType": "MIME类型",
+        "fileSize": "文件大小",
+        "dimensions": "尺寸",
+        "duration": "时长",
+        "url": "URL"
+    },
+    "types": {
+        "text": "文本",
+        "image": "图片",
+        "video": "视频",
+        "audio": "音频",
+        "voice": "语音",
+        "file": "文件",
+        "location": "位置",
+        "contact": "联系人",
+        "sticker": "贴纸",
+        "gif": "GIF",
+        "call": "通话",
+        "reaction": "反应",
+        "info": "信息"
+    },
+    "filters": {
+        "all": "所有消息",
+        "text": "仅文本",
+        "media": "仅媒体",
+        "today": "今天",
+        "thisWeek": "本周"
+    },
+    "actions": {
+        "delete": "删除",
+        "restore": "恢复",
+        "viewRoom": "查看房间",
+        "viewSender": "查看发送者",
+        "viewProfile": "查看资料",
+        "viewOriginal": "查看原文",
+        "download": "下载",
+        "downloadAudio": "下载音频",
+        "downloadFile": "下载文件",
+        "playVideo": "播放视频",
+        "hidePlayer": "隐藏播放器"
+    },
+    "show": {
+        "messageContent": "消息内容",
+        "messageDetails": "消息详情",
+        "attachmentDetails": "附件详情",
+        "voiceMessage": "语音消息",
+        "videoMessage": "视频消息",
+        "locationShared": "位置分享",
+        "systemMessage": "系统消息",
+        "noContent": "无内容",
+        "noVideoUrl": "无视频URL",
+        "noAudioUrl": "无音频URL",
+        "messageDeleted": "此消息已删除",
+        "replyInfo": "此消息是对另一条消息的回复",
+        "forwardedFrom": "转发自",
+        "replyTo": "回复",
+        "reactions": "反应",
+        "unknown": "未知",
+        "size": "大小",
+        "type": "类型"
+    },
+    "tags": {
+        "deleted": "已删除",
+        "active": "活跃",
+        "hasMedia": "包含媒体",
+        "forwarded": "已转发",
+        "reply": "回复",
+        "encrypted": "已加密"
+    },
+    "confirmations": {
+        "deleteMessage": "删除此消息？",
+        "restoreMessage": "恢复此消息？"
+    },
+    "notifications": {
+        "deleted": "消息已删除",
+        "restored": "消息已恢复",
+        "updateFailed": "消息更新失败"
+    }
+}

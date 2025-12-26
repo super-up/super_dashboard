@@ -1,0 +1,49 @@
+{
+    "title": "数据导出",
+    "subtitle": "以JSON或CSV格式导出应用数据",
+    "fields": {
+        "dateRange": "日期范围（可选）",
+        "format": "格式",
+        "limit": "限制",
+        "maxLimit": "最大：{{max}}"
+    },
+    "actions": {
+        "export": "导出 {{label}}"
+    },
+    "types": {
+        "users": {
+            "label": "用户",
+            "description": "导出用户资料和账户数据"
+        },
+        "messages": {
+            "label": "消息",
+            "description": "导出聊天消息和内容"
+        },
+        "reports": {
+            "label": "举报",
+            "description": "导出用户举报和投诉"
+        },
+        "audit-logs": {
+            "label": "审计日志",
+            "description": "导出管理员活动日志"
+        },
+        "stories": {
+            "label": "动态",
+            "description": "导出用户动态元数据"
+        },
+        "calls": {
+            "label": "通话",
+            "description": "导出通话历史和元数据"
+        },
+        "analytics": {
+            "label": "分析",
+            "description": "导出聚合分析报告"
+        }
+    },
+    "messages": {
+        "exportSuccess": "导出成功",
+        "exportSuccessDesc": "{{label}} 数据已导出为 {{format}}。",
+        "exportFailed": "导出失败",
+        "exportFailedDesc": "{{label}} 数据导出失败。请重试。"
+    }
+}

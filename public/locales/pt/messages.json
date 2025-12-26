@@ -1,0 +1,100 @@
+{
+    "title": "Mensagens",
+    "list": "Lista de Mensagens",
+    "details": "Detalhes da Mensagem",
+    "fields": {
+        "id": "ID da Mensagem",
+        "content": "Conteúdo",
+        "type": "Tipo",
+        "sender": "Remetente",
+        "room": "Sala",
+        "roomId": "ID da Sala",
+        "status": "Status",
+        "platform": "Plataforma",
+        "createdAt": "Enviado em",
+        "created": "Criado",
+        "updated": "Atualizado",
+        "seenAt": "Visto em",
+        "deletedAt": "Excluído em",
+        "attachments": "Anexos",
+        "encryption": "Criptografia",
+        "fileName": "Nome do Arquivo",
+        "mimeType": "Tipo MIME",
+        "fileSize": "Tamanho do Arquivo",
+        "dimensions": "Dimensões",
+        "duration": "Duração",
+        "url": "URL"
+    },
+    "types": {
+        "text": "Texto",
+        "image": "Imagem",
+        "video": "Vídeo",
+        "audio": "Áudio",
+        "voice": "Voz",
+        "file": "Arquivo",
+        "location": "Localização",
+        "contact": "Contato",
+        "sticker": "Figurinha",
+        "gif": "GIF",
+        "call": "Chamada",
+        "reaction": "Reação",
+        "info": "Info"
+    },
+    "filters": {
+        "all": "Todas as Mensagens",
+        "text": "Somente Texto",
+        "media": "Somente Mídia",
+        "today": "Hoje",
+        "thisWeek": "Esta Semana"
+    },
+    "actions": {
+        "delete": "Excluir",
+        "restore": "Restaurar",
+        "viewRoom": "Ver Sala",
+        "viewSender": "Ver Remetente",
+        "viewProfile": "Ver Perfil",
+        "viewOriginal": "Ver Original",
+        "download": "Baixar",
+        "downloadAudio": "Baixar Áudio",
+        "downloadFile": "Baixar Arquivo",
+        "playVideo": "Reproduzir Vídeo",
+        "hidePlayer": "Ocultar Player"
+    },
+    "show": {
+        "messageContent": "Conteúdo da Mensagem",
+        "messageDetails": "Detalhes da Mensagem",
+        "attachmentDetails": "Detalhes do Anexo",
+        "voiceMessage": "Mensagem de Voz",
+        "videoMessage": "Mensagem de Vídeo",
+        "locationShared": "Localização Compartilhada",
+        "systemMessage": "Mensagem do sistema",
+        "noContent": "Sem conteúdo",
+        "noVideoUrl": "Nenhuma URL de vídeo disponível",
+        "noAudioUrl": "Nenhuma URL de áudio disponível",
+        "messageDeleted": "Esta mensagem foi excluída",
+        "replyInfo": "Esta mensagem é uma resposta a outra mensagem",
+        "forwardedFrom": "Encaminhado de",
+        "replyTo": "Resposta para",
+        "reactions": "Reações",
+        "unknown": "Desconhecido",
+        "size": "Tamanho",
+        "type": "Tipo"
+    },
+    "tags": {
+        "deleted": "Excluído",
+        "active": "Ativo",
+        "hasMedia": "Tem Mídia",
+        "forwarded": "Encaminhado",
+        "reply": "Resposta",
+        "encrypted": "Criptografado"
+    },
+    "confirmations": {
+        "deleteMessage": "Excluir esta mensagem?",
+        "restoreMessage": "Restaurar esta mensagem?"
+    },
+    "notifications": {
+        "deleted": "Mensagem excluída",
+        "restored": "Mensagem restaurada",
+        "updateFailed": "Falha ao atualizar mensagem"
+    }
+}

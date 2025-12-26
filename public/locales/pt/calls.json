@@ -1,0 +1,22 @@
+{
+    "title": "Chamadas",
+    "stats": {
+        "totalFinishedCalls": "Total de Chamadas Finalizadas",
+        "averageDuration": "Duração Média",
+        "longestCall": "Chamada Mais Longa",
+        "shortestCall": "Chamada Mais Curta"
+    },
+    "types": {
+        "video": "Vídeo",
+        "voice": "Voz"
+    },
+    "status": {
+        "ended": "Encerrada",
+        "completed": "Concluída",
+        "missed": "Perdida",
+        "rejected": "Rejeitada",
+        "cancelled": "Cancelada",
+        "ongoing": "Em Andamento",
+        "ringing": "Tocando"
+    }
+}

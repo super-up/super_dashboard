@@ -1,0 +1,21 @@
+{
+    "required": "Kolom ini diperlukan",
+    "email": "Silakan masukkan alamat email yang valid",
+    "phone": "Silakan masukkan nomor telepon yang valid",
+    "minLength": "Harus minimal {{min}} karakter",
+    "maxLength": "Harus tidak lebih dari {{max}} karakter",
+    "min": "Harus minimal {{min}}",
+    "max": "Harus tidak lebih dari {{max}}",
+    "pattern": "Format tidak valid",
+    "url": "Silakan masukkan URL yang valid",
+    "number": "Silakan masukkan angka yang valid",
+    "positive": "Harus berupa angka positif",
+    "integer": "Harus berupa bilangan bulat",
+    "unique": "Nilai ini sudah ada",
+    "match": "Nilai tidak cocok",
+    "date": "Silakan masukkan tanggal yang valid",
+    "futureDate": "Tanggal harus di masa depan",
+    "pastDate": "Tanggal harus di masa lalu",
+    "fileSize": "Ukuran file harus kurang dari {{size}}",
+    "fileType": "Tipe file tidak valid"
+}

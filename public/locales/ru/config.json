@@ -1,0 +1,87 @@
+{
+    "title": "Конфигурация приложения",
+    "subtitle": "Управление настройками приложения и функциональными флагами",
+    "sections": {
+        "general": "Общие настройки",
+        "features": "Переключатели функций",
+        "limits": "Лимиты и ограничения",
+        "urls": "Внешние URL",
+        "icons": "Иконки по умолчанию"
+    },
+    "subsections": {
+        "platformLogin": "Вход на платформу",
+        "chatFeatures": "Функции чата",
+        "appStoreLinks": "Ссылки на магазины приложений",
+        "roomEmojis": "Эмодзи комнат",
+        "defaultImages": "Изображения по умолчанию (имена файлов)"
+    },
+    "fields": {
+        "appName": "Название приложения",
+        "feedbackEmail": "Email для обратной связи",
+        "userRegisterStatus": "Политика регистрации пользователей",
+        "userRegisterStatusTooltip": "Контролирует обработку новых регистраций пользователей",
+        "emailCodeExpiry": "Срок действия кода email (минуты)",
+        "emailCodeExpiryTooltip": "Как долго коды сброса пароля остаются действительными",
+        "enableAds": "Включить рекламу",
+        "mobileLogin": "Вход с мобильного",
+        "webLogin": "Вход с веб",
+        "desktopLogin": "Вход с десктопа",
+        "messaging": "Обмен сообщениями",
+        "sendMedia": "Отправка медиа",
+        "voiceVideoCalls": "Голосовые/видео звонки",
+        "createGroups": "Создание групп",
+        "createBroadcasts": "Создание рассылок",
+        "maxGroupMembers": "Макс. участников группы",
+        "maxGroupMembersTooltip": "Максимальное количество участников, разрешенных в группе",
+        "maxBroadcastRecipients": "Макс. получателей рассылки",
+        "maxBroadcastRecipientsTooltip": "Максимум получателей для сообщений рассылки",
+        "maxForwards": "Макс. пересылок",
+        "maxForwardsTooltip": "Максимальное количество раз, которое можно переслать сообщение",
+        "maxMediaSize": "Макс. размер медиа (МБ)",
+        "maxMediaSizeTooltip": "Максимальный размер файла для загрузки медиа",
+        "callTimeout": "Тайм-аут звонка (секунды)",
+        "callTimeoutTooltip": "Как долго звонить перед истечением времени звонка",
+        "privacyUrl": "URL политики конфиденциальности",
+        "webChatUrl": "URL веб-чата",
+        "appleStoreUrl": "URL Apple App Store",
+        "googlePlayUrl": "URL Google Play Store",
+        "macStoreUrl": "URL Mac App Store",
+        "windowsStoreUrl": "URL Windows Store",
+        "groupIcon": "Иконка группы",
+        "broadcastIcon": "Иконка рассылки",
+        "orderIcon": "Иконка заказа",
+        "defaultUserImage": "Изображение пользователя по умолчанию",
+        "defaultGroupImage": "Изображение группы по умолчанию",
+        "defaultBroadcastImage": "Изображение рассылки по умолчанию",
+        "defaultSupportImage": "Изображение поддержки по умолчанию"
+    },
+    "actions": {
+        "refresh": "Обновить",
+        "resetToDefaults": "Сброс к значениям по умолчанию",
+        "discardChanges": "Отменить изменения",
+        "saveConfiguration": "Сохранить конфигурацию"
+    },
+    "confirmations": {
+        "resetTitle": "Сброс конфигурации",
+        "resetDescription": "Вы уверены, что хотите сбросить все настройки к значениям по умолчанию? Это не может быть отменено.",
+        "reset": "Сброс"
+    },
+    "messages": {
+        "configUpdated": "Конфигурация обновлена",
+        "configUpdatedDesc": "Конфигурация приложения была успешно сохранена.",
+        "updateFailed": "Обновление не удалось",
+        "updateFailedDesc": "Не удалось сохранить конфигурацию. Попробуйте еще раз.",
+        "configReset": "Конфигурация сброшена",
+        "configResetDesc": "Конфигурация приложения была сброшена к значениям по умолчанию.",
+        "resetFailed": "Сброс не удался",
+        "resetFailedDesc": "Не удалось сбросить конфигурацию. Попробуйте еще раз.",
+        "backendVersion": "Версия бэкенда"
+    },
+    "validation": {
+        "appNameRequired": "Название приложения обязательно",
+        "emailRequired": "Email обязателен",
+        "invalidEmail": "Неверный формат email",
+        "invalidUrl": "Неверный формат URL"
+    },
+    "current": "Текущая"
+}

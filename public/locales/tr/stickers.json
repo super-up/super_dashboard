@@ -1,0 +1,100 @@
+{
+    "title": "Çıkartmalar",
+    "list": "Çıkartma Paketleri",
+    "details": "Çıkartma Paketi Detayları",
+    "fields": {
+        "id": "Paket ID",
+        "name": "İsim",
+        "author": "Yazar",
+        "type": "Tür",
+        "thumbnail": "Önizleme",
+        "version": "Versiyon",
+        "stickersCount": "Çıkartmalar",
+        "createdAt": "Oluşturuldu",
+        "updatedAt": "Güncellendi"
+    },
+    "types": {
+        "animated": "Hareketli",
+        "static": "Sabit"
+    },
+    "stats": {
+        "totalPacks": "Toplam Paket",
+        "animatedPacks": "Hareketli Paketler",
+        "staticPacks": "Sabit Paketler",
+        "totalStickers": "Toplam Çıkartma"
+    },
+    "filters": {
+        "searchPlaceholder": "İsim veya yazara göre ara...",
+        "search": "Ara",
+        "filters": "Filtreler",
+        "packType": "Paket Türü",
+        "createdFromTo": "Oluşturulma Tarihi",
+        "apply": "Uygula",
+        "clear": "Temizle"
+    },
+    "actions": {
+        "title": "İşlemler",
+        "refresh": "Yenile",
+        "createPack": "Paket Oluştur",
+        "editPack": "Paketi Düzenle",
+        "deletePack": "Paketi Sil",
+        "addSticker": "Çıkartma Ekle",
+        "removeSticker": "Çıkartmayı Kaldır",
+        "view": "Görüntüle",
+        "edit": "Düzenle",
+        "delete": "Sil",
+        "remove": "Kaldır"
+    },
+    "show": {
+        "packInformation": "Paket Bilgisi",
+        "packNotFound": "Paket bulunamadı",
+        "stickersTitle": "Çıkartmalar",
+        "noStickers": "Bu pakette çıkartma yok"
+    },
+    "modal": {
+        "createTitle": "Çıkartma Paketi Oluştur",
+        "editTitle": "Çıkartma Paketini Düzenle",
+        "addStickersTitle": "Çıkartma Ekle",
+        "cancel": "İptal",
+        "create": "Oluştur",
+        "update": "Güncelle",
+        "upload": "Çıkartmaları Yükle",
+        "packName": "Paket Adı",
+        "packNamePlaceholder": "Paket adını girin",
+        "thumbnailUrl": "Önizleme URL",
+        "thumbnailUrlPlaceholder": "Önizleme URL girin",
+        "authorLabel": "Yazar",
+        "authorPlaceholder": "Yazar adını girin",
+        "animatedPack": "Hareketli Paket",
+        "selectThumbnail": "Önizleme Seç",
+        "selectImages": "Görseller Seç (50'ye kadar)",
+        "uploadHint": "Yüklemek için görsellere tıklayın veya sürükleyin",
+        "emojis": "Emojiler (virgülle ayrılmış)",
+        "emojisPlaceholder": "Emojileri virgülle ayrılmış olarak girin"
+    },
+    "confirmations": {
+        "deletePack": "Bu paketi sil?",
+        "removeSticker": "Bu çıkartmayı kaldır?"
+    },
+    "notifications": {
+        "packCreated": "Paket başarıyla oluşturuldu",
+        "packUpdated": "Paket başarıyla güncellendi",
+        "packDeleted": "Paket başarıyla silindi",
+        "stickersAdded": "Çıkartmalar başarıyla eklendi",
+        "stickerRemoved": "Çıkartma başarıyla kaldırıldı",
+        "createFailed": "Paket oluşturulamadı",
+        "updateFailed": "Paket güncellenemedi",
+        "deleteFailed": "Paket silinemedi",
+        "uploadFailed": "Çıkartmalar yüklenemedi"
+    },
+    "validation": {
+        "nameRequired": "Paket adı gerekli",
+        "thumbnailRequired": "Önizleme URL gerekli",
+        "authorRequired": "Yazar gerekli",
+        "selectFiles": "Lütfen en az bir görsel seçin",
+        "onlyImages": "Sadece görsel dosyaları yükleyebilirsiniz!",
+        "maxFileSize": "Görsel 10MB'dan küçük olmalı!",
+        "maxImagesAllowed": "Maksimum 50 görsel yüklenebilir",
+        "uploadHint": "PNG, JPG, WebP, GIF desteklenir. Maks 50 görsel, her biri 10MB."
+    }
+}

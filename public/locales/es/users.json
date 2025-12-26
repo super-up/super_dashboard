@@ -1,0 +1,202 @@
+{
+  "show": {
+    "userInformation": "Información del Usuario",
+    "notVerified": "No Verificado",
+    "offline": "Desconectado",
+    "online": "En Línea",
+    "deleted": "Eliminado",
+    "active": "Activo",
+    "bannedUntil": "Bloqueado hasta {{date}}",
+    "verifiedUser": "Usuario Verificado",
+    "unknown": "Desconocido",
+    "untitled": "Sin título"
+  },
+  "fields": {
+    "id": "ID",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico",
+    "platform": "Plataforma",
+    "registrationStatus": "Estado de Registro",
+    "verification": "Verificación",
+    "country": "País",
+    "isOnline": "Estado en Línea",
+    "lastSeen": "Visto por Última Vez",
+    "registered": "Registrado",
+    "banExpires": "El Bloqueo Expira",
+    "deletedAt": "Eliminado el"
+  },
+  "tabs": {
+    "overview": "Resumen",
+    "rooms": "Salas",
+    "stories": "Historias",
+    "calls": "Llamadas"
+  },
+  "devices": {
+    "title": "Dispositivos",
+    "platform": "Plataforma",
+    "version": "Versión",
+    "lastActive": "Última Actividad",
+    "push": "Notificaciones Push",
+    "enabled": "Habilitado",
+    "disabled": "Deshabilitado",
+    "actions": "Acciones"
+  },
+  "stats": {
+    "devices": "Dispositivos",
+    "rooms": "Salas",
+    "stories": "Historias"
+  },
+  "rooms": {
+    "title": "Sala",
+    "type": "Tipo",
+    "status": "Estado",
+    "admin": "Administrador",
+    "moderator": "Moderador",
+    "actions": "Acciones",
+    "noRooms": "No se encontraron salas"
+  },
+  "stories": {
+    "media": "Multimedia",
+    "type": "Tipo",
+    "caption": "Descripción",
+    "views": "Vistas",
+    "expiry": "Expiración",
+    "expired": "Expirado",
+    "created": "Creado",
+    "noStories": "No se encontraron historias"
+  },
+  "calls": {
+    "type": "Tipo",
+    "video": "Video",
+    "voice": "Voz",
+    "direction": "Dirección",
+    "outgoing": "Saliente",
+    "incoming": "Entrante",
+    "status": "Estado",
+    "duration": "Duración",
+    "date": "Fecha",
+    "noCalls": "No se encontraron llamadas"
+  },
+  "actions": {
+    "viewGroup": "Ver Grupo",
+    "viewDetails": "Ver Detalles",
+    "view": "Ver",
+    "edit": "Editar",
+    "ban": "Bloquear",
+    "unban": "Desbloquear",
+    "verify": "Verificar",
+    "unverify": "Quitar Verificación",
+    "restore": "Restaurar",
+    "delete": "Eliminar",
+    "logoutAll": "Cerrar Sesión en Todos los Dispositivos"
+  },
+  "confirmations": {
+    "unbanUser": "¿Está seguro de que desea desbloquear este usuario?",
+    "banUser": "¿Está seguro de que desea bloquear este usuario?",
+    "unverifyUser": "¿Está seguro de que desea quitar la verificación?",
+    "verifyUser": "¿Está seguro de que desea verificar este usuario?",
+    "restoreUser": "¿Está seguro de que desea restaurar este usuario?",
+    "deleteUser": "¿Está seguro de que desea eliminar este usuario?",
+    "logoutAll": "Esto cerrará sesión del usuario en todos los dispositivos. ¿Continuar?",
+    "banUserTitle": "Bloquear Usuario",
+    "banUserDesc": "¿Está seguro de que desea bloquear este usuario? No podrán acceder a la aplicación.",
+    "banButton": "Sí, Bloquear",
+    "unbannedTitle": "Desbloquear Usuario",
+    "unbannedDesc": "¿Está seguro de que desea desbloquear este usuario?",
+    "unbannedButton": "Sí, Desbloquear",
+    "restoreTitle": "Restaurar Usuario",
+    "restoreDesc": "¿Está seguro de que desea restaurar este usuario? Tendrán acceso a la aplicación nuevamente.",
+    "restoreButton": "Sí, Restaurar",
+    "deleteTitle": "Eliminar Usuario",
+    "deleteDesc": "¿Está seguro de que desea eliminar permanentemente este usuario? Esta acción no se puede deshacer.",
+    "deleteButton": "Sí, Eliminar",
+    "logoutAllTitle": "Cerrar Sesión en Todos los Dispositivos",
+    "logoutAllDesc": "Esto forzará el cierre de sesión del usuario en todos los dispositivos. ¿Está seguro?",
+    "logoutAllButton": "Sí, Cerrar Sesión en Todos"
+  },
+  "notifications": {
+    "unbanned": "Usuario desbloqueado exitosamente",
+    "banned": "Usuario bloqueado exitosamente",
+    "badgeRemoved": "Insignia de verificación eliminada",
+    "verified": "Usuario verificado exitosamente",
+    "restored": "Usuario restaurado exitosamente",
+    "deleted": "Usuario eliminado exitosamente",
+    "updateFailed": "Error al actualizar usuario",
+    "loggedOut": "Sesión cerrada en todos los dispositivos",
+    "logoutFailed": "Error al cerrar sesión en dispositivos"
+  },
+  "filters": {
+    "verified": "Verificado"
+  },
+  "modal": {
+    "title": "Editar Usuario",
+    "profileSection": "Información del Perfil",
+    "verificationSection": "Verificación",
+    "banSection": "Gestión de Bloqueos",
+    "dangerZone": "Zona de Peligro"
+  },
+  "form": {
+    "fullName": "Nombre Completo",
+    "bio": "Biografía",
+    "registrationStatus": "Estado de Registro",
+    "verificationBadge": "Insignia de Verificación",
+    "banDuration": "Seleccionar duración del bloqueo",
+    "banEndDate": "Seleccionar fecha de fin del bloqueo",
+    "saveProfileChanges": "Guardar Cambios del Perfil",
+    "deleted": "Este usuario ha sido eliminado"
+  },
+  "placeholders": {
+    "enterFullName": "Ingrese nombre completo",
+    "enterBio": "Ingrese biografía"
+  },
+  "validation": {
+    "fullNameRequired": "El nombre es obligatorio",
+    "selectRegistrationStatus": "Seleccione estado de registro"
+  },
+  "options": {
+    "accepted": "Aceptado",
+    "pending": "Pendiente",
+    "rejected": "Rechazado"
+  },
+  "badges": {
+    "verified": "Verificado",
+    "notVerified": "No Verificado",
+    "isVerified": "El usuario está verificado",
+    "isNotVerified": "El usuario no está verificado"
+  },
+  "banDurations": {
+    "1h": "1 Hora",
+    "3d": "3 Días",
+    "7d": "7 Días",
+    "1m": "1 Mes",
+    "3m": "3 Meses",
+    "1y": "1 Año",
+    "permanent": "Permanente",
+    "customDate": "Fecha Personalizada"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "Perfil de usuario actualizado exitosamente",
+    "profileUpdateFailed": "Error al actualizar usuario",
+    "userBannedSuccess": "Usuario bloqueado exitosamente",
+    "userUnbannedSuccess": "Usuario desbloqueado exitosamente",
+    "banStatusFailed": "Error al actualizar estado de bloqueo",
+    "banUserSuccess": "Usuario bloqueado exitosamente",
+    "banUserFailed": "Error al bloquear usuario",
+    "verificationBadgeRemoved": "Insignia de verificación eliminada",
+    "verificationBadgeAdded": "Usuario verificado exitosamente",
+    "verificationFailed": "Error al actualizar verificación",
+    "userRestoredSuccess": "Usuario restaurado exitosamente",
+    "userDeletedSuccess": "Usuario eliminado exitosamente",
+    "updateUserFailed": "Error al actualizar usuario",
+    "logoutDevicesSuccess": "Sesión cerrada en {{count}} dispositivo(s) exitosamente",
+    "logoutDevicesFailed": "Error al cerrar sesión en dispositivos",
+    "bannedUntil": "Usuario bloqueado hasta {{date}}"
+  },
+  "buttons": {
+    "banUser": "Bloquear Usuario",
+    "unbanUser": "Desbloquear Usuario",
+    "deleteUser": "Eliminar Usuario",
+    "restoreUser": "Restaurar Usuario",
+    "logoutAllDevices": "Cerrar Sesión en Todos los Dispositivos"
+  }
+}

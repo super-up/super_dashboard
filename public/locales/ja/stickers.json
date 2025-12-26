@@ -1,0 +1,100 @@
+{
+    "title": "スタンプ",
+    "list": "スタンプパック",
+    "details": "スタンプパック詳細",
+    "fields": {
+        "id": "パックID",
+        "name": "名前",
+        "author": "作成者",
+        "type": "タイプ",
+        "thumbnail": "サムネイル",
+        "version": "バージョン",
+        "stickersCount": "スタンプ数",
+        "createdAt": "作成日",
+        "updatedAt": "更新日"
+    },
+    "types": {
+        "animated": "アニメーション",
+        "static": "静止画"
+    },
+    "stats": {
+        "totalPacks": "総パック数",
+        "animatedPacks": "アニメーションパック",
+        "staticPacks": "静止画パック",
+        "totalStickers": "総スタンプ数"
+    },
+    "filters": {
+        "searchPlaceholder": "名前または作成者で検索...",
+        "search": "検索",
+        "filters": "フィルタ",
+        "packType": "パックタイプ",
+        "createdFromTo": "作成日範囲",
+        "apply": "適用",
+        "clear": "クリア"
+    },
+    "actions": {
+        "title": "アクション",
+        "refresh": "更新",
+        "createPack": "パックを作成",
+        "editPack": "パックを編集",
+        "deletePack": "パックを削除",
+        "addSticker": "スタンプを追加",
+        "removeSticker": "スタンプを削除",
+        "view": "表示",
+        "edit": "編集",
+        "delete": "削除",
+        "remove": "削除"
+    },
+    "show": {
+        "packInformation": "パック情報",
+        "packNotFound": "パックが見つかりません",
+        "stickersTitle": "スタンプ",
+        "noStickers": "このパックにはスタンプがありません"
+    },
+    "modal": {
+        "createTitle": "スタンプパックを作成",
+        "editTitle": "スタンプパックを編集",
+        "addStickersTitle": "スタンプを追加",
+        "cancel": "キャンセル",
+        "create": "作成",
+        "update": "更新",
+        "upload": "スタンプをアップロード",
+        "packName": "パック名",
+        "packNamePlaceholder": "パック名を入力",
+        "thumbnailUrl": "サムネイルURL",
+        "thumbnailUrlPlaceholder": "サムネイルURLを入力",
+        "authorLabel": "作成者",
+        "authorPlaceholder": "作成者名を入力",
+        "animatedPack": "アニメーションパック",
+        "selectThumbnail": "サムネイルを選択",
+        "selectImages": "画像を選択（最大50枚）",
+        "uploadHint": "画像をクリックまたはドラッグしてアップロード",
+        "emojis": "絵文字（カンマ区切り）",
+        "emojisPlaceholder": "絵文字をカンマで区切って入力"
+    },
+    "confirmations": {
+        "deletePack": "このパックを削除しますか？",
+        "removeSticker": "このスタンプを削除しますか？"
+    },
+    "notifications": {
+        "packCreated": "パックが正常に作成されました",
+        "packUpdated": "パックが正常に更新されました",
+        "packDeleted": "パックが正常に削除されました",
+        "stickersAdded": "スタンプが正常に追加されました",
+        "stickerRemoved": "スタンプが正常に削除されました",
+        "createFailed": "パックの作成に失敗しました",
+        "updateFailed": "パックの更新に失敗しました",
+        "deleteFailed": "パックの削除に失敗しました",
+        "uploadFailed": "スタンプのアップロードに失敗しました"
+    },
+    "validation": {
+        "nameRequired": "パック名は必須です",
+        "thumbnailRequired": "サムネイルURLは必須です",
+        "authorRequired": "作成者は必須です",
+        "selectFiles": "少なくとも1つの画像を選択してください",
+        "onlyImages": "画像ファイルのみアップロードできます！",
+        "maxFileSize": "画像は10MB未満である必要があります！",
+        "maxImagesAllowed": "最大50枚の画像まで許可されています",
+        "uploadHint": "PNG、JPG、WebP、GIFに対応。最大50枚、各10MB。"
+    }
+}

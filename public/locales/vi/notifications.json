@@ -1,0 +1,44 @@
+{
+    "title": "Thông Báo",
+    "list": {
+        "sendToAll": "Gửi Đến Tất Cả Người Dùng",
+        "columns": {
+            "title": "Tiêu Đề",
+            "content": "Nội Dung",
+            "image": "Hình Ảnh",
+            "created": "Đã Tạo",
+            "actions": "Hành Động"
+        },
+        "hasImage": {
+            "yes": "Có",
+            "no": "Không"
+        },
+        "modal": {
+            "title": "Gửi Thông Báo Đến Tất Cả Người Dùng",
+            "form": {
+                "title": "Tiêu Đề",
+                "titlePlaceholder": "Tiêu đề thông báo",
+                "content": "Nội Dung",
+                "contentPlaceholder": "Tin nhắn thông báo",
+                "imageUrl": "URL Hình Ảnh (tùy chọn)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "Đã gửi thông báo đến tất cả người dùng"
+        }
+    },
+    "show": {
+        "adminNotification": "Thông Báo Quản Trị Viên",
+        "created": "Đã Tạo",
+        "notificationImage": "Hình Ảnh Thông Báo",
+        "notificationContent": "Nội Dung Thông Báo",
+        "notificationDetails": "Chi Tiết Thông Báo",
+        "notificationId": "ID Thông Báo",
+        "updated": "Đã Cập Nhật",
+        "imageUrl": "URL Hình Ảnh",
+        "deliveryInfo": "Thông Tin Gửi",
+        "sentAt": "Đã Gửi Lúc",
+        "timeAgo": "Thời Gian Trước"
+    }
+}

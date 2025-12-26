@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "Drapeau",
+    "name": "Nom",
+    "code": "Code",
+    "image": "Image",
+    "updated": "Mis à jour",
+    "actions": "Actions"
+  },
+  "tooltips": {
+    "edit": "Modifier le pays",
+    "refresh": "Actualiser"
+  },
+  "form": {
+    "searchPlaceholder": "Rechercher par nom ou code..."
+  },
+  "modal": {
+    "title": "Mettre à jour le pays"
+  },
+  "buttons": {
+    "saveChanges": "Enregistrer les modifications"
+  },
+  "validation": {
+    "nameRequired": "Le nom est requis",
+    "codeRequired": "Le code est requis",
+    "codeFormat": "Le code doit comporter 2 à 3 caractères",
+    "emojiRequired": "L'emoji est requis"
+  },
+  "messages": {
+    "updateSuccess": "Pays mis à jour avec succès",
+    "updateFailed": "Échec de la mise à jour du pays",
+    "fetchFailed": "Échec de la récupération des pays ({{status}})"
+  }
+}

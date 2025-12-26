@@ -1,0 +1,202 @@
+{
+  "show": {
+    "userInformation": "ユーザー情報",
+    "notVerified": "未認証",
+    "offline": "オフライン",
+    "online": "オンライン",
+    "deleted": "削除済み",
+    "active": "有効",
+    "bannedUntil": "{{date}}まで禁止",
+    "verifiedUser": "認証済みユーザー",
+    "unknown": "不明",
+    "untitled": "無題"
+  },
+  "fields": {
+    "id": "ID",
+    "phone": "電話番号",
+    "email": "メールアドレス",
+    "platform": "プラットフォーム",
+    "registrationStatus": "登録ステータス",
+    "verification": "認証",
+    "country": "国",
+    "isOnline": "オンラインステータス",
+    "lastSeen": "最終確認",
+    "registered": "登録日",
+    "banExpires": "禁止期限",
+    "deletedAt": "削除日時"
+  },
+  "tabs": {
+    "overview": "概要",
+    "rooms": "ルーム",
+    "stories": "ストーリー",
+    "calls": "通話"
+  },
+  "devices": {
+    "title": "デバイス",
+    "platform": "プラットフォーム",
+    "version": "バージョン",
+    "lastActive": "最終アクティブ",
+    "push": "プッシュ通知",
+    "enabled": "有効",
+    "disabled": "無効",
+    "actions": "アクション"
+  },
+  "stats": {
+    "devices": "デバイス",
+    "rooms": "ルーム",
+    "stories": "ストーリー"
+  },
+  "rooms": {
+    "title": "ルーム",
+    "type": "タイプ",
+    "status": "ステータス",
+    "admin": "管理者",
+    "moderator": "モデレーター",
+    "actions": "アクション",
+    "noRooms": "ルームが見つかりません"
+  },
+  "stories": {
+    "media": "メディア",
+    "type": "タイプ",
+    "caption": "キャプション",
+    "views": "閲覧数",
+    "expiry": "有効期限",
+    "expired": "期限切れ",
+    "created": "作成日",
+    "noStories": "ストーリーが見つかりません"
+  },
+  "calls": {
+    "type": "タイプ",
+    "video": "ビデオ",
+    "voice": "音声",
+    "direction": "方向",
+    "outgoing": "発信",
+    "incoming": "着信",
+    "status": "ステータス",
+    "duration": "通話時間",
+    "date": "日付",
+    "noCalls": "通話が見つかりません"
+  },
+  "actions": {
+    "viewGroup": "グループを表示",
+    "viewDetails": "詳細を表示",
+    "view": "表示",
+    "edit": "編集",
+    "ban": "禁止",
+    "unban": "禁止解除",
+    "verify": "認証",
+    "unverify": "認証解除",
+    "restore": "復元",
+    "delete": "削除",
+    "logoutAll": "すべてのデバイスからログアウト"
+  },
+  "confirmations": {
+    "unbanUser": "このユーザーの禁止を解除してもよろしいですか？",
+    "banUser": "このユーザーを禁止してもよろしいですか？",
+    "unverifyUser": "認証を削除してもよろしいですか？",
+    "verifyUser": "このユーザーを認証してもよろしいですか？",
+    "restoreUser": "このユーザーを復元してもよろしいですか？",
+    "deleteUser": "このユーザーを削除してもよろしいですか？",
+    "logoutAll": "すべてのデバイスからログアウトします。続行しますか？",
+    "banUserTitle": "ユーザーを禁止",
+    "banUserDesc": "このユーザーを禁止してもよろしいですか？アプリにアクセスできなくなります。",
+    "banButton": "はい、禁止",
+    "unbannedTitle": "ユーザーの禁止解除",
+    "unbannedDesc": "このユーザーの禁止を解除してもよろしいですか？",
+    "unbannedButton": "はい、禁止解除",
+    "restoreTitle": "ユーザーを復元",
+    "restoreDesc": "このユーザーを復元してもよろしいですか？アプリへのアクセスが再び可能になります。",
+    "restoreButton": "はい、復元",
+    "deleteTitle": "ユーザーを削除",
+    "deleteDesc": "このユーザーを永久に削除してもよろしいですか？この操作は元に戻せません。",
+    "deleteButton": "はい、削除",
+    "logoutAllTitle": "すべてのデバイスからログアウト",
+    "logoutAllDesc": "すべてのデバイスから強制的にログアウトします。よろしいですか？",
+    "logoutAllButton": "はい、すべてログアウト"
+  },
+  "notifications": {
+    "unbanned": "ユーザーの禁止が正常に解除されました",
+    "banned": "ユーザーが正常に禁止されました",
+    "badgeRemoved": "認証バッジが削除されました",
+    "verified": "ユーザーが正常に認証されました",
+    "restored": "ユーザーが正常に復元されました",
+    "deleted": "ユーザーが正常に削除されました",
+    "updateFailed": "ユーザーの更新に失敗しました",
+    "loggedOut": "すべてのデバイスからログアウトしました",
+    "logoutFailed": "デバイスからのログアウトに失敗しました"
+  },
+  "filters": {
+    "verified": "認証済み"
+  },
+  "modal": {
+    "title": "ユーザーを編集",
+    "profileSection": "プロフィール情報",
+    "verificationSection": "認証",
+    "banSection": "禁止管理",
+    "dangerZone": "危険ゾーン"
+  },
+  "form": {
+    "fullName": "氏名",
+    "bio": "自己紹介",
+    "registrationStatus": "登録ステータス",
+    "verificationBadge": "認証バッジ",
+    "banDuration": "禁止期間を選択",
+    "banEndDate": "禁止終了日を選択",
+    "saveProfileChanges": "プロフィール変更を保存",
+    "deleted": "このユーザーは削除されました"
+  },
+  "placeholders": {
+    "enterFullName": "氏名を入力",
+    "enterBio": "自己紹介を入力"
+  },
+  "validation": {
+    "fullNameRequired": "名前は必須です",
+    "selectRegistrationStatus": "登録ステータスを選択"
+  },
+  "options": {
+    "accepted": "承認済み",
+    "pending": "保留中",
+    "rejected": "拒否済み"
+  },
+  "badges": {
+    "verified": "認証済み",
+    "notVerified": "未認証",
+    "isVerified": "ユーザーは認証されています",
+    "isNotVerified": "ユーザーは認証されていません"
+  },
+  "banDurations": {
+    "1h": "1時間",
+    "3d": "3日間",
+    "7d": "7日間",
+    "1m": "1ヶ月",
+    "3m": "3ヶ月",
+    "1y": "1年",
+    "permanent": "永久",
+    "customDate": "カスタム日付"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "ユーザープロフィールが正常に更新されました",
+    "profileUpdateFailed": "ユーザーの更新に失敗しました",
+    "userBannedSuccess": "ユーザーが正常に禁止されました",
+    "userUnbannedSuccess": "ユーザーの禁止が正常に解除されました",
+    "banStatusFailed": "禁止ステータスの更新に失敗しました",
+    "banUserSuccess": "ユーザーが正常に禁止されました",
+    "banUserFailed": "ユーザーの禁止に失敗しました",
+    "verificationBadgeRemoved": "認証バッジが削除されました",
+    "verificationBadgeAdded": "ユーザーが正常に認証されました",
+    "verificationFailed": "認証の更新に失敗しました",
+    "userRestoredSuccess": "ユーザーが正常に復元されました",
+    "userDeletedSuccess": "ユーザーが正常に削除されました",
+    "updateUserFailed": "ユーザーの更新に失敗しました",
+    "logoutDevicesSuccess": "{{count}}台のデバイスから正常にログアウトしました",
+    "logoutDevicesFailed": "デバイスからのログアウトに失敗しました",
+    "bannedUntil": "ユーザーは{{date}}まで禁止されています"
+  },
+  "buttons": {
+    "banUser": "ユーザーを禁止",
+    "unbanUser": "ユーザーの禁止解除",
+    "deleteUser": "ユーザーを削除",
+    "restoreUser": "ユーザーを復元",
+    "logoutAllDevices": "すべてのデバイスからログアウト"
+  }
+}

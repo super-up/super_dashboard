@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Uygulama Versiyonları",
+    "addVersionButton": "Versiyon Ekle"
+  },
+  "table": {
+    "version": "Versiyon",
+    "platform": "Platform",
+    "critical": "Kritik",
+    "notify": "Bildirim",
+    "notes": "Notlar",
+    "created": "Oluşturuldu",
+    "actions": "İşlemler"
+  },
+  "tabs": {
+    "all": "Tümü",
+    "macos": "macOS",
+    "other": "Diğer"
+  },
+  "tooltips": {
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "refresh": "Yenile"
+  },
+  "modal": {
+    "addTitle": "Versiyon Ekle",
+    "editTitle": "Versiyonu Düzenle"
+  },
+  "form": {
+    "platform": "Platform",
+    "version": "Versiyon",
+    "critical": "Kritik (Zorunlu Güncelleme)",
+    "notify": "Kullanıcıları Bilgilendir",
+    "notes": "Sürüm Notları",
+    "notesPlaceholder": "Bu versiyonda neler yeni..."
+  },
+  "validation": {
+    "platformRequired": "Platform gerekli",
+    "selectPlatform": "Platform seçin",
+    "versionRequired": "Versiyon gerekli",
+    "versionFormat": "Format: x.x.x kullanın (örn. 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "İptal",
+    "create": "Oluştur",
+    "update": "Güncelle"
+  },
+  "confirmations": {
+    "deleteTitle": "Bu versiyonu sil?",
+    "deleteDesc": "Bu işlem geri alınamaz.",
+    "deleteButton": "Sil"
+  },
+  "messages": {
+    "fetchVersionsFailed": "Versiyonlar getirilemedi: {{error}}",
+    "deleteSuccess": "Versiyon başarıyla silindi",
+    "deleteFailed": "Versiyon silinemedi",
+    "updateSuccess": "Versiyon başarıyla güncellendi",
+    "createSuccess": "Versiyon başarıyla oluşturuldu",
+    "saveFailed": "Versiyon kaydedilemedi"
+  }
+}

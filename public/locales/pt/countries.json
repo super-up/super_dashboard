@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "Bandeira",
+    "name": "Nome",
+    "code": "Código",
+    "image": "Imagem",
+    "updated": "Atualizado",
+    "actions": "Ações"
+  },
+  "tooltips": {
+    "edit": "Editar País",
+    "refresh": "Atualizar"
+  },
+  "form": {
+    "searchPlaceholder": "Pesquisar por nome ou código..."
+  },
+  "modal": {
+    "title": "Atualizar País"
+  },
+  "buttons": {
+    "saveChanges": "Salvar Alterações"
+  },
+  "validation": {
+    "nameRequired": "Nome é obrigatório",
+    "codeRequired": "Código é obrigatório",
+    "codeFormat": "O código deve ter 2-3 caracteres",
+    "emojiRequired": "Emoji é obrigatório"
+  },
+  "messages": {
+    "updateSuccess": "País atualizado com sucesso",
+    "updateFailed": "Falha ao atualizar país",
+    "fetchFailed": "Falha ao buscar países ({{status}})"
+  }
+}

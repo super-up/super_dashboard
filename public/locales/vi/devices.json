@@ -1,0 +1,70 @@
+{
+  "title": "Thiết Bị",
+  "page": {
+    "title": "Thiết Bị"
+  },
+  "columns": {
+    "user": "Người Dùng",
+    "platform": "Nền Tảng",
+    "appVersion": "Phiên Bản Ứng Dụng",
+    "pushToken": "Mã Thông Báo Đẩy",
+    "status": "Trạng Thái",
+    "lastActive": "Hoạt Động Cuối",
+    "created": "Đã Tạo"
+  },
+  "labels": {
+    "never": "Chưa Bao Giờ",
+    "deviceOwner": "Chủ Thiết Bị",
+    "deviceInformation": "Thông Tin Thiết Bị",
+    "deviceId": "ID Thiết Bị",
+    "deviceModel": "Mẫu Thiết Bị",
+    "osVersion": "Phiên Bản Hệ Điều Hành",
+    "pushNotification": "Thông Báo Đẩy",
+    "pushStatus": "Trạng Thái Đẩy",
+    "pushToken": "Mã Thông Báo Đẩy",
+    "noPushToken": "Không có mã thông báo đẩy được đăng ký cho thiết bị này",
+    "activityDetails": "Chi Tiết Hoạt Động",
+    "totalVisits": "Tổng Lượt Truy Cập"
+  },
+  "actions": {
+    "viewDetails": "Xem Chi Tiết",
+    "deleteDevice": "Xóa Thiết Bị",
+    "revokeSession": "Thu Hồi Phiên"
+  },
+  "confirmations": {
+    "deleteDevice": "Bạn có chắc chắn muốn xóa thiết bị này?",
+    "revokeSession": "Thu Hồi Phiên",
+    "revokeDescription": "Điều này sẽ đăng xuất người dùng khỏi thiết bị này và xóa nó khỏi hệ thống."
+  },
+  "tabs": {
+    "all": "Tất Cả",
+    "android": "Android",
+    "ios": "iOS",
+    "web": "Web",
+    "desktop": "Máy Tính"
+  },
+  "placeholders": {
+    "searchByUserOrPhone": "Tìm kiếm theo tên người dùng hoặc số điện thoại..."
+  },
+  "table": {
+    "device": "Thiết Bị",
+    "user": "Người Dùng",
+    "platform": "Nền Tảng",
+    "version": "Phiên Bản",
+    "status": "Trạng Thái",
+    "lastSeen": "Lần Cuối Thấy",
+    "push": "Đẩy",
+    "actions": "Hành Động"
+  },
+  "tooltips": {
+    "edit": "Chỉnh Sửa",
+    "delete": "Xóa"
+  },
+  "messages": {
+    "fetchFailed": "Không thể tải thiết bị ({{status}})",
+    "deviceDeleted": "Đã xóa thiết bị thành công",
+    "failedToDelete": "Không thể xóa thiết bị",
+    "sessionRevoked": "Đã thu hồi phiên thành công",
+    "failedToRevoke": "Không thể thu hồi phiên"
+  }
+}

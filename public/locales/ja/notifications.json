@@ -1,0 +1,44 @@
+{
+    "title": "通知",
+    "list": {
+        "sendToAll": "全ユーザーに送信",
+        "columns": {
+            "title": "タイトル",
+            "content": "内容",
+            "image": "画像",
+            "created": "作成日",
+            "actions": "アクション"
+        },
+        "hasImage": {
+            "yes": "あり",
+            "no": "なし"
+        },
+        "modal": {
+            "title": "全ユーザーに通知を送信",
+            "form": {
+                "title": "タイトル",
+                "titlePlaceholder": "通知タイトル",
+                "content": "内容",
+                "contentPlaceholder": "通知メッセージ",
+                "imageUrl": "画像URL（オプション）",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "すべてのユーザーに通知が送信されました"
+        }
+    },
+    "show": {
+        "adminNotification": "管理者通知",
+        "created": "作成日",
+        "notificationImage": "通知画像",
+        "notificationContent": "通知内容",
+        "notificationDetails": "通知詳細",
+        "notificationId": "通知ID",
+        "updated": "更新日",
+        "imageUrl": "画像URL",
+        "deliveryInfo": "配信情報",
+        "sentAt": "送信日時",
+        "timeAgo": "経過時間"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "title": "स्टिकर",
+    "list": "स्टिकर पैक",
+    "details": "स्टिकर पैक विवरण",
+    "fields": {
+        "id": "पैक आईडी",
+        "name": "नाम",
+        "author": "लेखक",
+        "type": "प्रकार",
+        "thumbnail": "थंबनेल",
+        "version": "संस्करण",
+        "stickersCount": "स्टिकर",
+        "createdAt": "निर्मित",
+        "updatedAt": "अपडेट किया गया"
+    },
+    "types": {
+        "animated": "एनिमेटेड",
+        "static": "स्थिर"
+    },
+    "stats": {
+        "totalPacks": "कुल पैक",
+        "animatedPacks": "एनिमेटेड पैक",
+        "staticPacks": "स्थिर पैक",
+        "totalStickers": "कुल स्टिकर"
+    },
+    "filters": {
+        "searchPlaceholder": "नाम या लेखक से खोजें...",
+        "search": "खोजें",
+        "filters": "फ़िल्टर",
+        "packType": "पैक प्रकार",
+        "createdFromTo": "निर्माण से/तक",
+        "apply": "लागू करें",
+        "clear": "साफ करें"
+    },
+    "actions": {
+        "title": "कार्रवाइयां",
+        "refresh": "रिफ्रेश करें",
+        "createPack": "पैक बनाएं",
+        "editPack": "पैक संपादित करें",
+        "deletePack": "पैक हटाएं",
+        "addSticker": "स्टिकर जोड़ें",
+        "removeSticker": "स्टिकर हटाएं",
+        "view": "देखें",
+        "edit": "संपादित करें",
+        "delete": "हटाएं",
+        "remove": "हटाएं"
+    },
+    "show": {
+        "packInformation": "पैक जानकारी",
+        "packNotFound": "पैक नहीं मिला",
+        "stickersTitle": "स्टिकर",
+        "noStickers": "इस पैक में कोई स्टिकर नहीं"
+    },
+    "modal": {
+        "createTitle": "स्टिकर पैक बनाएं",
+        "editTitle": "स्टिकर पैक संपादित करें",
+        "addStickersTitle": "स्टिकर जोड़ें",
+        "cancel": "रद्द करें",
+        "create": "बनाएं",
+        "update": "अपडेट करें",
+        "upload": "स्टिकर अपलोड करें",
+        "packName": "पैक नाम",
+        "packNamePlaceholder": "पैक नाम दर्ज करें",
+        "thumbnailUrl": "थंबनेल URL",
+        "thumbnailUrlPlaceholder": "थंबनेल URL दर्ज करें",
+        "authorLabel": "लेखक",
+        "authorPlaceholder": "लेखक नाम दर्ज करें",
+        "animatedPack": "एनिमेटेड पैक",
+        "selectThumbnail": "थंबनेल चुनें",
+        "selectImages": "छवियां चुनें (50 तक)",
+        "uploadHint": "अपलोड करने के लिए क्लिक करें या छवियां खींचें",
+        "emojis": "इमोजी (अल्पविराम से अलग)",
+        "emojisPlaceholder": "इमोजी अल्पविराम से अलग करके दर्ज करें"
+    },
+    "confirmations": {
+        "deletePack": "यह पैक हटाएं?",
+        "removeSticker": "यह स्टिकर हटाएं?"
+    },
+    "notifications": {
+        "packCreated": "पैक सफलतापूर्वक बनाया गया",
+        "packUpdated": "पैक सफलतापूर्वक अपडेट किया गया",
+        "packDeleted": "पैक सफलतापूर्वक हटाया गया",
+        "stickersAdded": "स्टिकर सफलतापूर्वक जोड़े गए",
+        "stickerRemoved": "स्टिकर सफलतापूर्वक हटाया गया",
+        "createFailed": "पैक बनाने में विफल",
+        "updateFailed": "पैक अपडेट करने में विफल",
+        "deleteFailed": "पैक हटाने में विफल",
+        "uploadFailed": "स्टिकर अपलोड करने में विफल"
+    },
+    "validation": {
+        "nameRequired": "पैक नाम आवश्यक है",
+        "thumbnailRequired": "थंबनेल URL आवश्यक है",
+        "authorRequired": "लेखक आवश्यक है",
+        "selectFiles": "कृपया कम से कम एक छवि चुनें",
+        "onlyImages": "आप केवल छवि फ़ाइलें अपलोड कर सकते हैं!",
+        "maxFileSize": "छवि 10MB से छोटी होनी चाहिए!",
+        "maxImagesAllowed": "अधिकतम 50 छवियां अनुमत हैं",
+        "uploadHint": "PNG, JPG, WebP, GIF समर्थित। अधिकतम 50 छवियां, प्रत्येक 10MB।"
+    }
+}

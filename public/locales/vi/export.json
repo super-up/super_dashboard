@@ -1,0 +1,49 @@
+{
+    "title": "Xuất Dữ Liệu",
+    "subtitle": "Xuất dữ liệu ứng dụng ở định dạng JSON hoặc CSV",
+    "fields": {
+        "dateRange": "Phạm Vi Ngày (tùy chọn)",
+        "format": "Định Dạng",
+        "limit": "Giới Hạn",
+        "maxLimit": "Tối đa: {{max}}"
+    },
+    "actions": {
+        "export": "Xuất {{label}}"
+    },
+    "types": {
+        "users": {
+            "label": "Người Dùng",
+            "description": "Xuất hồ sơ người dùng và dữ liệu tài khoản"
+        },
+        "messages": {
+            "label": "Tin Nhắn",
+            "description": "Xuất tin nhắn trò chuyện và nội dung"
+        },
+        "reports": {
+            "label": "Báo Cáo",
+            "description": "Xuất báo cáo và khiếu nại của người dùng"
+        },
+        "audit-logs": {
+            "label": "Nhật Ký Kiểm Toán",
+            "description": "Xuất nhật ký hoạt động quản trị viên"
+        },
+        "stories": {
+            "label": "Tin",
+            "description": "Xuất siêu dữ liệu tin của người dùng"
+        },
+        "calls": {
+            "label": "Cuộc Gọi",
+            "description": "Xuất lịch sử cuộc gọi và siêu dữ liệu"
+        },
+        "analytics": {
+            "label": "Phân Tích",
+            "description": "Xuất báo cáo phân tích tổng hợp"
+        }
+    },
+    "messages": {
+        "exportSuccess": "Xuất Thành Công",
+        "exportSuccessDesc": "Dữ liệu {{label}} đã được xuất dưới dạng {{format}}.",
+        "exportFailed": "Xuất Thất Bại",
+        "exportFailedDesc": "Không thể xuất dữ liệu {{label}}. Vui lòng thử lại."
+    }
+}

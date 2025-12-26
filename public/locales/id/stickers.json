@@ -1,0 +1,100 @@
+{
+    "title": "Stiker",
+    "list": "Paket Stiker",
+    "details": "Detail Paket Stiker",
+    "fields": {
+        "id": "ID Paket",
+        "name": "Nama",
+        "author": "Pembuat",
+        "type": "Tipe",
+        "thumbnail": "Thumbnail",
+        "version": "Versi",
+        "stickersCount": "Stiker",
+        "createdAt": "Dibuat",
+        "updatedAt": "Diperbarui"
+    },
+    "types": {
+        "animated": "Animasi",
+        "static": "Statis"
+    },
+    "stats": {
+        "totalPacks": "Total Paket",
+        "animatedPacks": "Paket Animasi",
+        "staticPacks": "Paket Statis",
+        "totalStickers": "Total Stiker"
+    },
+    "filters": {
+        "searchPlaceholder": "Cari berdasarkan nama atau pembuat...",
+        "search": "Cari",
+        "filters": "Filter",
+        "packType": "Tipe Paket",
+        "createdFromTo": "Dibuat Dari/Sampai",
+        "apply": "Terapkan",
+        "clear": "Hapus"
+    },
+    "actions": {
+        "title": "Aksi",
+        "refresh": "Muat Ulang",
+        "createPack": "Buat Paket",
+        "editPack": "Edit Paket",
+        "deletePack": "Hapus Paket",
+        "addSticker": "Tambah Stiker",
+        "removeSticker": "Hapus Stiker",
+        "view": "Lihat",
+        "edit": "Edit",
+        "delete": "Hapus",
+        "remove": "Hapus"
+    },
+    "show": {
+        "packInformation": "Informasi Paket",
+        "packNotFound": "Paket tidak ditemukan",
+        "stickersTitle": "Stiker",
+        "noStickers": "Tidak ada stiker dalam paket ini"
+    },
+    "modal": {
+        "createTitle": "Buat Paket Stiker",
+        "editTitle": "Edit Paket Stiker",
+        "addStickersTitle": "Tambah Stiker",
+        "cancel": "Batal",
+        "create": "Buat",
+        "update": "Perbarui",
+        "upload": "Unggah Stiker",
+        "packName": "Nama Paket",
+        "packNamePlaceholder": "Masukkan nama paket",
+        "thumbnailUrl": "URL Thumbnail",
+        "thumbnailUrlPlaceholder": "Masukkan URL thumbnail",
+        "authorLabel": "Pembuat",
+        "authorPlaceholder": "Masukkan nama pembuat",
+        "animatedPack": "Paket Animasi",
+        "selectThumbnail": "Pilih Thumbnail",
+        "selectImages": "Pilih Gambar (maksimal 50)",
+        "uploadHint": "Klik atau seret gambar untuk mengunggah",
+        "emojis": "Emoji (dipisahkan koma)",
+        "emojisPlaceholder": "Masukkan emoji dipisahkan koma"
+    },
+    "confirmations": {
+        "deletePack": "Hapus paket ini?",
+        "removeSticker": "Hapus stiker ini?"
+    },
+    "notifications": {
+        "packCreated": "Paket berhasil dibuat",
+        "packUpdated": "Paket berhasil diperbarui",
+        "packDeleted": "Paket berhasil dihapus",
+        "stickersAdded": "Stiker berhasil ditambahkan",
+        "stickerRemoved": "Stiker berhasil dihapus",
+        "createFailed": "Gagal membuat paket",
+        "updateFailed": "Gagal memperbarui paket",
+        "deleteFailed": "Gagal menghapus paket",
+        "uploadFailed": "Gagal mengunggah stiker"
+    },
+    "validation": {
+        "nameRequired": "Nama paket diperlukan",
+        "thumbnailRequired": "URL thumbnail diperlukan",
+        "authorRequired": "Pembuat diperlukan",
+        "selectFiles": "Silakan pilih minimal satu gambar",
+        "onlyImages": "Anda hanya dapat mengunggah file gambar!",
+        "maxFileSize": "Gambar harus lebih kecil dari 10MB!",
+        "maxImagesAllowed": "Maksimal 50 gambar diizinkan",
+        "uploadHint": "Mendukung PNG, JPG, WebP, GIF. Maks 50 gambar, 10MB per gambar."
+    }
+}

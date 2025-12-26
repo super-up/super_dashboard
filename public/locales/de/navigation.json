@@ -1,0 +1,18 @@
+{
+    "dashboard": "Dashboard",
+    "users": "Benutzer",
+    "messages": "Nachrichten",
+    "rooms": "Räume",
+    "reports": "Meldungen",
+    "calls": "Anrufe",
+    "stories": "Stories",
+    "auditLogs": "Audit-Protokolle",
+    "realtimeLogs": "Echtzeit-Protokolle",
+    "notifications": "Benachrichtigungen",
+    "devices": "Geräte",
+    "countries": "Länder",
+    "stickers": "Sticker",
+    "appConfig": "App-Konfiguration",
+    "dataExport": "Datenexport",
+    "appVersions": "App-Versionen"
+}

@@ -1,0 +1,44 @@
+{
+    "title": "알림",
+    "list": {
+        "sendToAll": "모든 사용자에게 전송",
+        "columns": {
+            "title": "제목",
+            "content": "내용",
+            "image": "이미지",
+            "created": "생성일",
+            "actions": "작업"
+        },
+        "hasImage": {
+            "yes": "예",
+            "no": "아니오"
+        },
+        "modal": {
+            "title": "모든 사용자에게 알림 전송",
+            "form": {
+                "title": "제목",
+                "titlePlaceholder": "알림 제목",
+                "content": "내용",
+                "contentPlaceholder": "알림 메시지",
+                "imageUrl": "이미지 URL (선택사항)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "모든 사용자에게 알림이 전송되었습니다"
+        }
+    },
+    "show": {
+        "adminNotification": "관리자 알림",
+        "created": "생성일",
+        "notificationImage": "알림 이미지",
+        "notificationContent": "알림 내용",
+        "notificationDetails": "알림 상세정보",
+        "notificationId": "알림 ID",
+        "updated": "수정일",
+        "imageUrl": "이미지 URL",
+        "deliveryInfo": "전달 정보",
+        "sentAt": "전송일",
+        "timeAgo": "경과 시간"
+    }
+}

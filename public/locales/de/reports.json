@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "Benutzermeldung",
+    "chat": "Chat-Meldung"
+  },
+  "reasons": {
+    "spam": "Spam",
+    "harassment": "Belästigung",
+    "inappropriatecontent": "Unangemessener Inhalt",
+    "hatespeech": "Hassrede",
+    "violence": "Gewalt"
+  },
+  "status": {
+    "pending": "Ausstehend",
+    "approved": "Genehmigt",
+    "rejected": "Abgelehnt"
+  },
+  "labels": {
+    "reportId": "Meldungs-ID",
+    "reportProgress": "Meldungsfortschritt",
+    "submitted": "Eingereicht",
+    "reporter": "Melder",
+    "reportedUser": "Gemeldeter Benutzer",
+    "reportedContent": "Gemeldeter Inhalt",
+    "reportReason": "Meldegrund",
+    "reportDetails": "Meldungsdetails",
+    "takeAction": "Maßnahme ergreifen",
+    "actionsAreIrreversible": "Aktionen sind unwiderruflich",
+    "takeActionDescription": "Die folgenden Aktionen wirken sich dauerhaft auf den gemeldeten Benutzer aus. Bitte sorgfältig prüfen, bevor Sie fortfahren.",
+    "selectBanDuration": "Sperrdauer auswählen",
+    "daysFromNow": "Tage ab jetzt",
+    "orSelectSpecificDate": "Oder spezifisches Datum auswählen",
+    "userWillBeBanned": "Benutzer wird für {{duration}} gesperrt",
+    "warningDeleteAccount": "Warnung: Konto wird dauerhaft gelöscht",
+    "softDeletedAccount": "Dieses Konto wird vorläufig gelöscht und kann nicht wiederhergestellt werden.",
+    "reportedUserDataNotAvailable": "Daten des gemeldeten Benutzers nicht verfügbar",
+    "chatDataNotAvailable": "Chat-Daten nicht verfügbar",
+    "noReportedContent": "Kein gemeldeter Inhalt",
+    "noAdditionalDetails": "Keine zusätzlichen Details angegeben",
+    "unknownUser": "Unbekannter Benutzer",
+    "type": "Typ",
+    "createdAt": "Erstellt am",
+    "updatedAt": "Aktualisiert am",
+    "resolvedAt": "Gelöst am"
+  },
+  "confirmations": {
+    "approveReport": "Meldung genehmigen",
+    "approveReportDesc": "Möchten Sie diese Meldung wirklich genehmigen?",
+    "rejectReport": "Meldung ablehnen",
+    "rejectReportDesc": "Möchten Sie diese Meldung wirklich ablehnen?",
+    "deleteUserAccount": "Benutzerkonto löschen",
+    "deleteUserAccountDesc": "Diese Aktion wird das Benutzerkonto dauerhaft löschen. Dies kann nicht rückgängig gemacht werden.",
+    "deleteReportedContent": "Gemeldeten Inhalt löschen",
+    "deleteReportedContentDesc": "Möchten Sie den gemeldeten Inhalt wirklich löschen?"
+  },
+  "actions": {
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "banUser": "Benutzer sperren",
+    "deleteAccount": "Konto löschen",
+    "deleteContent": "Inhalt löschen",
+    "delete": "Löschen",
+    "ban": "Sperren",
+    "viewUserProfile": "Benutzerprofil anzeigen",
+    "viewChatDetails": "Chat-Details anzeigen",
+    "viewProfile": "Profil anzeigen"
+  },
+  "table": {
+    "reason": "Grund",
+    "status": "Status"
+  },
+  "messages": {
+    "reportStatusUpdated": "Meldung {{newStatus}}",
+    "updateFailed": "Meldung konnte nicht aktualisiert werden",
+    "noReportedUser": "Kein gemeldeter Benutzer für Aktion vorhanden",
+    "userBannedFor": "Benutzer gesperrt {{duration}}",
+    "userAccountDeleted": "Benutzerkonto gelöscht",
+    "actionFailed": "Aktion fehlgeschlagen",
+    "contentDeleted": "Inhalt gelöscht",
+    "deleteContentFailed": "Inhalt konnte nicht gelöscht werden"
+  }
+}

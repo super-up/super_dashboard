@@ -1,0 +1,16 @@
+{
+  "title": "അഡ്മിൻ ലോഗിൻ",
+  "subtitle": "നിങ്ങളുടെ Super Up അഡ്മിൻ അക്കൗണ്ടിലേക്ക് സൈൻ ഇൻ ചെയ്യുക",
+  "email": "ഇമെയിൽ വിലാസം",
+  "emailRequired": "നിങ്ങളുടെ ഇമെയിൽ നൽകുക",
+  "emailInvalid": "സാധുവായ ഇമെയിൽ നൽകുക",
+  "emailPlaceholder": "admin@example.com",
+  "password": "പാസ്‌വേഡ്",
+  "passwordRequired": "നിങ്ങളുടെ പാസ്‌വേഡ് നൽകുക",
+  "passwordPlaceholder": "നിങ്ങളുടെ പാസ്‌വേഡ് നൽകുക",
+  "rememberMe": "എന്നെ ഓർക്കുക",
+  "signIn": "സൈൻ ഇൻ",
+  "signingIn": "സൈൻ ഇൻ ചെയ്യുന്നു...",
+  "demoMode": "ഡെമോ മോഡ്",
+  "demoModeDescription": "നിങ്ങൾ ഒരു ഡെമോ കാണുകയാണ്. ചില ഫീച്ചറുകൾ പ്രവർത്തനരഹിതമാണ്."
+}

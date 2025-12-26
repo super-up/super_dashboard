@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Versi Aplikasi",
+    "addVersionButton": "Tambah Versi"
+  },
+  "table": {
+    "version": "Versi",
+    "platform": "Platform",
+    "critical": "Kritis",
+    "notify": "Notifikasi",
+    "notes": "Catatan",
+    "created": "Dibuat",
+    "actions": "Aksi"
+  },
+  "tabs": {
+    "all": "Semua",
+    "macos": "macOS",
+    "other": "Lainnya"
+  },
+  "tooltips": {
+    "edit": "Edit",
+    "delete": "Hapus",
+    "refresh": "Muat Ulang"
+  },
+  "modal": {
+    "addTitle": "Tambah Versi",
+    "editTitle": "Edit Versi"
+  },
+  "form": {
+    "platform": "Platform",
+    "version": "Versi",
+    "critical": "Kritis (Pembaruan Wajib)",
+    "notify": "Beri Tahu Pengguna",
+    "notes": "Catatan Rilis",
+    "notesPlaceholder": "Apa yang baru di versi ini..."
+  },
+  "validation": {
+    "platformRequired": "Platform diperlukan",
+    "selectPlatform": "Pilih platform",
+    "versionRequired": "Versi diperlukan",
+    "versionFormat": "Gunakan format: x.x.x (misalnya, 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "Batal",
+    "create": "Buat",
+    "update": "Perbarui"
+  },
+  "confirmations": {
+    "deleteTitle": "Hapus versi ini?",
+    "deleteDesc": "Tindakan ini tidak dapat dibatalkan.",
+    "deleteButton": "Hapus"
+  },
+  "messages": {
+    "fetchVersionsFailed": "Gagal mengambil versi: {{error}}",
+    "deleteSuccess": "Versi berhasil dihapus",
+    "deleteFailed": "Gagal menghapus versi",
+    "updateSuccess": "Versi berhasil diperbarui",
+    "createSuccess": "Versi berhasil dibuat",
+    "saveFailed": "Gagal menyimpan versi"
+  }
+}

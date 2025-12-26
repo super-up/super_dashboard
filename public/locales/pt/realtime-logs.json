@@ -1,0 +1,55 @@
+{
+    "title": "Logs em Tempo Real",
+    "logsCount": "{{count}} logs",
+    "logsCountFiltered": "{{filtered}} de {{total}} logs",
+    "actions": {
+        "resume": "Retomar",
+        "pause": "Pausar",
+        "clear": "Limpar",
+        "reconnect": "Reconectar"
+    },
+    "status": {
+        "connected": "Conectado",
+        "connecting": "Conectando...",
+        "disconnected": "Desconectado",
+        "error": "Erro"
+    },
+    "empty": {
+        "paused": "Transmissão de logs pausada",
+        "waiting": "Aguardando logs...",
+        "noMatch": "Nenhum log corresponde aos filtros atuais",
+        "notConnected": "Conecte-se para começar a receber logs"
+    },
+    "severity": {
+        "all": "Todos",
+        "info": "Info",
+        "warning": "Aviso",
+        "error": "Erro",
+        "critical": "Crítico"
+    },
+    "categories": {
+        "all": "Todos",
+        "auth": "Autenticação",
+        "presence": "Presença",
+        "message": "Mensagem",
+        "group": "Grupo",
+        "broadcast": "Transmissão",
+        "channel": "Canal",
+        "story": "Story",
+        "call": "Chamada",
+        "profile": "Perfil"
+    },
+    "actorTypes": {
+        "user": "Usuário",
+        "admin": "Administrador",
+        "system": "Sistema"
+    },
+    "labels": {
+        "unknown": "Desconhecido"
+    },
+    "time": {
+        "secondsAgo": "{{count}}s atrás",
+        "minutesAgo": "{{count}}min atrás",
+        "hoursAgo": "{{count}}h atrás"
+    }
+}

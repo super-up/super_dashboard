@@ -1,0 +1,100 @@
+{
+    "title": "メッセージ",
+    "list": "メッセージ一覧",
+    "details": "メッセージ詳細",
+    "fields": {
+        "id": "メッセージID",
+        "content": "内容",
+        "type": "タイプ",
+        "sender": "送信者",
+        "room": "ルーム",
+        "roomId": "ルームID",
+        "status": "ステータス",
+        "platform": "プラットフォーム",
+        "createdAt": "送信日時",
+        "created": "作成日",
+        "updated": "更新日",
+        "seenAt": "既読日時",
+        "deletedAt": "削除日時",
+        "attachments": "添付ファイル",
+        "encryption": "暗号化",
+        "fileName": "ファイル名",
+        "mimeType": "MIMEタイプ",
+        "fileSize": "ファイルサイズ",
+        "dimensions": "サイズ",
+        "duration": "再生時間",
+        "url": "URL"
+    },
+    "types": {
+        "text": "テキスト",
+        "image": "画像",
+        "video": "動画",
+        "audio": "音声",
+        "voice": "ボイス",
+        "file": "ファイル",
+        "location": "位置情報",
+        "contact": "連絡先",
+        "sticker": "スタンプ",
+        "gif": "GIF",
+        "call": "通話",
+        "reaction": "リアクション",
+        "info": "情報"
+    },
+    "filters": {
+        "all": "すべてのメッセージ",
+        "text": "テキストのみ",
+        "media": "メディアのみ",
+        "today": "今日",
+        "thisWeek": "今週"
+    },
+    "actions": {
+        "delete": "削除",
+        "restore": "復元",
+        "viewRoom": "ルームを表示",
+        "viewSender": "送信者を表示",
+        "viewProfile": "プロフィールを表示",
+        "viewOriginal": "オリジナルを表示",
+        "download": "ダウンロード",
+        "downloadAudio": "音声をダウンロード",
+        "downloadFile": "ファイルをダウンロード",
+        "playVideo": "動画を再生",
+        "hidePlayer": "プレーヤーを非表示"
+    },
+    "show": {
+        "messageContent": "メッセージ内容",
+        "messageDetails": "メッセージ詳細",
+        "attachmentDetails": "添付ファイル詳細",
+        "voiceMessage": "音声メッセージ",
+        "videoMessage": "動画メッセージ",
+        "locationShared": "位置情報を共有",
+        "systemMessage": "システムメッセージ",
+        "noContent": "コンテンツなし",
+        "noVideoUrl": "動画URLがありません",
+        "noAudioUrl": "音声URLがありません",
+        "messageDeleted": "このメッセージは削除されました",
+        "replyInfo": "このメッセージは別のメッセージへの返信です",
+        "forwardedFrom": "転送元",
+        "replyTo": "返信先",
+        "reactions": "リアクション",
+        "unknown": "不明",
+        "size": "サイズ",
+        "type": "タイプ"
+    },
+    "tags": {
+        "deleted": "削除済み",
+        "active": "有効",
+        "hasMedia": "メディアあり",
+        "forwarded": "転送済み",
+        "reply": "返信",
+        "encrypted": "暗号化済み"
+    },
+    "confirmations": {
+        "deleteMessage": "このメッセージを削除しますか？",
+        "restoreMessage": "このメッセージを復元しますか？"
+    },
+    "notifications": {
+        "deleted": "メッセージが削除されました",
+        "restored": "メッセージが復元されました",
+        "updateFailed": "メッセージの更新に失敗しました"
+    }
+}

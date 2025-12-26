@@ -1,0 +1,21 @@
+{
+    "required": "Bu alan gerekli",
+    "email": "Lütfen geçerli bir e-posta adresi girin",
+    "phone": "Lütfen geçerli bir telefon numarası girin",
+    "minLength": "En az {{min}} karakter olmalı",
+    "maxLength": "En fazla {{max}} karakter olmalı",
+    "min": "En az {{min}} olmalı",
+    "max": "En fazla {{max}} olmalı",
+    "pattern": "Geçersiz format",
+    "url": "Lütfen geçerli bir URL girin",
+    "number": "Lütfen geçerli bir sayı girin",
+    "positive": "Pozitif bir sayı olmalı",
+    "integer": "Tam sayı olmalı",
+    "unique": "Bu değer zaten mevcut",
+    "match": "Değerler eşleşmiyor",
+    "date": "Lütfen geçerli bir tarih girin",
+    "futureDate": "Tarih gelecekte olmalı",
+    "pastDate": "Tarih geçmişte olmalı",
+    "fileSize": "Dosya boyutu {{size}}'dan küçük olmalı",
+    "fileType": "Geçersiz dosya türü"
+}

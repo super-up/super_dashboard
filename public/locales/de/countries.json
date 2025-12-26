@@ -1,0 +1,34 @@
+{
+  "table": {
+    "flag": "Flagge",
+    "name": "Name",
+    "code": "Code",
+    "image": "Bild",
+    "updated": "Aktualisiert",
+    "actions": "Aktionen"
+  },
+  "tooltips": {
+    "edit": "Land bearbeiten",
+    "refresh": "Aktualisieren"
+  },
+  "form": {
+    "searchPlaceholder": "Nach Name oder Code suchen..."
+  },
+  "modal": {
+    "title": "Land aktualisieren"
+  },
+  "buttons": {
+    "saveChanges": "Änderungen speichern"
+  },
+  "validation": {
+    "nameRequired": "Name ist erforderlich",
+    "codeRequired": "Code ist erforderlich",
+    "codeFormat": "Code muss 2-3 Zeichen lang sein",
+    "emojiRequired": "Emoji ist erforderlich"
+  },
+  "messages": {
+    "updateSuccess": "Land erfolgreich aktualisiert",
+    "updateFailed": "Land-Aktualisierung fehlgeschlagen",
+    "fetchFailed": "Länder konnten nicht abgerufen werden ({{status}})"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "감사 로그",
+    "columns": {
+        "id": "ID",
+        "action": "작업",
+        "targetType": "대상 유형",
+        "targetId": "대상 ID",
+        "admin": "관리자",
+        "ipAddress": "IP 주소",
+        "timestamp": "시간"
+    }
+}

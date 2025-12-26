@@ -1,0 +1,22 @@
+{
+    "title": "കോളുകൾ",
+    "stats": {
+        "totalFinishedCalls": "മൊത്തം പൂർത്തിയായ കോളുകൾ",
+        "averageDuration": "ശരാശരി ദൈർഘ്യം",
+        "longestCall": "ഏറ്റവും നീണ്ട കോൾ",
+        "shortestCall": "ഏറ്റവും ചെറിയ കോൾ"
+    },
+    "types": {
+        "video": "വീഡിയോ",
+        "voice": "വോയിസ്"
+    },
+    "status": {
+        "ended": "അവസാനിച്ചു",
+        "completed": "പൂർത്തിയായി",
+        "missed": "മിസ്ഡ്",
+        "rejected": "നിരസിച്ചു",
+        "cancelled": "റദ്ദാക്കി",
+        "ongoing": "നടന്നുകൊണ്ടിരിക്കുന്നു",
+        "ringing": "റിംഗ് ചെയ്യുന്നു"
+    }
+}

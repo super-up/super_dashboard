@@ -1,0 +1,18 @@
+{
+    "dashboard": "Bảng Điều Khiển",
+    "users": "Người Dùng",
+    "messages": "Tin Nhắn",
+    "rooms": "Phòng",
+    "reports": "Báo Cáo",
+    "calls": "Cuộc Gọi",
+    "stories": "Tin",
+    "auditLogs": "Nhật Ký Kiểm Toán",
+    "realtimeLogs": "Nhật Ký Thời Gian Thực",
+    "notifications": "Thông Báo",
+    "devices": "Thiết Bị",
+    "countries": "Quốc Gia",
+    "stickers": "Nhãn Dán",
+    "appConfig": "Cấu Hình Ứng Dụng",
+    "dataExport": "Xuất Dữ Liệu",
+    "appVersions": "Phiên Bản Ứng Dụng"
+}

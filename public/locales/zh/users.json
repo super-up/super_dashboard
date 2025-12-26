@@ -1,0 +1,202 @@
+{
+  "show": {
+    "userInformation": "用户信息",
+    "notVerified": "未验证",
+    "offline": "离线",
+    "online": "在线",
+    "deleted": "已删除",
+    "active": "活跃",
+    "bannedUntil": "封禁至 {{date}}",
+    "verifiedUser": "已验证用户",
+    "unknown": "未知",
+    "untitled": "无标题"
+  },
+  "fields": {
+    "id": "ID",
+    "phone": "电话",
+    "email": "邮箱",
+    "platform": "平台",
+    "registrationStatus": "注册状态",
+    "verification": "验证",
+    "country": "国家",
+    "isOnline": "在线状态",
+    "lastSeen": "最后在线",
+    "registered": "注册时间",
+    "banExpires": "封禁到期",
+    "deletedAt": "删除时间"
+  },
+  "tabs": {
+    "overview": "概览",
+    "rooms": "房间",
+    "stories": "动态",
+    "calls": "通话"
+  },
+  "devices": {
+    "title": "设备",
+    "platform": "平台",
+    "version": "版本",
+    "lastActive": "最后活跃",
+    "push": "推送通知",
+    "enabled": "已启用",
+    "disabled": "已禁用",
+    "actions": "操作"
+  },
+  "stats": {
+    "devices": "设备",
+    "rooms": "房间",
+    "stories": "动态"
+  },
+  "rooms": {
+    "title": "房间",
+    "type": "类型",
+    "status": "状态",
+    "admin": "管理员",
+    "moderator": "版主",
+    "actions": "操作",
+    "noRooms": "未找到房间"
+  },
+  "stories": {
+    "media": "媒体",
+    "type": "类型",
+    "caption": "标题",
+    "views": "浏览",
+    "expiry": "过期",
+    "expired": "已过期",
+    "created": "创建时间",
+    "noStories": "未找到动态"
+  },
+  "calls": {
+    "type": "类型",
+    "video": "视频",
+    "voice": "语音",
+    "direction": "方向",
+    "outgoing": "呼出",
+    "incoming": "呼入",
+    "status": "状态",
+    "duration": "时长",
+    "date": "日期",
+    "noCalls": "未找到通话"
+  },
+  "actions": {
+    "viewGroup": "查看群组",
+    "viewDetails": "查看详情",
+    "view": "查看",
+    "edit": "编辑",
+    "ban": "封禁",
+    "unban": "解封",
+    "verify": "验证",
+    "unverify": "取消验证",
+    "restore": "恢复",
+    "delete": "删除",
+    "logoutAll": "从所有设备退出"
+  },
+  "confirmations": {
+    "unbanUser": "确定要解封此用户吗？",
+    "banUser": "确定要封禁此用户吗？",
+    "unverifyUser": "确定要取消验证吗？",
+    "verifyUser": "确定要验证此用户吗？",
+    "restoreUser": "确定要恢复此用户吗？",
+    "deleteUser": "确定要删除此用户吗？",
+    "logoutAll": "这将使用户从所有设备退出。继续吗？",
+    "banUserTitle": "封禁用户",
+    "banUserDesc": "确定要封禁此用户吗？他们将无法访问应用。",
+    "banButton": "是的，封禁",
+    "unbannedTitle": "解封用户",
+    "unbannedDesc": "确定要解封此用户吗？",
+    "unbannedButton": "是的，解封",
+    "restoreTitle": "恢复用户",
+    "restoreDesc": "确定要恢复此用户吗？他们将重新获得应用访问权限。",
+    "restoreButton": "是的，恢复",
+    "deleteTitle": "删除用户",
+    "deleteDesc": "确定要永久删除此用户吗？此操作无法撤销。",
+    "deleteButton": "是的，删除",
+    "logoutAllTitle": "从所有设备退出",
+    "logoutAllDesc": "这将强制用户从所有设备退出。确定吗？",
+    "logoutAllButton": "是的，全部退出"
+  },
+  "notifications": {
+    "unbanned": "用户已成功解封",
+    "banned": "用户已成功封禁",
+    "badgeRemoved": "验证徽章已移除",
+    "verified": "用户已成功验证",
+    "restored": "用户已成功恢复",
+    "deleted": "用户已成功删除",
+    "updateFailed": "用户更新失败",
+    "loggedOut": "已从所有设备退出",
+    "logoutFailed": "设备退出失败"
+  },
+  "filters": {
+    "verified": "已验证"
+  },
+  "modal": {
+    "title": "编辑用户",
+    "profileSection": "资料信息",
+    "verificationSection": "验证",
+    "banSection": "封禁管理",
+    "dangerZone": "危险区域"
+  },
+  "form": {
+    "fullName": "全名",
+    "bio": "简介",
+    "registrationStatus": "注册状态",
+    "verificationBadge": "验证徽章",
+    "banDuration": "选择封禁时长",
+    "banEndDate": "选择封禁结束日期",
+    "saveProfileChanges": "保存资料更改",
+    "deleted": "此用户已被删除"
+  },
+  "placeholders": {
+    "enterFullName": "输入全名",
+    "enterBio": "输入简介"
+  },
+  "validation": {
+    "fullNameRequired": "名称为必填项",
+    "selectRegistrationStatus": "选择注册状态"
+  },
+  "options": {
+    "accepted": "已接受",
+    "pending": "待处理",
+    "rejected": "已拒绝"
+  },
+  "badges": {
+    "verified": "已验证",
+    "notVerified": "未验证",
+    "isVerified": "用户已验证",
+    "isNotVerified": "用户未验证"
+  },
+  "banDurations": {
+    "1h": "1小时",
+    "3d": "3天",
+    "7d": "7天",
+    "1m": "1个月",
+    "3m": "3个月",
+    "1y": "1年",
+    "permanent": "永久",
+    "customDate": "自定义日期"
+  },
+  "messages": {
+    "profileUpdatedSuccess": "用户资料已成功更新",
+    "profileUpdateFailed": "用户更新失败",
+    "userBannedSuccess": "用户已成功封禁",
+    "userUnbannedSuccess": "用户已成功解封",
+    "banStatusFailed": "封禁状态更新失败",
+    "banUserSuccess": "用户已成功封禁",
+    "banUserFailed": "用户封禁失败",
+    "verificationBadgeRemoved": "验证徽章已移除",
+    "verificationBadgeAdded": "用户已成功验证",
+    "verificationFailed": "验证更新失败",
+    "userRestoredSuccess": "用户已成功恢复",
+    "userDeletedSuccess": "用户已成功删除",
+    "updateUserFailed": "用户更新失败",
+    "logoutDevicesSuccess": "已成功从 {{count}} 台设备退出",
+    "logoutDevicesFailed": "设备退出失败",
+    "bannedUntil": "用户已封禁至 {{date}}"
+  },
+  "buttons": {
+    "banUser": "封禁用户",
+    "unbanUser": "解封用户",
+    "deleteUser": "删除用户",
+    "restoreUser": "恢复用户",
+    "logoutAllDevices": "从所有设备退出"
+  }
+}

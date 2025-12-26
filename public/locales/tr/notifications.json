@@ -1,0 +1,44 @@
+{
+    "title": "Bildirimler",
+    "list": {
+        "sendToAll": "Tüm Kullanıcılara Gönder",
+        "columns": {
+            "title": "Başlık",
+            "content": "İçerik",
+            "image": "Görsel",
+            "created": "Oluşturuldu",
+            "actions": "İşlemler"
+        },
+        "hasImage": {
+            "yes": "Evet",
+            "no": "Hayır"
+        },
+        "modal": {
+            "title": "Tüm Kullanıcılara Bildirim Gönder",
+            "form": {
+                "title": "Başlık",
+                "titlePlaceholder": "Bildirim başlığı",
+                "content": "İçerik",
+                "contentPlaceholder": "Bildirim mesajı",
+                "imageUrl": "Görsel URL (opsiyonel)",
+                "imageUrlPlaceholder": "https://..."
+            }
+        },
+        "messages": {
+            "sendSuccess": "Bildirim tüm kullanıcılara gönderildi"
+        }
+    },
+    "show": {
+        "adminNotification": "Yönetici Bildirimi",
+        "created": "Oluşturuldu",
+        "notificationImage": "Bildirim Görseli",
+        "notificationContent": "Bildirim İçeriği",
+        "notificationDetails": "Bildirim Detayları",
+        "notificationId": "Bildirim ID",
+        "updated": "Güncellendi",
+        "imageUrl": "Görsel URL",
+        "deliveryInfo": "Teslimat Bilgisi",
+        "sentAt": "Gönderilme",
+        "timeAgo": "Zaman Önce"
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "title": "অ্যাপ কনফিগারেশন",
+    "subtitle": "অ্যাপ্লিকেশন সেটিংস এবং ফিচার ফ্ল্যাগ পরিচালনা করুন",
+    "sections": {
+        "general": "সাধারণ সেটিংস",
+        "features": "ফিচার টগল",
+        "limits": "সীমা এবং বাধা",
+        "urls": "বাহ্যিক URL",
+        "icons": "ডিফল্ট আইকন"
+    },
+    "subsections": {
+        "platformLogin": "প্ল্যাটফর্ম লগইন",
+        "chatFeatures": "চ্যাট ফিচার",
+        "appStoreLinks": "অ্যাপ স্টোর লিংক",
+        "roomEmojis": "রুম ইমোজি",
+        "defaultImages": "ডিফল্ট ছবি (ফাইলনাম)"
+    },
+    "fields": {
+        "appName": "অ্যাপের নাম",
+        "feedbackEmail": "ফিডব্যাক ইমেইল",
+        "userRegisterStatus": "ব্যবহারকারী নিবন্ধন নীতি",
+        "userRegisterStatusTooltip": "নতুন ব্যবহারকারী নিবন্ধন কিভাবে পরিচালিত হয় তা নিয়ন্ত্রণ করে",
+        "emailCodeExpiry": "ইমেইল কোড মেয়াদ (মিনিট)",
+        "emailCodeExpiryTooltip": "পাসওয়ার্ড রিসেট কোড কতক্ষণ বৈধ থাকে",
+        "enableAds": "বিজ্ঞাপন সক্রিয় করুন",
+        "mobileLogin": "মোবাইল লগইন",
+        "webLogin": "ওয়েব লগইন",
+        "desktopLogin": "ডেস্কটপ লগইন",
+        "messaging": "মেসেজিং",
+        "sendMedia": "মিডিয়া পাঠান",
+        "voiceVideoCalls": "ভয়েস/ভিডিও কল",
+        "createGroups": "গ্রুপ তৈরি করুন",
+        "createBroadcasts": "ব্রডকাস্ট তৈরি করুন",
+        "maxGroupMembers": "সর্বাধিক গ্রুপ সদস্য",
+        "maxGroupMembersTooltip": "একটি গ্রুপে অনুমোদিত সর্বাধিক সদস্য সংখ্যা",
+        "maxBroadcastRecipients": "সর্বাধিক ব্রডকাস্ট প্রাপক",
+        "maxBroadcastRecipientsTooltip": "ব্রডকাস্ট বার্তার সর্বাধিক প্রাপক",
+        "maxForwards": "সর্বাধিক ফরওয়ার্ড",
+        "maxForwardsTooltip": "একটি বার্তা সর্বাধিক কতবার ফরওয়ার্ড করা যাবে",
+        "maxMediaSize": "সর্বাধিক মিডিয়া সাইজ (MB)",
+        "maxMediaSizeTooltip": "মিডিয়া আপলোডের সর্বাধিক ফাইল সাইজ",
+        "callTimeout": "কল টাইমআউট (সেকেন্ড)",
+        "callTimeoutTooltip": "কল টাইমআউটের আগে কতক্ষণ রিং হবে",
+        "privacyUrl": "গোপনীয়তা নীতি URL",
+        "webChatUrl": "ওয়েব চ্যাট URL",
+        "appleStoreUrl": "অ্যাপল অ্যাপ স্টোর URL",
+        "googlePlayUrl": "গুগল প্লে স্টোর URL",
+        "macStoreUrl": "ম্যাক অ্যাপ স্টোর URL",
+        "windowsStoreUrl": "উইন্ডোজ স্টোর URL",
+        "groupIcon": "গ্রুপ আইকন",
+        "broadcastIcon": "ব্রডকাস্ট আইকন",
+        "orderIcon": "অর্ডার আইকন",
+        "defaultUserImage": "ডিফল্ট ব্যবহারকারী ছবি",
+        "defaultGroupImage": "ডিফল্ট গ্রুপ ছবি",
+        "defaultBroadcastImage": "ডিফল্ট ব্রডকাস্ট ছবি",
+        "defaultSupportImage": "ডিফল্ট সাপোর্ট ছবি"
+    },
+    "actions": {
+        "refresh": "রিফ্রেশ",
+        "resetToDefaults": "ডিফল্টে রিসেট করুন",
+        "discardChanges": "পরিবর্তন বাতিল করুন",
+        "saveConfiguration": "কনফিগারেশন সংরক্ষণ"
+    },
+    "confirmations": {
+        "resetTitle": "কনফিগারেশন রিসেট",
+        "resetDescription": "আপনি কি সমস্ত সেটিংস ডিফল্টে রিসেট করতে চান? এটি পূর্বাবস্থায় ফেরানো যাবে না।",
+        "reset": "রিসেট"
+    },
+    "messages": {
+        "configUpdated": "কনফিগারেশন আপডেট হয়েছে",
+        "configUpdatedDesc": "অ্যাপ কনফিগারেশন সফলভাবে সংরক্ষিত হয়েছে।",
+        "updateFailed": "আপডেট ব্যর্থ",
+        "updateFailedDesc": "কনফিগারেশন সংরক্ষণ করতে ব্যর্থ। আবার চেষ্টা করুন।",
+        "configReset": "কনফিগারেশন রিসেট",
+        "configResetDesc": "অ্যাপ কনফিগারেশন ডিফল্টে রিসেট হয়েছে।",
+        "resetFailed": "রিসেট ব্যর্থ",
+        "resetFailedDesc": "কনফিগারেশন রিসেট করতে ব্যর্থ। আবার চেষ্টা করুন।",
+        "backendVersion": "ব্যাকএন্ড সংস্করণ"
+    },
+    "validation": {
+        "appNameRequired": "অ্যাপের নাম প্রয়োজন",
+        "emailRequired": "ইমেইল প্রয়োজন",
+        "invalidEmail": "অবৈধ ইমেইল ফর্ম্যাট",
+        "invalidUrl": "অবৈধ URL ফর্ম্যাট"
+    },
+    "current": "বর্তমান"
+}

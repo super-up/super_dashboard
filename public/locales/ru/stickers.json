@@ -1,0 +1,100 @@
+{
+    "title": "Стикеры",
+    "list": "Наборы стикеров",
+    "details": "Детали набора стикеров",
+    "fields": {
+        "id": "ID набора",
+        "name": "Название",
+        "author": "Автор",
+        "type": "Тип",
+        "thumbnail": "Миниатюра",
+        "version": "Версия",
+        "stickersCount": "Стикеры",
+        "createdAt": "Создано",
+        "updatedAt": "Обновлено"
+    },
+    "types": {
+        "animated": "Анимированный",
+        "static": "Статичный"
+    },
+    "stats": {
+        "totalPacks": "Всего наборов",
+        "animatedPacks": "Анимированные наборы",
+        "staticPacks": "Статичные наборы",
+        "totalStickers": "Всего стикеров"
+    },
+    "filters": {
+        "searchPlaceholder": "Поиск по названию или автору...",
+        "search": "Поиск",
+        "filters": "Фильтры",
+        "packType": "Тип набора",
+        "createdFromTo": "Создано с/до",
+        "apply": "Применить",
+        "clear": "Очистить"
+    },
+    "actions": {
+        "title": "Действия",
+        "refresh": "Обновить",
+        "createPack": "Создать набор",
+        "editPack": "Редактировать набор",
+        "deletePack": "Удалить набор",
+        "addSticker": "Добавить стикер",
+        "removeSticker": "Удалить стикер",
+        "view": "Просмотр",
+        "edit": "Редактировать",
+        "delete": "Удалить",
+        "remove": "Удалить"
+    },
+    "show": {
+        "packInformation": "Информация о наборе",
+        "packNotFound": "Набор не найден",
+        "stickersTitle": "Стикеры",
+        "noStickers": "Нет стикеров в этом наборе"
+    },
+    "modal": {
+        "createTitle": "Создать набор стикеров",
+        "editTitle": "Редактировать набор стикеров",
+        "addStickersTitle": "Добавить стикеры",
+        "cancel": "Отмена",
+        "create": "Создать",
+        "update": "Обновить",
+        "upload": "Загрузить стикеры",
+        "packName": "Название набора",
+        "packNamePlaceholder": "Введите название набора",
+        "thumbnailUrl": "URL миниатюры",
+        "thumbnailUrlPlaceholder": "Введите URL миниатюры",
+        "authorLabel": "Автор",
+        "authorPlaceholder": "Введите имя автора",
+        "animatedPack": "Анимированный набор",
+        "selectThumbnail": "Выбрать миниатюру",
+        "selectImages": "Выбрать изображения (до 50)",
+        "uploadHint": "Нажмите или перетащите изображения для загрузки",
+        "emojis": "Эмодзи (через запятую)",
+        "emojisPlaceholder": "Введите эмодзи через запятую"
+    },
+    "confirmations": {
+        "deletePack": "Удалить этот набор?",
+        "removeSticker": "Удалить этот стикер?"
+    },
+    "notifications": {
+        "packCreated": "Набор успешно создан",
+        "packUpdated": "Набор успешно обновлен",
+        "packDeleted": "Набор успешно удален",
+        "stickersAdded": "Стикеры успешно добавлены",
+        "stickerRemoved": "Стикер успешно удален",
+        "createFailed": "Не удалось создать набор",
+        "updateFailed": "Не удалось обновить набор",
+        "deleteFailed": "Не удалось удалить набор",
+        "uploadFailed": "Не удалось загрузить стикеры"
+    },
+    "validation": {
+        "nameRequired": "Название набора обязательно",
+        "thumbnailRequired": "URL миниатюры обязателен",
+        "authorRequired": "Автор обязателен",
+        "selectFiles": "Пожалуйста, выберите хотя бы одно изображение",
+        "onlyImages": "Можно загружать только файлы изображений!",
+        "maxFileSize": "Изображение должно быть меньше 10МБ!",
+        "maxImagesAllowed": "Максимум 50 изображений разрешено",
+        "uploadHint": "Поддерживается PNG, JPG, WebP, GIF. Макс 50 изображений, по 10МБ каждое."
+    }
+}

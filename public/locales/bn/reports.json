@@ -1,0 +1,82 @@
+{
+  "types": {
+    "user": "ব্যবহারকারী রিপোর্ট",
+    "chat": "চ্যাট রিপোর্ট"
+  },
+  "reasons": {
+    "spam": "স্প্যাম",
+    "harassment": "হয়রানি",
+    "inappropriatecontent": "অনুপযুক্ত কন্টেন্ট",
+    "hatespeech": "ঘৃণামূলক বক্তব্য",
+    "violence": "সহিংসতা"
+  },
+  "status": {
+    "pending": "মুলতুবি",
+    "approved": "অনুমোদিত",
+    "rejected": "প্রত্যাখ্যাত"
+  },
+  "labels": {
+    "reportId": "রিপোর্ট আইডি",
+    "reportProgress": "রিপোর্ট অগ্রগতি",
+    "submitted": "জমা দেওয়া",
+    "reporter": "প্রতিবেদক",
+    "reportedUser": "প্রতিবেদিত ব্যবহারকারী",
+    "reportedContent": "প্রতিবেদিত কন্টেন্ট",
+    "reportReason": "রিপোর্টের কারণ",
+    "reportDetails": "রিপোর্ট বিবরণ",
+    "takeAction": "পদক্ষেপ নিন",
+    "actionsAreIrreversible": "পদক্ষেপ অপরিবর্তনীয়",
+    "takeActionDescription": "নিম্নলিখিত পদক্ষেপগুলো প্রতিবেদিত ব্যবহারকারীকে স্থায়ীভাবে প্রভাবিত করবে। এগিয়ে যাওয়ার আগে সতর্কতার সাথে পর্যালোচনা করুন।",
+    "selectBanDuration": "নিষেধাজ্ঞার সময়কাল নির্বাচন করুন",
+    "daysFromNow": "এখন থেকে দিন",
+    "orSelectSpecificDate": "অথবা নির্দিষ্ট তারিখ নির্বাচন করুন",
+    "userWillBeBanned": "ব্যবহারকারী {{duration}} এর জন্য নিষিদ্ধ হবে",
+    "warningDeleteAccount": "সতর্কতা: অ্যাকাউন্ট স্থায়ীভাবে মুছে ফেলা হবে",
+    "softDeletedAccount": "এই অ্যাকাউন্ট সফট মুছে ফেলা হবে এবং পুনরুদ্ধার করা যাবে না।",
+    "reportedUserDataNotAvailable": "প্রতিবেদিত ব্যবহারকারীর তথ্য পাওয়া যাচ্ছে না",
+    "chatDataNotAvailable": "চ্যাট তথ্য পাওয়া যাচ্ছে না",
+    "noReportedContent": "কোন প্রতিবেদিত কন্টেন্ট নেই",
+    "noAdditionalDetails": "কোন অতিরিক্ত বিবরণ প্রদান করা হয়নি",
+    "unknownUser": "অজানা ব্যবহারকারী",
+    "type": "ধরন",
+    "createdAt": "তৈরির সময়",
+    "updatedAt": "আপডেটের সময়",
+    "resolvedAt": "সমাধানের সময়"
+  },
+  "confirmations": {
+    "approveReport": "রিপোর্ট অনুমোদন",
+    "approveReportDesc": "আপনি কি এই রিপোর্ট অনুমোদন করতে চান?",
+    "rejectReport": "রিপোর্ট প্রত্যাখ্যান",
+    "rejectReportDesc": "আপনি কি এই রিপোর্ট প্রত্যাখ্যান করতে চান?",
+    "deleteUserAccount": "ব্যবহারকারী অ্যাকাউন্ট মুছুন",
+    "deleteUserAccountDesc": "এই পদক্ষেপ ব্যবহারকারী অ্যাকাউন্ট স্থায়ীভাবে মুছে ফেলবে। এটি পূর্বাবস্থায় ফেরানো যাবে না।",
+    "deleteReportedContent": "প্রতিবেদিত কন্টেন্ট মুছুন",
+    "deleteReportedContentDesc": "আপনি কি প্রতিবেদিত কন্টেন্ট মুছতে চান?"
+  },
+  "actions": {
+    "approve": "অনুমোদন",
+    "reject": "প্রত্যাখ্যান",
+    "banUser": "ব্যবহারকারী নিষিদ্ধ করুন",
+    "deleteAccount": "অ্যাকাউন্ট মুছুন",
+    "deleteContent": "কন্টেন্ট মুছুন",
+    "delete": "মুছুন",
+    "ban": "নিষিদ্ধ",
+    "viewUserProfile": "ব্যবহারকারী প্রোফাইল দেখুন",
+    "viewChatDetails": "চ্যাট বিবরণ দেখুন",
+    "viewProfile": "প্রোফাইল দেখুন"
+  },
+  "table": {
+    "reason": "কারণ",
+    "status": "স্ট্যাটাস"
+  },
+  "messages": {
+    "reportStatusUpdated": "রিপোর্ট {{newStatus}}",
+    "updateFailed": "রিপোর্ট আপডেট করতে ব্যর্থ",
+    "noReportedUser": "পদক্ষেপ নেওয়ার জন্য কোন প্রতিবেদিত ব্যবহারকারী নেই",
+    "userBannedFor": "ব্যবহারকারী {{duration}} নিষিদ্ধ",
+    "userAccountDeleted": "ব্যবহারকারী অ্যাকাউন্ট মুছে ফেলা হয়েছে",
+    "actionFailed": "পদক্ষেপ নিতে ব্যর্থ",
+    "contentDeleted": "কন্টেন্ট মুছে ফেলা হয়েছে",
+    "deleteContentFailed": "কন্টেন্ট মুছতে ব্যর্থ"
+  }
+}

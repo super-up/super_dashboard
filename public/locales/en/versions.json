@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "App Versions",
+    "addVersionButton": "Add Version"
+  },
+  "table": {
+    "version": "Version",
+    "platform": "Platform",
+    "critical": "Critical",
+    "notify": "Notify",
+    "notes": "Notes",
+    "created": "Created",
+    "actions": "Actions"
+  },
+  "tabs": {
+    "all": "All",
+    "macos": "macOS",
+    "other": "Other"
+  },
+  "tooltips": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "refresh": "Refresh"
+  },
+  "modal": {
+    "addTitle": "Add Version",
+    "editTitle": "Edit Version"
+  },
+  "form": {
+    "platform": "Platform",
+    "version": "Version",
+    "critical": "Critical (Force Update)",
+    "notify": "Notify Users",
+    "notes": "Release Notes",
+    "notesPlaceholder": "What's new in this version..."
+  },
+  "validation": {
+    "platformRequired": "Platform is required",
+    "selectPlatform": "Select platform",
+    "versionRequired": "Version is required",
+    "versionFormat": "Use format: x.x.x (e.g., 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "create": "Create",
+    "update": "Update"
+  },
+  "confirmations": {
+    "deleteTitle": "Delete this version?",
+    "deleteDesc": "This action cannot be undone.",
+    "deleteButton": "Delete"
+  },
+  "messages": {
+    "fetchVersionsFailed": "Failed to fetch versions: {{error}}",
+    "deleteSuccess": "Version deleted successfully",
+    "deleteFailed": "Failed to delete version",
+    "updateSuccess": "Version updated successfully",
+    "createSuccess": "Version created successfully",
+    "saveFailed": "Failed to save version"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "page": {
+    "title": "Versions de l'application",
+    "addVersionButton": "Ajouter une version"
+  },
+  "table": {
+    "version": "Version",
+    "platform": "Plateforme",
+    "critical": "Critique",
+    "notify": "Notifier",
+    "notes": "Notes",
+    "created": "Créé",
+    "actions": "Actions"
+  },
+  "tabs": {
+    "all": "Tous",
+    "macos": "macOS",
+    "other": "Autre"
+  },
+  "tooltips": {
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "refresh": "Actualiser"
+  },
+  "modal": {
+    "addTitle": "Ajouter une version",
+    "editTitle": "Modifier la version"
+  },
+  "form": {
+    "platform": "Plateforme",
+    "version": "Version",
+    "critical": "Critique (Mise à jour forcée)",
+    "notify": "Notifier les utilisateurs",
+    "notes": "Notes de version",
+    "notesPlaceholder": "Quoi de neuf dans cette version..."
+  },
+  "validation": {
+    "platformRequired": "La plateforme est requise",
+    "selectPlatform": "Sélectionner la plateforme",
+    "versionRequired": "La version est requise",
+    "versionFormat": "Utiliser le format : x.x.x (par ex., 1.2.0)"
+  },
+  "buttons": {
+    "cancel": "Annuler",
+    "create": "Créer",
+    "update": "Mettre à jour"
+  },
+  "confirmations": {
+    "deleteTitle": "Supprimer cette version ?",
+    "deleteDesc": "Cette action ne peut pas être annulée.",
+    "deleteButton": "Supprimer"
+  },
+  "messages": {
+    "fetchVersionsFailed": "Échec de la récupération des versions : {{error}}",
+    "deleteSuccess": "Version supprimée avec succès",
+    "deleteFailed": "Échec de la suppression de la version",
+    "updateSuccess": "Version mise à jour avec succès",
+    "createSuccess": "Version créée avec succès",
+    "saveFailed": "Échec de l'enregistrement de la version"
+  }
+}

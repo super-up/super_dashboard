@@ -1,0 +1,87 @@
+{
+    "title": "ऐप कॉन्फ़िगरेशन",
+    "subtitle": "एप्लिकेशन सेटिंग्स और फीचर फ्लैग प्रबंधित करें",
+    "sections": {
+        "general": "सामान्य सेटिंग्स",
+        "features": "फीचर टॉगल",
+        "limits": "सीमाएं और बाधाएं",
+        "urls": "बाहरी URL",
+        "icons": "डिफ़ॉल्ट आइकन"
+    },
+    "subsections": {
+        "platformLogin": "प्लेटफॉर्म लॉगिन",
+        "chatFeatures": "चैट फीचर",
+        "appStoreLinks": "ऐप स्टोर लिंक",
+        "roomEmojis": "रूम इमोजी",
+        "defaultImages": "डिफ़ॉल्ट छवियां (फ़ाइल नाम)"
+    },
+    "fields": {
+        "appName": "ऐप नाम",
+        "feedbackEmail": "फीडबैक ईमेल",
+        "userRegisterStatus": "उपयोगकर्ता पंजीकरण नीति",
+        "userRegisterStatusTooltip": "नियंत्रित करता है कि नए उपयोगकर्ता पंजीकरण कैसे संभाले जाते हैं",
+        "emailCodeExpiry": "ईमेल कोड समाप्ति (मिनट)",
+        "emailCodeExpiryTooltip": "पासवर्ड रीसेट कोड कितने समय तक वैध रहते हैं",
+        "enableAds": "विज्ञापन सक्षम करें",
+        "mobileLogin": "मोबाइल लॉगिन",
+        "webLogin": "वेब लॉगिन",
+        "desktopLogin": "डेस्कटॉप लॉगिन",
+        "messaging": "मैसेजिंग",
+        "sendMedia": "मीडिया भेजें",
+        "voiceVideoCalls": "वॉयस/वीडियो कॉल",
+        "createGroups": "समूह बनाएं",
+        "createBroadcasts": "ब्रॉडकास्ट बनाएं",
+        "maxGroupMembers": "अधिकतम समूह सदस्य",
+        "maxGroupMembersTooltip": "समूह में अनुमत अधिकतम सदस्यों की संख्या",
+        "maxBroadcastRecipients": "अधिकतम ब्रॉडकास्ट प्राप्तकर्ता",
+        "maxBroadcastRecipientsTooltip": "ब्रॉडकास्ट संदेशों के लिए अधिकतम प्राप्तकर्ता",
+        "maxForwards": "अधिकतम फॉरवर्ड",
+        "maxForwardsTooltip": "संदेश को कितनी बार फॉरवर्ड किया जा सकता है",
+        "maxMediaSize": "अधिकतम मीडिया आकार (MB)",
+        "maxMediaSizeTooltip": "मीडिया अपलोड के लिए अधिकतम फ़ाइल आकार",
+        "callTimeout": "कॉल टाइमआउट (सेकंड)",
+        "callTimeoutTooltip": "कॉल समाप्त होने से पहले कितनी देर तक बजती है",
+        "privacyUrl": "गोपनीयता नीति URL",
+        "webChatUrl": "वेब चैट URL",
+        "appleStoreUrl": "Apple App Store URL",
+        "googlePlayUrl": "Google Play Store URL",
+        "macStoreUrl": "Mac App Store URL",
+        "windowsStoreUrl": "Windows Store URL",
+        "groupIcon": "समूह आइकन",
+        "broadcastIcon": "ब्रॉडकास्ट आइकन",
+        "orderIcon": "ऑर्डर आइकन",
+        "defaultUserImage": "डिफ़ॉल्ट उपयोगकर्ता छवि",
+        "defaultGroupImage": "डिफ़ॉल्ट समूह छवि",
+        "defaultBroadcastImage": "डिफ़ॉल्ट ब्रॉडकास्ट छवि",
+        "defaultSupportImage": "डिफ़ॉल्ट सहायता छवि"
+    },
+    "actions": {
+        "refresh": "रिफ्रेश करें",
+        "resetToDefaults": "डिफ़ॉल्ट पर रीसेट करें",
+        "discardChanges": "परिवर्तन त्यागें",
+        "saveConfiguration": "कॉन्फ़िगरेशन सहेजें"
+    },
+    "confirmations": {
+        "resetTitle": "कॉन्फ़िगरेशन रीसेट करें",
+        "resetDescription": "क्या आप वाकई सभी सेटिंग्स को डिफ़ॉल्ट पर रीसेट करना चाहते हैं? यह पूर्ववत नहीं किया जा सकता।",
+        "reset": "रीसेट करें"
+    },
+    "messages": {
+        "configUpdated": "कॉन्फ़िगरेशन अपडेट किया गया",
+        "configUpdatedDesc": "ऐप कॉन्फ़िगरेशन सफलतापूर्वक सहेजा गया है।",
+        "updateFailed": "अपडेट विफल",
+        "updateFailedDesc": "कॉन्फ़िगरेशन सहेजने में विफल। कृपया पुनः प्रयास करें।",
+        "configReset": "कॉन्फ़िगरेशन रीसेट किया गया",
+        "configResetDesc": "ऐप कॉन्फ़िगरेशन डिफ़ॉल्ट पर रीसेट किया गया है।",
+        "resetFailed": "रीसेट विफल",
+        "resetFailedDesc": "कॉन्फ़िगरेशन रीसेट करने में विफल। कृपया पुनः प्रयास करें।",
+        "backendVersion": "बैकएंड संस्करण"
+    },
+    "validation": {
+        "appNameRequired": "ऐप नाम आवश्यक है",
+        "emailRequired": "ईमेल आवश्यक है",
+        "invalidEmail": "अमान्य ईमेल प्रारूप",
+        "invalidUrl": "अमान्य URL प्रारूप"
+    },
+    "current": "वर्तमान"
+}
