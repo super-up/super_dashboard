@@ -203,7 +203,8 @@ const MiniVideoPlayer: React.FC<{ url: string; thumbnailUrl?: string; duration?:
                 open={showModal}
                 onCancel={() => setShowModal(false)}
                 footer={null}
-                width={640}
+                width="90%"
+                style={{ maxWidth: 640 }}
                 centered
                 destroyOnClose
             >
@@ -578,8 +579,8 @@ export const MessageList = () => {
             {/* Search & Filter Section */}
             <Card className="filter-card" size="small">
                 <Row gutter={[16, 12]} align="middle">
-                    <Col flex="auto">
-                        <Space.Compact style={{ width: "100%", maxWidth: 500 }}>
+                    <Col xs={24} md="auto" flex="auto">
+                        <Space.Compact style={{ width: "100%" }}>
                             <Input
                                 placeholder={tc("placeholders.searchInMessageContent")}
                                 prefix={<SearchOutlined />}
@@ -598,12 +599,12 @@ export const MessageList = () => {
                             </Button>
                         </Space.Compact>
                     </Col>
-                    <Col>
-                        <Space>
+                    <Col xs={24} md="auto">
+                        <Space wrap style={{ width: "100%", justifyContent: "flex-end" }}>
                             <Select
                                 value={`${filters.sortField}_${filters.sortOrder}`}
                                 onChange={handleSortChange}
-                                style={{ width: 160 }}
+                                style={{ minWidth: 160 }}
                                 suffixIcon={filters.sortOrder === "desc" ? <SortDescendingOutlined /> : <SortAscendingOutlined />}
                             >
                                 {sortOptions.map((opt) => (
@@ -769,6 +770,16 @@ export const MessageList = () => {
                     rowClassName={getRowClassName}
                     scroll={{ x: 1200 }}
                     size="middle"
+                    onRow={(record) => ({
+                        onClick: (e) => {
+                            const target = e.target as HTMLElement;
+                            if (target.closest('button') || target.closest('.ant-checkbox-wrapper') || target.closest('.ant-popover') || target.closest('.ant-btn') || target.closest('.ant-image') || target.closest('.ant-slider') || target.closest('audio') || target.closest('video')) {
+                                return;
+                            }
+                            goToDetail("admin/messages", record._id);
+                        },
+                        style: { cursor: 'pointer' },
+                    })}
                 >
                     <Table.Column
                         title={tc("table.sender")}
@@ -949,7 +960,8 @@ export const MessageList = () => {
                 footer={null}
                 onCancel={() => setPreviewImage(null)}
                 centered
-                width={400}
+                width="90%"
+                style={{ maxWidth: 400 }}
             >
                 <Image
                     src={previewImage || ""}
@@ -964,7 +976,8 @@ export const MessageList = () => {
                 title={t("details")}
                 footer={null}
                 onCancel={() => setDetailMessage(null)}
-                width={600}
+                width="90%"
+                style={{ maxWidth: 600 }}
             >
                 {detailMessage && (
                     <div style={{ padding: "16px 0" }}>

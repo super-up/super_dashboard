@@ -2,6 +2,7 @@ import { List, useTable, DateField, ShowButton } from "@refinedev/antd";
 import { Table, Tag, Space, Button } from "antd";
 import { useNotification } from "@refinedev/core";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import { axiosInstance } from "../../providers/dataProvider";
 import { API_URL } from "../../config/api";
 
@@ -20,6 +21,7 @@ const normalizeReportType = (type: string): string => {
 export const ReportList = () => {
     const { t } = useTranslation("reports");
     const { t: tc } = useTranslation("common");
+    const navigate = useNavigate();
     const { tableProps, tableQuery } = useTable({
         resource: "admin/reports",
         syncWithLocation: false,
@@ -53,7 +55,21 @@ export const ReportList = () => {
     };
     return (
         <List>
-            <Table {...tableProps} rowKey="_id">
+            <Table
+                {...tableProps}
+                rowKey="_id"
+                scroll={{ x: 900 }}
+                onRow={(record) => ({
+                    onClick: (e) => {
+                        const target = e.target as HTMLElement;
+                        if (target.closest('button') || target.closest('.ant-checkbox-wrapper') || target.closest('.ant-popover') || target.closest('.ant-btn')) {
+                            return;
+                        }
+                        navigate(`/reports/show/${record._id}`);
+                    },
+                    style: { cursor: 'pointer' },
+                })}
+            >
                 <Table.Column title={tc("table.id")} dataIndex="_id" width={180} ellipsis />
                 <Table.Column
                     title={tc("table.type")}

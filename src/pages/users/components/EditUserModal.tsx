@@ -227,7 +227,8 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
             open={open}
             onCancel={onClose}
             footer={null}
-            width={560}
+            width="90%"
+            style={{ maxWidth: 560 }}
             destroyOnClose
         >
             <Spin spinning={loading}>

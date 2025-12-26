@@ -93,7 +93,8 @@ export const StickerModal = ({ open, loading, onClose, onAdd }: StickerModalProp
             title={t("modal.addStickersTitle")}
             open={open}
             onCancel={handleClose}
-            width={600}
+            width="90%"
+            style={{ maxWidth: 600 }}
             footer={[
                 <Button key="cancel" onClick={handleClose}>
                     {t("modal.cancel")}

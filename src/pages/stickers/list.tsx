@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { List, useTable, DateField, ShowButton } from "@refinedev/antd";
 import { useNotification } from "@refinedev/core";
 import { useTranslation } from "react-i18next";
@@ -58,6 +59,7 @@ export const StickerList = () => {
     const { t } = useTranslation("stickers");
     const { token } = theme.useToken();
     const { open: notify } = useNotification();
+    const navigate = useNavigate();
     const [filters, setFilters] = useState<FilterState>(initialFilters);
     const [appliedFilters, setAppliedFilters] = useState<FilterState>(initialFilters);
     const [showFilters, setShowFilters] = useState(true);
@@ -314,7 +316,21 @@ export const StickerList = () => {
             </Card>
             {/* Table */}
             <List title="" headerButtons={<></>}>
-                <Table {...tableProps} rowKey="_id" scroll={{ x: 900 }}>
+                <Table
+                    {...tableProps}
+                    rowKey="_id"
+                    scroll={{ x: 900 }}
+                    onRow={(record) => ({
+                        onClick: (e) => {
+                            const target = e.target as HTMLElement;
+                            if (target.closest('button') || target.closest('.ant-checkbox-wrapper') || target.closest('.ant-popover') || target.closest('.ant-btn') || target.closest('.ant-image')) {
+                                return;
+                            }
+                            navigate(`/stickers/show/${record._id}`);
+                        },
+                        style: { cursor: 'pointer' },
+                    })}
+                >
                     <Table.Column
                         title={t("fields.thumbnail")}
                         dataIndex="thumbnailUrl"

@@ -298,6 +298,7 @@ export const ActivityTimelineChart = ({ data, isLoading }: ActivityTimelineChart
               columns={tableColumns}
               pagination={false}
               rowKey="date"
+              scroll={{ x: 500 }}
               title={() => <span style={{ fontWeight: 500, fontSize: 13 }}>{t("timeline.last7DaysBreakdown")}</span>}
             />
           </div>

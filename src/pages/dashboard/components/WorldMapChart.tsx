@@ -149,7 +149,7 @@ export const WorldMapChart = ({ data, isLoading }: WorldMapChartProps) => {
       }
       extra={<Tag color="blue">{countryData.length} {t("country.countries")}</Tag>}
       style={{ height: "100%" }}
-      bodyStyle={{ padding: "16px 24px" }}
+      bodyStyle={{ padding: "16px" }}
     >
       {countryData.length === 0 ? (
         <Empty description={t("country.noData")} />
@@ -166,8 +166,8 @@ export const WorldMapChart = ({ data, isLoading }: WorldMapChartProps) => {
                 marginBottom: 16,
               }}
             >
-              <Row gutter={16} align="middle">
-                <Col>
+              <Row gutter={[16, 12]} align="middle">
+                <Col xs={4} sm="auto">
                   <div
                     style={{
                       width: 48,
@@ -183,13 +183,13 @@ export const WorldMapChart = ({ data, isLoading }: WorldMapChartProps) => {
                     <TrophyOutlined style={{ color: "#fff" }} />
                   </div>
                 </Col>
-                <Col flex={1}>
+                <Col xs={20} sm="auto" flex={1}>
                   <div style={{ fontSize: 12, color: token.colorTextSecondary }}>{t("country.topCountry")}</div>
                   <div style={{ fontSize: 18, fontWeight: 600 }}>
                     {topCountry.countryEmoji} {topCountry.countryName}
                   </div>
                 </Col>
-                <Col>
+                <Col xs={12} sm="auto">
                   <Statistic
                     value={topCountry.count}
                     formatter={(v) => formatNumber(Number(v))}
@@ -197,7 +197,7 @@ export const WorldMapChart = ({ data, isLoading }: WorldMapChartProps) => {
                     valueStyle={{ fontSize: 20, color: CHART_COLORS.primary }}
                   />
                 </Col>
-                <Col>
+                <Col xs={12} sm="auto">
                   <Statistic
                     value={((topCountry.count / totalUsers) * 100).toFixed(1)}
                     suffix="%"
@@ -218,7 +218,7 @@ export const WorldMapChart = ({ data, isLoading }: WorldMapChartProps) => {
             rowKey="countryId"
             size="small"
             pagination={{ pageSize: 5, size: "small", showSizeChanger: false }}
-            scroll={{ y: 200 }}
+            scroll={{ x: 400, y: 200 }}
             style={{ marginTop: 8 }}
           />
         </div>

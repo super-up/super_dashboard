@@ -344,6 +344,16 @@ export const DeviceList = () => {
                         onChange: handlePageChange,
                     }}
                     scroll={{ x: 1000 }}
+                    onRow={(record) => ({
+                        onClick: (e) => {
+                            const target = e.target as HTMLElement;
+                            if (target.closest('button') || target.closest('.ant-checkbox-wrapper') || target.closest('.ant-popover') || target.closest('.ant-btn')) {
+                                return;
+                            }
+                            goToDetail("admin/devices", record._id);
+                        },
+                        style: { cursor: 'pointer' },
+                    })}
                 />
             </Card>
         </List>

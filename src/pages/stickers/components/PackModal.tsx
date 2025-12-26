@@ -116,6 +116,8 @@ export const PackModal = ({ open, pack, loading, onClose, onCreate, onUpdate }: 
             title={isEdit ? t("modal.editTitle") : t("modal.createTitle")}
             open={open}
             onCancel={handleClose}
+            width="90%"
+            style={{ maxWidth: 520 }}
             footer={[
                 <Button key="cancel" onClick={handleClose}>
                     {t("modal.cancel")}

@@ -130,7 +130,7 @@ export const NotificationShow = () => {
                             )}
                             {notification.imageUrl && (
                                 <Descriptions.Item label={t("show.imageUrl")} span={2}>
-                                    <Text copyable={{ text: notification.imageUrl }} ellipsis style={{ maxWidth: 400 }}>
+                                    <Text copyable={{ text: notification.imageUrl }} ellipsis style={{ maxWidth: "100%" }}>
                                         {notification.imageUrl}
                                     </Text>
                                 </Descriptions.Item>
@@ -140,7 +140,7 @@ export const NotificationShow = () => {
                     {/* Delivery Info */}
                     <Card title={t("show.deliveryInfo")} style={{ marginTop: 24 }}>
                         <Row gutter={[24, 24]}>
-                            <Col span={12}>
+                            <Col xs={24} sm={12}>
                                 <Card size="small" style={{ textAlign: "center", background: "#e6f7ff" }}>
                                     <Statistic
                                         title={t("show.sentAt")}
@@ -150,7 +150,7 @@ export const NotificationShow = () => {
                                     />
                                 </Card>
                             </Col>
-                            <Col span={12}>
+                            <Col xs={24} sm={12}>
                                 <Card size="small" style={{ textAlign: "center", background: "#fff7e6" }}>
                                     <Statistic
                                         title={t("show.timeAgo")}

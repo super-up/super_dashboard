@@ -40,9 +40,9 @@ export const RealtimeLogs = () => {
   return (
     <div style={{ padding: 24 }}>
       <Card>
-        <Row justify="space-between" align="middle" style={{ marginBottom: 16 }}>
-          <Col>
-            <Space>
+        <Row justify="space-between" align="middle" gutter={[16, 16]} style={{ marginBottom: 16 }}>
+          <Col xs={24} md="auto">
+            <Space wrap>
               <Title level={4} style={{ margin: 0 }}>{t('title')}</Title>
               <Typography.Text type="secondary">
                 {logCount === totalCount
@@ -51,8 +51,8 @@ export const RealtimeLogs = () => {
               </Typography.Text>
             </Space>
           </Col>
-          <Col>
-            <Space>
+          <Col xs={24} md="auto">
+            <Space wrap>
               <ConnectionStatus
                 status={status}
                 error={error}
@@ -75,14 +75,14 @@ export const RealtimeLogs = () => {
             </Space>
           </Col>
         </Row>
-        <Row gutter={16} align="middle" style={{ marginBottom: 16 }}>
-          <Col flex="auto">
+        <Row gutter={[16, 16]} align="middle" style={{ marginBottom: 16 }}>
+          <Col xs={24} md="auto" flex="auto">
             <CategoryFilters
               selected={categoryFilters}
               onChange={setCategoryFilters}
             />
           </Col>
-          <Col>
+          <Col xs={24} md="auto">
             <SeverityFilter
               value={severityFilter}
               onChange={setSeverityFilter}

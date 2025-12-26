@@ -169,15 +169,15 @@ export const DeviceShow = () => {
                             </div>
                         </div>
                         <Divider />
-                        <Row gutter={16}>
-                            <Col span={12}>
+                        <Row gutter={[16, 16]}>
+                            <Col xs={12} sm={12}>
                                 <Statistic
                                     title={tc("table.lastActive")}
                                     value={device.lastSeenAt ? dayjs(device.lastSeenAt).fromNow() : t("labels.never")}
                                     prefix={<ClockCircleOutlined />}
                                 />
                             </Col>
-                            <Col span={12}>
+                            <Col xs={12} sm={12}>
                                 <Statistic
                                     title={tc("table.registered")}
                                     value={dayjs(device.createdAt).fromNow()}
@@ -261,7 +261,7 @@ export const DeviceShow = () => {
                     {/* Push Notification */}
                     <Card title={t("labels.pushNotification")} style={{ marginBottom: 24 }}>
                         <Row gutter={[24, 24]}>
-                            <Col span={8}>
+                            <Col xs={24} sm={8}>
                                 <Card size="small" style={{ textAlign: "center", background: device.pushKey ? token.colorSuccessBg : token.colorErrorBg }}>
                                     <Statistic
                                         title={t("labels.pushStatus")}
@@ -271,7 +271,7 @@ export const DeviceShow = () => {
                                     />
                                 </Card>
                             </Col>
-                            <Col span={16}>
+                            <Col xs={24} sm={16}>
                                 {device.pushKey ? (
                                     <Card size="small" title={<Space><KeyOutlined /> {t("labels.pushToken")}</Space>}>
                                         <Paragraph

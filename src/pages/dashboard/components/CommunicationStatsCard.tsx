@@ -46,8 +46,8 @@ export const CommunicationStatsCard = ({
   };
   return (
     <Card title={t("charts.communicationStats")} loading={isLoading} style={{ height: "100%" }}>
-      <Row gutter={24}>
-        <Col span={12}>
+      <Row gutter={[24, 24]}>
+        <Col xs={24} sm={12}>
           <div style={{ textAlign: "center", marginBottom: 16 }}>
             <PhoneOutlined style={{ fontSize: 24, color: CHART_COLORS.magenta }} />
             <div style={{ fontWeight: 600, marginTop: 8 }}>{t("communication.calls")}</div>
@@ -60,8 +60,8 @@ export const CommunicationStatsCard = ({
             </div>
           )}
           {callStats && (
-            <Row gutter={8} style={{ marginTop: 16 }}>
-              <Col span={12}>
+            <Row gutter={[8, 8]} style={{ marginTop: 16 }}>
+              <Col xs={12} sm={12}>
                 <Statistic
                   title={t("communication.finished")}
                   value={callStats.finished}
@@ -69,7 +69,7 @@ export const CommunicationStatsCard = ({
                   prefix={<CheckCircleOutlined />}
                 />
               </Col>
-              <Col span={12}>
+              <Col xs={12} sm={12}>
                 <Statistic
                   title={t("communication.missed")}
                   value={callStats.missed}
@@ -80,7 +80,7 @@ export const CommunicationStatsCard = ({
             </Row>
           )}
         </Col>
-        <Col span={12}>
+        <Col xs={24} sm={12}>
           <div style={{ textAlign: "center", marginBottom: 16 }}>
             <TeamOutlined style={{ fontSize: 24, color: CHART_COLORS.orange }} />
             <div style={{ fontWeight: 600, marginTop: 8 }}>{t("communication.rooms")}</div>
@@ -93,14 +93,14 @@ export const CommunicationStatsCard = ({
             </div>
           )}
           {roomStats && (
-            <Row gutter={8} style={{ marginTop: 16 }}>
-              <Col span={8}>
+            <Row gutter={[8, 8]} style={{ marginTop: 16 }}>
+              <Col xs={8} sm={8}>
                 <Statistic title={t("communication.groups")} value={roomStats.groups} valueStyle={{ fontSize: 14 }} />
               </Col>
-              <Col span={8}>
+              <Col xs={8} sm={8}>
                 <Statistic title={t("communication.broadcast")} value={roomStats.broadcasts} valueStyle={{ fontSize: 14 }} />
               </Col>
-              <Col span={8}>
+              <Col xs={8} sm={8}>
                 <Statistic title={t("communication.direct")} value={roomStats.singles} valueStyle={{ fontSize: 14 }} />
               </Col>
             </Row>

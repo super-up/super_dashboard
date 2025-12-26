@@ -129,7 +129,7 @@ export const Dashboard = () => {
                 { label: tc("time.lastMonth"), value: [dayjs().subtract(1, "month").startOf("month"), dayjs().subtract(1, "month").endOf("month")] },
                 { label: tc("time.thisYear"), value: [dayjs().startOf("year"), dayjs()] },
               ]}
-              style={{ width: 280 }}
+              style={{ width: "100%", maxWidth: 280 }}
             />
           )}
           <Button

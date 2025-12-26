@@ -3,9 +3,11 @@ import { List, useTable, DateField, ShowButton } from "@refinedev/antd";
 import { useCreate } from "@refinedev/core";
 import { Table, Tag, Button, Modal, Form, Input, message, Space } from "antd";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 export const NotificationList = () => {
     const { t } = useTranslation("notifications");
+    const navigate = useNavigate();
     const { tableProps } = useTable({
         resource: "admin/notifications",
         syncWithLocation: false,
@@ -45,7 +47,21 @@ export const NotificationList = () => {
                 </Button>
             }
         >
-            <Table {...tableProps} rowKey="_id">
+            <Table
+                {...tableProps}
+                rowKey="_id"
+                scroll={{ x: 800 }}
+                onRow={(record) => ({
+                    onClick: (e) => {
+                        const target = e.target as HTMLElement;
+                        if (target.closest('button') || target.closest('.ant-checkbox-wrapper') || target.closest('.ant-popover') || target.closest('.ant-btn')) {
+                            return;
+                        }
+                        navigate(`/notifications/show/${record._id}`);
+                    },
+                    style: { cursor: 'pointer' },
+                })}
+            >
                 <Table.Column title={t("list.columns.title")} dataIndex="title" ellipsis width={200} />
                 <Table.Column title={t("list.columns.content")} dataIndex="content" ellipsis width={300} />
                 <Table.Column
@@ -76,6 +92,8 @@ export const NotificationList = () => {
                 onOk={handleSendAll}
                 onCancel={() => setIsModalOpen(false)}
                 confirmLoading={mutation.isPending}
+                width="90%"
+                style={{ maxWidth: 500 }}
             >
                 <Form form={form} layout="vertical">
                     <Form.Item name="title" label={t("list.modal.form.title")} rules={[{ required: true }]}>

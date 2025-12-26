@@ -155,7 +155,7 @@ export const MessageAnalyticsSection = ({
     },
   ];
   return (
-    <Row gutter={16}>
+    <Row gutter={[16, 16]}>
       <Col xs={24} lg={14}>
         <Card title={t("charts.messageActivity")} loading={isLoading} style={{ height: "100%" }}>
           {chartGrowthData.length > 0 ? (
@@ -184,7 +184,7 @@ export const MessageAnalyticsSection = ({
                 size="small"
                 pagination={false}
                 style={{ marginTop: 8 }}
-                scroll={{ y: 120 }}
+                scroll={{ x: 300, y: 120 }}
               />
             </div>
           ) : (

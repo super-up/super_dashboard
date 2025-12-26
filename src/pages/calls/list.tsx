@@ -3,6 +3,7 @@ import { useCustom } from "@refinedev/core";
 import { Table, Tag, Space, Avatar, Typography, Tooltip, Card, Row, Col, Statistic } from "antd";
 import { PhoneOutlined, VideoCameraOutlined, UserOutlined, ClockCircleOutlined, FieldTimeOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import { getMediaUrl, API_URL } from "../../config/api";
 import dayjs from "dayjs";
 import duration from "dayjs/plugin/duration";
@@ -33,6 +34,7 @@ const formatMilliseconds = (ms: number | undefined): string => {
 export const CallList = () => {
     const { t } = useTranslation("calls");
     const { t: tc } = useTranslation("common");
+    const navigate = useNavigate();
     const { tableProps } = useTable({
         resource: "admin/calls",
         syncWithLocation: false,
@@ -121,7 +123,21 @@ export const CallList = () => {
                     </Card>
                 </Col>
             </Row>
-            <Table {...tableProps} rowKey="_id">
+            <Table
+                {...tableProps}
+                rowKey="_id"
+                scroll={{ x: 800 }}
+                onRow={(record) => ({
+                    onClick: (e) => {
+                        const target = e.target as HTMLElement;
+                        if (target.closest('button') || target.closest('.ant-checkbox-wrapper') || target.closest('.ant-popover') || target.closest('.ant-btn')) {
+                            return;
+                        }
+                        navigate(`/calls/show/${record._id}`);
+                    },
+                    style: { cursor: 'pointer' },
+                })}
+            >
                 <Table.Column
                     title={tc("table.type")}
                     render={(_, record: any) => {

@@ -370,15 +370,15 @@ export const RoomShow = () => {
                                 </>
                             )}
                             <Divider />
-                            <Row gutter={16}>
-                                <Col span={12}>
+                            <Row gutter={[16, 16]}>
+                                <Col xs={12} sm={12}>
                                     <Statistic
                                         title={tc("table.members")}
                                         value={groupRoom.gMembersCount || 0}
                                         prefix={<TeamOutlined />}
                                     />
                                 </Col>
-                                <Col span={12}>
+                                <Col xs={12} sm={12}>
                                     <Statistic
                                         title={tc("table.messages")}
                                         value="-"
@@ -459,7 +459,7 @@ export const RoomShow = () => {
                                         prefix={<SearchOutlined />}
                                         value={memberSearch}
                                         onChange={(e) => setMemberSearch(e.target.value)}
-                                        style={{ width: 200 }}
+                                        style={{ width: "100%", maxWidth: 200 }}
                                         allowClear
                                     />
                                 </Space>
@@ -473,6 +473,7 @@ export const RoomShow = () => {
                                 pagination={{ pageSize: 20 }}
                                 size="small"
                                 rowSelection={rowSelection}
+                                scroll={{ x: 600 }}
                             />
                         </Card>
                     </Col>
@@ -501,8 +502,8 @@ export const RoomShow = () => {
                                 </Space>
                             </div>
                             <Divider />
-                            <Row gutter={16}>
-                                <Col span={24}>
+                            <Row gutter={[16, 16]}>
+                                <Col xs={24} sm={24}>
                                     <Statistic
                                         title={tc("table.recipients")}
                                         value={broadcastRoom.bMembersCount || 0}
@@ -562,7 +563,7 @@ export const RoomShow = () => {
                                     prefix={<SearchOutlined />}
                                     value={memberSearch}
                                     onChange={(e) => setMemberSearch(e.target.value)}
-                                    style={{ width: 200 }}
+                                    style={{ width: "100%", maxWidth: 200 }}
                                     allowClear
                                 />
                             }
@@ -574,6 +575,7 @@ export const RoomShow = () => {
                                 loading={membersLoading}
                                 pagination={{ pageSize: 20 }}
                                 size="small"
+                                scroll={{ x: 600 }}
                             />
                         </Card>
                     </Col>
@@ -608,15 +610,15 @@ export const RoomShow = () => {
                                 </div>
                             </div>
                             <Divider />
-                            <Row gutter={16}>
-                                <Col span={12}>
+                            <Row gutter={[16, 16]}>
+                                <Col xs={12} sm={12}>
                                     <Statistic
                                         title={tc("table.messages")}
                                         value={singleRoom.msgCount || 0}
                                         prefix={<MessageOutlined />}
                                     />
                                 </Col>
-                                <Col span={12}>
+                                <Col xs={12} sm={12}>
                                     <Statistic
                                         title={tc("table.lastActive")}
                                         value={singleRoom.lastMsgAt ? dayjs(singleRoom.lastMsgAt).fromNow() : "-"}

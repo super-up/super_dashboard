@@ -18,7 +18,7 @@ export const AuditList = () => {
 
     return (
         <List title={t("title")}>
-            <Table {...tableProps} rowKey="_id">
+            <Table {...tableProps} rowKey="_id" scroll={{ x: 900 }}>
                 <Table.Column title={t("columns.id")} dataIndex="_id" width={180} ellipsis />
                 <Table.Column
                     title={t("columns.action")}

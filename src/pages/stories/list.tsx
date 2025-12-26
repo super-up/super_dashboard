@@ -2,6 +2,7 @@ import { List, useTable, DateField, DeleteButton, ShowButton } from "@refinedev/
 import { Table, Tag, Image, Space, Avatar, Progress, Typography, theme } from "antd";
 import { EyeOutlined, PlayCircleOutlined, FileImageOutlined, UserOutlined, AudioOutlined, FileOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 import { getMediaUrl } from "../../config/api";
 import { IStory, StoryType, getStoryTypeColor } from "../../types/story.types";
 import dayjs from "dayjs";
@@ -12,6 +13,7 @@ export const StoryList = () => {
     const { token } = theme.useToken();
     const { t } = useTranslation("stories");
     const { t: tc } = useTranslation("common");
+    const navigate = useNavigate();
     const { tableProps } = useTable<IStory>({
         resource: "admin/stories",
         syncWithLocation: false,
@@ -103,7 +105,21 @@ export const StoryList = () => {
     };
     return (
         <List>
-            <Table {...tableProps} rowKey="_id">
+            <Table
+                {...tableProps}
+                rowKey="_id"
+                scroll={{ x: 800 }}
+                onRow={(record) => ({
+                    onClick: (e) => {
+                        const target = e.target as HTMLElement;
+                        if (target.closest('button') || target.closest('.ant-checkbox-wrapper') || target.closest('.ant-popover') || target.closest('.ant-btn') || target.closest('.ant-image')) {
+                            return;
+                        }
+                        navigate(`/stories/show/${record._id}`);
+                    },
+                    style: { cursor: 'pointer' },
+                })}
+            >
                 <Table.Column
                     title={tc("table.media")}
                     render={(_, record: IStory) => renderMediaPreview(record)}

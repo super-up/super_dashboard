@@ -563,6 +563,16 @@ export const RoomList = () => {
                     columns={getColumns()}
                     rowKey="_id"
                     loading={loading}
+                    onRow={(record) => ({
+                        onClick: (e) => {
+                            const target = e.target as HTMLElement;
+                            if (target.closest('button') || target.closest('.ant-checkbox-wrapper') || target.closest('.ant-popover') || target.closest('.ant-btn')) {
+                                return;
+                            }
+                            goToRoomDetail(activeTab, record._id);
+                        },
+                        style: { cursor: 'pointer' },
+                    })}
                     pagination={{
                         current: pagination.page,
                         pageSize: pagination.limit,

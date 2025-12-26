@@ -85,8 +85,8 @@ export const ActiveUsersCard = ({ data, isLoading }: ActiveUsersCardProps) => {
         </Tooltip>
       }
     >
-      <Row gutter={16} style={{ marginBottom: 20, textAlign: "center" }}>
-        <Col span={8}>
+      <Row gutter={[16, 16]} style={{ marginBottom: 20, textAlign: "center" }}>
+        <Col xs={8} sm={8}>
           <Statistic
             title={<span style={{ fontSize: 12 }}>{t("activeUsersCard.dailyActive")}</span>}
             value={safeData.activeToday}
@@ -94,14 +94,14 @@ export const ActiveUsersCard = ({ data, isLoading }: ActiveUsersCardProps) => {
             prefix={<RiseOutlined />}
           />
         </Col>
-        <Col span={8}>
+        <Col xs={8} sm={8}>
           <Statistic
             title={<span style={{ fontSize: 12 }}>{t("activeUsersCard.weeklyActive")}</span>}
             value={safeData.activeWeek}
             valueStyle={{ color: CHART_COLORS.primary, fontSize: 22, fontWeight: 600 }}
           />
         </Col>
-        <Col span={8}>
+        <Col xs={8} sm={8}>
           <Statistic
             title={<span style={{ fontSize: 12 }}>{t("activeUsersCard.monthlyActive")}</span>}
             value={safeData.activeMonth}
@@ -136,20 +136,20 @@ export const ActiveUsersCard = ({ data, isLoading }: ActiveUsersCardProps) => {
         />
       </div>
       <div style={{ marginTop: 16, padding: 12, background: token.colorFillSecondary, borderRadius: 8 }}>
-        <Row gutter={16}>
-          <Col span={8}>
+        <Row gutter={[16, 8]}>
+          <Col xs={8} sm={8}>
             <Text type="secondary" style={{ fontSize: 11, display: "block" }}>{t("activeUsersCard.inactive90d")}</Text>
             <div style={{ fontWeight: 600, fontSize: 16, color: CHART_COLORS.warning }}>
               {formatNumber(safeData.inactive)}
             </div>
           </Col>
-          <Col span={8}>
+          <Col xs={8} sm={8}>
             <Text type="secondary" style={{ fontSize: 11, display: "block" }}>{t("activeUsersCard.neverActive")}</Text>
             <div style={{ fontWeight: 600, fontSize: 16, color: CHART_COLORS.error }}>
               {formatNumber(safeData.neverActive)}
             </div>
           </Col>
-          <Col span={8}>
+          <Col xs={8} sm={8}>
             <Text type="secondary" style={{ fontSize: 11, display: "block" }}>{t("stats.totalUsers")}</Text>
             <div style={{ fontWeight: 600, fontSize: 16, color: CHART_COLORS.primary }}>
               {formatNumber(safeData.total)}

@@ -695,7 +695,8 @@ export const MessageShow = () => {
                 footer={null}
                 onCancel={() => setPreviewImage(null)}
                 centered
-                width={400}
+                width="90%"
+                style={{ maxWidth: 400 }}
             >
                 <Image src={previewImage || ""} alt="Preview" style={{ width: "100%" }} preview={false} />
             </Modal>

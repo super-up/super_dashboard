@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { List, useTable, DateField, ShowButton, getDefaultSortOrder } from "@refinedev/antd";
 import { useNotification } from "@refinedev/core";
 import {
@@ -70,6 +71,7 @@ export const UserList = () => {
     const { t } = useTranslation("users");
     const { t: tc } = useTranslation("common");
     const { token } = theme.useToken();
+    const navigate = useNavigate();
     const [filters, setFilters] = useState<FilterState>(initialFilters);
     const [appliedFilters, setAppliedFilters] = useState<FilterState>(initialFilters);
     const [showFilters, setShowFilters] = useState(true);
@@ -443,6 +445,16 @@ export const UserList = () => {
                     rowClassName={getRowClassName}
                     scroll={{ x: 1200 }}
                     size="middle"
+                    onRow={(record) => ({
+                        onClick: (e) => {
+                            const target = e.target as HTMLElement;
+                            if (target.closest('button') || target.closest('.ant-checkbox-wrapper') || target.closest('.ant-popover') || target.closest('.ant-btn') || target.closest('.ant-popconfirm')) {
+                                return;
+                            }
+                            navigate(`/users/show/${record._id}`);
+                        },
+                        style: { cursor: 'pointer' },
+                    })}
                 >
                     <Table.Column
                         title={tc("table.user")}

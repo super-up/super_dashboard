@@ -368,15 +368,15 @@ export const StoryShow = () => {
                                 showInfo={false}
                             />
                         </div>
-                        <Row gutter={16}>
-                            <Col span={12}>
+                        <Row gutter={[16, 16]}>
+                            <Col xs={12} sm={12}>
                                 <Statistic
                                     title={tc("table.views")}
                                     value={views.length}
                                     prefix={<EyeOutlined />}
                                 />
                             </Col>
-                            <Col span={12}>
+                            <Col xs={12} sm={12}>
                                 <Statistic
                                     title={tc("labels.type")}
                                     value={t(`types.${story.storyType.toLowerCase()}`) || story.storyType}
@@ -454,6 +454,7 @@ export const StoryShow = () => {
                                 rowKey={(record, index) => record._id || `view-${index}`}
                                 pagination={{ pageSize: 20 }}
                                 size="small"
+                                scroll={{ x: 400 }}
                             />
                         ) : (
                             <Empty

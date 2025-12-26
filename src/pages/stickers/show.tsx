@@ -131,9 +131,8 @@ export const StickerShow = () => {
                         <div style={{ textAlign: "center", marginBottom: 16 }}>
                             <Image
                                 src={getMediaUrl(pack.thumbnailUrl)}
-                                width={120}
-                                height={120}
-                                style={{ objectFit: "cover", borderRadius: 8 }}
+                                width="100%"
+                                style={{ maxWidth: 120, aspectRatio: "1", objectFit: "cover", borderRadius: 8 }}
                                 fallback="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
                             />
                         </div>

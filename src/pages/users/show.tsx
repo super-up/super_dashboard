@@ -638,6 +638,7 @@ export const UserShow = () => {
                             rowKey="_id"
                             size="small"
                             pagination={{ pageSize: 20, showSizeChanger: true }}
+                            scroll={{ x: 600 }}
                         >
                             <Table.Column
                                 title={t("devices.platform")}
@@ -702,6 +703,7 @@ export const UserShow = () => {
                         size="small"
                         loading={roomsLoading}
                         locale={{ emptyText: <Empty description={t("rooms.noRooms")} image={Empty.PRESENTED_IMAGE_SIMPLE} /> }}
+                        scroll={{ x: 600 }}
                         pagination={{
                             current: roomsPagination.page,
                             pageSize: roomsPagination.limit,
@@ -734,6 +736,7 @@ export const UserShow = () => {
                         size="small"
                         loading={storiesLoading}
                         locale={{ emptyText: <Empty description={t("stories.noStories")} image={Empty.PRESENTED_IMAGE_SIMPLE} /> }}
+                        scroll={{ x: 800 }}
                         pagination={{
                             current: storiesPagination.page,
                             pageSize: storiesPagination.limit,
@@ -766,6 +769,7 @@ export const UserShow = () => {
                         size="small"
                         loading={callsLoading}
                         locale={{ emptyText: <Empty description={t("calls.noCalls")} image={Empty.PRESENTED_IMAGE_SIMPLE} /> }}
+                        scroll={{ x: 700 }}
                         pagination={{
                             current: callsPagination.page,
                             pageSize: callsPagination.limit,
@@ -875,14 +879,14 @@ export const UserShow = () => {
                             )}
                         </div>
                         <Divider />
-                        <Row gutter={16}>
-                            <Col span={8}>
+                        <Row gutter={[16, 16]}>
+                            <Col xs={8} sm={8}>
                                 <Statistic title={t("stats.devices")} value={devices.length} prefix={<MobileOutlined />} />
                             </Col>
-                            <Col span={8}>
+                            <Col xs={8} sm={8}>
                                 <Statistic title={t("stats.rooms")} value={roomCount} prefix={<TeamOutlined />} />
                             </Col>
-                            <Col span={8}>
+                            <Col xs={8} sm={8}>
                                 <Statistic title={t("stats.stories")} value={storiesPagination.total || "-"} prefix={<FileImageOutlined />} />
                             </Col>
                         </Row>
@@ -932,7 +936,8 @@ export const UserShow = () => {
                 footer={null}
                 onCancel={() => setPreviewImage(null)}
                 centered
-                width={500}
+                width="90%"
+                style={{ maxWidth: 500 }}
             >
                 <Image src={previewImage || ""} alt="User avatar" style={{ width: "100%" }} preview={false} />
             </Modal>
