@@ -32,6 +32,11 @@ export const Login = () => {
                 password: savedPassword,
                 remember: true,
             });
+        } else if (DEMO_MODE) {
+            form.setFieldsValue({
+                email: "admin@admin.com",
+                password: "your_password",
+            });
         }
     }, [form]);
     const handleSubmit = (values: LoginFormValues) => {
