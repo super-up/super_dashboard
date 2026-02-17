@@ -488,7 +488,7 @@ export const UserList = () => {
                                                 </Tooltip>
                                             )}
                                         </Space>
-                                        <div style={{ color: token.colorTextSecondary, fontSize: 12 }}>{record.fullPhone}</div>
+                                        <div style={{ color: token.colorTextSecondary, fontSize: 12 }}>{record.phone}</div>
                                         <div style={{ fontSize: 11 }}>
                                             <Tooltip title={tc("labels.clickToCopyId")}>
                                                 <span

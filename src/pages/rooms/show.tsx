@@ -51,7 +51,7 @@ interface IRoomMember {
     uId: {
         _id: string;
         fullName: string;
-        fullPhone: string;
+        phone: string;
         userImage?: string;
     };
     rId: string;
@@ -69,7 +69,7 @@ interface IGroupRoom {
     creatorId?: {
         _id: string;
         fullName: string;
-        fullPhone: string;
+        phone: string;
         userImage?: string;
     };
     createdAt: string;
@@ -85,7 +85,7 @@ interface IBroadcastRoom {
     creatorId?: {
         _id: string;
         fullName: string;
-        fullPhone?: string;
+        phone?: string;
         userImage?: string;
     };
     createdAt: string;
@@ -99,13 +99,13 @@ interface ISingleRoom {
         _id: string;
         fullName: string;
         userImage?: string;
-        fullPhone?: string;
+        phone?: string;
     };
     peerUser2?: {
         _id: string;
         fullName: string;
         userImage?: string;
-        fullPhone?: string;
+        phone?: string;
     };
     msgCount?: number;
     lastMsgAt?: string;
@@ -262,7 +262,7 @@ export const RoomShow = () => {
         const search = memberSearch.toLowerCase();
         return (
             member.uId?.fullName?.toLowerCase().includes(search) ||
-            member.uId?.fullPhone?.toLowerCase().includes(search)
+            member.uId?.phone?.toLowerCase().includes(search)
         );
     });
     const memberColumns = [
@@ -279,7 +279,7 @@ export const RoomShow = () => {
                     <div>
                         <div style={{ fontWeight: 500 }}>{record.uId?.fullName || "Unknown"}</div>
                         <Text type="secondary" style={{ fontSize: 12 }}>
-                            {record.uId?.fullPhone}
+                            {record.uId?.phone}
                         </Text>
                     </div>
                 </Space>
@@ -643,8 +643,8 @@ export const RoomShow = () => {
                                         <Title level={4} style={{ margin: 0 }}>
                                             {singleRoom.peerUser1.fullName || tc("labels.unknownUser")}
                                         </Title>
-                                        {singleRoom.peerUser1.fullPhone && (
-                                            <Text type="secondary">{singleRoom.peerUser1.fullPhone}</Text>
+                                        {singleRoom.peerUser1.phone && (
+                                            <Text type="secondary">{singleRoom.peerUser1.phone}</Text>
                                         )}
                                         <br />
                                         <Button
@@ -673,8 +673,8 @@ export const RoomShow = () => {
                                         <Title level={4} style={{ margin: 0 }}>
                                             {singleRoom.peerUser2.fullName || tc("labels.unknownUser")}
                                         </Title>
-                                        {singleRoom.peerUser2.fullPhone && (
-                                            <Text type="secondary">{singleRoom.peerUser2.fullPhone}</Text>
+                                        {singleRoom.peerUser2.phone && (
+                                            <Text type="secondary">{singleRoom.peerUser2.phone}</Text>
                                         )}
                                         <br />
                                         <Button

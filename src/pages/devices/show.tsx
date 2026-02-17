@@ -48,7 +48,7 @@ interface IDevice {
         _id: string;
         fullName: string;
         userImage?: string;
-        fullPhone?: string;
+        phone?: string;
         email?: string;
     };
     uId?: string;
@@ -202,9 +202,9 @@ export const DeviceShow = () => {
                                         <Text strong style={{ display: "block" }}>
                                             {device.userId.fullName || tc("labels.unknown")}
                                         </Text>
-                                        {device.userId.fullPhone && (
+                                        {device.userId.phone && (
                                             <Text type="secondary" style={{ fontSize: 12 }}>
-                                                {device.userId.fullPhone}
+                                                {device.userId.phone}
                                             </Text>
                                         )}
                                         <br />

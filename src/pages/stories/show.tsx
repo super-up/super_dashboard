@@ -120,7 +120,7 @@ export const StoryShow = () => {
                                 {viewer?.fullName || tc("labels.unknownUser")}
                             </div>
                             <Text type="secondary" style={{ fontSize: 12 }}>
-                                {viewer?.fullPhone}
+                                {viewer?.phone}
                             </Text>
                         </div>
                     </Space>
@@ -413,7 +413,7 @@ export const StoryShow = () => {
                                         >
                                             {user.fullName}
                                         </Button>
-                                        <Text type="secondary">{user.fullPhone}</Text>
+                                        <Text type="secondary">{user.phone}</Text>
                                     </Space>
                                 ) : (
                                     <Text type="secondary">{tc("labels.unknownUser")}</Text>

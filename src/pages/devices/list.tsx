@@ -44,7 +44,7 @@ interface IDevice {
         _id: string;
         fullName: string;
         userImage?: string;
-        fullPhone?: string;
+        phone?: string;
     };
     uId?: string;
     platform?: string;
@@ -151,7 +151,7 @@ export const DeviceList = () => {
                         <Avatar size={40} src={getMediaUrl(record.userId.userImage)} icon={<UserOutlined />} />
                         <div>
                             <div style={{ fontWeight: 500 }}>{record.userId.fullName || tc("labels.unknown")}</div>
-                            <Text type="secondary" style={{ fontSize: 11 }}>{record.userId.fullPhone || "-"}</Text>
+                            <Text type="secondary" style={{ fontSize: 11 }}>{record.userId.phone || "-"}</Text>
                         </div>
                     </Space>
                 ) : (

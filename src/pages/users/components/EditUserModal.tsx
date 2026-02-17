@@ -247,7 +247,7 @@ export const EditUserModal = ({ user, open, onClose, onSuccess }: EditUserModalP
                             />
                         )}
                     </Title>
-                    <Text type="secondary">{user.fullPhone}</Text>
+                    <Text type="secondary">{user.phone}</Text>
                     {deleted && (
                         <Alert
                             message={t("form.deleted")}

@@ -73,13 +73,13 @@ interface ISingleRoom {
         _id: string;
         fullName: string;
         userImage?: string;
-        fullPhone?: string;
+        phone?: string;
     };
     peerUser2?: {
         _id: string;
         fullName: string;
         userImage?: string;
-        fullPhone?: string;
+        phone?: string;
     };
     msgCount?: number;
     lastMsgAt?: string;
@@ -364,7 +364,7 @@ export const RoomList = () => {
                         <Avatar size={40} src={getMediaUrl(record.peerUser1.userImage)} icon={<UserOutlined />} />
                         <div>
                             <div style={{ fontWeight: 500 }}>{record.peerUser1.fullName || tc("labels.unknown")}</div>
-                            <Text type="secondary" style={{ fontSize: 11 }}>{record.peerUser1.fullPhone || "-"}</Text>
+                            <Text type="secondary" style={{ fontSize: 11 }}>{record.peerUser1.phone || "-"}</Text>
                         </div>
                     </Space>
                 ) : (
@@ -380,7 +380,7 @@ export const RoomList = () => {
                         <Avatar size={40} src={getMediaUrl(record.peerUser2.userImage)} icon={<UserOutlined />} />
                         <div>
                             <div style={{ fontWeight: 500 }}>{record.peerUser2.fullName || tc("labels.unknown")}</div>
-                            <Text type="secondary" style={{ fontSize: 11 }}>{record.peerUser2.fullPhone || "-"}</Text>
+                            <Text type="secondary" style={{ fontSize: 11 }}>{record.peerUser2.phone || "-"}</Text>
                         </div>
                     </Space>
                 ) : (

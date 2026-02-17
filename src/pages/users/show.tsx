@@ -45,6 +45,7 @@ import {
     FileImageOutlined,
     PlayCircleOutlined,
     EyeOutlined,
+    DownloadOutlined,
 } from "@ant-design/icons";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
@@ -72,8 +73,8 @@ interface IStory {
 
 interface ICall {
     _id: string;
-    caller: { _id: string; fullName: string; fullPhone: string; userImage?: string } | string;
-    callee: { _id: string; fullName: string; fullPhone: string; userImage?: string } | string;
+    caller: { _id: string; fullName: string; phone: string; userImage?: string } | string;
+    callee: { _id: string; fullName: string; phone: string; userImage?: string } | string;
     callStatus: string;
     withVideo?: boolean;
     duration?: number;
@@ -104,6 +105,7 @@ export const UserShow = () => {
     const navigate = useNavigate();
     const [editModalOpen, setEditModalOpen] = useState(false);
     const [actionLoading, setActionLoading] = useState(false);
+    const [exportingContacts, setExportingContacts] = useState(false);
     const [previewImage, setPreviewImage] = useState<string | null>(null);
     const [activeTab, setActiveTab] = useState("overview");
     const [rooms, setRooms] = useState<IUserRoom[]>([]);
@@ -279,6 +281,34 @@ export const UserShow = () => {
             notify?.({ type: "error", message: err.response?.data?.message || t("notifications.logoutFailed") });
         } finally {
             setActionLoading(false);
+        }
+    };
+    const handleExportContacts = async () => {
+        setExportingContacts(true);
+        try {
+            const response = await axiosInstance.get(`${API_URL}/admin/export/contacts/${user._id}`, {
+                responseType: "blob",
+            });
+            const url = window.URL.createObjectURL(new Blob([response.data]));
+            const link = document.createElement("a");
+            link.href = url;
+            const disposition = response.headers["content-disposition"];
+            const filename = disposition?.match(/filename="(.+)"/)?.[1] || `contacts_${user._id}.vcf`;
+            link.setAttribute("download", filename);
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+            window.URL.revokeObjectURL(url);
+            notify?.({ type: "success", message: "Contacts exported successfully" });
+        } catch (error: unknown) {
+            const err = error as { response?: { status?: number; data?: { message?: string } } };
+            if (err.response?.status === 404) {
+                notify?.({ type: "error", message: "This user has no contacts" });
+            } else {
+                notify?.({ type: "error", message: err.response?.data?.message || "Failed to export contacts" });
+            }
+        } finally {
+            setExportingContacts(false);
         }
     };
     const formatCallDuration = (seconds: number | undefined): string => {
@@ -567,8 +597,10 @@ export const UserShow = () => {
                             <Descriptions.Item label={t("fields.id")}>
                                 <Text copyable={{ text: user._id }}>{user._id}</Text>
                             </Descriptions.Item>
-                            <Descriptions.Item label={t("fields.phone")}>{user.fullPhone}</Descriptions.Item>
-                            <Descriptions.Item label={t("fields.email")}>{user.email || "-"}</Descriptions.Item>
+                            <Descriptions.Item label={t("fields.phone")}>{user.phone}</Descriptions.Item>
+                            {user.email && (
+                                <Descriptions.Item label={t("fields.email")}>{user.email}</Descriptions.Item>
+                            )}
                             <Descriptions.Item label={t("fields.platform")}>
                                 <Tag color={user.platform === "android" ? "green" : "blue"}>
                                     {user.platform}
@@ -848,7 +880,7 @@ export const UserShow = () => {
                             <Space direction="vertical" size={8}>
                                 <Text type="secondary">
                                     <PhoneOutlined style={{ marginRight: 8 }} />
-                                    {user.fullPhone}
+                                    {user.phone}
                                 </Text>
                                 {user.email && (
                                     <Text type="secondary">
@@ -911,6 +943,14 @@ export const UserShow = () => {
                                     {t("actions.logoutAll")}
                                 </Button>
                             </Popconfirm>
+                            <Button
+                                icon={<DownloadOutlined />}
+                                block
+                                loading={exportingContacts}
+                                onClick={handleExportContacts}
+                            >
+                                Export Contacts
+                            </Button>
                         </Space>
                     </Card>
                 </Col>
