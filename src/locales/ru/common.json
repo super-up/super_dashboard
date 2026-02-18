@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up Admin",
+    "appName": "Wakizz Admin",
     "confirm": "Подтвердить",
     "common": {
         "yes": "Да",
@@ -432,5 +432,5 @@
         "permanent": "Постоянный бан",
         "custom": "Пользовательская длительность"
     },
-    "copyright": "© {{year}} Super Up. Все права защищены."
+    "copyright": "© {{year}} Wakizz. Все права защищены."
 }

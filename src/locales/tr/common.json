@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up Yönetici",
+    "appName": "Wakizz Yönetici",
     "confirm": "Onayla",
     "common": {
         "yes": "Evet",
@@ -432,5 +432,5 @@
         "permanent": "Kalıcı Yasak",
         "custom": "Özel Süre"
     },
-    "copyright": "© {{year}} Super Up. Tüm hakları saklıdır."
+    "copyright": "© {{year}} Wakizz. Tüm hakları saklıdır."
 }

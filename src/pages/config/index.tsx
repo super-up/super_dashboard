@@ -227,7 +227,7 @@ export const AppConfig = () => {
                                             label={t("fields.appName")}
                                             rules={[{ required: true, message: t("validation.appNameRequired") }]}
                                         >
-                                            <Input placeholder="Super Up" />
+                                            <Input placeholder="Wakizz" />
                                         </Form.Item>
                                     </Col>
                                     <Col xs={24} md={12}>

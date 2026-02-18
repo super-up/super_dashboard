@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up Admin",
+    "appName": "Wakizz Admin",
     "confirm": "Confirmar",
     "common": {
         "yes": "Sim",
@@ -432,5 +432,5 @@
         "permanent": "Banimento Permanente",
         "custom": "Duração Personalizada"
     },
-    "copyright": "© {{year}} Super Up. Todos os direitos reservados."
+    "copyright": "© {{year}} Wakizz. Todos os direitos reservados."
 }

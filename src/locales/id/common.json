@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up Admin",
+    "appName": "Wakizz Admin",
     "confirm": "Konfirmasi",
     "common": {
         "yes": "Ya",
@@ -432,5 +432,5 @@
         "permanent": "Blokir Permanen",
         "custom": "Durasi Kustom"
     },
-    "copyright": "© {{year}} Super Up. Hak cipta dilindungi."
+    "copyright": "© {{year}} Wakizz. Hak cipta dilindungi."
 }

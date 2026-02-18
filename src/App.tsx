@@ -269,7 +269,7 @@ const AppContent = () => {
                                             <ThemedSider
                                                 Title={() => (
                                                     <div style={{ padding: "12px", fontWeight: "bold", fontSize: 16 }}>
-                                                        Super Up Admin
+                                                        Wakizz Admin
                                                     </div>
                                                 )}
                                                 render={({ items, logout }) => items}

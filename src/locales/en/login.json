@@ -1,6 +1,6 @@
 {
   "title": "Admin Login",
-  "subtitle": "Sign in to your Super Up Admin account",
+  "subtitle": "Sign in to your Wakizz Admin account",
   "email": "Email Address",
   "emailRequired": "Please enter your email",
   "emailInvalid": "Please enter a valid email",

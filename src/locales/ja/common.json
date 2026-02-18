@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up 管理",
+    "appName": "Wakizz 管理",
     "confirm": "確認",
     "common": {
         "yes": "はい",
@@ -432,5 +432,5 @@
         "permanent": "永久禁止",
         "custom": "カスタム期間"
     },
-    "copyright": "© {{year}} Super Up. All rights reserved."
+    "copyright": "© {{year}} Wakizz. All rights reserved."
 }
