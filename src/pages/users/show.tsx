@@ -301,12 +301,22 @@ export const UserShow = () => {
             window.URL.revokeObjectURL(url);
             notify?.({ type: "success", message: "Contacts exported successfully" });
         } catch (error: unknown) {
-            const err = error as { response?: { status?: number; data?: { message?: string } } };
-            if (err.response?.status === 404) {
-                notify?.({ type: "error", message: "This user has no contacts" });
-            } else {
-                notify?.({ type: "error", message: err.response?.data?.message || "Failed to export contacts" });
+            const err = error as { response?: { status?: number; data?: Blob | { message?: string } } };
+            let errorMessage = "Failed to export contacts";
+            try {
+                if (err.response?.data instanceof Blob) {
+                    const text = await err.response.data.text();
+                    const parsed = JSON.parse(text);
+                    errorMessage = parsed.message || errorMessage;
+                } else if (err.response?.data?.message) {
+                    errorMessage = err.response.data.message as string;
+                }
+            } catch {
+                if (err.response?.status === 404) {
+                    errorMessage = "This user has no contacts";
+                }
             }
+            notify?.({ type: "error", message: errorMessage });
         } finally {
             setExportingContacts(false);
         }
