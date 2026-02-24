@@ -13,9 +13,11 @@ import {
     Image,
     Tooltip,
     Space,
+    Progress,
 } from "antd";
 import {
     BellOutlined,
+    MessageOutlined,
     PictureOutlined,
     CalendarOutlined,
 } from "@ant-design/icons";
@@ -28,11 +30,23 @@ dayjs.extend(relativeTime);
 
 const { Title, Text, Paragraph } = Typography;
 
+const jobStatusColors: Record<string, string> = {
+    pending: "default",
+    processing: "processing",
+    completed: "success",
+    failed: "error",
+};
+
 interface INotification {
     _id: string;
     title: string;
     content: string;
     imageUrl?: string;
+    deliveryType?: string;
+    deliveryCount?: number;
+    targetUserCount?: number;
+    targetType?: string;
+    jobStatus?: string;
     createdAt: string;
     updatedAt?: string;
 }
@@ -51,6 +65,10 @@ export const NotificationShow = () => {
             </div>
         );
     }
+    const deliveryPercent = notification.targetUserCount && notification.targetUserCount > 0
+        ? Math.round((notification.deliveryCount || 0) / notification.targetUserCount * 100)
+        : 0;
+    const isChat = notification.deliveryType === "chat";
     return (
         <Show>
             <Row gutter={[24, 24]}>
@@ -62,18 +80,28 @@ export const NotificationShow = () => {
                                     width: 80,
                                     height: 80,
                                     borderRadius: "50%",
-                                    background: "#e6f7ff",
+                                    background: isChat ? "#f0f5ff" : "#e6f7ff",
                                     display: "flex",
                                     alignItems: "center",
                                     justifyContent: "center",
                                     margin: "0 auto 16px",
                                 }}
                             >
-                                <BellOutlined style={{ fontSize: 36, color: "#1890ff" }} />
+                                {isChat
+                                    ? <MessageOutlined style={{ fontSize: 36, color: "#2f54eb" }} />
+                                    : <BellOutlined style={{ fontSize: 36, color: "#1890ff" }} />
+                                }
                             </div>
-                            <Tag color="blue" style={{ fontSize: 14, padding: "4px 12px" }}>
-                                {t("show.adminNotification")}
-                            </Tag>
+                            <Space>
+                                <Tag color={isChat ? "blue" : "orange"} style={{ fontSize: 14, padding: "4px 12px" }}>
+                                    {notification.deliveryType === "chat" ? "Chat Message" : "Push Notification"}
+                                </Tag>
+                                {notification.jobStatus && (
+                                    <Tag color={jobStatusColors[notification.jobStatus]} style={{ fontSize: 14, padding: "4px 12px" }}>
+                                        {t(`list.jobStatus.${notification.jobStatus}`)}
+                                    </Tag>
+                                )}
+                            </Space>
                         </div>
                         <Divider />
                         <Statistic
@@ -81,6 +109,21 @@ export const NotificationShow = () => {
                             value={dayjs(notification.createdAt).fromNow()}
                             prefix={<CalendarOutlined />}
                         />
+                        {notification.targetUserCount != null && notification.targetUserCount > 0 && (
+                            <>
+                                <Divider />
+                                <Statistic
+                                    title={t("show.deliveryProgress")}
+                                    value={notification.deliveryCount || 0}
+                                    suffix={`/ ${notification.targetUserCount}`}
+                                />
+                                <Progress
+                                    percent={deliveryPercent}
+                                    status={notification.jobStatus === "failed" ? "exception" : notification.jobStatus === "completed" ? "success" : "active"}
+                                    style={{ marginTop: 8 }}
+                                />
+                            </>
+                        )}
                         {notification.imageUrl && (
                             <>
                                 <Divider />
@@ -100,7 +143,6 @@ export const NotificationShow = () => {
                     </Card>
                 </Col>
                 <Col xs={24} lg={16}>
-                    {/* Notification Content */}
                     <Card title={t("show.notificationContent")} style={{ marginBottom: 24 }}>
                         <Title level={3} style={{ marginBottom: 8 }}>
                             {notification.title}
@@ -110,12 +152,28 @@ export const NotificationShow = () => {
                             {notification.content}
                         </Paragraph>
                     </Card>
-                    {/* Notification Details */}
                     <Card title={t("show.notificationDetails")}>
                         <Descriptions column={{ xs: 1, sm: 2 }} bordered size="small">
                             <Descriptions.Item label={t("show.notificationId")}>
                                 <Text copyable={{ text: notification._id }}>{notification._id}</Text>
                             </Descriptions.Item>
+                            <Descriptions.Item label={t("show.deliveryType")}>
+                                <Tag color={isChat ? "blue" : "orange"}>
+                                    {notification.deliveryType === "chat" ? "Chat" : "Push"}
+                                </Tag>
+                            </Descriptions.Item>
+                            {notification.targetType && (
+                                <Descriptions.Item label={t("show.targetType")}>
+                                    <Tag>{notification.targetType}</Tag>
+                                </Descriptions.Item>
+                            )}
+                            {notification.jobStatus && (
+                                <Descriptions.Item label={t("show.jobStatus")}>
+                                    <Tag color={jobStatusColors[notification.jobStatus]}>
+                                        {t(`list.jobStatus.${notification.jobStatus}`)}
+                                    </Tag>
+                                </Descriptions.Item>
+                            )}
                             <Descriptions.Item label={t("show.created")}>
                                 <Tooltip title={dayjs(notification.createdAt).format("YYYY-MM-DD HH:mm:ss")}>
                                     <DateField value={notification.createdAt} format="MMM DD, YYYY HH:mm" />
@@ -137,10 +195,9 @@ export const NotificationShow = () => {
                             )}
                         </Descriptions>
                     </Card>
-                    {/* Delivery Info */}
                     <Card title={t("show.deliveryInfo")} style={{ marginTop: 24 }}>
                         <Row gutter={[24, 24]}>
-                            <Col xs={24} sm={12}>
+                            <Col xs={24} sm={8}>
                                 <Card size="small" style={{ textAlign: "center", background: "#e6f7ff" }}>
                                     <Statistic
                                         title={t("show.sentAt")}
@@ -150,12 +207,21 @@ export const NotificationShow = () => {
                                     />
                                 </Card>
                             </Col>
-                            <Col xs={24} sm={12}>
+                            <Col xs={24} sm={8}>
+                                <Card size="small" style={{ textAlign: "center", background: "#f6ffed" }}>
+                                    <Statistic
+                                        title={t("show.deliveryCount")}
+                                        value={notification.deliveryCount || 0}
+                                        valueStyle={{ color: "#52c41a" }}
+                                    />
+                                </Card>
+                            </Col>
+                            <Col xs={24} sm={8}>
                                 <Card size="small" style={{ textAlign: "center", background: "#fff7e6" }}>
                                     <Statistic
-                                        title={t("show.timeAgo")}
-                                        value={dayjs(notification.createdAt).fromNow()}
-                                        valueStyle={{ color: "#fa8c16", fontSize: 16 }}
+                                        title={t("show.targetUserCount")}
+                                        value={notification.targetUserCount || 0}
+                                        valueStyle={{ color: "#fa8c16" }}
                                     />
                                 </Card>
                             </Col>

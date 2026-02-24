@@ -1,32 +1,76 @@
 {
     "title": "Notifications",
     "list": {
-        "sendToAll": "Send to All Users",
+        "sendToAll": "Send to All",
+        "sendTargeted": "Send Targeted",
         "columns": {
             "title": "Title",
             "content": "Content",
             "image": "Image",
             "created": "Created",
-            "actions": "Actions"
+            "actions": "Actions",
+            "deliveryType": "Type",
+            "jobStatus": "Status"
         },
         "hasImage": {
             "yes": "Yes",
             "no": "No"
         },
+        "deliveryType": {
+            "chat": "Chat",
+            "push": "Push"
+        },
+        "jobStatus": {
+            "pending": "Pending",
+            "processing": "Processing",
+            "completed": "Completed",
+            "failed": "Failed"
+        },
         "modal": {
-            "title": "Send Notification to All Users",
+            "title": "Send Message to All Users",
             "form": {
                 "title": "Title",
-                "titlePlaceholder": "Notification title",
+                "titlePlaceholder": "Message title",
                 "content": "Content",
-                "contentPlaceholder": "Notification message",
+                "contentPlaceholder": "Message content",
                 "imageUrl": "Image URL (optional)",
                 "imageUrlPlaceholder": "https://..."
             }
         },
+        "targetedModal": {
+            "title": "Send Targeted Message",
+            "form": {
+                "targetType": "Target Type",
+                "platforms": "Platforms",
+                "countryIds": "Country IDs",
+                "countryIdsPlaceholder": "Enter country IDs (comma-separated)",
+                "userIds": "User IDs",
+                "userIdsPlaceholder": "Enter user IDs (comma-separated)"
+            },
+            "targetTypes": {
+                "all": "All Users",
+                "platform": "By Platform",
+                "country": "By Country",
+                "users": "Specific Users"
+            },
+            "platforms": {
+                "android": "Android",
+                "ios": "iOS",
+                "web": "Web",
+                "mac": "macOS",
+                "windows": "Windows"
+            }
+        },
         "messages": {
-            "sendSuccess": "Notification sent to all users"
+            "sendSuccess": "Message delivery started. Estimated {{count}} users will receive it.",
+            "targetedSuccess": "Targeted message delivery started. Estimated {{count}} users will receive it."
         }
+    },
+    "stats": {
+        "totalNotifications": "Total Sent",
+        "chatMessages": "Chat Messages",
+        "last24h": "Last 24h",
+        "averageDeliveryRate": "Avg Delivery Rate"
     },
     "show": {
         "adminNotification": "Admin Notification",
@@ -39,6 +83,12 @@
         "imageUrl": "Image URL",
         "deliveryInfo": "Delivery Information",
         "sentAt": "Sent At",
-        "timeAgo": "Time Ago"
+        "timeAgo": "Time Ago",
+        "deliveryType": "Delivery Type",
+        "deliveryProgress": "Delivery Progress",
+        "targetUserCount": "Target Users",
+        "deliveryCount": "Delivered",
+        "jobStatus": "Job Status",
+        "targetType": "Target Type"
     }
 }
