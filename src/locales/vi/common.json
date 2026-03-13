@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up Admin",
+    "appName": "Voxa Admin",
     "confirm": "Xác Nhận",
     "common": {
         "yes": "Có",
@@ -432,5 +432,5 @@
         "permanent": "Cấm Vĩnh Viễn",
         "custom": "Thời Gian Tùy Chỉnh"
     },
-    "copyright": "© {{year}} Super Up. Bảo lưu mọi quyền."
+    "copyright": "© {{year}} Voxa. Bảo lưu mọi quyền."
 }

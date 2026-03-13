@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up അഡ്മിൻ",
+    "appName": "Voxa അഡ്മിൻ",
     "confirm": "സ്ഥിരീകരിക്കുക",
     "common": {
         "yes": "അതെ",
@@ -432,5 +432,5 @@
         "permanent": "സ്ഥിരം നിരോധനം",
         "custom": "ഇഷ്‌ടാനുസൃത ദൈർഘ്യം"
     },
-    "copyright": "© {{year}} Super Up. എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം."
+    "copyright": "© {{year}} Voxa. എല്ലാ അവകാശങ്ങളും സംരക്ഷിതം."
 }

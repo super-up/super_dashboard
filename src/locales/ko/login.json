@@ -1,6 +1,6 @@
 {
   "title": "관리자 로그인",
-  "subtitle": "Super Up 관리자 계정에 로그인",
+  "subtitle": "Voxa 관리자 계정에 로그인",
   "email": "이메일 주소",
   "emailRequired": "이메일을 입력해주세요",
   "emailInvalid": "올바른 이메일을 입력해주세요",

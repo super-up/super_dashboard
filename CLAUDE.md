@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Super Dashboard is an admin panel for the SuperUp chat platform built with React, Vite, and Refine framework. It
+Super Dashboard is an admin panel for the Voxa chat platform built with React, Vite, and Refine framework. It
 provides comprehensive management capabilities for users, messages, rooms, calls, stories, and system configuration.
 
 ## Development Commands
@@ -107,7 +107,7 @@ VITE_WS_URL=http://localhost:3000
 Defaults:
 
 - Dev: `localhost:3000`
-- Prod: `https://superupdev.online`
+- Prod: `https://app.voxaapp.net`
 
 ## Authentication Flow
 

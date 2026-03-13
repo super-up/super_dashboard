@@ -1,7 +1,7 @@
 {
     "title": "Dashboard",
     "overview": "Dashboard Overview",
-    "welcome": "Welcome to Super Up Admin",
+    "welcome": "Welcome to Voxa Admin",
     "stats": {
         "totalUsers": "Total Users",
         "activeUsers": "Active Users",

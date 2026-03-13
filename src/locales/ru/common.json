@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up Admin",
+    "appName": "Voxa Admin",
     "confirm": "Подтвердить",
     "common": {
         "yes": "Да",
@@ -432,5 +432,5 @@
         "permanent": "Постоянный бан",
         "custom": "Пользовательская длительность"
     },
-    "copyright": "© {{year}} Super Up. Все права защищены."
+    "copyright": "© {{year}} Voxa. Все права защищены."
 }

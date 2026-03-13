@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up 관리자",
+    "appName": "Voxa 관리자",
     "confirm": "확인",
     "common": {
         "yes": "예",
@@ -432,5 +432,5 @@
         "permanent": "영구 차단",
         "custom": "사용자 지정 기간"
     },
-    "copyright": "© {{year}} Super Up. All rights reserved."
+    "copyright": "© {{year}} Voxa. All rights reserved."
 }

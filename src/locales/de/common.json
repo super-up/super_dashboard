@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up Admin",
+    "appName": "Voxa Admin",
     "confirm": "Bestätigen",
     "common": {
         "yes": "Ja",
@@ -432,5 +432,5 @@
         "permanent": "Permanente Sperre",
         "custom": "Benutzerdefinierte Dauer"
     },
-    "copyright": "© {{year}} Super Up. Alle Rechte vorbehalten."
+    "copyright": "© {{year}} Voxa. Alle Rechte vorbehalten."
 }

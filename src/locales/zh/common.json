@@ -1,5 +1,5 @@
 {
-    "appName": "Super Up 管理",
+    "appName": "Voxa 管理",
     "confirm": "确认",
     "common": {
         "yes": "是",
@@ -432,5 +432,5 @@
         "permanent": "永久封禁",
         "custom": "自定义时长"
     },
-    "copyright": "© {{year}} Super Up. 保留所有权利。"
+    "copyright": "© {{year}} Voxa. 保留所有权利。"
 }

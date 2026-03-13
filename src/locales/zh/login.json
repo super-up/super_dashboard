@@ -1,6 +1,6 @@
 {
   "title": "管理员登录",
-  "subtitle": "登录您的 Super Up 管理账户",
+  "subtitle": "登录您的 Voxa 管理账户",
   "email": "邮箱地址",
   "emailRequired": "请输入您的邮箱",
   "emailInvalid": "请输入有效的邮箱",

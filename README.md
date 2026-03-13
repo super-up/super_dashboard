@@ -1,6 +1,6 @@
 # Super Dashboard
 
-Admin dashboard for SuperUp chat application. Built with React, Refine, and Ant Design.
+Admin dashboard for Voxa chat application. Built with React, Refine, and Ant Design.
 
 ## Tech Stack
 
@@ -123,7 +123,7 @@ super_dashboard/
 
 ## API Integration
 
-This dashboard connects to the [SuperUp API](https://github.com/super-up/super_up_api) backend. Ensure the API is running before starting the dashboard.
+This dashboard connects to the [Voxa API](https://github.com/super-up/super_up_api) backend. Ensure the API is running before starting the dashboard.
 
 ## Internationalization
 
@@ -141,5 +141,5 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Related Projects
 
-- [SuperUp App](https://github.com/super-up/superup) - Flutter mobile/desktop app
-- [SuperUp API](https://github.com/super-up/super_up_api) - NestJS backend API
+- [Voxa App](https://github.com/super-up/superup) - Flutter mobile/desktop app
+- [Voxa API](https://github.com/super-up/super_up_api) - NestJS backend API
